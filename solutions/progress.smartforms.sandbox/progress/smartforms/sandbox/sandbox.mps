@@ -6,6 +6,7 @@
   <language namespace="f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)" />
   <language namespace="f9e8c623-2d16-4d6b-883c-0995df7b3bc3(org.metaforms.domain)" />
   <language namespace="48a33425-09d8-44e7-a033-40f4b94a2085(org.metaforms.scripts)" />
+  <language namespace="daafa647-f1f7-4b0b-b096-69cd7c8408c0(jetbrains.mps.baseLanguage.regexp)" />
   <languageAspect modelUID="r:92b29e2f-687a-493a-8fda-d17d20c1c1bb(org.metaforms.forms.structure)" version="10" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590283(jetbrains.mps.lang.core.constraints)" version="2" />
@@ -118,6 +119,16 @@
       <node role="fields" type="org.metaforms.domain.structure.Field" id="5148616895980020183">
         <property name="id" value="CURWORKEXPM" />
         <property name="name" value="Стаж работы на данном предприятии (мес)" />
+      </node>
+    </node>
+  </node>
+  <visible index="2" modelUID="r:00000000-0000-4000-0000-011c89590519(jetbrains.mps.baseLanguage.regexp.jetbrains.mps.regexp.accessory)" />
+  <node type="org.metaforms.scripts.structure.ValidationScript" id="2877776657743621526">
+    <property name="name" value="Телефон" />
+    <property name="message" value="Неверно" />
+    <node role="regexp" type="jetbrains.mps.baseLanguage.regexp.structure.StarRegexp" id="2877776657743621529">
+      <node role="regexp" type="jetbrains.mps.baseLanguage.regexp.structure.PredefinedSymbolClassRegexp" id="2877776657743621528">
+        <link role="symbolClass" targetNodeId="2v.1174554674770" resolveInfo="\d" />
       </node>
     </node>
   </node>

@@ -68,9 +68,6 @@
       <link role="intfc:0" targetNodeId="2v.1169194658468:0" resolveInfo="INamedConcept" />
     </node>
   </node>
-  <node type="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration:0" id="2893579543933458633">
-    <property name="name:0" value="Validator" />
-  </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="2893579543933458640">
     <property name="name:0" value="ValidationScriptReference" />
     <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />

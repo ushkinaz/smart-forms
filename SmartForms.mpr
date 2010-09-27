@@ -7,6 +7,7 @@
   <component name="MPSProject">
     <projectSolutions>
       <solutionPath path="${project}/solutions/progress.smartforms.sandbox/progress.smartforms.sandbox.msd" />
+      <solutionPath path="${project}/solutions/BaseSolution/BaseSolution.msd" folder="" />
     </projectSolutions>
     <projectLanguages>
       <languagePath path="${project}/languages/smartforms/smartforms.mpl" folder="forms" />

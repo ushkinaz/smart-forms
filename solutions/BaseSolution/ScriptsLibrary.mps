@@ -15,7 +15,7 @@
   <maxImportIndex value="0" />
   <node type="org.metaforms.scripts.structure.ValidationScript:0" id="2877776657743621531">
     <property name="name:0" value="&gt;=6символов" />
-    <property name="message:0" value="^.{6,}$" />
+    <property name="message:0" value="Не менее 6 символов" />
     <node role="regexp:0" type="jetbrains.mps.baseLanguage.regexp.structure.SeqRegexp:0" id="2877776657743625529">
       <node role="left:0" type="jetbrains.mps.baseLanguage.regexp.structure.LineStartRegexp:0" id="2877776657743625528" />
       <node role="right:0" type="jetbrains.mps.baseLanguage.regexp.structure.SeqRegexp:0" id="2877776657743625535">

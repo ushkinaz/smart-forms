@@ -20,6 +20,8 @@
   <usedDevKits>
     <usedDevKit>2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)</usedDevKit>
   </usedDevKits>
-  <extendedLanguages />
+  <extendedLanguages>
+    <extendedLanguage>48a33425-09d8-44e7-a033-40f4b94a2085(org.metaforms.scripts)</extendedLanguage>
+  </extendedLanguages>
 </language>
 

@@ -68,9 +68,16 @@
       <link role="intfc:0" targetNodeId="2v.1169194658468:0" resolveInfo="INamedConcept" />
     </node>
   </node>
+  <visible index="3" modelUID="r:7c7d38bb-f8c2-4f6d-8b0f-734a72486381(org.metaforms.scripts.structure)" />
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="5148616895979972054">
     <property name="name:0" value="Field" />
     <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
+    <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="6035204104107633467">
+      <property name="metaClass:0" value="aggregation" />
+      <property name="role:0" value="script" />
+      <property name="sourceCardinality:0" value="0..1" />
+      <link role="target:0" targetNodeId="3v.2893579543933458640" resolveInfo="ValidationScriptReference" />
+    </node>
     <node role="propertyDeclaration:0" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration:0" id="5148616895979972056">
       <property name="name:0" value="id" />
       <link role="dataType:0" targetNodeId="2v.1082983041843:0" resolveInfo="string" />

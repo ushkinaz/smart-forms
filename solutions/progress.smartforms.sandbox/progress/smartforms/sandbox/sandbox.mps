@@ -25,7 +25,8 @@
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959028c(jetbrains.mps.lang.structure.constraints)" version="11" />
   <languageAspect modelUID="r:7c7d38bb-f8c2-4f6d-8b0f-734a72486381(org.metaforms.scripts.structure)" version="0" />
   <languageAspect modelUID="r:9130804a-d65a-4c68-b2c1-a4462321c3a0(org.metaforms.domain.structure)" version="0" />
-  <maxImportIndex value="0" />
+  <maxImportIndex value="1" />
+  <import index="1" modelUID="r:13e76dfe-6970-4569-b286-57acd233ecf9(ScriptsLibrary)" version="-1" />
   <node type="org.metaforms.forms.structure.TryConcept" id="6836185784876534998">
     <node role="idProperty" type="org.metaforms.forms.structure.IdProperty" id="2042103309940896169">
       <property name="id" value="o" />
@@ -39,10 +40,16 @@
       <node role="fields" type="org.metaforms.domain.structure.Field" id="5148616895980016452">
         <property name="id" value="NAME" />
         <property name="name" value="Имя" />
+        <node role="script" type="org.metaforms.scripts.structure.ValidationScriptReference" id="6035204104107666372">
+          <link role="validationScript" targetNodeId="2877776657743621526" resolveInfo="Телефон" />
+        </node>
       </node>
       <node role="fields" type="org.metaforms.domain.structure.Field" id="5148616895980020158">
         <property name="id" value="BRANCHCODE" />
         <property name="name" value="Филиал, код" />
+        <node role="script" type="org.metaforms.scripts.structure.ValidationScriptReference" id="6035204104107666395">
+          <link role="validationScript" targetNodeId="1.5641913358296703808" resolveInfo="Тупая проверка" />
+        </node>
       </node>
       <node role="fields" type="org.metaforms.domain.structure.Field" id="5148616895980020159">
         <property name="id" value="BRANCH" />

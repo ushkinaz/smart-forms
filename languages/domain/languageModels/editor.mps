@@ -3,6 +3,7 @@
   <persistence version="4" />
   <refactoringHistory />
   <language namespace="18bc6592-03a6-4e29-a83a-7ff23bde13ba(jetbrains.mps.lang.editor)" />
+  <language namespace="f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902ba(jetbrains.mps.lang.sharedConcepts.constraints)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959028c(jetbrains.mps.lang.structure.constraints)" version="11" />
@@ -61,9 +62,15 @@
       </node>
     </node>
   </node>
+  <visible index="3" modelUID="r:7c7d38bb-f8c2-4f6d-8b0f-734a72486381(org.metaforms.scripts.structure)" />
   <node type="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration:32" id="5148616895979972071">
     <link role="conceptDeclaration:32" targetNodeId="1.5148616895979972054:0" resolveInfo="Field" />
     <node role="cellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Collection:32" id="5148616895980021733">
+      <property name="usesBraces:32" value="true" />
+      <property name="usesFolding:32" value="true" />
+      <node role="styleItem:32" type="jetbrains.mps.lang.editor.structure.DrawBorderStyleClassItem:32" id="6035204104107670739">
+        <property name="flag:32" value="true" />
+      </node>
       <node role="cellLayout:32" type="jetbrains.mps.lang.editor.structure.CellLayout_Vertical:32" id="5148616895980021734" />
       <node role="childCellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Collection:32" id="5148616895980021742">
         <node role="cellLayout:32" type="jetbrains.mps.lang.editor.structure.CellLayout_Horizontal:32" id="5148616895980021743" />
@@ -97,6 +104,26 @@
               <link role="relationDeclaration:32" targetNodeId="1.5148616895979972064:0" resolveInfo="type" />
             </node>
           </node>
+          <node role="childCellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Collection:32" id="6035204104107668529">
+            <node role="cellLayout:32" type="jetbrains.mps.lang.editor.structure.CellLayout_Horizontal:32" id="6035204104107668530" />
+            <node role="childCellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Constant:32" id="6035204104107668531">
+              <property name="text:32" value="проверка" />
+            </node>
+            <node role="childCellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_RefCell:32" id="6035204104107668533">
+              <link role="relationDeclaration:32" targetNodeId="1.6035204104107633467:0" />
+              <node role="editorComponent:32" type="jetbrains.mps.lang.editor.structure.InlineEditorComponent:32" id="6035204104107668534">
+                <node role="cellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_RefCell:32" id="6035204104107668535">
+                  <link role="relationDeclaration:32" targetNodeId="3v.2893579543933458641" />
+                  <node role="editorComponent:32" type="jetbrains.mps.lang.editor.structure.InlineEditorComponent:32" id="6035204104107668536">
+                    <node role="cellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Property:32" id="6035204104107668537">
+                      <property name="readOnly:32" value="true" />
+                      <link role="relationDeclaration:32" targetNodeId="2v.1169194664001:0" resolveInfo="name" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
         </node>
       </node>
     </node>
@@ -104,6 +131,7 @@
   <node type="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration:32" id="5148616895979972084">
     <link role="conceptDeclaration:32" targetNodeId="1.5148616895979972052:0" resolveInfo="Document" />
     <node role="cellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Collection:32" id="5148616895980011816">
+      <property name="usesFolding:32" value="true" />
       <node role="cellLayout:32" type="jetbrains.mps.lang.editor.structure.CellLayout_Indent:32" id="5148616895980011817" />
       <node role="childCellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Constant:32" id="5148616895980011834">
         <property name="text:32" value="документ" />

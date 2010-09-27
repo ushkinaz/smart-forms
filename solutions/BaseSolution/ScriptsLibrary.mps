@@ -13,25 +13,25 @@
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590283(jetbrains.mps.lang.core.constraints)" version="2" />
   <maxImportIndex value="0" />
-  <node type="org.metaforms.scripts.structure.ValidationScript:0" id="2877776657743621531">
-    <property name="name:0" value="&gt;=6символов" />
-    <property name="message:0" value="Не менее 6 символов" />
-    <node role="regexp:0" type="jetbrains.mps.baseLanguage.regexp.structure.SeqRegexp:0" id="2877776657743625529">
-      <node role="left:0" type="jetbrains.mps.baseLanguage.regexp.structure.LineStartRegexp:0" id="2877776657743625528" />
-      <node role="right:0" type="jetbrains.mps.baseLanguage.regexp.structure.SeqRegexp:0" id="2877776657743625535">
-        <node role="left:0" type="jetbrains.mps.baseLanguage.regexp.structure.AtLeastNTimesRegexp:0" id="2877776657743625533">
-          <property name="n:0" value="6" />
-          <node role="regexp:0" type="jetbrains.mps.baseLanguage.regexp.structure.DotRegexp:0" id="2877776657743625532" />
-        </node>
-        <node role="right:0" type="jetbrains.mps.baseLanguage.regexp.structure.LineEndRegexp:0" id="2877776657743625538" />
-      </node>
-    </node>
-  </node>
   <visible index="2" modelUID="r:00000000-0000-4000-0000-011c89590519(jetbrains.mps.baseLanguage.regexp.jetbrains.mps.regexp.accessory)" />
   <node type="org.metaforms.scripts.structure.Library:0" id="5641913358296703807">
     <property name="name:0" value="Основная" />
+    <node role="scripts:0" type="org.metaforms.scripts.structure.ValidationScript:0" id="6035204104107666385">
+      <property name="name:0" value="&gt;=6символов" />
+      <property name="message:0" value="Не менее 6 символов" />
+      <node role="regexp:0" type="jetbrains.mps.baseLanguage.regexp.structure.SeqRegexp:0" id="6035204104107666386">
+        <node role="left:0" type="jetbrains.mps.baseLanguage.regexp.structure.LineStartRegexp:0" id="6035204104107666387" />
+        <node role="right:0" type="jetbrains.mps.baseLanguage.regexp.structure.SeqRegexp:0" id="6035204104107666388">
+          <node role="left:0" type="jetbrains.mps.baseLanguage.regexp.structure.AtLeastNTimesRegexp:0" id="6035204104107666389">
+            <property name="n:0" value="6" />
+            <node role="regexp:0" type="jetbrains.mps.baseLanguage.regexp.structure.DotRegexp:0" id="6035204104107666390" />
+          </node>
+          <node role="right:0" type="jetbrains.mps.baseLanguage.regexp.structure.LineEndRegexp:0" id="6035204104107666391" />
+        </node>
+      </node>
+    </node>
     <node role="scripts:0" type="org.metaforms.scripts.structure.ValidationScript:0" id="5641913358296703808">
-      <property name="name:0" value="Кукукево" />
+      <property name="name:0" value="Тупая проверка" />
       <property name="message:0" value="Да" />
       <node role="regexp:0" type="jetbrains.mps.baseLanguage.regexp.structure.StarRegexp:0" id="5641913358296703812">
         <node role="regexp:0" type="jetbrains.mps.baseLanguage.regexp.structure.SeqRegexp:0" id="5641913358296703825">

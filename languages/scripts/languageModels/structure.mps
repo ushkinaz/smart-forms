@@ -76,5 +76,19 @@
       <link role="target:0" targetNodeId="2893579543933458625" resolveInfo="ValidationScript" />
     </node>
   </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="5641913358296698992">
+    <property name="name:0" value="Library" />
+    <property name="rootable:0" value="true" />
+    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
+    <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="5641913358296698993">
+      <property name="metaClass:0" value="aggregation" />
+      <property name="role:0" value="scripts" />
+      <property name="sourceCardinality:0" value="1..n" />
+      <link role="target:0" targetNodeId="2893579543933458625" resolveInfo="ValidationScript" />
+    </node>
+    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="5641913358296698994">
+      <link role="intfc:0" targetNodeId="2v.1169194658468:0" resolveInfo="INamedConcept" />
+    </node>
+  </node>
 </model>
 

@@ -27,5 +27,23 @@
       </node>
     </node>
   </node>
+  <visible index="2" modelUID="r:00000000-0000-4000-0000-011c89590519(jetbrains.mps.baseLanguage.regexp.jetbrains.mps.regexp.accessory)" />
+  <node type="org.metaforms.scripts.structure.Library:0" id="5641913358296703807">
+    <property name="name:0" value="Основная" />
+    <node role="scripts:0" type="org.metaforms.scripts.structure.ValidationScript:0" id="5641913358296703808">
+      <property name="name:0" value="Кукукево" />
+      <property name="message:0" value="Да" />
+      <node role="regexp:0" type="jetbrains.mps.baseLanguage.regexp.structure.StarRegexp:0" id="5641913358296703812">
+        <node role="regexp:0" type="jetbrains.mps.baseLanguage.regexp.structure.SeqRegexp:0" id="5641913358296703825">
+          <node role="left:0" type="jetbrains.mps.baseLanguage.regexp.structure.PredefinedSymbolClassRegexp:0" id="5641913358296703811">
+            <link role="symbolClass:0" targetNodeId="2v.1174554674770" resolveInfo="\d" />
+          </node>
+          <node role="right:0" type="jetbrains.mps.baseLanguage.regexp.structure.PredefinedSymbolClassRegexp:0" id="5641913358296703828">
+            <link role="symbolClass:0" targetNodeId="2v.1174554738336" resolveInfo="\w" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

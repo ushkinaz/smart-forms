@@ -164,7 +164,7 @@
           </node>
           <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.SingleLineComment:3" id="627290435249133601">
             <node role="commentPart:3" type="jetbrains.mps.baseLanguage.structure.TextCommentPart:3" id="627290435249133603">
-              <property name="text:3" value="This should be overriden for more specifics in dwrived concepts" />
+              <property name="text:3" value="This should be overriden for more specifics in derived concepts" />
             </node>
           </node>
           <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement:3" id="627290435249133507">

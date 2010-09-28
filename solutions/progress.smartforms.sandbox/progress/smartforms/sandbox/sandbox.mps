@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model modelUID="r:952b34b0-b0be-4a3b-8906-abd41f7de366(progress.smartforms.sandbox.sandbox)">
-  <persistence version="3" />
+  <persistence version="4" />
   <refactoringHistory />
   <language namespace="a92871fa-5f1a-445a-984b-c1a961bd4e82(org.metaforms.forms)" />
   <language namespace="f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)" />
@@ -27,151 +27,155 @@
   <languageAspect modelUID="r:9130804a-d65a-4c68-b2c1-a4462321c3a0(org.metaforms.domain.structure)" version="2" />
   <maxImportIndex value="1" />
   <import index="1" modelUID="r:13e76dfe-6970-4569-b286-57acd233ecf9(ScriptsLibrary)" version="-1" />
-  <node type="org.metaforms.domain.structure.CreditClass" id="5148616895979974485">
-    <property name="name" value="Просто Деньги" />
-    <node role="documents" type="org.metaforms.domain.structure.Document" id="1276781321238839413">
-      <property name="id" value="TEST" />
-      <property name="name" value="Тестовый" />
-      <node role="fields" type="org.metaforms.domain.structure.Field" id="1276781321238839414">
-        <property name="name" value="Фигня" />
-        <property name="id" value="JUNK" />
-        <node role="scriptReference" type="org.metaforms.scripts.structure.ValidationScriptReference" id="1276781321238839415">
-          <link role="validationScript" targetNodeId="1.7691500841060569701" resolveInfo="&gt;=6символов" />
+  <node type="org.metaforms.domain.structure.CreditClass:2" id="5148616895979974485">
+    <property name="name:2" value="Просто Деньги" />
+    <property name="id:2" value="JUSTMONEY" />
+    <node role="documents:2" type="org.metaforms.domain.structure.Document:2" id="1276781321238839413">
+      <property name="id:2" value="TEST" />
+      <property name="name:2" value="Тестовый" />
+      <node role="fields:2" type="org.metaforms.domain.structure.Field:2" id="1276781321238839414">
+        <property name="name:2" value="Фигня" />
+        <property name="id:2" value="JUNK" />
+        <node role="scriptReference:2" type="org.metaforms.scripts.structure.ValidationScriptReference:0" id="1276781321238839415">
+          <link role="validationScript:0" targetNodeId="1.7691500841060569701" resolveInfo="&gt;=6символов" />
         </node>
       </node>
-      <node role="fields" type="org.metaforms.domain.structure.Field" id="1276781321238839416">
-        <property name="id" value="USELESS" />
-        <property name="name" value="Ерунда" />
-        <property name="alwaysReadonly" value="true" />
+      <node role="fields:2" type="org.metaforms.domain.structure.Field:2" id="1276781321238839416">
+        <property name="id:2" value="USELESS" />
+        <property name="name:2" value="Ерунда" />
+        <property name="alwaysReadonly:2" value="true" />
       </node>
     </node>
-    <node role="documents" type="org.metaforms.domain.structure.Document" id="5148616895980016451">
-      <property name="name" value="Клиент" />
-      <property name="id" value="CLIENT" />
-      <node role="fields" type="org.metaforms.domain.structure.Field" id="5148616895980016452">
-        <property name="id" value="NAME" />
-        <property name="name" value="Имя" />
-        <node role="scriptReference" type="org.metaforms.scripts.structure.ValidationScriptReference" id="7691500841060578555">
-          <link role="validationScript" targetNodeId="1.7691500841060569701" resolveInfo="&gt;=6символов" />
+    <node role="documents:2" type="org.metaforms.domain.structure.Document:2" id="5148616895980016451">
+      <property name="name:2" value="Клиент" />
+      <property name="id:2" value="CLIENT" />
+      <node role="fields:2" type="org.metaforms.domain.structure.Field:2" id="5148616895980016452">
+        <property name="id:2" value="NAME" />
+        <property name="name:2" value="Имя" />
+        <node role="scriptReference:2" type="org.metaforms.scripts.structure.ValidationScriptReference:0" id="7691500841060578555">
+          <link role="validationScript:0" targetNodeId="1.7691500841060569701" resolveInfo="&gt;=6символов" />
         </node>
       </node>
-      <node role="fields" type="org.metaforms.domain.structure.Field" id="5148616895980020158">
-        <property name="id" value="BRANCHCODE" />
-        <property name="name" value="Филиал, код" />
+      <node role="fields:2" type="org.metaforms.domain.structure.Field:2" id="5148616895980020158">
+        <property name="id:2" value="BRANCHCODE" />
+        <property name="name:2" value="Филиал, код" />
       </node>
-      <node role="fields" type="org.metaforms.domain.structure.Field" id="5148616895980020159">
-        <property name="id" value="BRANCH" />
-        <property name="name" value="Филиал" />
+      <node role="fields:2" type="org.metaforms.domain.structure.Field:2" id="5148616895980020159">
+        <property name="id:2" value="BRANCH" />
+        <property name="name:2" value="Филиал" />
       </node>
-      <node role="fields" type="org.metaforms.domain.structure.Field" id="5148616895980020160">
-        <property name="id" value="OFFICECODE" />
-        <property name="name" value="Отделение" />
+      <node role="fields:2" type="org.metaforms.domain.structure.Field:2" id="5148616895980020160">
+        <property name="id:2" value="OFFICECODE" />
+        <property name="name:2" value="Отделение" />
       </node>
-      <node role="fields" type="org.metaforms.domain.structure.Field" id="5148616895980020161">
-        <property name="id" value="OFFICENAME" />
-        <property name="name" value="Отделение, код" />
+      <node role="fields:2" type="org.metaforms.domain.structure.Field:2" id="5148616895980020161">
+        <property name="id:2" value="OFFICENAME" />
+        <property name="name:2" value="Отделение, код" />
       </node>
-      <node role="fields" type="org.metaforms.domain.structure.Field" id="5148616895980020162">
-        <property name="id" value="POINTCODE" />
-        <property name="name" value="Кредитная точка, код" />
+      <node role="fields:2" type="org.metaforms.domain.structure.Field:2" id="5148616895980020162">
+        <property name="id:2" value="POINTCODE" />
+        <property name="name:2" value="Кредитная точка, код" />
       </node>
-      <node role="fields" type="org.metaforms.domain.structure.Field" id="5148616895980020163">
-        <property name="id" value="POINT" />
-        <property name="name" value="Кредитная точка" />
+      <node role="fields:2" type="org.metaforms.domain.structure.Field:2" id="5148616895980020163">
+        <property name="id:2" value="POINT" />
+        <property name="name:2" value="Кредитная точка" />
       </node>
-      <node role="fields" type="org.metaforms.domain.structure.Field" id="5148616895980020164">
-        <property name="id" value="CEPERSONCODE" />
-        <property name="name" value="Кредитный эксперт, код" />
+      <node role="fields:2" type="org.metaforms.domain.structure.Field:2" id="5148616895980020164">
+        <property name="id:2" value="CEPERSONCODE" />
+        <property name="name:2" value="Кредитный эксперт, код" />
       </node>
-      <node role="fields" type="org.metaforms.domain.structure.Field" id="5148616895980020165">
-        <property name="id" value="CEPERSONNAME" />
-        <property name="name" value="Кредитный эксперт" />
+      <node role="fields:2" type="org.metaforms.domain.structure.Field:2" id="5148616895980020165">
+        <property name="id:2" value="CEPERSONNAME" />
+        <property name="name:2" value="Кредитный эксперт" />
       </node>
-      <node role="fields" type="org.metaforms.domain.structure.Field" id="5148616895980020166">
-        <property name="id" value="REQTYPECODE" />
-        <property name="name" value="Кредитный класс, код" />
+      <node role="fields:2" type="org.metaforms.domain.structure.Field:2" id="5148616895980020166">
+        <property name="id:2" value="REQTYPECODE" />
+        <property name="name:2" value="Кредитный класс, код" />
       </node>
-      <node role="fields" type="org.metaforms.domain.structure.Field" id="5148616895980020167">
-        <property name="id" value="REQTYPE" />
-        <property name="name" value="Кредитный класс" />
+      <node role="fields:2" type="org.metaforms.domain.structure.Field:2" id="5148616895980020167">
+        <property name="id:2" value="REQTYPE" />
+        <property name="name:2" value="Кредитный класс" />
       </node>
-      <node role="fields" type="org.metaforms.domain.structure.Field" id="5148616895980020171">
-        <property name="id" value="CREDITNAME" />
-        <property name="name" value="Кредитный продукт" />
+      <node role="fields:2" type="org.metaforms.domain.structure.Field:2" id="5148616895980020171">
+        <property name="id:2" value="CREDITNAME" />
+        <property name="name:2" value="Кредитный продукт" />
       </node>
-      <node role="fields" type="org.metaforms.domain.structure.Field" id="5148616895980020174">
-        <property name="id" value="CREDITCURRENCY" />
-        <property name="name" value="Валюта кредита" />
+      <node role="fields:2" type="org.metaforms.domain.structure.Field:2" id="5148616895980020174">
+        <property name="id:2" value="CREDITCURRENCY" />
+        <property name="name:2" value="Валюта кредита" />
       </node>
-      <node role="fields" type="org.metaforms.domain.structure.Field" id="5148616895980020176">
-        <property name="name" value="Категория клиента" />
-        <property name="id" value="CLIENTTYPE" />
+      <node role="fields:2" type="org.metaforms.domain.structure.Field:2" id="5148616895980020176">
+        <property name="name:2" value="Категория клиента" />
+        <property name="id:2" value="CLIENTTYPE" />
       </node>
-      <node role="fields" type="org.metaforms.domain.structure.Field" id="5148616895980020177">
-        <property name="id" value="POSITIONTYPE" />
-        <property name="name" value="Тип должности" />
+      <node role="fields:2" type="org.metaforms.domain.structure.Field:2" id="5148616895980020177">
+        <property name="id:2" value="POSITIONTYPE" />
+        <property name="name:2" value="Тип должности" />
       </node>
-      <node role="fields" type="org.metaforms.domain.structure.Field" id="5148616895980020178">
-        <property name="name" value="Тип должности подтвержден документами" />
-        <property name="id" value="POSITIONDOC" />
+      <node role="fields:2" type="org.metaforms.domain.structure.Field:2" id="5148616895980020178">
+        <property name="name:2" value="Тип должности подтвержден документами" />
+        <property name="id:2" value="POSITIONDOC" />
       </node>
-      <node role="fields" type="org.metaforms.domain.structure.Field" id="5148616895980020179">
-        <property name="name" value="Представлен документ, подтверждающий стаж работы" />
-        <property name="id" value="CURWORKEXPDOC" />
+      <node role="fields:2" type="org.metaforms.domain.structure.Field:2" id="5148616895980020179">
+        <property name="name:2" value="Представлен документ, подтверждающий стаж работы" />
+        <property name="id:2" value="CURWORKEXPDOC" />
       </node>
-      <node role="fields" type="org.metaforms.domain.structure.Field" id="5148616895980020180">
-        <property name="id" value="FULLEXPY" />
-        <property name="name" value="Общий трудовой стаж (лет)" />
+      <node role="fields:2" type="org.metaforms.domain.structure.Field:2" id="5148616895980020180">
+        <property name="id:2" value="FULLEXPY" />
+        <property name="name:2" value="Общий трудовой стаж (лет)" />
       </node>
-      <node role="fields" type="org.metaforms.domain.structure.Field" id="5148616895980020181">
-        <property name="id" value="FULLEXPM" />
-        <property name="name" value="Общий трудовой стаж (мес)" />
+      <node role="fields:2" type="org.metaforms.domain.structure.Field:2" id="5148616895980020181">
+        <property name="id:2" value="FULLEXPM" />
+        <property name="name:2" value="Общий трудовой стаж (мес)" />
       </node>
-      <node role="fields" type="org.metaforms.domain.structure.Field" id="5148616895980020182">
-        <property name="id" value="CURWORKEXPY" />
-        <property name="name" value="Стаж работы на данном предприятии (лет)" />
+      <node role="fields:2" type="org.metaforms.domain.structure.Field:2" id="5148616895980020182">
+        <property name="id:2" value="CURWORKEXPY" />
+        <property name="name:2" value="Стаж работы на данном предприятии (лет)" />
       </node>
-      <node role="fields" type="org.metaforms.domain.structure.Field" id="5148616895980020183">
-        <property name="id" value="CURWORKEXPM" />
-        <property name="name" value="Стаж работы на данном предприятии (мес)" />
+      <node role="fields:2" type="org.metaforms.domain.structure.Field:2" id="5148616895980020183">
+        <property name="id:2" value="CURWORKEXPM" />
+        <property name="name:2" value="Стаж работы на данном предприятии (мес)" />
       </node>
     </node>
   </node>
-  <node type="org.metaforms.forms.structure.Form" id="3143510747828472133">
-    <property name="name" value="Главная" />
-    <node role="documentReference" type="org.metaforms.domain.structure.DocumentReference" id="3143510747828479823">
-      <link role="document" targetNodeId="5148616895980016451" resolveInfo="Клиент" />
+  <node type="org.metaforms.forms.structure.Form:13" id="3143510747828472133">
+    <property name="name:13" value="Главная" />
+    <node role="documentReference:13" type="org.metaforms.domain.structure.DocumentReference:2" id="3143510747828479823">
+      <link role="document:2" targetNodeId="5148616895980016451" resolveInfo="Клиент" />
     </node>
-    <node role="container" type="org.metaforms.forms.structure.ContentPanel" id="3143510747828472135">
-      <node role="components" type="org.metaforms.forms.structure.LabelField" id="3143510747828479811">
-        <property name="id" value="Дуся" />
-        <node role="fieldReference" type="org.metaforms.domain.structure.FieldReference" id="3143510747828479825">
-          <link role="field" targetNodeId="5148616895980020163" resolveInfo="Кредитная точка" />
+    <node role="container:13" type="org.metaforms.forms.structure.ContentPanel:13" id="3143510747828472135">
+      <node role="components:13" type="org.metaforms.forms.structure.LabelField:13" id="3143510747828479811">
+        <property name="id:13" value="Дуся" />
+        <node role="fieldReference:13" type="org.metaforms.domain.structure.FieldReference:2" id="3143510747828479825">
+          <link role="field:2" targetNodeId="5148616895980020163" resolveInfo="Кредитная точка" />
         </node>
       </node>
-      <node role="components" type="org.metaforms.forms.structure.CheckBox" id="3143510747828472136">
-        <node role="fieldReference" type="org.metaforms.domain.structure.FieldReference" id="3143510747828487383">
-          <link role="field" targetNodeId="5148616895980020176" resolveInfo="Категория клиента" />
+      <node role="components:13" type="org.metaforms.forms.structure.CheckBox:13" id="3143510747828472136">
+        <node role="fieldReference:13" type="org.metaforms.domain.structure.FieldReference:2" id="3143510747828487383">
+          <link role="field:2" targetNodeId="5148616895980020176" resolveInfo="Категория клиента" />
         </node>
       </node>
-      <node role="components" type="org.metaforms.forms.structure.MultiField" id="3143510747828479803">
-        <node role="children" type="org.metaforms.forms.structure.TextField" id="3143510747828479806">
-          <property name="width" value="100" />
-          <node role="fieldReference" type="org.metaforms.domain.structure.FieldReference" id="3143510747828487384">
-            <link role="field" targetNodeId="5148616895980020174" resolveInfo="Валюта кредита" />
+      <node role="components:13" type="org.metaforms.forms.structure.MultiField:13" id="3143510747828479803">
+        <node role="children:13" type="org.metaforms.forms.structure.TextField:13" id="3143510747828479806">
+          <property name="width:13" value="100" />
+          <node role="fieldReference:13" type="org.metaforms.domain.structure.FieldReference:2" id="3143510747828487384">
+            <link role="field:2" targetNodeId="5148616895980020174" resolveInfo="Валюта кредита" />
           </node>
         </node>
-        <node role="children" type="org.metaforms.forms.structure.TextField" id="3143510747828479808">
-          <property name="width" value="200" />
-          <node role="fieldReference" type="org.metaforms.domain.structure.FieldReference" id="3143510747828487385">
-            <link role="field" targetNodeId="5148616895980020162" resolveInfo="Кредитная точка, код" />
+        <node role="children:13" type="org.metaforms.forms.structure.TextField:13" id="3143510747828479808">
+          <property name="width:13" value="200" />
+          <node role="fieldReference:13" type="org.metaforms.domain.structure.FieldReference:2" id="3143510747828487385">
+            <link role="field:2" targetNodeId="5148616895980020162" resolveInfo="Кредитная точка, код" />
           </node>
         </node>
       </node>
-      <node role="fieldReference" type="org.metaforms.domain.structure.FieldReference" id="3143510747828479824">
-        <link role="field" targetNodeId="5148616895980016452" resolveInfo="Имя" />
+      <node role="fieldReference:13" type="org.metaforms.domain.structure.FieldReference:2" id="3143510747828479824">
+        <link role="field:2" targetNodeId="5148616895980016452" resolveInfo="Имя" />
       </node>
     </node>
+  </node>
+  <node type="org.metaforms.domain.structure.TestRef:2" id="627290435249103867">
+    <link role="document:2" targetNodeId="5148616895980016451" resolveInfo="К" />
   </node>
 </model>
 

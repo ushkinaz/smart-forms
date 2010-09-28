@@ -74,6 +74,9 @@
     <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="5148616895979971667">
       <link role="intfc:0" targetNodeId="2v.1169194658468:0" resolveInfo="INamedConcept" />
     </node>
+    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="627290435249133614">
+      <link role="intfc:0" targetNodeId="627290435249133493:2" resolveInfo="HasId" />
+    </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="5148616895979972052">
     <property name="name:0" value="Document" />
@@ -84,12 +87,11 @@
       <property name="sourceCardinality:0" value="1..n" />
       <link role="target:0" targetNodeId="5148616895979972054:2" resolveInfo="Field" />
     </node>
-    <node role="propertyDeclaration:0" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration:0" id="5148616895979972068">
-      <property name="name:0" value="id" />
-      <link role="dataType:0" targetNodeId="2v.1082983041843:0" resolveInfo="string" />
-    </node>
     <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="5148616895979972053">
       <link role="intfc:0" targetNodeId="2v.1169194658468:0" resolveInfo="INamedConcept" />
+    </node>
+    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="627290435249133631">
+      <link role="intfc:0" targetNodeId="627290435249133493:2" resolveInfo="HasId" />
     </node>
   </node>
   <visible index="3" modelUID="r:7c7d38bb-f8c2-4f6d-8b0f-734a72486381(org.metaforms.scripts.structure)" />
@@ -101,10 +103,6 @@
       <property name="role:0" value="scriptReference" />
       <link role="target:0" targetNodeId="3v.2893579543933458640:0" resolveInfo="ValidationScriptReference" />
     </node>
-    <node role="propertyDeclaration:0" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration:0" id="5148616895979972056">
-      <property name="name:0" value="id" />
-      <link role="dataType:0" targetNodeId="2v.1082983041843:0" resolveInfo="string" />
-    </node>
     <node role="propertyDeclaration:0" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration:0" id="5148616895979972064">
       <property name="name:0" value="type" />
       <link role="dataType:0" targetNodeId="5148616895979972057:2" resolveInfo="FieldType" />
@@ -115,6 +113,9 @@
     </node>
     <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="5148616895979972055">
       <link role="intfc:0" targetNodeId="2v.1169194658468:0" resolveInfo="INamedConcept" />
+    </node>
+    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="627290435249133644">
+      <link role="intfc:0" targetNodeId="627290435249133493:2" resolveInfo="HasId" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.EnumerationDataTypeDeclaration:0" id="5148616895979972057">
@@ -159,6 +160,23 @@
       <property name="metaClass:0" value="aggregation" />
       <property name="role:0" value="documentReference" />
       <link role="target:0" targetNodeId="1276781321238645456:2" resolveInfo="DocumentReference" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="627290435249098998">
+    <property name="name:0" value="TestRef" />
+    <property name="rootable:0" value="true" />
+    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
+    <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="627290435249098999">
+      <property name="metaClass:0" value="reference" />
+      <property name="role:0" value="document" />
+      <link role="target:0" targetNodeId="5148616895979972052:2" resolveInfo="Document" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration:0" id="627290435249133493">
+    <property name="name:0" value="HasId" />
+    <node role="propertyDeclaration:0" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration:0" id="627290435249133494">
+      <property name="name:0" value="id" />
+      <link role="dataType:0" targetNodeId="2v.1082983041843:0" resolveInfo="string" />
     </node>
   </node>
 </model>

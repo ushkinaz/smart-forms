@@ -25,7 +25,8 @@
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959028c(jetbrains.mps.lang.structure.constraints)" version="11" />
   <languageAspect modelUID="r:7c7d38bb-f8c2-4f6d-8b0f-734a72486381(org.metaforms.scripts.structure)" version="0" />
   <languageAspect modelUID="r:9130804a-d65a-4c68-b2c1-a4462321c3a0(org.metaforms.domain.structure)" version="0" />
-  <maxImportIndex value="0" />
+  <maxImportIndex value="1" />
+  <import index="1" modelUID="r:13e76dfe-6970-4569-b286-57acd233ecf9(ScriptsLibrary)" version="-1" />
   <node type="org.metaforms.forms.structure.TryConcept" id="6836185784876534998">
     <node role="idProperty" type="org.metaforms.forms.structure.IdProperty" id="2042103309940896169">
       <property name="id" value="o" />
@@ -39,6 +40,9 @@
       <node role="fields" type="org.metaforms.domain.structure.Field" id="5148616895980016452">
         <property name="id" value="NAME" />
         <property name="name" value="Имя" />
+        <node role="scriptReference" type="org.metaforms.scripts.structure.ValidationScriptReference" id="7691500841060578555">
+          <link role="validationScript" targetNodeId="1.7691500841060569701" resolveInfo="&gt;=6символов" />
+        </node>
       </node>
       <node role="fields" type="org.metaforms.domain.structure.Field" id="5148616895980020158">
         <property name="id" value="BRANCHCODE" />
@@ -119,16 +123,6 @@
       <node role="fields" type="org.metaforms.domain.structure.Field" id="5148616895980020183">
         <property name="id" value="CURWORKEXPM" />
         <property name="name" value="Стаж работы на данном предприятии (мес)" />
-      </node>
-    </node>
-  </node>
-  <visible index="2" modelUID="r:00000000-0000-4000-0000-011c89590519(jetbrains.mps.baseLanguage.regexp.jetbrains.mps.regexp.accessory)" />
-  <node type="org.metaforms.scripts.structure.ValidationScript" id="2877776657743621526">
-    <property name="name" value="Телефон" />
-    <property name="message" value="Неверно" />
-    <node role="regexp" type="jetbrains.mps.baseLanguage.regexp.structure.StarRegexp" id="2877776657743621529">
-      <node role="regexp" type="jetbrains.mps.baseLanguage.regexp.structure.PredefinedSymbolClassRegexp" id="2877776657743621528">
-        <link role="symbolClass" targetNodeId="2v.1174554674770" resolveInfo="\d" />
       </node>
     </node>
   </node>

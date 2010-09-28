@@ -50,7 +50,6 @@
   <visible index="3" modelUID="r:00000000-0000-4000-0000-011c89590518(jetbrains.mps.baseLanguage.regexp.structure)" />
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="2893579543933458625">
     <property name="name:0" value="ValidationScript" />
-    <property name="rootable:0" value="true" />
     <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="5641913358296675453">
       <property name="metaClass:0" value="aggregation" />

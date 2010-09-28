@@ -25,6 +25,7 @@
   </usedDevKits>
   <extendedLanguages>
     <extendedLanguage>f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)</extendedLanguage>
+    <extendedLanguage>f9e8c623-2d16-4d6b-883c-0995df7b3bc3(org.metaforms.domain)</extendedLanguage>
   </extendedLanguages>
 </language>
 

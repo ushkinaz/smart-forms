@@ -251,6 +251,57 @@
         </entry>
       </conceptFeatureMap>
     </refactoringContext>
+    <refactoringContext modelVersion="11">
+      <refactoring refactoringClass="jetbrains.mps.lang.structure.refactorings.RenameLink" />
+      <moveMap />
+      <sourceMap />
+      <conceptFeatureMap>
+        <entry>
+          <key featureName="containers" conceptFQName="org.metaforms.forms.structure.Form" featureKind="CHILD" />
+          <value featureName="container" conceptFQName="org.metaforms.forms.structure.Form" featureKind="CHILD" />
+        </entry>
+      </conceptFeatureMap>
+    </refactoringContext>
+    <refactoringContext modelVersion="12">
+      <refactoring refactoringClass="jetbrains.mps.lang.structure.refactorings.RenameLink" />
+      <moveMap />
+      <sourceMap />
+      <conceptFeatureMap>
+        <entry>
+          <key featureName="components" conceptFQName="org.metaforms.forms.structure.HasChildren" featureKind="CHILD" />
+          <value featureName="component" conceptFQName="org.metaforms.forms.structure.HasChildren" featureKind="CHILD" />
+        </entry>
+      </conceptFeatureMap>
+    </refactoringContext>
+    <refactoringContext modelVersion="13">
+      <refactoring refactoringClass="jetbrains.mps.lang.structure.refactorings.MoveConcepts" />
+      <moveMap>
+        <entry>
+          <key modelUID="r:92b29e2f-687a-493a-8fda-d17d20c1c1bb(org.metaforms.forms.structure)" nodeId="1276781321238815624" />
+          <value modelUID="r:9130804a-d65a-4c68-b2c1-a4462321c3a0(org.metaforms.domain.structure)" nodeId="1276781321238821447" />
+        </entry>
+        <entry>
+          <key modelUID="r:92b29e2f-687a-493a-8fda-d17d20c1c1bb(org.metaforms.forms.structure)" nodeId="1276781321238815627" />
+          <value modelUID="r:9130804a-d65a-4c68-b2c1-a4462321c3a0(org.metaforms.domain.structure)" nodeId="1276781321238821448" />
+        </entry>
+      </moveMap>
+      <sourceMap>
+        <entry>
+          <key modelUID="r:9130804a-d65a-4c68-b2c1-a4462321c3a0(org.metaforms.domain.structure)" nodeId="1276781321238821447" />
+          <value modelUID="r:92b29e2f-687a-493a-8fda-d17d20c1c1bb(org.metaforms.forms.structure)" nodeId="null" />
+        </entry>
+        <entry>
+          <key modelUID="r:9130804a-d65a-4c68-b2c1-a4462321c3a0(org.metaforms.domain.structure)" nodeId="1276781321238821448" />
+          <value modelUID="r:92b29e2f-687a-493a-8fda-d17d20c1c1bb(org.metaforms.forms.structure)" nodeId="null" />
+        </entry>
+      </sourceMap>
+      <conceptFeatureMap>
+        <entry>
+          <key featureName="HasDocument" conceptFQName="org.metaforms.forms.structure.HasDocument" featureKind="CONCEPT" />
+          <value featureName="HasDocument" conceptFQName="org.metaforms.domain.structure.HasDocument" featureKind="CONCEPT" />
+        </entry>
+      </conceptFeatureMap>
+    </refactoringContext>
   </refactoringHistory>
   <language namespace="c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.lang.structure)" />
   <language namespace="daafa647-f1f7-4b0b-b096-69cd7c8408c0(jetbrains.mps.baseLanguage.regexp)" />
@@ -259,7 +310,7 @@
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590283(jetbrains.mps.lang.core.constraints)" version="2" />
-  <languageAspect modelUID="r:92b29e2f-687a-493a-8fda-d17d20c1c1bb(org.metaforms.forms.structure)" version="10" />
+  <languageAspect modelUID="r:92b29e2f-687a-493a-8fda-d17d20c1c1bb(org.metaforms.forms.structure)" version="13" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590515(jetbrains.mps.baseLanguage.regexp.constraints)" version="3" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959034b(jetbrains.mps.lang.quotation.structure)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590585(jetbrains.mps.xml.constraints)" version="6" />
@@ -279,25 +330,26 @@
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" version="7" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590328(jetbrains.mps.baseLanguage.collections.constraints)" version="6" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902c1(jetbrains.mps.baseLanguage.constraints)" version="83" />
+  <languageAspect modelUID="r:9130804a-d65a-4c68-b2c1-a4462321c3a0(org.metaforms.domain.structure)" version="2" />
   <devkit namespace="2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)" />
   <maxImportIndex value="1" />
   <visible index="2" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
+  <visible index="3" modelUID="r:9130804a-d65a-4c68-b2c1-a4462321c3a0(org.metaforms.domain.structure)" />
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="7815177035767537410">
     <property name="name" value="Form" />
     <property name="rootable" value="true" />
     <link role="extends" targetNodeId="2v.1133920641626" resolveInfo="BaseConcept" />
-    <node role="propertyDeclaration" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration" id="6836185784876296652">
-      <property name="name" value="languageLevel" />
-      <link role="dataType" targetNodeId="2v.1082983657062" resolveInfo="integer" />
-    </node>
     <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="7815177035767655224">
       <property name="metaClass" value="aggregation" />
-      <property name="role" value="containers" />
+      <property name="role" value="container" />
       <property name="sourceCardinality" value="0..n" />
       <link role="target" targetNodeId="2925434448366525478" resolveInfo="IContainer" />
     </node>
     <node role="implements" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" id="7815177035767537414">
       <link role="intfc" targetNodeId="2v.1169194658468" resolveInfo="INamedConcept" />
+    </node>
+    <node role="implements" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" id="6545153482932825366">
+      <link role="intfc" targetNodeId="3v.1276781321238821447" resolveInfo="HasDocument" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="7815177035767655221">
@@ -375,12 +427,13 @@
   </node>
   <node type="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration" id="7499027618783150613">
     <property name="name" value="IFormComponent" />
+    <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="7691500841060791956">
+      <property name="metaClass" value="aggregation" />
+      <property name="role" value="fieldReference" />
+      <link role="target" targetNodeId="3v.7691500841060791949" resolveInfo="FieldReference" />
+    </node>
     <node role="propertyDeclaration" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration" id="7499027618783150621">
       <property name="name" value="id" />
-      <link role="dataType" targetNodeId="2v.1082983041843" resolveInfo="string" />
-    </node>
-    <node role="propertyDeclaration" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration" id="7499027618783150620">
-      <property name="name" value="bind" />
       <link role="dataType" targetNodeId="2v.1082983041843" resolveInfo="string" />
     </node>
     <node role="propertyDeclaration" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration" id="7499027618783150622">
@@ -561,10 +614,6 @@
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="35224891275428963">
     <property name="name" value="TriggerField" />
     <link role="extends" targetNodeId="2v.1133920641626" resolveInfo="BaseConcept" />
-    <node role="propertyDeclaration" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration" id="35224891275428972">
-      <property name="name" value="mapping" />
-      <link role="dataType" targetNodeId="2v.1082983041843" resolveInfo="string" />
-    </node>
     <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.StringConceptProperty" id="35224891275428964">
       <property name="value" value="Поле выбора из списка значений" />
       <link role="conceptPropertyDeclaration" targetNodeId="2v.1137473914776" resolveInfo="shortDescription" />
@@ -740,21 +789,6 @@
     <node role="propertyDeclaration" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration" id="6836185784876534967">
       <property name="name" value="id" />
       <link role="dataType" targetNodeId="2v.1082983041843" resolveInfo="string" />
-    </node>
-  </node>
-  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="6836185784876534982">
-    <property name="name" value="TryConcept" />
-    <property name="rootable" value="true" />
-    <link role="extends" targetNodeId="2v.1133920641626" resolveInfo="BaseConcept" />
-    <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="6836185784876534985">
-      <property name="metaClass" value="aggregation" />
-      <property name="role" value="idProperty" />
-      <link role="target" targetNodeId="6836185784876534966" resolveInfo="Id" />
-    </node>
-    <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="6836185784876534983">
-      <property name="metaClass" value="aggregation" />
-      <property name="role" value="bind" />
-      <link role="target" targetNodeId="6836185784876534964" resolveInfo="BindName" />
     </node>
   </node>
 </model>

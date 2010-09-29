@@ -138,44 +138,5 @@
       </node>
     </node>
   </node>
-  <node type="org.metaforms.forms.structure.Form:13" id="3143510747828472133">
-    <property name="name:13" value="Главная" />
-    <node role="documentReference:13" type="org.metaforms.domain.structure.DocumentReference:2" id="3143510747828479823">
-      <link role="document:2" targetNodeId="5148616895980016451" resolveInfo="Клиент" />
-    </node>
-    <node role="container:13" type="org.metaforms.forms.structure.ContentPanel:13" id="3143510747828472135">
-      <node role="components:13" type="org.metaforms.forms.structure.LabelField:13" id="3143510747828479811">
-        <property name="id:13" value="Дуся" />
-        <node role="fieldReference:13" type="org.metaforms.domain.structure.FieldReference:2" id="3143510747828479825">
-          <link role="field:2" targetNodeId="5148616895980020163" resolveInfo="Кредитная точка" />
-        </node>
-      </node>
-      <node role="components:13" type="org.metaforms.forms.structure.CheckBox:13" id="3143510747828472136">
-        <node role="fieldReference:13" type="org.metaforms.domain.structure.FieldReference:2" id="3143510747828487383">
-          <link role="field:2" targetNodeId="5148616895980020176" resolveInfo="Категория клиента" />
-        </node>
-      </node>
-      <node role="components:13" type="org.metaforms.forms.structure.MultiField:13" id="3143510747828479803">
-        <node role="children:13" type="org.metaforms.forms.structure.TextField:13" id="3143510747828479806">
-          <property name="width:13" value="100" />
-          <node role="fieldReference:13" type="org.metaforms.domain.structure.FieldReference:2" id="3143510747828487384">
-            <link role="field:2" targetNodeId="5148616895980020174" resolveInfo="Валюта кредита" />
-          </node>
-        </node>
-        <node role="children:13" type="org.metaforms.forms.structure.TextField:13" id="3143510747828479808">
-          <property name="width:13" value="200" />
-          <node role="fieldReference:13" type="org.metaforms.domain.structure.FieldReference:2" id="3143510747828487385">
-            <link role="field:2" targetNodeId="5148616895980020162" resolveInfo="Кредитная точка, код" />
-          </node>
-        </node>
-      </node>
-      <node role="fieldReference:13" type="org.metaforms.domain.structure.FieldReference:2" id="3143510747828479824">
-        <link role="field:2" targetNodeId="5148616895980016452" resolveInfo="Имя" />
-      </node>
-    </node>
-  </node>
-  <node type="org.metaforms.domain.structure.TestRef:2" id="627290435249103867">
-    <link role="document:2" targetNodeId="5148616895980016451" resolveInfo="К" />
-  </node>
 </model>
 

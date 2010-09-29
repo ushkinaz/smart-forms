@@ -4,7 +4,18 @@
     <modelRoot path="${language_descriptor}/languageModels" namespacePrefix="org.metaforms.domain" />
   </models>
   <accessoryModels />
-  <generators />
+  <generators>
+    <generator name="" generatorUID="org.metaforms.domain#64839312066685646" uuid="2941bdbe-7a0a-487b-8ae9-97d9eb89168d">
+      <models>
+        <modelRoot path="${language_descriptor}/generator/template" namespacePrefix="org.metaforms.domain.generator.template" />
+      </models>
+      <external-templates />
+      <usedDevKits>
+        <usedDevKit>2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)</usedDevKit>
+      </usedDevKits>
+      <mapping-priorities />
+    </generator>
+  </generators>
   <sourcePath />
   <usedDevKits>
     <usedDevKit>2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)</usedDevKit>

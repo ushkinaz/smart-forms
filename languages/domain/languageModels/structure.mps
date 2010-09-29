@@ -162,16 +162,6 @@
       <link role="target:0" targetNodeId="1276781321238645456:2" resolveInfo="DocumentReference" />
     </node>
   </node>
-  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="627290435249098998">
-    <property name="name:0" value="TestRef" />
-    <property name="rootable:0" value="true" />
-    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
-    <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="627290435249098999">
-      <property name="metaClass:0" value="reference" />
-      <property name="role:0" value="document" />
-      <link role="target:0" targetNodeId="5148616895979972052:2" resolveInfo="Document" />
-    </node>
-  </node>
   <node type="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration:0" id="627290435249133493">
     <property name="name:0" value="HasId" />
     <node role="propertyDeclaration:0" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration:0" id="627290435249133494">

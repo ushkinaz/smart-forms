@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<solution name="progress.smartforms.sandbox" uuid="1e775322-8a36-40f4-b1b9-5d6c39f4d318" extenallyVisible="true" compileInMPS="true" java-stubs-enabled="true">
+<solution name="RosBank" uuid="1e775322-8a36-40f4-b1b9-5d6c39f4d318" extenallyVisible="true" compileInMPS="true" java-stubs-enabled="true">
   <models>
     <modelRoot path="${solution_descriptor}/" namespacePrefix="" />
   </models>

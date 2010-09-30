@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model modelUID="r:952b34b0-b0be-4a3b-8906-abd41f7de366(progress.smartforms.sandbox.sandbox)">
+<model modelUID="r:952b34b0-b0be-4a3b-8906-abd41f7de366(ru.progresspoint.ekfo.sandbox)">
   <persistence version="4" />
   <refactoringHistory />
   <language namespace="a92871fa-5f1a-445a-984b-c1a961bd4e82(org.metaforms.forms)" />

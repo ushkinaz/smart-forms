@@ -29,7 +29,7 @@
   <devkit namespace="2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)" />
   <maxImportIndex value="2" />
   <import index="1" modelUID="r:9130804a-d65a-4c68-b2c1-a4462321c3a0(org.metaforms.domain.structure)" version="2" />
-  <import index="2" modelUID="java.lang@java_stub" version="-1" />
+  <import index="2" modelUID="f:java_stub#java.lang(java.lang@java_stub)" version="-1" />
   <node type="jetbrains.mps.lang.generator.structure.MappingConfiguration:2" id="64839312066685647">
     <property name="name:2" value="main" />
     <node role="rootMappingRule:2" type="jetbrains.mps.lang.generator.structure.Root_MappingRule:2" id="64839312066685655">
@@ -37,7 +37,6 @@
       <link role="template:2" targetNodeId="64839312066685648" resolveInfo="CreditClass" />
     </node>
   </node>
-  <visible index="2" modelUID="f:java_stub#java.lang(java.lang@java_stub)" />
   <node type="jetbrains.mps.baseLanguage.structure.ClassConcept:3" id="64839312066685648">
     <property name="name:3" value="CreditClass" />
     <node role="method:3" type="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration:3" id="64839312066747737">
@@ -73,7 +72,7 @@
       <property name="name:3" value="ID" />
       <node role="visibility:3" type="jetbrains.mps.baseLanguage.structure.PrivateVisibility:3" id="64839312066747163" />
       <node role="type:3" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="64839312066747165">
-        <link role="classifier:3" targetNodeId="2v.~String" resolveInfo="String" />
+        <link role="classifier:3" targetNodeId="2.~String" resolveInfo="String" />
       </node>
       <node role="initializer:3" type="jetbrains.mps.baseLanguage.structure.StringLiteral:3" id="64839312066747167">
         <property name="value:3" value="id" />

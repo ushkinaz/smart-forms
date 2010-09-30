@@ -29,35 +29,35 @@
   <import index="1" modelUID="r:13e76dfe-6970-4569-b286-57acd233ecf9(ScriptsLibrary)" version="-1" />
   <node type="org.metaforms.domain.structure.CreditClass:2" id="5148616895979974485">
     <property name="name:2" value="Просто Деньги" />
-    <property name="id:2" value="JUSTMONEY" />
+    <property name="id:2" value="JustMoney" />
     <node role="documents:2" type="org.metaforms.domain.structure.Document:2" id="1276781321238839413">
-      <property name="id:2" value="TEST" />
+      <property name="id:2" value="Test" />
       <property name="name:2" value="Тестовый" />
       <node role="fields:2" type="org.metaforms.domain.structure.Field:2" id="1276781321238839414">
         <property name="name:2" value="Фигня" />
-        <property name="id:2" value="JUNK" />
+        <property name="id:2" value="Junk" />
         <node role="scriptReference:2" type="org.metaforms.scripts.structure.ValidationScriptReference:0" id="1276781321238839415">
           <link role="validationScript:0" targetNodeId="1.7691500841060569701" resolveInfo="&gt;=6символов" />
         </node>
       </node>
       <node role="fields:2" type="org.metaforms.domain.structure.Field:2" id="1276781321238839416">
-        <property name="id:2" value="USELESS" />
+        <property name="id:2" value="Useless" />
         <property name="name:2" value="Ерунда" />
         <property name="alwaysReadonly:2" value="true" />
       </node>
     </node>
     <node role="documents:2" type="org.metaforms.domain.structure.Document:2" id="5148616895980016451">
       <property name="name:2" value="Клиент" />
-      <property name="id:2" value="CLIENT" />
+      <property name="id:2" value="Client" />
       <node role="fields:2" type="org.metaforms.domain.structure.Field:2" id="5148616895980016452">
-        <property name="id:2" value="NAME" />
+        <property name="id:2" value="Name" />
         <property name="name:2" value="Имя" />
         <node role="scriptReference:2" type="org.metaforms.scripts.structure.ValidationScriptReference:0" id="7691500841060578555">
           <link role="validationScript:0" targetNodeId="1.7691500841060569701" resolveInfo="&gt;=6символов" />
         </node>
       </node>
       <node role="fields:2" type="org.metaforms.domain.structure.Field:2" id="5148616895980020158">
-        <property name="id:2" value="BRANCHCODE" />
+        <property name="id:2" value="BranchCode" />
         <property name="name:2" value="Филиал, код" />
       </node>
       <node role="fields:2" type="org.metaforms.domain.structure.Field:2" id="5148616895980020159">
@@ -65,15 +65,15 @@
         <property name="name:2" value="Филиал" />
       </node>
       <node role="fields:2" type="org.metaforms.domain.structure.Field:2" id="5148616895980020160">
-        <property name="id:2" value="OFFICECODE" />
+        <property name="id:2" value="OfficeCode" />
         <property name="name:2" value="Отделение" />
       </node>
       <node role="fields:2" type="org.metaforms.domain.structure.Field:2" id="5148616895980020161">
-        <property name="id:2" value="OFFICENAME" />
+        <property name="id:2" value="OfficeName" />
         <property name="name:2" value="Отделение, код" />
       </node>
       <node role="fields:2" type="org.metaforms.domain.structure.Field:2" id="5148616895980020162">
-        <property name="id:2" value="POINTCODE" />
+        <property name="id:2" value="PointCode" />
         <property name="name:2" value="Кредитная точка, код" />
       </node>
       <node role="fields:2" type="org.metaforms.domain.structure.Field:2" id="5148616895980020163">

@@ -36,6 +36,5 @@
   <node type="jetbrains.mps.lang.generator.structure.MappingConfiguration:2" id="7553089095282775679">
     <property name="name:2" value="main" />
   </node>
-  <node type="jetbrains.mps.lang.generator.structure.MappingConfiguration:2" id="7553089095282775680" />
 </model>
 

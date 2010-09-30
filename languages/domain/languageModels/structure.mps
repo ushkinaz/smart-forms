@@ -35,6 +35,28 @@
         </entry>
       </conceptFeatureMap>
     </refactoringContext>
+    <refactoringContext modelVersion="3">
+      <refactoring refactoringClass="jetbrains.mps.lang.structure.refactorings.RenameLink" />
+      <moveMap />
+      <sourceMap />
+      <conceptFeatureMap>
+        <entry>
+          <key featureName="documents" conceptFQName="org.metaforms.domain.structure.CreditClass" featureKind="CHILD" />
+          <value featureName="document" conceptFQName="org.metaforms.domain.structure.CreditClass" featureKind="CHILD" />
+        </entry>
+      </conceptFeatureMap>
+    </refactoringContext>
+    <refactoringContext modelVersion="4">
+      <refactoring refactoringClass="jetbrains.mps.lang.structure.refactorings.RenameLink" />
+      <moveMap />
+      <sourceMap />
+      <conceptFeatureMap>
+        <entry>
+          <key featureName="fields" conceptFQName="org.metaforms.domain.structure.Document" featureKind="CHILD" />
+          <value featureName="field" conceptFQName="org.metaforms.domain.structure.Document" featureKind="CHILD" />
+        </entry>
+      </conceptFeatureMap>
+    </refactoringContext>
   </refactoringHistory>
   <language namespace="c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.lang.structure)" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" version="0" />
@@ -57,7 +79,7 @@
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="3" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902ae(jetbrains.mps.lang.typesystem.constraints)" version="17" />
   <languageAspect modelUID="r:7c7d38bb-f8c2-4f6d-8b0f-734a72486381(org.metaforms.scripts.structure)" version="0" />
-  <languageAspect modelUID="r:9130804a-d65a-4c68-b2c1-a4462321c3a0(org.metaforms.domain.structure)" version="2" />
+  <languageAspect modelUID="r:9130804a-d65a-4c68-b2c1-a4462321c3a0(org.metaforms.domain.structure)" version="4" />
   <devkit namespace="2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)" />
   <maxImportIndex value="1" />
   <visible index="2" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
@@ -67,15 +89,15 @@
     <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="5148616895979972065">
       <property name="metaClass:0" value="aggregation" />
-      <property name="role:0" value="documents" />
+      <property name="role:0" value="document" />
       <property name="sourceCardinality:0" value="1..n" />
-      <link role="target:0" targetNodeId="5148616895979972052:2" resolveInfo="Document" />
+      <link role="target:0" targetNodeId="5148616895979972052:4" resolveInfo="Document" />
     </node>
     <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="5148616895979971667">
       <link role="intfc:0" targetNodeId="2v.1169194658468:0" resolveInfo="INamedConcept" />
     </node>
     <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="627290435249133614">
-      <link role="intfc:0" targetNodeId="627290435249133493:2" resolveInfo="HasId" />
+      <link role="intfc:0" targetNodeId="627290435249133493:4" resolveInfo="HasId" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="5148616895979972052">
@@ -83,15 +105,15 @@
     <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="5148616895979972070">
       <property name="metaClass:0" value="aggregation" />
-      <property name="role:0" value="fields" />
+      <property name="role:0" value="field" />
       <property name="sourceCardinality:0" value="1..n" />
-      <link role="target:0" targetNodeId="5148616895979972054:2" resolveInfo="Field" />
+      <link role="target:0" targetNodeId="5148616895979972054:4" resolveInfo="Field" />
     </node>
     <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="5148616895979972053">
       <link role="intfc:0" targetNodeId="2v.1169194658468:0" resolveInfo="INamedConcept" />
     </node>
     <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="627290435249133631">
-      <link role="intfc:0" targetNodeId="627290435249133493:2" resolveInfo="HasId" />
+      <link role="intfc:0" targetNodeId="627290435249133493:4" resolveInfo="HasId" />
     </node>
   </node>
   <visible index="3" modelUID="r:7c7d38bb-f8c2-4f6d-8b0f-734a72486381(org.metaforms.scripts.structure)" />
@@ -105,7 +127,7 @@
     </node>
     <node role="propertyDeclaration:0" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration:0" id="5148616895979972064">
       <property name="name:0" value="type" />
-      <link role="dataType:0" targetNodeId="5148616895979972057:2" resolveInfo="FieldType" />
+      <link role="dataType:0" targetNodeId="5148616895979972057:4" resolveInfo="FieldType" />
     </node>
     <node role="propertyDeclaration:0" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration:0" id="7691500841060578556">
       <property name="name:0" value="alwaysReadonly" />
@@ -115,7 +137,7 @@
       <link role="intfc:0" targetNodeId="2v.1169194658468:0" resolveInfo="INamedConcept" />
     </node>
     <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="627290435249133644">
-      <link role="intfc:0" targetNodeId="627290435249133493:2" resolveInfo="HasId" />
+      <link role="intfc:0" targetNodeId="627290435249133493:4" resolveInfo="HasId" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.EnumerationDataTypeDeclaration:0" id="5148616895979972057">
@@ -141,7 +163,7 @@
       <property name="metaClass:0" value="reference" />
       <property name="sourceCardinality:0" value="1" />
       <property name="role:0" value="field" />
-      <link role="target:0" targetNodeId="5148616895979972054:2" resolveInfo="Field" />
+      <link role="target:0" targetNodeId="5148616895979972054:4" resolveInfo="Field" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="1276781321238645456">
@@ -151,7 +173,7 @@
       <property name="metaClass:0" value="reference" />
       <property name="sourceCardinality:0" value="1" />
       <property name="role:0" value="document" />
-      <link role="target:0" targetNodeId="5148616895979972052:2" resolveInfo="Document" />
+      <link role="target:0" targetNodeId="5148616895979972052:4" resolveInfo="Document" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration:0" id="1276781321238821447">
@@ -159,7 +181,7 @@
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="1276781321238821448">
       <property name="metaClass:0" value="aggregation" />
       <property name="role:0" value="documentReference" />
-      <link role="target:0" targetNodeId="1276781321238645456:2" resolveInfo="DocumentReference" />
+      <link role="target:0" targetNodeId="1276781321238645456:4" resolveInfo="DocumentReference" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration:0" id="627290435249133493">

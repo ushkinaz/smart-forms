@@ -30,15 +30,15 @@
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590338(jetbrains.mps.baseLanguage.closures.structure)" version="3" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959033d(jetbrains.mps.lang.annotations.structure)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902ae(jetbrains.mps.lang.typesystem.constraints)" version="17" />
-  <languageAspect modelUID="r:9130804a-d65a-4c68-b2c1-a4462321c3a0(org.metaforms.domain.structure)" version="2" />
+  <languageAspect modelUID="r:9130804a-d65a-4c68-b2c1-a4462321c3a0(org.metaforms.domain.structure)" version="4" />
   <languageAspect modelUID="r:7c7d38bb-f8c2-4f6d-8b0f-734a72486381(org.metaforms.scripts.structure)" version="0" />
   <devkit namespace="2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)" />
   <maxImportIndex value="1" />
-  <import index="1" modelUID="r:9130804a-d65a-4c68-b2c1-a4462321c3a0(org.metaforms.domain.structure)" version="2" />
+  <import index="1" modelUID="r:9130804a-d65a-4c68-b2c1-a4462321c3a0(org.metaforms.domain.structure)" version="4" />
   <node type="jetbrains.mps.lang.constraints.structure.ConceptConstraints:8" id="1276781321238809026">
-    <link role="concept:8" targetNodeId="1.7691500841060791949:2" resolveInfo="FieldReference" />
+    <link role="concept:8" targetNodeId="1.7691500841060791949:4" resolveInfo="FieldReference" />
     <node role="referent:8" type="jetbrains.mps.lang.constraints.structure.NodeReferentConstraint:8" id="1276781321238809027">
-      <link role="applicableLink:8" targetNodeId="1.7691500841060791950:2" />
+      <link role="applicableLink:8" targetNodeId="1.7691500841060791950:4" />
       <node role="searchScopeFactory:8" type="jetbrains.mps.lang.constraints.structure.ConstraintFunction_ReferentSearchScope_Factory:8" id="1276781321238809028">
         <node role="body:8" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="1276781321238809029">
           <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement:3" id="1276781321238812092">
@@ -97,7 +97,7 @@
                   </node>
                   <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.Node_IsInstanceOfOperation:16" id="3143510747828454147">
                     <node role="conceptArgument:16" type="jetbrains.mps.lang.smodel.structure.RefConcept_Reference:16" id="3143510747828454149">
-                      <link role="conceptDeclaration:16" targetNodeId="1.1276781321238821447:2" resolveInfo="HasDocumentReference" />
+                      <link role="conceptDeclaration:16" targetNodeId="1.1276781321238821447:4" resolveInfo="HasDocumentReference" />
                     </node>
                   </node>
                 </node>
@@ -113,7 +113,7 @@
                       <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.ParenthesizedExpression:3" id="3143510747828429802">
                         <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.CastExpression:3" id="3143510747828451145">
                           <node role="type:3" type="jetbrains.mps.lang.smodel.structure.SNodeType:16" id="3143510747828454131">
-                            <link role="concept:16" targetNodeId="1.1276781321238821447:2" resolveInfo="HasDocumentReference" />
+                            <link role="concept:16" targetNodeId="1.1276781321238821447:4" resolveInfo="HasDocumentReference" />
                           </node>
                           <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference:3" id="3143510747828429807">
                             <link role="variableDeclaration:3" targetNodeId="1276781321238812093" resolveInfo="parentNode" />
@@ -121,11 +121,11 @@
                         </node>
                       </node>
                       <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.SLinkAccess:16" id="3143510747828454132">
-                        <link role="link:16" targetNodeId="1.1276781321238821448:2" />
+                        <link role="link:16" targetNodeId="1.1276781321238821448:4" />
                       </node>
                     </node>
                     <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.SLinkAccess:16" id="3143510747828454344">
-                      <link role="link:16" targetNodeId="1.1276781321238645457:2" />
+                      <link role="link:16" targetNodeId="1.1276781321238645457:4" />
                     </node>
                   </node>
                   <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.Node_GetChildrenOperation:16" id="3143510747828454349" />
@@ -138,7 +138,7 @@
               </node>
               <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.Node_IsInstanceOfOperation:16" id="3143510747828454144">
                 <node role="conceptArgument:16" type="jetbrains.mps.lang.smodel.structure.RefConcept_Reference:16" id="3143510747828454146">
-                  <link role="conceptDeclaration:16" targetNodeId="1.1276781321238821447:2" resolveInfo="HasDocumentReference" />
+                  <link role="conceptDeclaration:16" targetNodeId="1.1276781321238821447:4" resolveInfo="HasDocumentReference" />
                 </node>
               </node>
             </node>
@@ -152,9 +152,9 @@
   </node>
   <visible index="2" modelUID="f:java_stub#java.lang(java.lang@java_stub)" />
   <node type="jetbrains.mps.lang.constraints.structure.ConceptConstraints:8" id="627290435249133500">
-    <link role="concept:8" targetNodeId="1.627290435249133493:2" resolveInfo="HasId" />
+    <link role="concept:8" targetNodeId="1.627290435249133493:4" resolveInfo="HasId" />
     <node role="property:8" type="jetbrains.mps.lang.constraints.structure.NodePropertyConstraint:8" id="627290435249133504">
-      <link role="applicableProperty:8" targetNodeId="1.627290435249133494:2" resolveInfo="id" />
+      <link role="applicableProperty:8" targetNodeId="1.627290435249133494:4" resolveInfo="id" />
       <node role="propertyValidator:8" type="jetbrains.mps.lang.constraints.structure.ConstraintFunction_PropertyValidator:8" id="627290435249133505">
         <node role="body:8" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="627290435249133506">
           <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.SingleLineComment:3" id="627290435249133598">
@@ -188,11 +188,11 @@
                     <node role="localVariableDeclaration:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration:3" id="627290435249133568">
                       <property name="name:3" value="identifable" />
                       <node role="type:3" type="jetbrains.mps.lang.smodel.structure.SNodeType:16" id="627290435249133569">
-                        <link role="concept:16" targetNodeId="1.627290435249133493:2" resolveInfo="HasId" />
+                        <link role="concept:16" targetNodeId="1.627290435249133493:4" resolveInfo="HasId" />
                       </node>
                       <node role="initializer:3" type="jetbrains.mps.baseLanguage.structure.CastExpression:3" id="627290435249133574">
                         <node role="type:3" type="jetbrains.mps.lang.smodel.structure.SNodeType:16" id="627290435249133575">
-                          <link role="concept:16" targetNodeId="1.627290435249133493:2" resolveInfo="HasId" />
+                          <link role="concept:16" targetNodeId="1.627290435249133493:4" resolveInfo="HasId" />
                         </node>
                         <node role="expression:3" type="jetbrains.mps.baseLanguage.collections.structure.ForEachVariableReference:7" id="627290435249133577">
                           <link role="variable:7" targetNodeId="627290435249133516" resolveInfo="child" />
@@ -218,7 +218,7 @@
                               <link role="variableDeclaration:3" targetNodeId="627290435249133568" resolveInfo="identifable" />
                             </node>
                             <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.SPropertyAccess:16" id="627290435249133590">
-                              <link role="property:16" targetNodeId="1.627290435249133494:2" resolveInfo="id" />
+                              <link role="property:16" targetNodeId="1.627290435249133494:4" resolveInfo="id" />
                             </node>
                           </node>
                         </node>
@@ -241,7 +241,7 @@
                   </node>
                   <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.Concept_IsSubConceptOfOperation:16" id="627290435249133562">
                     <node role="conceptArgument:16" type="jetbrains.mps.lang.smodel.structure.RefConcept_Reference:16" id="627290435249133565">
-                      <link role="conceptDeclaration:16" targetNodeId="1.627290435249133493:2" resolveInfo="HasId" />
+                      <link role="conceptDeclaration:16" targetNodeId="1.627290435249133493:4" resolveInfo="HasId" />
                     </node>
                   </node>
                 </node>

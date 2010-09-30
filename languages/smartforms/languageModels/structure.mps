@@ -330,7 +330,7 @@
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" version="7" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590328(jetbrains.mps.baseLanguage.collections.constraints)" version="6" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902c1(jetbrains.mps.baseLanguage.constraints)" version="83" />
-  <languageAspect modelUID="r:9130804a-d65a-4c68-b2c1-a4462321c3a0(org.metaforms.domain.structure)" version="2" />
+  <languageAspect modelUID="r:9130804a-d65a-4c68-b2c1-a4462321c3a0(org.metaforms.domain.structure)" version="4" />
   <devkit namespace="2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)" />
   <maxImportIndex value="1" />
   <visible index="2" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
@@ -349,7 +349,7 @@
       <link role="intfc:0" targetNodeId="2v.1169194658468:0" resolveInfo="INamedConcept" />
     </node>
     <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="6545153482932825366">
-      <link role="intfc:0" targetNodeId="3v.1276781321238821447:2" resolveInfo="HasDocument" />
+      <link role="intfc:0" targetNodeId="3v.1276781321238821447:4" resolveInfo="HasDocument" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7815177035767655221">
@@ -430,7 +430,7 @@
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="7691500841060791956">
       <property name="metaClass:0" value="aggregation" />
       <property name="role:0" value="fieldReference" />
-      <link role="target:0" targetNodeId="3v.7691500841060791949:2" resolveInfo="FieldReference" />
+      <link role="target:0" targetNodeId="3v.7691500841060791949:4" resolveInfo="FieldReference" />
     </node>
     <node role="propertyDeclaration:0" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration:0" id="7499027618783150621">
       <property name="name:0" value="id" />

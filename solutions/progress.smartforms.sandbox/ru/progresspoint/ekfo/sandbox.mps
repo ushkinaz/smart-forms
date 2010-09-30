@@ -24,117 +24,117 @@
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="3" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959028c(jetbrains.mps.lang.structure.constraints)" version="11" />
   <languageAspect modelUID="r:7c7d38bb-f8c2-4f6d-8b0f-734a72486381(org.metaforms.scripts.structure)" version="0" />
-  <languageAspect modelUID="r:9130804a-d65a-4c68-b2c1-a4462321c3a0(org.metaforms.domain.structure)" version="2" />
+  <languageAspect modelUID="r:9130804a-d65a-4c68-b2c1-a4462321c3a0(org.metaforms.domain.structure)" version="4" />
   <maxImportIndex value="1" />
   <import index="1" modelUID="r:13e76dfe-6970-4569-b286-57acd233ecf9(ScriptsLibrary)" version="-1" />
-  <node type="org.metaforms.domain.structure.CreditClass:2" id="5148616895979974485">
-    <property name="name:2" value="Просто Деньги" />
-    <property name="id:2" value="JustMoney" />
-    <node role="documents:2" type="org.metaforms.domain.structure.Document:2" id="1276781321238839413">
-      <property name="id:2" value="Test" />
-      <property name="name:2" value="Тестовый" />
-      <node role="fields:2" type="org.metaforms.domain.structure.Field:2" id="1276781321238839414">
-        <property name="name:2" value="Фигня" />
-        <property name="id:2" value="Junk" />
-        <node role="scriptReference:2" type="org.metaforms.scripts.structure.ValidationScriptReference:0" id="1276781321238839415">
+  <node type="org.metaforms.domain.structure.CreditClass:4" id="5148616895979974485">
+    <property name="name:4" value="Просто Деньги" />
+    <property name="id:4" value="JustMoney" />
+    <node role="document:4" type="org.metaforms.domain.structure.Document:4" id="1276781321238839413">
+      <property name="id:4" value="Test" />
+      <property name="name:4" value="Тестовый" />
+      <node role="field:4" type="org.metaforms.domain.structure.Field:4" id="1276781321238839414">
+        <property name="name:4" value="Фигня" />
+        <property name="id:4" value="Junk" />
+        <node role="scriptReference:4" type="org.metaforms.scripts.structure.ValidationScriptReference:0" id="1276781321238839415">
           <link role="validationScript:0" targetNodeId="1.7691500841060569701" resolveInfo="&gt;=6символов" />
         </node>
       </node>
-      <node role="fields:2" type="org.metaforms.domain.structure.Field:2" id="1276781321238839416">
-        <property name="id:2" value="Useless" />
-        <property name="name:2" value="Ерунда" />
-        <property name="alwaysReadonly:2" value="true" />
+      <node role="field:4" type="org.metaforms.domain.structure.Field:4" id="1276781321238839416">
+        <property name="id:4" value="Useless" />
+        <property name="name:4" value="Ерунда" />
+        <property name="alwaysReadonly:4" value="true" />
       </node>
     </node>
-    <node role="documents:2" type="org.metaforms.domain.structure.Document:2" id="5148616895980016451">
-      <property name="name:2" value="Клиент" />
-      <property name="id:2" value="Client" />
-      <node role="fields:2" type="org.metaforms.domain.structure.Field:2" id="5148616895980016452">
-        <property name="id:2" value="Name" />
-        <property name="name:2" value="Имя" />
-        <node role="scriptReference:2" type="org.metaforms.scripts.structure.ValidationScriptReference:0" id="7691500841060578555">
+    <node role="document:4" type="org.metaforms.domain.structure.Document:4" id="5148616895980016451">
+      <property name="name:4" value="Клиент" />
+      <property name="id:4" value="Client" />
+      <node role="field:4" type="org.metaforms.domain.structure.Field:4" id="5148616895980016452">
+        <property name="id:4" value="Name" />
+        <property name="name:4" value="Имя" />
+        <node role="scriptReference:4" type="org.metaforms.scripts.structure.ValidationScriptReference:0" id="7691500841060578555">
           <link role="validationScript:0" targetNodeId="1.7691500841060569701" resolveInfo="&gt;=6символов" />
         </node>
       </node>
-      <node role="fields:2" type="org.metaforms.domain.structure.Field:2" id="5148616895980020158">
-        <property name="id:2" value="BranchCode" />
-        <property name="name:2" value="Филиал, код" />
+      <node role="field:4" type="org.metaforms.domain.structure.Field:4" id="5148616895980020158">
+        <property name="id:4" value="BranchCode" />
+        <property name="name:4" value="Филиал, код" />
       </node>
-      <node role="fields:2" type="org.metaforms.domain.structure.Field:2" id="5148616895980020159">
-        <property name="id:2" value="BRANCH" />
-        <property name="name:2" value="Филиал" />
+      <node role="field:4" type="org.metaforms.domain.structure.Field:4" id="5148616895980020159">
+        <property name="id:4" value="BRANCH" />
+        <property name="name:4" value="Филиал" />
       </node>
-      <node role="fields:2" type="org.metaforms.domain.structure.Field:2" id="5148616895980020160">
-        <property name="id:2" value="OfficeCode" />
-        <property name="name:2" value="Отделение" />
+      <node role="field:4" type="org.metaforms.domain.structure.Field:4" id="5148616895980020160">
+        <property name="id:4" value="OfficeCode" />
+        <property name="name:4" value="Отделение" />
       </node>
-      <node role="fields:2" type="org.metaforms.domain.structure.Field:2" id="5148616895980020161">
-        <property name="id:2" value="OfficeName" />
-        <property name="name:2" value="Отделение, код" />
+      <node role="field:4" type="org.metaforms.domain.structure.Field:4" id="5148616895980020161">
+        <property name="id:4" value="OfficeName" />
+        <property name="name:4" value="Отделение, код" />
       </node>
-      <node role="fields:2" type="org.metaforms.domain.structure.Field:2" id="5148616895980020162">
-        <property name="id:2" value="PointCode" />
-        <property name="name:2" value="Кредитная точка, код" />
+      <node role="field:4" type="org.metaforms.domain.structure.Field:4" id="5148616895980020162">
+        <property name="id:4" value="PointCode" />
+        <property name="name:4" value="Кредитная точка, код" />
       </node>
-      <node role="fields:2" type="org.metaforms.domain.structure.Field:2" id="5148616895980020163">
-        <property name="id:2" value="POINT" />
-        <property name="name:2" value="Кредитная точка" />
+      <node role="field:4" type="org.metaforms.domain.structure.Field:4" id="5148616895980020163">
+        <property name="id:4" value="POINT" />
+        <property name="name:4" value="Кредитная точка" />
       </node>
-      <node role="fields:2" type="org.metaforms.domain.structure.Field:2" id="5148616895980020164">
-        <property name="id:2" value="CEPERSONCODE" />
-        <property name="name:2" value="Кредитный эксперт, код" />
+      <node role="field:4" type="org.metaforms.domain.structure.Field:4" id="5148616895980020164">
+        <property name="id:4" value="CEPERSONCODE" />
+        <property name="name:4" value="Кредитный эксперт, код" />
       </node>
-      <node role="fields:2" type="org.metaforms.domain.structure.Field:2" id="5148616895980020165">
-        <property name="id:2" value="CEPERSONNAME" />
-        <property name="name:2" value="Кредитный эксперт" />
+      <node role="field:4" type="org.metaforms.domain.structure.Field:4" id="5148616895980020165">
+        <property name="id:4" value="CEPERSONNAME" />
+        <property name="name:4" value="Кредитный эксперт" />
       </node>
-      <node role="fields:2" type="org.metaforms.domain.structure.Field:2" id="5148616895980020166">
-        <property name="id:2" value="REQTYPECODE" />
-        <property name="name:2" value="Кредитный класс, код" />
+      <node role="field:4" type="org.metaforms.domain.structure.Field:4" id="5148616895980020166">
+        <property name="id:4" value="REQTYPECODE" />
+        <property name="name:4" value="Кредитный класс, код" />
       </node>
-      <node role="fields:2" type="org.metaforms.domain.structure.Field:2" id="5148616895980020167">
-        <property name="id:2" value="REQTYPE" />
-        <property name="name:2" value="Кредитный класс" />
+      <node role="field:4" type="org.metaforms.domain.structure.Field:4" id="5148616895980020167">
+        <property name="id:4" value="REQTYPE" />
+        <property name="name:4" value="Кредитный класс" />
       </node>
-      <node role="fields:2" type="org.metaforms.domain.structure.Field:2" id="5148616895980020171">
-        <property name="id:2" value="CREDITNAME" />
-        <property name="name:2" value="Кредитный продукт" />
+      <node role="field:4" type="org.metaforms.domain.structure.Field:4" id="5148616895980020171">
+        <property name="id:4" value="CREDITNAME" />
+        <property name="name:4" value="Кредитный продукт" />
       </node>
-      <node role="fields:2" type="org.metaforms.domain.structure.Field:2" id="5148616895980020174">
-        <property name="id:2" value="CREDITCURRENCY" />
-        <property name="name:2" value="Валюта кредита" />
+      <node role="field:4" type="org.metaforms.domain.structure.Field:4" id="5148616895980020174">
+        <property name="id:4" value="CREDITCURRENCY" />
+        <property name="name:4" value="Валюта кредита" />
       </node>
-      <node role="fields:2" type="org.metaforms.domain.structure.Field:2" id="5148616895980020176">
-        <property name="name:2" value="Категория клиента" />
-        <property name="id:2" value="CLIENTTYPE" />
+      <node role="field:4" type="org.metaforms.domain.structure.Field:4" id="5148616895980020176">
+        <property name="name:4" value="Категория клиента" />
+        <property name="id:4" value="CLIENTTYPE" />
       </node>
-      <node role="fields:2" type="org.metaforms.domain.structure.Field:2" id="5148616895980020177">
-        <property name="id:2" value="POSITIONTYPE" />
-        <property name="name:2" value="Тип должности" />
+      <node role="field:4" type="org.metaforms.domain.structure.Field:4" id="5148616895980020177">
+        <property name="id:4" value="POSITIONTYPE" />
+        <property name="name:4" value="Тип должности" />
       </node>
-      <node role="fields:2" type="org.metaforms.domain.structure.Field:2" id="5148616895980020178">
-        <property name="name:2" value="Тип должности подтвержден документами" />
-        <property name="id:2" value="POSITIONDOC" />
+      <node role="field:4" type="org.metaforms.domain.structure.Field:4" id="5148616895980020178">
+        <property name="name:4" value="Тип должности подтвержден документами" />
+        <property name="id:4" value="POSITIONDOC" />
       </node>
-      <node role="fields:2" type="org.metaforms.domain.structure.Field:2" id="5148616895980020179">
-        <property name="name:2" value="Представлен документ, подтверждающий стаж работы" />
-        <property name="id:2" value="CURWORKEXPDOC" />
+      <node role="field:4" type="org.metaforms.domain.structure.Field:4" id="5148616895980020179">
+        <property name="name:4" value="Представлен документ, подтверждающий стаж работы" />
+        <property name="id:4" value="CURWORKEXPDOC" />
       </node>
-      <node role="fields:2" type="org.metaforms.domain.structure.Field:2" id="5148616895980020180">
-        <property name="id:2" value="FULLEXPY" />
-        <property name="name:2" value="Общий трудовой стаж (лет)" />
+      <node role="field:4" type="org.metaforms.domain.structure.Field:4" id="5148616895980020180">
+        <property name="id:4" value="FULLEXPY" />
+        <property name="name:4" value="Общий трудовой стаж (лет)" />
       </node>
-      <node role="fields:2" type="org.metaforms.domain.structure.Field:2" id="5148616895980020181">
-        <property name="id:2" value="FULLEXPM" />
-        <property name="name:2" value="Общий трудовой стаж (мес)" />
+      <node role="field:4" type="org.metaforms.domain.structure.Field:4" id="5148616895980020181">
+        <property name="id:4" value="FULLEXPM" />
+        <property name="name:4" value="Общий трудовой стаж (мес)" />
       </node>
-      <node role="fields:2" type="org.metaforms.domain.structure.Field:2" id="5148616895980020182">
-        <property name="id:2" value="CURWORKEXPY" />
-        <property name="name:2" value="Стаж работы на данном предприятии (лет)" />
+      <node role="field:4" type="org.metaforms.domain.structure.Field:4" id="5148616895980020182">
+        <property name="id:4" value="CURWORKEXPY" />
+        <property name="name:4" value="Стаж работы на данном предприятии (лет)" />
       </node>
-      <node role="fields:2" type="org.metaforms.domain.structure.Field:2" id="5148616895980020183">
-        <property name="id:2" value="CURWORKEXPM" />
-        <property name="name:2" value="Стаж работы на данном предприятии (мес)" />
+      <node role="field:4" type="org.metaforms.domain.structure.Field:4" id="5148616895980020183">
+        <property name="id:4" value="CURWORKEXPM" />
+        <property name="name:4" value="Стаж работы на данном предприятии (мес)" />
       </node>
     </node>
   </node>

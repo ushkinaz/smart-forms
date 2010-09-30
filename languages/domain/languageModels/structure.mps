@@ -142,18 +142,27 @@
   </node>
   <node type="jetbrains.mps.lang.structure.structure.EnumerationDataTypeDeclaration:0" id="5148616895979972057">
     <property name="name:0" value="FieldType" />
+    <property name="memberIdentifierPolicy:0" value="custom" />
     <link role="memberDataType:0" targetNodeId="2v.1082983657062:0" resolveInfo="integer" />
     <node role="member:0" type="jetbrains.mps.lang.structure.structure.EnumerationMemberDeclaration:0" id="5148616895979972058">
       <property name="externalValue:0" value="ТЕКСТ" />
+      <property name="internalValue:0" value="1" />
+      <property name="javaIdentifier:0" value="TEXT" />
     </node>
     <node role="member:0" type="jetbrains.mps.lang.structure.structure.EnumerationMemberDeclaration:0" id="5148616895979972059">
       <property name="externalValue:0" value="СПИСОК" />
+      <property name="internalValue:0" value="2" />
+      <property name="javaIdentifier:0" value="LIST" />
     </node>
     <node role="member:0" type="jetbrains.mps.lang.structure.structure.EnumerationMemberDeclaration:0" id="5148616895979972060">
       <property name="externalValue:0" value="ДАТА" />
+      <property name="internalValue:0" value="3" />
+      <property name="javaIdentifier:0" value="DATE" />
     </node>
     <node role="member:0" type="jetbrains.mps.lang.structure.structure.EnumerationMemberDeclaration:0" id="5148616895979972061">
       <property name="externalValue:0" value="ЧИСЛО" />
+      <property name="internalValue:0" value="4" />
+      <property name="javaIdentifier:0" value="NUMERIC" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7691500841060791949">

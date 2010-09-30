@@ -10,9 +10,9 @@
       <solutionPath path="${project}/solutions/BaseSolution/BaseSolution.msd" folder="" />
     </projectSolutions>
     <projectLanguages>
-      <languagePath path="${project}/languages/smartforms/smartforms.mpl" folder="forms" />
-      <languagePath path="${project}/languages/scripts/scripts.mpl" folder="forms" />
-      <languagePath path="${project}/languages/domain/domain.mpl" folder="forms" />
+      <languagePath path="${project}/languages/smartforms/smartforms.mpl" />
+      <languagePath path="${project}/languages/scripts/scripts.mpl" />
+      <languagePath path="${project}/languages/domain/domain.mpl" />
     </projectLanguages>
     <projectDevkits />
     <genConfs />

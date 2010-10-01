@@ -99,10 +99,19 @@
     <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="627290435249133614">
       <link role="intfc:0" targetNodeId="627290435249133493:4" resolveInfo="HasId" />
     </node>
+    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="1955157615230813793">
+      <property name="value:0" value="Кредитный класс" />
+      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473914776:0" resolveInfo="shortDescription" />
+    </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="5148616895979972052">
     <property name="name:0" value="Document" />
+    <property name="rootable:0" value="true" />
     <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
+    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="1955157615230813791">
+      <property name="value:0" value="Документ, часть заявки" />
+      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473914776:0" resolveInfo="shortDescription" />
+    </node>
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="5148616895979972070">
       <property name="metaClass:0" value="aggregation" />
       <property name="role:0" value="field" />
@@ -120,6 +129,10 @@
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="5148616895979972054">
     <property name="name:0" value="Field" />
     <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
+    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="1955157615230813795">
+      <property name="value:0" value="Поле документа" />
+      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473914776:0" resolveInfo="shortDescription" />
+    </node>
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="7691500841060453635">
       <property name="metaClass:0" value="aggregation" />
       <property name="role:0" value="scriptReference" />

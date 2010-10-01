@@ -5,7 +5,7 @@
   </models>
   <accessoryModels />
   <generators>
-    <generator name="" generatorUID="org.metaforms.domain#64839312066685646" uuid="2941bdbe-7a0a-487b-8ae9-97d9eb89168d">
+    <generator name="domainGenerator" generatorUID="org.metaforms.domain#64839312066685646" uuid="2941bdbe-7a0a-487b-8ae9-97d9eb89168d">
       <models>
         <modelRoot path="${language_descriptor}/generator/template" namespacePrefix="org.metaforms.domain.generator.template" />
       </models>

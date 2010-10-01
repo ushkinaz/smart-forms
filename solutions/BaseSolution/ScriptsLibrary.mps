@@ -2,9 +2,9 @@
 <model modelUID="r:13e76dfe-6970-4569-b286-57acd233ecf9(ScriptsLibrary)">
   <persistence version="4" />
   <refactoringHistory />
-  <language namespace="48a33425-09d8-44e7-a033-40f4b94a2085(org.metaforms.scripts)" />
+  <language namespace="48a33425-09d8-44e7-a033-40f4b94a2085(org.metaforms.validation)" />
   <language namespace="daafa647-f1f7-4b0b-b096-69cd7c8408c0(jetbrains.mps.baseLanguage.regexp)" />
-  <languageAspect modelUID="r:7c7d38bb-f8c2-4f6d-8b0f-734a72486381(org.metaforms.scripts.structure)" version="0" />
+  <languageAspect modelUID="r:7c7d38bb-f8c2-4f6d-8b0f-734a72486381(org.metaforms.validation.structure)" version="1" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590515(jetbrains.mps.baseLanguage.regexp.constraints)" version="3" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590518(jetbrains.mps.baseLanguage.regexp.structure)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="3" />
@@ -13,12 +13,12 @@
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590283(jetbrains.mps.lang.core.constraints)" version="2" />
   <maxImportIndex value="0" />
-  <node type="org.metaforms.scripts.structure.Library:0" id="5641913358296703807">
-    <property name="name:0" value="Основная библиотека" />
-    <node role="scripts:0" type="org.metaforms.scripts.structure.ValidationScript:0" id="7691500841060569701">
-      <property name="name:0" value="&gt;=6символов" />
-      <property name="message:0" value="Не менее 6 символов" />
-      <node role="regexp:0" type="jetbrains.mps.baseLanguage.regexp.structure.SeqRegexp:0" id="7691500841060569702">
+  <node type="org.metaforms.validation.structure.Library:1" id="5641913358296703807">
+    <property name="name:1" value="Основная библиотека" />
+    <node role="scripts:1" type="org.metaforms.validation.structure.ValidationScript:1" id="7691500841060569701">
+      <property name="name:1" value="&gt;=6символов" />
+      <property name="message:1" value="Не менее 6 символов" />
+      <node role="regexp:1" type="jetbrains.mps.baseLanguage.regexp.structure.SeqRegexp:0" id="7691500841060569702">
         <node role="left:0" type="jetbrains.mps.baseLanguage.regexp.structure.LineStartRegexp:0" id="7691500841060569703" />
         <node role="right:0" type="jetbrains.mps.baseLanguage.regexp.structure.SeqRegexp:0" id="7691500841060569704">
           <node role="left:0" type="jetbrains.mps.baseLanguage.regexp.structure.AtLeastNTimesRegexp:0" id="7691500841060569705">
@@ -29,10 +29,10 @@
         </node>
       </node>
     </node>
-    <node role="scripts:0" type="org.metaforms.scripts.structure.ValidationScript:0" id="5641913358296703808">
-      <property name="name:0" value="0-5Цифры--" />
-      <property name="message:0" value="Диапазон значений 0-5" />
-      <node role="regexp:0" type="jetbrains.mps.baseLanguage.regexp.structure.SeqRegexp:0" id="7691500841060578543">
+    <node role="scripts:1" type="org.metaforms.validation.structure.ValidationScript:1" id="5641913358296703808">
+      <property name="name:1" value="0-5Цифры--" />
+      <property name="message:1" value="Диапазон значений 0-5" />
+      <node role="regexp:1" type="jetbrains.mps.baseLanguage.regexp.structure.SeqRegexp:0" id="7691500841060578543">
         <node role="left:0" type="jetbrains.mps.baseLanguage.regexp.structure.LineStartRegexp:0" id="7691500841060578542" />
         <node role="right:0" type="jetbrains.mps.baseLanguage.regexp.structure.SeqRegexp:0" id="7691500841060578551">
           <node role="left:0" type="jetbrains.mps.baseLanguage.regexp.structure.StarRegexp:0" id="7691500841060578549">

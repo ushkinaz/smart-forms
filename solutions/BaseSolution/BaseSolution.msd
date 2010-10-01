@@ -5,7 +5,7 @@
   </models>
   <sourcePath />
   <usedLanguages>
-    <usedLanguage>48a33425-09d8-44e7-a033-40f4b94a2085(org.metaforms.scripts)</usedLanguage>
+    <usedLanguage>48a33425-09d8-44e7-a033-40f4b94a2085(org.metaforms.validation)</usedLanguage>
   </usedLanguages>
 </solution>
 

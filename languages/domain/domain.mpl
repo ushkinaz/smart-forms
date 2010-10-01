@@ -5,7 +5,7 @@
   </models>
   <accessoryModels />
   <generators>
-    <generator name="" generatorUID="org.metaforms.domain#64839312066685646" uuid="2941bdbe-7a0a-487b-8ae9-97d9eb89168d">
+    <generator name="DomainGenerator" generatorUID="org.metaforms.domain#64839312066685646" uuid="2941bdbe-7a0a-487b-8ae9-97d9eb89168d">
       <models>
         <modelRoot path="${language_descriptor}/generator/template" namespacePrefix="org.metaforms.domain.generator.template" />
       </models>
@@ -21,7 +21,7 @@
     <usedDevKit>2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)</usedDevKit>
   </usedDevKits>
   <extendedLanguages>
-    <extendedLanguage>48a33425-09d8-44e7-a033-40f4b94a2085(org.metaforms.scripts)</extendedLanguage>
+    <extendedLanguage>48a33425-09d8-44e7-a033-40f4b94a2085(org.metaforms.validation)</extendedLanguage>
   </extendedLanguages>
 </language>
 

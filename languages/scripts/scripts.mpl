@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language namespace="org.metaforms.scripts" uuid="48a33425-09d8-44e7-a033-40f4b94a2085" java-stubs-enabled="false" compileInMPS="true" doNotGenerateAdapters="false">
+<language namespace="org.metaforms.validation" uuid="48a33425-09d8-44e7-a033-40f4b94a2085" java-stubs-enabled="false" compileInMPS="true" doNotGenerateAdapters="false">
   <models>
-    <modelRoot path="${language_descriptor}/languageModels" namespacePrefix="org.metaforms.scripts" />
+    <modelRoot path="${language_descriptor}/languageModels" namespacePrefix="org.metaforms.validation" />
   </models>
   <accessoryModels />
   <generators>
-    <generator name="test" generatorUID="org.metaforms.scripts#7553089095282775678" uuid="3bf3c8ef-0646-4420-8f04-fa9f27cf0993">
+    <generator name="test" generatorUID="org.metaforms.validation#7553089095282775678" uuid="3bf3c8ef-0646-4420-8f04-fa9f27cf0993">
       <models>
-        <modelRoot path="${language_descriptor}/generator/template" namespacePrefix="org.metaforms.scripts.generator.template" />
+        <modelRoot path="${language_descriptor}/generator/template" namespacePrefix="org.metaforms.validation.generator.template" />
       </models>
       <external-templates />
       <usedDevKits>

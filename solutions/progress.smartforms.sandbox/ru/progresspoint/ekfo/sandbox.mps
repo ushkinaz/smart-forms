@@ -5,7 +5,7 @@
   <language namespace="a92871fa-5f1a-445a-984b-c1a961bd4e82(org.metaforms.forms)" />
   <language namespace="f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)" />
   <language namespace="f9e8c623-2d16-4d6b-883c-0995df7b3bc3(org.metaforms.domain)" />
-  <language namespace="48a33425-09d8-44e7-a033-40f4b94a2085(org.metaforms.scripts)" />
+  <language namespace="48a33425-09d8-44e7-a033-40f4b94a2085(org.metaforms.validation)" />
   <language namespace="daafa647-f1f7-4b0b-b096-69cd7c8408c0(jetbrains.mps.baseLanguage.regexp)" />
   <languageAspect modelUID="r:92b29e2f-687a-493a-8fda-d17d20c1c1bb(org.metaforms.forms.structure)" version="13" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" />
@@ -23,7 +23,7 @@
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590595(jetbrains.mps.xmlSchema.constraints)" version="21" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="3" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959028c(jetbrains.mps.lang.structure.constraints)" version="11" />
-  <languageAspect modelUID="r:7c7d38bb-f8c2-4f6d-8b0f-734a72486381(org.metaforms.scripts.structure)" version="0" />
+  <languageAspect modelUID="r:7c7d38bb-f8c2-4f6d-8b0f-734a72486381(org.metaforms.validation.structure)" version="1" />
   <languageAspect modelUID="r:9130804a-d65a-4c68-b2c1-a4462321c3a0(org.metaforms.domain.structure)" version="4" />
   <maxImportIndex value="1" />
   <import index="1" modelUID="r:13e76dfe-6970-4569-b286-57acd233ecf9(ScriptsLibrary)" version="-1" />
@@ -36,8 +36,8 @@
       <node role="field:4" type="org.metaforms.domain.structure.Field:4" id="1276781321238839414">
         <property name="name:4" value="Фигня" />
         <property name="id:4" value="Junk" />
-        <node role="scriptReference:4" type="org.metaforms.scripts.structure.ValidationScriptReference:0" id="1276781321238839415">
-          <link role="validationScript:0" targetNodeId="1.7691500841060569701" resolveInfo="&gt;=6символов" />
+        <node role="scriptReference:4" type="org.metaforms.validation.structure.ValidationScriptReference:1" id="1276781321238839415">
+          <link role="validationScript:1" targetNodeId="1.7691500841060569701" resolveInfo="&gt;=6символов" />
         </node>
       </node>
       <node role="field:4" type="org.metaforms.domain.structure.Field:4" id="1276781321238839416">
@@ -52,8 +52,8 @@
       <node role="field:4" type="org.metaforms.domain.structure.Field:4" id="5148616895980016452">
         <property name="id:4" value="Name" />
         <property name="name:4" value="Имя" />
-        <node role="scriptReference:4" type="org.metaforms.scripts.structure.ValidationScriptReference:0" id="7691500841060578555">
-          <link role="validationScript:0" targetNodeId="1.7691500841060569701" resolveInfo="&gt;=6символов" />
+        <node role="scriptReference:4" type="org.metaforms.validation.structure.ValidationScriptReference:1" id="7691500841060578555">
+          <link role="validationScript:1" targetNodeId="1.7691500841060569701" resolveInfo="&gt;=6символов" />
         </node>
       </node>
       <node role="field:4" type="org.metaforms.domain.structure.Field:4" id="5148616895980020158">

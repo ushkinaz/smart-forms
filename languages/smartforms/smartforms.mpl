@@ -4,21 +4,7 @@
     <modelRoot path="${language_descriptor}/languageModels" namespacePrefix="org.metaforms.forms" />
   </models>
   <accessoryModels />
-  <generators>
-    <generator name="XMLGenerator" generatorUID="org.metaforms.forms#7815177035770889594" uuid="9ef55902-9fb8-450e-91f5-0856f8eb25b8">
-      <models>
-        <modelRoot path="${language_descriptor}/generator/template" namespacePrefix="org.metaforms.forms.generator.template" />
-      </models>
-      <external-templates />
-      <usedLanguages>
-        <usedLanguage>2c55c7ac-60c3-4eea-b9db-0d627bd2dcb9(jetbrains.mps.xml)</usedLanguage>
-      </usedLanguages>
-      <usedDevKits>
-        <usedDevKit>2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)</usedDevKit>
-      </usedDevKits>
-      <mapping-priorities />
-    </generator>
-  </generators>
+  <generators />
   <sourcePath />
   <usedDevKits>
     <usedDevKit>2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)</usedDevKit>

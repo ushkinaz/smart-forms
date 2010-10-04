@@ -3,7 +3,9 @@
   <models>
     <modelRoot path="${language_descriptor}/languageModels" namespacePrefix="org.metaforms.domain" />
   </models>
-  <accessoryModels />
+  <accessoryModels>
+    <model modelUID="f:java_stub#com.extjs.gxt.ui.client.data(com.extjs.gxt.ui.client.data@java_stub)" />
+  </accessoryModels>
   <generators>
     <generator name="DomainGenerator" generatorUID="org.metaforms.domain#64839312066685646" uuid="2941bdbe-7a0a-487b-8ae9-97d9eb89168d">
       <models>
@@ -17,7 +19,10 @@
     </generator>
   </generators>
   <stubModelEntries>
-    <stubModelEntry path="C:/Workspace/ekfo/ekfo-core/target/ekfo-core.jar" include="false">
+    <stubModelEntry path="${M2_REPO}/com/extjs/gxt/2.1.1/gxt-2.1.1.jar" include="false">
+      <manager moduleId="f3061a53-9226-4cc5-a443-f952ceaf5816" className="jetbrains.mps.baseLanguage.stubs.JavaStubs" />
+    </stubModelEntry>
+    <stubModelEntry path="${M2_REPO}/org/hibernate/hibernate-annotations/3.4.0.GA/hibernate-annotations-3.4.0.GA.jar" include="false">
       <manager moduleId="f3061a53-9226-4cc5-a443-f952ceaf5816" className="jetbrains.mps.baseLanguage.stubs.JavaStubs" />
     </stubModelEntry>
   </stubModelEntries>

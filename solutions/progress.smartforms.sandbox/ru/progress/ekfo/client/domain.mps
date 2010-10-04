@@ -125,12 +125,6 @@
   <node type="org.metaforms.domain.structure.CreditClass:5" id="1284901400154948339">
     <property name="name:5" value="Просто деньги" />
     <property name="id:5" value="JustMoney" />
-    <node role="documentReference:5" type="org.metaforms.domain.structure.DocumentReference:5" id="1284901400154948340">
-      <link role="document:5" targetNodeId="1284901400154948311" resolveInfo="Калькулятор" />
-    </node>
-    <node role="documentReference:5" type="org.metaforms.domain.structure.DocumentReference:5" id="1284901400154948341">
-      <link role="document:5" targetNodeId="1284901400154948316" resolveInfo="Клиент" />
-    </node>
   </node>
 </model>
 

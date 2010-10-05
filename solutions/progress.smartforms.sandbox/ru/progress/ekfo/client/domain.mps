@@ -19,7 +19,7 @@
     <property name="id:5" value="CreditCalc" />
     <property name="name:5" value="Калькулятор" />
     <node role="field:5" type="org.metaforms.domain.structure.Field:5" id="1284901400154948312">
-      <property name="name:5" value="Филиал" />
+      <property name="name:5" value="Филиал, код" />
       <property name="id:5" value="BranchCode" />
       <property name="alwaysReadonly:5" value="true" />
       <node role="scriptReference:5" type="org.metaforms.validation.structure.ValidationRuleReference:5" id="1284901400154948313">
@@ -33,12 +33,17 @@
     </node>
     <node role="field:5" type="org.metaforms.domain.structure.Field:5" id="838905236136833360">
       <property name="id:5" value="OfficeCode" />
+      <property name="name:5" value="Отделение, код" />
+      <property name="alwaysReadonly:5" value="true" />
+    </node>
+    <node role="field:5" type="org.metaforms.domain.structure.Field:5" id="838905236136893996">
       <property name="name:5" value="Отделение" />
+      <property name="id:5" value="OfficeName" />
       <property name="alwaysReadonly:5" value="true" />
     </node>
     <node role="field:5" type="org.metaforms.domain.structure.Field:5" id="838905236136833361">
       <property name="id:5" value="PointCode" />
-      <property name="name:5" value="Кредитная Точка" />
+      <property name="name:5" value="Кредитная Точка, код" />
       <property name="alwaysReadonly:5" value="true" />
     </node>
     <node role="field:5" type="org.metaforms.domain.structure.Field:5" id="838905236136833362">
@@ -48,7 +53,7 @@
     </node>
     <node role="field:5" type="org.metaforms.domain.structure.Field:5" id="838905236136869564">
       <property name="id:5" value="CEPersonCode" />
-      <property name="name:5" value="Кредитный эксперт" />
+      <property name="name:5" value="Кредитный эксперт, код" />
       <property name="alwaysReadonly:5" value="true" />
     </node>
     <node role="field:5" type="org.metaforms.domain.structure.Field:5" id="838905236136869567">
@@ -57,7 +62,7 @@
       <property name="alwaysReadonly:5" value="true" />
     </node>
     <node role="field:5" type="org.metaforms.domain.structure.Field:5" id="838905236136869568">
-      <property name="name:5" value="Кредитный класс" />
+      <property name="name:5" value="Кредитный класс, код" />
       <property name="id:5" value="ReqTypeCode" />
       <property name="alwaysReadonly:5" value="true" />
     </node>

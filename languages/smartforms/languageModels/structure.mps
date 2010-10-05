@@ -351,6 +351,9 @@
     <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="6545153482932825366">
       <link role="intfc:0" targetNodeId="3v.1276781321238821447:5" resolveInfo="HasDocument" />
     </node>
+    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="838905236136908363">
+      <link role="intfc:0" targetNodeId="3v.627290435249133493:5" resolveInfo="HasId" />
+    </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7815177035767655221">
     <property name="name:0" value="FormPanel" />

@@ -16,18 +16,34 @@
   <maxImportIndex value="2" />
   <import index="1" modelUID="r:13e76dfe-6970-4569-b286-57acd233ecf9(ScriptsLibrary)" version="-1" />
   <node type="org.metaforms.domain.structure.Document:5" id="1284901400154948311">
-    <property name="id:5" value="Calculator" />
+    <property name="id:5" value="CreditCalc" />
     <property name="name:5" value="Калькулятор" />
     <node role="field:5" type="org.metaforms.domain.structure.Field:5" id="1284901400154948312">
-      <property name="name:5" value="Фигня" />
-      <property name="id:5" value="Junk" />
+      <property name="name:5" value="Филиал" />
+      <property name="id:5" value="BranchCode" />
+      <property name="alwaysReadonly:5" value="true" />
       <node role="scriptReference:5" type="org.metaforms.validation.structure.ValidationRuleReference:5" id="1284901400154948313">
         <link role="validationScript:5" targetNodeId="1.7691500841060569701" resolveInfo="&gt;=6символов" />
       </node>
     </node>
     <node role="field:5" type="org.metaforms.domain.structure.Field:5" id="1284901400154948314">
-      <property name="id:5" value="Useless" />
-      <property name="name:5" value="Ерунда" />
+      <property name="id:5" value="Branch" />
+      <property name="name:5" value="Филиал" />
+      <property name="alwaysReadonly:5" value="true" />
+    </node>
+    <node role="field:5" type="org.metaforms.domain.structure.Field:5" id="838905236136833360">
+      <property name="id:5" value="OfficeCode" />
+      <property name="name:5" value="Отделение" />
+      <property name="alwaysReadonly:5" value="true" />
+    </node>
+    <node role="field:5" type="org.metaforms.domain.structure.Field:5" id="838905236136833361">
+      <property name="id:5" value="PointCode" />
+      <property name="name:5" value="Кредитная Точка" />
+      <property name="alwaysReadonly:5" value="true" />
+    </node>
+    <node role="field:5" type="org.metaforms.domain.structure.Field:5" id="838905236136833362">
+      <property name="id:5" value="Point" />
+      <property name="name:5" value="Кредитная точка" />
       <property name="alwaysReadonly:5" value="true" />
     </node>
   </node>
@@ -125,6 +141,9 @@
   <node type="org.metaforms.domain.structure.CreditClass:5" id="1284901400154948339">
     <property name="name:5" value="Просто деньги" />
     <property name="id:5" value="JustMoney" />
+    <node role="documentReference:5" type="org.metaforms.domain.structure.DocumentReference:5" id="838905236136833363">
+      <link role="document:5" targetNodeId="1284901400154948311" resolveInfo="Калькулятор" />
+    </node>
   </node>
 </model>
 

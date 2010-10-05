@@ -10,6 +10,11 @@
         <modelRoot path="${language_descriptor}/generator/template" namespacePrefix="org.metaforms.domain.generator.template" />
       </models>
       <external-templates />
+      <usedLanguages>
+        <usedLanguage>954c4d77-e24b-4e49-a5a5-5476c966c092(jetbrains.mps.gwt.client)</usedLanguage>
+        <usedLanguage>2c55c7ac-60c3-4eea-b9db-0d627bd2dcb9(jetbrains.mps.xml)</usedLanguage>
+        <usedLanguage>4a1e4a24-105b-44ed-959c-6586fc957db3(jetbrains.mps.bash)</usedLanguage>
+      </usedLanguages>
       <usedDevKits>
         <usedDevKit>2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)</usedDevKit>
       </usedDevKits>

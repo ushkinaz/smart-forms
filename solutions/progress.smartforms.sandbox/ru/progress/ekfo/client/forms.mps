@@ -15,6 +15,13 @@
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590283(jetbrains.mps.lang.core.constraints)" version="2" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" />
   <languageAspect modelUID="r:92b29e2f-687a-493a-8fda-d17d20c1c1bb(org.metaforms.forms.structure)" version="13" />
-  <maxImportIndex value="1" />
+  <maxImportIndex value="2" />
+  <import index="2" modelUID="r:27e82224-19ef-45e1-8fc2-9258287ec886(ru.progress.ekfo.client.domain)" version="-1" />
+  <node type="org.metaforms.forms.structure.Form:13" id="838905236136833358">
+    <property name="name:13" value="Client" />
+    <node role="documentReference:13" type="org.metaforms.domain.structure.DocumentReference:5" id="838905236136833359">
+      <link role="document:5" targetNodeId="2.1284901400154948316" resolveInfo="Клиент" />
+    </node>
+  </node>
 </model>
 

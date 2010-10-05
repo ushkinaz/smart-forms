@@ -366,9 +366,6 @@
     <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="7815177035770464303">
       <link role="intfc:0" targetNodeId="7815177035770464302:13" resolveInfo="IPanel" />
     </node>
-    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="1786812136902729996">
-      <link role="intfc:0" targetNodeId="35224891275546313:13" resolveInfo="HasLayout" />
-    </node>
     <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="2925434448366533376">
       <link role="intfc:0" targetNodeId="2925434448366525478:13" resolveInfo="IContainer" />
     </node>
@@ -410,6 +407,9 @@
     </node>
     <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="7499027618783150627">
       <link role="intfc:0" targetNodeId="7499027618783150624:13" resolveInfo="IInputField" />
+    </node>
+    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="838905236136942297">
+      <link role="intfc:0" targetNodeId="7499027618783578642:13" resolveInfo="HasValue" />
     </node>
     <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="7499027618783475410">
       <link role="intfc:0" targetNodeId="7499027618783150613:13" resolveInfo="IFormComponent" />
@@ -475,28 +475,14 @@
       <link role="dataType:0" targetNodeId="2v.1082983041843:0" resolveInfo="string" />
     </node>
   </node>
-  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7499027618783150663">
-    <property name="name:0" value="FillLayout" />
-    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
-    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="7499027618783150665">
-      <link role="intfc:0" targetNodeId="7499027618783150664:13" resolveInfo="ILayout" />
-    </node>
-    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="1786812136902729993">
-      <property name="value:0" value="Определяет разметку внутри контейнеров (FormPanel, TabItem, ContentPanel). Растягивает первый элемент на весь контейнер." />
-      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473914776:0" resolveInfo="shortDescription" />
-    </node>
-  </node>
-  <node type="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration:0" id="7499027618783150664">
-    <property name="name:0" value="ILayout" />
-  </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7499027618783578638">
     <property name="name:0" value="LabelField" />
     <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
     <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="7499027618783578640">
       <link role="intfc:0" targetNodeId="7499027618783150613:13" resolveInfo="IFormComponent" />
     </node>
-    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="7499027618783578645">
-      <link role="intfc:0" targetNodeId="7499027618783578642:13" resolveInfo="IHasValue" />
+    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="838905236136942286">
+      <link role="intfc:0" targetNodeId="7499027618783150624:13" resolveInfo="HasLabel" />
     </node>
     <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="4921122046319089421">
       <property name="value:0" value="Статичный текст" />
@@ -579,21 +565,11 @@
       <property name="value:0" value="Закладка, всегда должен быть дочерним элементу типа TabPanel" />
       <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473914776:0" resolveInfo="shortDescription" />
     </node>
-    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="4921122046319089401">
-      <link role="intfc:0" targetNodeId="4921122046319089398:13" resolveInfo="HasText" />
-    </node>
     <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="35224891275099089">
       <link role="intfc:0" targetNodeId="7815177035770464302:13" resolveInfo="HasChildren" />
     </node>
-    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="1786812136902729998">
-      <link role="intfc:0" targetNodeId="35224891275546313:13" resolveInfo="HasLayout" />
-    </node>
-  </node>
-  <node type="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration:0" id="4921122046319089398">
-    <property name="name:0" value="HasText" />
-    <node role="propertyDeclaration:0" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration:0" id="4921122046319089400">
-      <property name="name:0" value="text" />
-      <link role="dataType:0" targetNodeId="2v.1082983041843:0" resolveInfo="string" />
+    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="838905236136930163">
+      <link role="intfc:0" targetNodeId="7499027618783150624:13" resolveInfo="HasLabel" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="35224891275220207">
@@ -675,53 +651,6 @@
       <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473914776:0" resolveInfo="shortDescription" />
     </node>
   </node>
-  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="35224891275546225">
-    <property name="name:0" value="CheckBox" />
-    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
-    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="35224891275546228">
-      <link role="intfc:0" targetNodeId="7499027618783150624:13" resolveInfo="HasLabel" />
-    </node>
-    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="35224891275546226">
-      <link role="intfc:0" targetNodeId="7499027618783150613:13" resolveInfo="IFormComponent" />
-    </node>
-    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="1786812136902607317">
-      <property name="value:0" value="Поле - один флаг" />
-      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473914776:0" resolveInfo="shortDescription" />
-    </node>
-  </node>
-  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="35224891275546248">
-    <property name="name:0" value="BorderLayout" />
-    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
-    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="35224891275546249">
-      <link role="intfc:0" targetNodeId="7499027618783150664:13" resolveInfo="ILayout" />
-    </node>
-    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="35224891275546250">
-      <property name="value:0" value="Переводит разметку внутри контейнера на зоны (север, юг, запад, восток, центр)" />
-      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473914776:0" resolveInfo="shortDescription" />
-    </node>
-  </node>
-  <node type="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration:0" id="35224891275546251">
-    <property name="name:0" value="ILayoutData" />
-  </node>
-  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="35224891275546252">
-    <property name="name:0" value="BorderLayoutData" />
-    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
-    <node role="propertyDeclaration:0" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration:0" id="35224891275546260">
-      <property name="name:0" value="region" />
-      <link role="dataType:0" targetNodeId="35224891275546254:13" resolveInfo="RegionEnum" />
-    </node>
-    <node role="propertyDeclaration:0" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration:0" id="35224891275546261">
-      <property name="name:0" value="size" />
-      <link role="dataType:0" targetNodeId="2v.1082983041843:0" resolveInfo="string" />
-    </node>
-    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="35224891275546253">
-      <link role="intfc:0" targetNodeId="35224891275546251:13" resolveInfo="ILayoutData" />
-    </node>
-    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="35224891275546283">
-      <property name="value:0" value="Используется только в паре с элементом BorderLayout" />
-      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473914776:0" resolveInfo="shortDescription" />
-    </node>
-  </node>
   <node type="jetbrains.mps.lang.structure.structure.EnumerationDataTypeDeclaration:0" id="35224891275546254">
     <property name="name:0" value="RegionEnum" />
     <link role="memberDataType:0" targetNodeId="2v.1082983041843:0" resolveInfo="string" />
@@ -753,9 +682,6 @@
     <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="35224891275546285">
       <link role="intfc:0" targetNodeId="7815177035770464302:13" resolveInfo="HasChildren" />
     </node>
-    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="1786812136902730000">
-      <link role="intfc:0" targetNodeId="35224891275546313:13" resolveInfo="HasLayout" />
-    </node>
     <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="2925434448366533374">
       <link role="intfc:0" targetNodeId="2925434448366525478:13" resolveInfo="IContainer" />
     </node>
@@ -765,14 +691,6 @@
     <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="1786812136902729992">
       <property name="value:0" value="Простой контейнер" />
       <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473914776:0" resolveInfo="shortDescription" />
-    </node>
-  </node>
-  <node type="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration:0" id="35224891275546313">
-    <property name="name:0" value="HasLayout" />
-    <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="35224891275546315">
-      <property name="metaClass:0" value="aggregation" />
-      <property name="role:0" value="layout" />
-      <link role="target:0" targetNodeId="7499027618783150664:13" resolveInfo="ILayout" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration:0" id="2925434448366525478">

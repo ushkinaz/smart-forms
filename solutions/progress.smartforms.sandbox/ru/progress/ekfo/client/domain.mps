@@ -46,6 +46,67 @@
       <property name="name:5" value="Кредитная точка" />
       <property name="alwaysReadonly:5" value="true" />
     </node>
+    <node role="field:5" type="org.metaforms.domain.structure.Field:5" id="838905236136869564">
+      <property name="id:5" value="CEPersonCode" />
+      <property name="name:5" value="Кредитный эксперт" />
+      <property name="alwaysReadonly:5" value="true" />
+    </node>
+    <node role="field:5" type="org.metaforms.domain.structure.Field:5" id="838905236136869567">
+      <property name="id:5" value="CEPersonName" />
+      <property name="name:5" value="Кредитный эксперт" />
+      <property name="alwaysReadonly:5" value="true" />
+    </node>
+    <node role="field:5" type="org.metaforms.domain.structure.Field:5" id="838905236136869568">
+      <property name="name:5" value="Кредитный класс" />
+      <property name="id:5" value="ReqTypeCode" />
+      <property name="alwaysReadonly:5" value="true" />
+    </node>
+    <node role="field:5" type="org.metaforms.domain.structure.Field:5" id="838905236136869570">
+      <property name="name:5" value="Кредитный класс" />
+      <property name="id:5" value="ReqType" />
+      <property name="alwaysReadonly:5" value="true" />
+    </node>
+    <node role="field:5" type="org.metaforms.domain.structure.Field:5" id="838905236136869571">
+      <property name="name:5" value="Кредитный продукт" />
+      <property name="id:5" value="CreditName" />
+      <property name="type:5" value="2" />
+    </node>
+    <node role="field:5" type="org.metaforms.domain.structure.Field:5" id="838905236136869572">
+      <property name="name:5" value="Валюта кредита" />
+      <property name="id:5" value="CreditCurrency" />
+      <property name="type:5" value="2" />
+    </node>
+    <node role="field:5" type="org.metaforms.domain.structure.Field:5" id="838905236136869573">
+      <property name="name:5" value="Категория клиента" />
+      <property name="id:5" value="ClientType" />
+      <property name="type:5" value="2" />
+    </node>
+    <node role="field:5" type="org.metaforms.domain.structure.Field:5" id="838905236136869574">
+      <property name="name:5" value="Тип должности" />
+      <property name="id:5" value="PositionType" />
+      <property name="type:5" value="2" />
+    </node>
+    <node role="field:5" type="org.metaforms.domain.structure.Field:5" id="838905236136869575">
+      <property name="name:5" value="Представлен документ, подтверждающий стаж работы" />
+      <property name="id:5" value="CurWorkExpDoc" />
+      <property name="type:5" value="5" />
+    </node>
+    <node role="field:5" type="org.metaforms.domain.structure.Field:5" id="838905236136869576">
+      <property name="name:5" value="Общий трудовой стаж, лет" />
+      <property name="id:5" value="FullExpY" />
+    </node>
+    <node role="field:5" type="org.metaforms.domain.structure.Field:5" id="838905236136869577">
+      <property name="id:5" value="FullExpM" />
+      <property name="name:5" value="Общий трудовой стаж, мес" />
+    </node>
+    <node role="field:5" type="org.metaforms.domain.structure.Field:5" id="838905236136869578">
+      <property name="name:5" value="Стаж работы на данном предприятии (лет)" />
+      <property name="id:5" value="CurWorkExpY" />
+    </node>
+    <node role="field:5" type="org.metaforms.domain.structure.Field:5" id="838905236136869580">
+      <property name="name:5" value="Стаж работы на данном предприятии (мес)" />
+      <property name="id:5" value="CurWorkExpM" />
+    </node>
   </node>
   <node type="org.metaforms.domain.structure.Document:5" id="1284901400154948316">
     <property name="name:5" value="Клиент" />

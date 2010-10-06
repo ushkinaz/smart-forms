@@ -8,6 +8,7 @@
     <projectSolutions>
       <solutionPath path="${project}/solutions/progress.smartforms.sandbox/progress.smartforms.sandbox.msd" />
       <solutionPath path="${project}/solutions/BaseSolution/BaseSolution.msd" folder="" />
+      <solutionPath path="${project}/solutions/SandBox/SandBox.msd" folder="" />
     </projectSolutions>
     <projectLanguages>
       <languagePath path="${project}/languages/smartforms/smartforms.mpl" />

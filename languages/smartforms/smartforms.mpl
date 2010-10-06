@@ -9,9 +9,7 @@
       <models>
         <modelRoot path="${language_descriptor}/generator/template" namespacePrefix="org.metaforms.forms.generator.template" />
       </models>
-      <external-templates>
-        <generator generatorUID="2941bdbe-7a0a-487b-8ae9-97d9eb89168d(org.metaforms.domain#64839312066685646)" />
-      </external-templates>
+      <external-templates />
       <dependencies>
         <dependency reexport="false">f9e8c623-2d16-4d6b-883c-0995df7b3bc3(org.metaforms.domain)</dependency>
       </dependencies>
@@ -27,6 +25,9 @@
   </generators>
   <stubModelEntries>
     <stubModelEntry path="${M2_REPO}/com/extjs/gxt/2.2.0/gxt-2.2.0.jar" include="false">
+      <manager moduleId="f3061a53-9226-4cc5-a443-f952ceaf5816" className="jetbrains.mps.baseLanguage.stubs.JavaStubs" />
+    </stubModelEntry>
+    <stubModelEntry path="${M2_REPO}/com/google/gwt/gwt-user/2.0.4/gwt-user-2.0.4.jar" include="false">
       <manager moduleId="f3061a53-9226-4cc5-a443-f952ceaf5816" className="jetbrains.mps.baseLanguage.stubs.JavaStubs" />
     </stubModelEntry>
   </stubModelEntries>

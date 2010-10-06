@@ -484,6 +484,8 @@
         <property name="text:32" value="метка" />
       </node>
       <node role="childCellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Property:32" id="838905236136930152">
+        <property name="allowEmptyText:32" value="true" />
+        <property name="emptyNoTargetText:32" value="true" />
         <link role="relationDeclaration:32" targetNodeId="1.7499027618783150636:13" resolveInfo="fieldLabel" />
       </node>
     </node>
@@ -510,6 +512,8 @@
         <property name="text:32" value="значение" />
       </node>
       <node role="childCellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Property:32" id="838905236136930174">
+        <property name="emptyNoTargetText:32" value="true" />
+        <property name="allowEmptyText:32" value="true" />
         <link role="relationDeclaration:32" targetNodeId="1.7499027618783578644:13" resolveInfo="value" />
       </node>
     </node>
@@ -523,7 +527,8 @@
         <property name="text:32" value="ширина" />
       </node>
       <node role="childCellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Property:32" id="838905236136930181">
-        <property name="noTargetText:32" value="100%" />
+        <property name="emptyNoTargetText:32" value="true" />
+        <property name="allowEmptyText:32" value="true" />
         <link role="relationDeclaration:32" targetNodeId="1.7499027618783150633:13" resolveInfo="width" />
       </node>
     </node>

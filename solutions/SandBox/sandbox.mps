@@ -21,8 +21,22 @@
     <property name="name:5" value="Общее" />
     <property name="id:5" value="Common" />
     <node role="field:5" type="org.metaforms.domain.structure.Field:5" id="1597384487797184905">
-      <property name="name:5" value="тф" />
+      <property name="name:5" value="Имя" />
       <property name="id:5" value="name" />
+    </node>
+  </node>
+  <node type="org.metaforms.forms.structure.Form:13" id="1597384487797204861">
+    <property name="id:13" value="Common" />
+    <property name="name:13" value="Общие форма" />
+    <node role="container:13" type="org.metaforms.forms.structure.FormPanel:13" id="1597384487797204865">
+      <node role="components:13" type="org.metaforms.forms.structure.TextField:13" id="1597384487797204867">
+        <node role="fieldReference:13" type="org.metaforms.domain.structure.FieldReference:5" id="1597384487797204868">
+          <link role="field:5" targetNodeId="1597384487797184905" resolveInfo="тф" />
+        </node>
+      </node>
+    </node>
+    <node role="documentReference:13" type="org.metaforms.domain.structure.DocumentReference:5" id="1597384487797204862">
+      <link role="document:5" targetNodeId="1597384487797184904" resolveInfo="Общее" />
     </node>
   </node>
 </model>

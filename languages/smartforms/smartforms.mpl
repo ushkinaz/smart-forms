@@ -35,6 +35,9 @@
     <stubModelEntry path="${M2_REPO}/com/extjs/gxt/2.2.0/gxt-2.2.0.jar" include="false">
       <manager moduleId="f3061a53-9226-4cc5-a443-f952ceaf5816" className="jetbrains.mps.baseLanguage.stubs.JavaStubs" />
     </stubModelEntry>
+    <stubModelEntry path="${M2_REPO}/com/google/gwt/gwt-user/2.0.4/gwt-user-2.0.4.jar" include="false">
+      <manager moduleId="f3061a53-9226-4cc5-a443-f952ceaf5816" className="jetbrains.mps.baseLanguage.stubs.JavaStubs" />
+    </stubModelEntry>
   </runtimeStubModels>
   <sourcePath />
   <usedDevKits>

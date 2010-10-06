@@ -13,6 +13,7 @@
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902db(jetbrains.mps.baseLanguage.blTypes.constraints)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590283(jetbrains.mps.lang.core.constraints)" version="2" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" />
+  <language-engaged-on-generation namespace="a92871fa-5f1a-445a-984b-c1a961bd4e82(org.metaforms.forms)" />
   <maxImportIndex value="2" />
   <import index="1" modelUID="r:13e76dfe-6970-4569-b286-57acd233ecf9(ScriptsLibrary)" version="-1" />
   <node type="org.metaforms.domain.structure.Document:5" id="1284901400154948311">
@@ -202,13 +203,6 @@
     <node role="field:5" type="org.metaforms.domain.structure.Field:5" id="1284901400154948338">
       <property name="id:5" value="CURWORKEXPM" />
       <property name="name:5" value="Стаж работы на данном предприятии (мес)" />
-    </node>
-  </node>
-  <node type="org.metaforms.domain.structure.CreditClass:5" id="1284901400154948339">
-    <property name="name:5" value="Просто деньги" />
-    <property name="id:5" value="JustMoney" />
-    <node role="documentReference:5" type="org.metaforms.domain.structure.DocumentReference:5" id="838905236136833363">
-      <link role="document:5" targetNodeId="1284901400154948311" resolveInfo="Калькулятор" />
     </node>
   </node>
 </model>

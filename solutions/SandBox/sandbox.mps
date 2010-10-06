@@ -24,6 +24,14 @@
       <property name="name:5" value="Имя" />
       <property name="id:5" value="name" />
     </node>
+    <node role="field:5" type="org.metaforms.domain.structure.Field:5" id="4331940832032835314">
+      <property name="name:5" value="Фамилия" />
+      <property name="id:5" value="LastName" />
+    </node>
+    <node role="field:5" type="org.metaforms.domain.structure.Field:5" id="4331940832032835315">
+      <property name="name:5" value="Отчество" />
+      <property name="id:5" value="MidName" />
+    </node>
   </node>
   <node type="org.metaforms.forms.structure.Form:13" id="1597384487797204861">
     <property name="id:13" value="Common" />

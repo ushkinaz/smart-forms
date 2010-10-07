@@ -37,24 +37,12 @@
     <property name="id:14" value="Common" />
     <property name="name:14" value="Общие форма" />
     <node role="container:14" type="org.metaforms.forms.structure.FormPanel:14" id="1597384487797204865">
-      <node role="components:14" type="org.metaforms.forms.structure.TextField:14" id="1597384487797204867">
-        <property name="id:14" value="wqeqeq" />
-        <property name="group:14" value="wqeqeqe" />
-        <node role="fieldReference:14" type="org.metaforms.domain.structure.FieldReference:5" id="1597384487797204868">
-          <link role="field:5" targetNodeId="1597384487797184905" resolveInfo="тф" />
+      <node role="components:14" type="org.metaforms.forms.structure.TextField:14" id="1842983950098506688">
+        <node role="fieldReference:14" type="org.metaforms.domain.structure.FieldReference:5" id="1842983950098517864">
+          <link role="field:5" targetNodeId="1597384487797184905" resolveInfo="Имя" />
         </node>
       </node>
-      <node role="components:14" type="org.metaforms.forms.structure.TextField:14" id="6340490712953353840">
-        <property name="id:14" value="qeqwe" />
-        <property name="group:14" value="qeqeqeqwe" />
-        <node role="fieldReference:14" type="org.metaforms.domain.structure.FieldReference:5" id="6340490712953361668">
-          <link role="field:5" targetNodeId="4331940832032835315" resolveInfo="Отчество" />
-        </node>
-      </node>
-      <node role="components:14" type="org.metaforms.forms.structure.TextField:14" id="6340490712953370254">
-        <property name="id:14" value="wwwww" />
-        <property name="group:14" value="qeqeqe" />
-      </node>
+      <node role="components:14" type="org.metaforms.forms.structure.TextField:14" id="1842983950098506691" />
     </node>
     <node role="documentReference:14" type="org.metaforms.domain.structure.DocumentReference:5" id="1597384487797204862">
       <link role="document:5" targetNodeId="1597384487797184904" resolveInfo="Общее" />

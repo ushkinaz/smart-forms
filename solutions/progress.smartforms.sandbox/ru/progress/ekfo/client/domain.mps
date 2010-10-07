@@ -23,6 +23,7 @@
       <property name="name:5" value="Филиал, код" />
       <property name="id:5" value="BranchCode" />
       <property name="alwaysReadonly:5" value="true" />
+      <property name="type:5" value="1" />
       <node role="scriptReference:5" type="org.metaforms.validation.structure.ValidationRuleReference:5" id="1284901400154948313">
         <link role="validationScript:5" targetNodeId="1.7691500841060569701" resolveInfo="&gt;=6символов" />
       </node>

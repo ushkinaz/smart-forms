@@ -353,7 +353,7 @@
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="7815177035767655224">
       <property name="metaClass:0" value="aggregation" />
       <property name="role:0" value="container" />
-      <property name="sourceCardinality:0" value="0..n" />
+      <property name="sourceCardinality:0" value="1" />
       <link role="target:0" targetNodeId="2925434448366525478:14" resolveInfo="IContainer" />
     </node>
     <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="7815177035767537414">

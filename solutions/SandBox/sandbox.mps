@@ -14,7 +14,7 @@
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902db(jetbrains.mps.baseLanguage.blTypes.constraints)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590283(jetbrains.mps.lang.core.constraints)" version="2" />
-  <languageAspect modelUID="r:92b29e2f-687a-493a-8fda-d17d20c1c1bb(org.metaforms.forms.structure)" version="13" />
+  <languageAspect modelUID="r:92b29e2f-687a-493a-8fda-d17d20c1c1bb(org.metaforms.forms.structure)" version="14" />
   <language-engaged-on-generation namespace="a92871fa-5f1a-445a-984b-c1a961bd4e82(org.metaforms.forms)" />
   <maxImportIndex value="0" />
   <node type="org.metaforms.domain.structure.Document:5" id="1597384487797184904">
@@ -33,17 +33,30 @@
       <property name="id:5" value="MidName" />
     </node>
   </node>
-  <node type="org.metaforms.forms.structure.Form:13" id="1597384487797204861">
-    <property name="id:13" value="Common" />
-    <property name="name:13" value="Общие форма" />
-    <node role="container:13" type="org.metaforms.forms.structure.FormPanel:13" id="1597384487797204865">
-      <node role="components:13" type="org.metaforms.forms.structure.TextField:13" id="1597384487797204867">
-        <node role="fieldReference:13" type="org.metaforms.domain.structure.FieldReference:5" id="1597384487797204868">
+  <node type="org.metaforms.forms.structure.Form:14" id="1597384487797204861">
+    <property name="id:14" value="Common" />
+    <property name="name:14" value="Общие форма" />
+    <node role="container:14" type="org.metaforms.forms.structure.FormPanel:14" id="1597384487797204865">
+      <node role="components:14" type="org.metaforms.forms.structure.TextField:14" id="1597384487797204867">
+        <property name="id:14" value="wqeqeq" />
+        <property name="group:14" value="wqeqeqe" />
+        <node role="fieldReference:14" type="org.metaforms.domain.structure.FieldReference:5" id="1597384487797204868">
           <link role="field:5" targetNodeId="1597384487797184905" resolveInfo="тф" />
         </node>
       </node>
+      <node role="components:14" type="org.metaforms.forms.structure.TextField:14" id="6340490712953353840">
+        <property name="id:14" value="qeqwe" />
+        <property name="group:14" value="qeqeqeqwe" />
+        <node role="fieldReference:14" type="org.metaforms.domain.structure.FieldReference:5" id="6340490712953361668">
+          <link role="field:5" targetNodeId="4331940832032835315" resolveInfo="Отчество" />
+        </node>
+      </node>
+      <node role="components:14" type="org.metaforms.forms.structure.TextField:14" id="6340490712953370254">
+        <property name="id:14" value="wwwww" />
+        <property name="group:14" value="qeqeqe" />
+      </node>
     </node>
-    <node role="documentReference:13" type="org.metaforms.domain.structure.DocumentReference:5" id="1597384487797204862">
+    <node role="documentReference:14" type="org.metaforms.domain.structure.DocumentReference:5" id="1597384487797204862">
       <link role="document:5" targetNodeId="1597384487797184904" resolveInfo="Общее" />
     </node>
   </node>

@@ -47,16 +47,40 @@
   <node type="org.metaforms.forms.structure.Form:15" id="1597384487797204861">
     <property name="id:15" value="Common" />
     <property name="name:15" value="Общие данные" />
-    <node role="container:15" type="org.metaforms.forms.structure.FormPanel:15" id="1597384487797204865">
-      <node role="components:15" type="org.metaforms.forms.structure.TextField:15" id="6744709490419531556">
-        <property name="id:15" value="ss" />
-        <node role="fieldReference:15" type="org.metaforms.domain.structure.FieldReference:5" id="6744709490419543958">
+    <node role="documentReference:15" type="org.metaforms.domain.structure.DocumentReference:5" id="1597384487797204862">
+      <link role="document:5" targetNodeId="1597384487797184904" resolveInfo="Общее" />
+    </node>
+    <node role="container:15" type="org.metaforms.forms.structure.FormPanel:15" id="6744709490419583424">
+      <node role="components:15" type="org.metaforms.forms.structure.TextField:15" id="6744709490419583425">
+        <property name="fieldLabel:15" value="Имя" />
+        <node role="fieldReference:15" type="org.metaforms.domain.structure.FieldReference:5" id="6744709490419583426">
+          <link role="field:5" targetNodeId="1597384487797184905" resolveInfo="Имя" />
+        </node>
+      </node>
+      <node role="components:15" type="org.metaforms.forms.structure.TextField:15" id="6744709490419583427">
+        <property name="fieldLabel:15" value="Фамилия" />
+        <node role="fieldReference:15" type="org.metaforms.domain.structure.FieldReference:5" id="6744709490419583428">
+          <link role="field:5" targetNodeId="4331940832032835314" resolveInfo="Фамилия" />
+        </node>
+      </node>
+      <node role="components:15" type="org.metaforms.forms.structure.TextField:15" id="6744709490419583429">
+        <property name="fieldLabel:15" value="Отчество" />
+        <node role="fieldReference:15" type="org.metaforms.domain.structure.FieldReference:5" id="6744709490419583430">
+          <link role="field:5" targetNodeId="4331940832032835315" resolveInfo="Отчество" />
+        </node>
+      </node>
+      <node role="components:15" type="org.metaforms.forms.structure.TextField:15" id="6744709490419583431">
+        <property name="fieldLabel:15" value="Пол" />
+        <node role="fieldReference:15" type="org.metaforms.domain.structure.FieldReference:5" id="6744709490419583432">
+          <link role="field:5" targetNodeId="6744709490419531551" resolveInfo="Пол" />
+        </node>
+      </node>
+      <node role="components:15" type="org.metaforms.forms.structure.TextField:15" id="6744709490419583433">
+        <property name="fieldLabel:15" value="Военный билет" />
+        <node role="fieldReference:15" type="org.metaforms.domain.structure.FieldReference:5" id="6744709490419583434">
           <link role="field:5" targetNodeId="6744709490419531552" resolveInfo="Военный билет" />
         </node>
       </node>
-    </node>
-    <node role="documentReference:15" type="org.metaforms.domain.structure.DocumentReference:5" id="1597384487797204862">
-      <link role="document:5" targetNodeId="1597384487797184904" resolveInfo="Общее" />
     </node>
   </node>
   <node type="org.metaforms.domain.structure.Document:5" id="6744709490419531547">

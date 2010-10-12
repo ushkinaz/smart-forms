@@ -46,7 +46,7 @@
     <node role="cellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Collection:32" id="6836185784875041983">
       <node role="cellLayout:32" type="jetbrains.mps.lang.editor.structure.CellLayout_Indent:32" id="6836185784875041984" />
       <node role="childCellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Constant:32" id="6836185784875164430">
-        <property name="text:32" value="Form" />
+        <property name="text:32" value="Форма" />
       </node>
       <node role="childCellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Component:32" id="838905236136908365">
         <link role="editorComponent:32" targetNodeId="2v.627290435249133604" resolveInfo="IDEditor" />
@@ -59,7 +59,7 @@
         </node>
       </node>
       <node role="childCellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Constant:32" id="1276781321238783741">
-        <property name="text:32" value="doc" />
+        <property name="text:32" value="документ" />
         <node role="styleItem:32" type="jetbrains.mps.lang.editor.structure.IndentLayoutIndentStyleClassItem:32" id="1842983950098510620">
           <property name="flag:32" value="true" />
         </node>

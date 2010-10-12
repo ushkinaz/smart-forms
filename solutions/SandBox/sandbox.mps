@@ -14,9 +14,10 @@
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902db(jetbrains.mps.baseLanguage.blTypes.constraints)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590283(jetbrains.mps.lang.core.constraints)" version="2" />
-  <languageAspect modelUID="r:92b29e2f-687a-493a-8fda-d17d20c1c1bb(org.metaforms.forms.structure)" version="14" />
+  <languageAspect modelUID="r:92b29e2f-687a-493a-8fda-d17d20c1c1bb(org.metaforms.forms.structure)" version="15" />
   <language-engaged-on-generation namespace="a92871fa-5f1a-445a-984b-c1a961bd4e82(org.metaforms.forms)" />
-  <maxImportIndex value="0" />
+  <maxImportIndex value="1" />
+  <import index="1" modelUID="r:13e76dfe-6970-4569-b286-57acd233ecf9(ScriptsLibrary)" version="-1" />
   <node type="org.metaforms.domain.structure.Document:5" id="1597384487797184904">
     <property name="name:5" value="Общее" />
     <property name="id:5" value="Common" />
@@ -32,20 +33,46 @@
       <property name="name:5" value="Отчество" />
       <property name="id:5" value="MidName" />
     </node>
+    <node role="field:5" type="org.metaforms.domain.structure.Field:5" id="6744709490419531551">
+      <property name="name:5" value="Пол" />
+      <property name="id:5" value="Sex" />
+      <property name="type:5" value="5" />
+    </node>
+    <node role="field:5" type="org.metaforms.domain.structure.Field:5" id="6744709490419531552">
+      <property name="name:5" value="Военный билет" />
+      <property name="id:5" value="MilitaryPassport" />
+      <property name="type:5" value="1" />
+    </node>
   </node>
-  <node type="org.metaforms.forms.structure.Form:14" id="1597384487797204861">
-    <property name="id:14" value="Common" />
-    <property name="name:14" value="Общие форма" />
-    <node role="container:14" type="org.metaforms.forms.structure.FormPanel:14" id="1597384487797204865">
-      <node role="components:14" type="org.metaforms.forms.structure.TextField:14" id="1842983950098506688">
-        <node role="fieldReference:14" type="org.metaforms.domain.structure.FieldReference:5" id="1842983950098517864">
-          <link role="field:5" targetNodeId="1597384487797184905" resolveInfo="Имя" />
+  <node type="org.metaforms.forms.structure.Form:15" id="1597384487797204861">
+    <property name="id:15" value="Common" />
+    <property name="name:15" value="Общие данные" />
+    <node role="container:15" type="org.metaforms.forms.structure.FormPanel:15" id="1597384487797204865">
+      <node role="components:15" type="org.metaforms.forms.structure.TextField:15" id="6744709490419531556">
+        <property name="id:15" value="ss" />
+        <node role="fieldReference:15" type="org.metaforms.domain.structure.FieldReference:5" id="6744709490419543958">
+          <link role="field:5" targetNodeId="6744709490419531552" resolveInfo="Военный билет" />
         </node>
       </node>
-      <node role="components:14" type="org.metaforms.forms.structure.TextField:14" id="1842983950098506691" />
     </node>
-    <node role="documentReference:14" type="org.metaforms.domain.structure.DocumentReference:5" id="1597384487797204862">
+    <node role="documentReference:15" type="org.metaforms.domain.structure.DocumentReference:5" id="1597384487797204862">
       <link role="document:5" targetNodeId="1597384487797184904" resolveInfo="Общее" />
+    </node>
+  </node>
+  <node type="org.metaforms.domain.structure.Document:5" id="6744709490419531547">
+    <property name="name:5" value="Адрес" />
+    <property name="id:5" value="Adress" />
+    <node role="field:5" type="org.metaforms.domain.structure.Field:5" id="6744709490419531548">
+      <property name="name:5" value="Город" />
+      <property name="id:5" value="City" />
+    </node>
+    <node role="field:5" type="org.metaforms.domain.structure.Field:5" id="6744709490419531549">
+      <property name="name:5" value="Страна" />
+      <property name="id:5" value="Country" />
+    </node>
+    <node role="field:5" type="org.metaforms.domain.structure.Field:5" id="6744709490419531550">
+      <property name="name:5" value="Улица" />
+      <property name="id:5" value="Street" />
     </node>
   </node>
 </model>

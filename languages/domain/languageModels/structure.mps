@@ -97,6 +97,7 @@
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="5148616895979971666">
     <property name="name:0" value="CreditClass" />
     <property name="rootable:0" value="true" />
+    <property name="iconPath:0" value="C:/Workspace/smart-forms/images/money.png" />
     <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="5148616895979972065">
       <property name="metaClass:0" value="aggregation" />
@@ -118,6 +119,7 @@
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="5148616895979972052">
     <property name="name:0" value="Document" />
     <property name="rootable:0" value="true" />
+    <property name="iconPath:0" value="C:/Workspace/smart-forms/images/book.png" />
     <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
     <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="1955157615230813791">
       <property name="value:0" value="Документ, часть заявки" />

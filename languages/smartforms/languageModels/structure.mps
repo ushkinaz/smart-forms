@@ -362,6 +362,14 @@
     <property name="rootable:0" value="true" />
     <property name="iconPath:0" value="${IMAGES_DIR}/application_form.png" />
     <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
+    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="2576874478386449236">
+      <property name="value:0" value="Форма для отображения данных из документа" />
+      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473914776:0" resolveInfo="shortDescription" />
+    </node>
+    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="2576874478386449238">
+      <property name="value:0" value="Форма" />
+      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473891462:0" resolveInfo="alias" />
+    </node>
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="7815177035767655224">
       <property name="metaClass:0" value="aggregation" />
       <property name="role:0" value="container" />
@@ -427,6 +435,7 @@
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7815177035769736366">
     <property name="name:0" value="TextField" />
+    <property name="iconPath:0" value="${IMAGES_DIR}/pencil.png" />
     <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
     <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="6744709490419531562">
       <link role="intfc:0" targetNodeId="6744709490419469337:15" resolveInfo="HasBinding" />
@@ -446,6 +455,10 @@
     <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="35224891275428938">
       <property name="value:0" value="Текстовое поле" />
       <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473914776:0" resolveInfo="shortDescription" />
+    </node>
+    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="2576874478386414436">
+      <property name="value:0" value="Текст" />
+      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473891462:0" resolveInfo="alias" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration:0" id="7815177035770464302">
@@ -476,6 +489,7 @@
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7499027618783150629">
     <property name="name:0" value="DateField" />
+    <property name="iconPath:0" value="${IMAGES_DIR}/date.png" />
     <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
     <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="6744709490419531570">
       <link role="intfc:0" targetNodeId="6744709490419469337:15" resolveInfo="HasBinding" />
@@ -492,6 +506,10 @@
     <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="7499027618783150662">
       <property name="value:0" value="Предназначен для работы с полями типа &quot;Дата и Время&quot;" />
       <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473914776:0" resolveInfo="shortDescription" />
+    </node>
+    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="2576874478386419018">
+      <property name="value:0" value="Дата" />
+      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473891462:0" resolveInfo="alias" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration:0" id="7499027618783150631">
@@ -556,11 +574,11 @@
     <link role="memberDataType:0" targetNodeId="2v.1082983041843:0" resolveInfo="string" />
     <node role="member:0" type="jetbrains.mps.lang.structure.structure.EnumerationMemberDeclaration:0" id="7499027618783578676">
       <property name="internalValue:0" value="horizontal" />
-      <property name="externalValue:0" value="horizontal" />
+      <property name="externalValue:0" value="горизонтальная" />
     </node>
     <node role="member:0" type="jetbrains.mps.lang.structure.structure.EnumerationMemberDeclaration:0" id="7499027618783578673">
       <property name="internalValue:0" value="vertical" />
-      <property name="externalValue:0" value="vertical" />
+      <property name="externalValue:0" value="вертикальная" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration:0" id="4921122046318753339">

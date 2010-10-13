@@ -159,22 +159,10 @@
     <link role="conceptDeclaration:32" targetNodeId="1.7815177035769736366:15" resolveInfo="TextField" />
     <node role="cellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Collection:32" id="35224891275428941">
       <node role="childCellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Constant:32" id="35224891275428962">
-        <property name="text:32" value="TextField" />
-      </node>
-      <node role="childCellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Component:32" id="7691500841060797740">
-        <link role="editorComponent:32" targetNodeId="7691500841060791957" resolveInfo="FormComponentEditor" />
+        <property name="text:32" value="Текст" />
       </node>
       <node role="childCellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Component:32" id="6744709490419531564">
         <link role="editorComponent:32" targetNodeId="6744709490419469344" resolveInfo="BindingEditor" />
-      </node>
-      <node role="childCellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Component:32" id="838905236136942299">
-        <link role="editorComponent:32" targetNodeId="838905236136930145" resolveInfo="LabelEditor" />
-      </node>
-      <node role="childCellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Component:32" id="838905236136942301">
-        <link role="editorComponent:32" targetNodeId="838905236136930175" resolveInfo="WidthEditor" />
-      </node>
-      <node role="childCellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Component:32" id="838905236136942303">
-        <link role="editorComponent:32" targetNodeId="838905236136930167" resolveInfo="ValueEditor" />
       </node>
       <node role="cellLayout:32" type="jetbrains.mps.lang.editor.structure.CellLayout_Horizontal:32" id="35224891275428958" />
     </node>
@@ -520,6 +508,7 @@
         <property name="text:32" value="поле" />
       </node>
       <node role="childCellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_RefCell:32" id="6744709490419469350">
+        <property name="attractsFocus:32" value="3" />
         <link role="relationDeclaration:32" targetNodeId="1.6744709490419469338:15" />
         <node role="editorComponent:32" type="jetbrains.mps.lang.editor.structure.InlineEditorComponent:32" id="6744709490419469351">
           <node role="cellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_RefCell:32" id="6744709490419469353">

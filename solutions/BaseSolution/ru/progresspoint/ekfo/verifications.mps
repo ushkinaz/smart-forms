@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model modelUID="r:13e76dfe-6970-4569-b286-57acd233ecf9(ScriptsLibrary)">
+<model modelUID="r:13e76dfe-6970-4569-b286-57acd233ecf9(ru.progresspoint.ekfo.verifications)">
   <persistence version="4" />
   <refactoringHistory />
   <language namespace="48a33425-09d8-44e7-a033-40f4b94a2085(org.metaforms.validation)" />

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model modelUID="r:501c2957-2d3c-41bd-a673-5000b1e5f92d(sandbox)">
+<model modelUID="r:501c2957-2d3c-41bd-a673-5000b1e5f92d(ru.progresspoint.ekfo.sandbox)">
   <persistence version="4" />
   <refactoringHistory />
   <language namespace="f9e8c623-2d16-4d6b-883c-0995df7b3bc3(org.metaforms.domain)" />
@@ -17,11 +17,10 @@
   <languageAspect modelUID="r:92b29e2f-687a-493a-8fda-d17d20c1c1bb(org.metaforms.forms.structure)" version="15" />
   <language-engaged-on-generation namespace="a92871fa-5f1a-445a-984b-c1a961bd4e82(org.metaforms.forms)" />
   <maxImportIndex value="1" />
-  <import index="1" modelUID="r:13e76dfe-6970-4569-b286-57acd233ecf9(ScriptsLibrary)" version="-1" />
+  <import index="1" modelUID="r:13e76dfe-6970-4569-b286-57acd233ecf9(ru.progresspoint.ekfo.verifications)" version="-1" />
   <node type="org.metaforms.domain.structure.Document:5" id="1597384487797184904">
     <property name="name:5" value="Общее" />
     <property name="id:5" value="Common" />
-    <property name="package:5" value="ru.progresspoint.rosbank.ekfo" />
     <node role="field:5" type="org.metaforms.domain.structure.Field:5" id="1597384487797184905">
       <property name="name:5" value="Имя" />
       <property name="id:5" value="name" />
@@ -54,7 +53,6 @@
   <node type="org.metaforms.forms.structure.Form:15" id="1597384487797204861">
     <property name="id:15" value="Common" />
     <property name="name:15" value="Общие данные" />
-    <property name="package:15" value="ru.progresspoint.rosbank.ekfo" />
     <node role="documentReference:15" type="org.metaforms.domain.structure.DocumentReference:5" id="1597384487797204862">
       <link role="document:5" targetNodeId="1597384487797184904" resolveInfo="Общее" />
     </node>
@@ -118,7 +116,6 @@
   <node type="org.metaforms.domain.structure.Document:5" id="6744709490419531547">
     <property name="name:5" value="Адрес" />
     <property name="id:5" value="Adress" />
-    <property name="package:5" value="ru.progresspoint.rosbank.ekfo" />
     <node role="field:5" type="org.metaforms.domain.structure.Field:5" id="6744709490419531548">
       <property name="name:5" value="Город" />
       <property name="id:5" value="City" />
@@ -135,7 +132,6 @@
   <node type="org.metaforms.forms.structure.Form:15" id="2576874478386423644">
     <property name="name:15" value="Общее" />
     <property name="id:15" value="CommonForm" />
-    <property name="package:15" value="ru.progresspoint.rosbank.ekfo" />
     <node role="documentReference:15" type="org.metaforms.domain.structure.DocumentReference:5" id="2576874478386423646">
       <link role="document:5" targetNodeId="1597384487797184904" resolveInfo="Общее" />
     </node>
@@ -171,10 +167,6 @@
         </node>
       </node>
     </node>
-  </node>
-  <node type="org.metaforms.domain.structure.Document:5" id="6744709490419686128">
-    <property name="package:5" value="ru.progresspoint.rosbank.ekfo" />
-    <node role="field:5" type="org.metaforms.domain.structure.Field:5" id="6744709490419686129" />
   </node>
 </model>
 

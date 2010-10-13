@@ -32,6 +32,7 @@
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902ae(jetbrains.mps.lang.typesystem.constraints)" version="17" />
   <languageAspect modelUID="r:9130804a-d65a-4c68-b2c1-a4462321c3a0(org.metaforms.domain.structure)" version="5" />
   <languageAspect modelUID="r:7c7d38bb-f8c2-4f6d-8b0f-734a72486381(org.metaforms.validation.structure)" version="5" />
+  <languageAspect modelUID="r:2362edb2-aad2-40b0-8f6a-16ff64481378(org.metaforms.domain.constraints)" version="0" />
   <devkit namespace="2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)" />
   <maxImportIndex value="1" />
   <import index="1" modelUID="r:9130804a-d65a-4c68-b2c1-a4462321c3a0(org.metaforms.domain.structure)" version="5" />
@@ -74,7 +75,6 @@
   <node type="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration:32" id="5148616895979972071">
     <link role="conceptDeclaration:32" targetNodeId="1.5148616895979972054:5" resolveInfo="Field" />
     <node role="cellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Collection:32" id="5148616895980021733">
-      <property name="usesFolding:32" value="true" />
       <node role="cellLayout:32" type="jetbrains.mps.lang.editor.structure.CellLayout_Vertical:32" id="5148616895980021734" />
       <node role="childCellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Collection:32" id="5148616895980021742">
         <node role="cellLayout:32" type="jetbrains.mps.lang.editor.structure.CellLayout_Horizontal:32" id="5148616895980021743" />
@@ -90,6 +90,7 @@
         <node role="cellLayout:32" type="jetbrains.mps.lang.editor.structure.CellLayout_Horizontal:32" id="5148616895980023388" />
         <node role="childCellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Indent:32" id="5148616895980023389" />
         <node role="childCellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Collection:32" id="5148616895980023396">
+          <property name="usesFolding:32" value="true" />
           <node role="cellLayout:32" type="jetbrains.mps.lang.editor.structure.CellLayout_Vertical:32" id="5148616895980023397" />
           <node role="childCellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Collection:32" id="5148616895980023402">
             <node role="cellLayout:32" type="jetbrains.mps.lang.editor.structure.CellLayout_Horizontal:32" id="5148616895980023403" />
@@ -141,6 +142,16 @@
                   </node>
                 </node>
               </node>
+            </node>
+          </node>
+          <node role="childCellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Collection:32" id="6744709490420008745">
+            <node role="cellLayout:32" type="jetbrains.mps.lang.editor.structure.CellLayout_Horizontal:32" id="6744709490420008746" />
+            <node role="childCellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Constant:32" id="6744709490420008747">
+              <property name="text:32" value="комментарий" />
+            </node>
+            <node role="childCellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Property:32" id="6744709490420008748">
+              <property name="allowEmptyText:32" value="true" />
+              <link role="relationDeclaration:32" targetNodeId="1.6744709490420008742:5" resolveInfo="comment" />
             </node>
           </node>
         </node>

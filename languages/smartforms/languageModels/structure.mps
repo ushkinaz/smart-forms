@@ -353,6 +353,7 @@
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590328(jetbrains.mps.baseLanguage.collections.constraints)" version="6" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902c1(jetbrains.mps.baseLanguage.constraints)" version="83" />
   <languageAspect modelUID="r:9130804a-d65a-4c68-b2c1-a4462321c3a0(org.metaforms.domain.structure)" version="5" />
+  <languageAspect modelUID="r:2362edb2-aad2-40b0-8f6a-16ff64481378(org.metaforms.domain.constraints)" version="0" />
   <devkit namespace="2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)" />
   <maxImportIndex value="1" />
   <visible index="2" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
@@ -392,6 +393,7 @@
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7815177035767655221">
     <property name="name:0" value="FormPanel" />
     <property name="rootable:0" value="false" />
+    <property name="package:0" value="widgets" />
     <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
     <node role="propertyDeclaration:0" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration:0" id="7499027618783150677">
       <property name="name:0" value="frame" />
@@ -414,6 +416,7 @@
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7815177035769424733">
     <property name="name:0" value="TablePanel" />
     <property name="rootable:0" value="false" />
+    <property name="package:0" value="widgets" />
     <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
     <node role="propertyDeclaration:0" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration:0" id="4921122046319089424">
       <property name="name:0" value="columns" />
@@ -436,6 +439,7 @@
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7815177035769736366">
     <property name="name:0" value="TextField" />
     <property name="iconPath:0" value="${IMAGES_DIR}/pencil.png" />
+    <property name="package:0" value="widgets" />
     <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
     <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="6744709490419531562">
       <link role="intfc:0" targetNodeId="6744709490419469337:15" resolveInfo="HasBinding" />
@@ -490,6 +494,7 @@
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7499027618783150629">
     <property name="name:0" value="DateField" />
     <property name="iconPath:0" value="${IMAGES_DIR}/date.png" />
+    <property name="package:0" value="widgets" />
     <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
     <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="6744709490419531570">
       <link role="intfc:0" targetNodeId="6744709490419469337:15" resolveInfo="HasBinding" />
@@ -521,6 +526,7 @@
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7499027618783578638">
     <property name="name:0" value="LabelField" />
+    <property name="package:0" value="widgets" />
     <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
     <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="7499027618783578640">
       <link role="intfc:0" targetNodeId="7499027618783150613:15" resolveInfo="IFormComponent" />
@@ -546,6 +552,7 @@
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7499027618783578669">
     <property name="name:0" value="MultiField" />
     <property name="rootable:0" value="false" />
+    <property name="package:0" value="widgets" />
     <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="7499027618783578683">
       <property name="metaClass:0" value="aggregation" />
@@ -571,6 +578,7 @@
     <property name="name:0" value="OrientationEnum" />
     <property name="hasNoDefaultMember:0" value="false" />
     <property name="memberIdentifierPolicy:0" value="derive_from_presentation" />
+    <property name="package:0" value="widgets" />
     <link role="memberDataType:0" targetNodeId="2v.1082983041843:0" resolveInfo="string" />
     <node role="member:0" type="jetbrains.mps.lang.structure.structure.EnumerationMemberDeclaration:0" id="7499027618783578676">
       <property name="internalValue:0" value="horizontal" />
@@ -590,6 +598,7 @@
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="4921122046318977169">
     <property name="name:0" value="RadioGroup" />
+    <property name="package:0" value="widgets" />
     <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
     <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="6744709490419531579">
       <link role="intfc:0" targetNodeId="6744709490419469337:15" resolveInfo="HasBinding" />
@@ -610,6 +619,7 @@
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="4921122046319089396">
     <property name="name:0" value="TabItem" />
+    <property name="package:0" value="widgets" />
     <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
     <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="4921122046319089397">
       <property name="value:0" value="Закладка, всегда должен быть дочерним элементу типа TabPanel" />
@@ -625,6 +635,7 @@
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="35224891275220207">
     <property name="name:0" value="TabPanel" />
     <property name="rootable:0" value="false" />
+    <property name="package:0" value="widgets" />
     <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="35224891275220209">
       <property name="metaClass:0" value="aggregation" />
@@ -642,6 +653,7 @@
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="35224891275428963">
     <property name="name:0" value="TriggerField" />
+    <property name="package:0" value="widgets" />
     <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
     <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="35224891275428964">
       <property name="value:0" value="Поле выбора из списка значений" />
@@ -665,6 +677,7 @@
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="35224891275429001">
     <property name="name:0" value="CheckBoxGroup" />
+    <property name="package:0" value="widgets" />
     <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="35224891275546199">
       <property name="metaClass:0" value="aggregation" />
@@ -695,6 +708,7 @@
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="35224891275546181">
     <property name="name:0" value="CheckBoxItem" />
+    <property name="package:0" value="widgets" />
     <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
     <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="35224891275546185">
       <link role="intfc:0" targetNodeId="7499027618783150624:15" resolveInfo="HasLabel" />
@@ -709,6 +723,7 @@
   </node>
   <node type="jetbrains.mps.lang.structure.structure.EnumerationDataTypeDeclaration:0" id="35224891275546254">
     <property name="name:0" value="RegionEnum" />
+    <property name="package:0" value="widgets" />
     <link role="memberDataType:0" targetNodeId="2v.1082983041843:0" resolveInfo="string" />
     <node role="member:0" type="jetbrains.mps.lang.structure.structure.EnumerationMemberDeclaration:0" id="35224891275546255">
       <property name="internalValue:0" value="north" />
@@ -734,6 +749,7 @@
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="35224891275546284">
     <property name="name:0" value="ContentPanel" />
     <property name="rootable:0" value="false" />
+    <property name="package:0" value="widgets" />
     <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
     <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="35224891275546285">
       <link role="intfc:0" targetNodeId="7815177035770464302:15" resolveInfo="HasChildren" />

@@ -360,8 +360,7 @@
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7815177035767537410">
     <property name="name:0" value="Form" />
     <property name="rootable:0" value="true" />
-    <property name="iconPath:0" value="C:/Workspace/smart-forms/images/application_form.png" />
-    <property name="helpURL:0" value="http://www.google.com.tw/" />
+    <property name="iconPath:0" value="${IMAGES_DIR}/application_form.png" />
     <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="7815177035767655224">
       <property name="metaClass:0" value="aggregation" />

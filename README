@@ -1,2 +1,12 @@
 Framework for defining and working on domain languages.
 
+MPS needs to have 2 path variables defined
+
+M2_REPO = location of maven repository (D:/.m2/repository)
+IMAGES_DIR = icons for concepts (C:/Workspace/smart-forms/images)
+
+Currently, M2_REPO is used for referencing used java libs:
+${M2_REPO}/org/hibernate/hibernate-annotations/3.4.0.GA/hibernate-annotations-3.4.0.GA.jar
+${M2_REPO}/com/extjs/gxt/2.2.0/gxt-2.2.0.jar
+
+

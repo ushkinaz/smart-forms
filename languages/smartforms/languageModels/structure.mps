@@ -360,7 +360,7 @@
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7815177035767537410">
     <property name="name:0" value="Form" />
     <property name="rootable:0" value="true" />
-    <property name="iconPath:0" value="${IMAGES_DIR}/application_form.png" />
+    <property name="iconPath:0" value="${IMAGES_DIR}/application-form.png" />
     <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
     <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="2576874478386449236">
       <property name="value:0" value="Форма для отображения данных из документа" />
@@ -393,6 +393,7 @@
     <property name="name:0" value="FormPanel" />
     <property name="rootable:0" value="false" />
     <property name="package:0" value="widgets" />
+    <property name="iconPath:0" value="${IMAGES_DIR}/application-form.png" />
     <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
     <node role="propertyDeclaration:0" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration:0" id="7499027618783150677">
       <property name="name:0" value="frame" />
@@ -408,14 +409,19 @@
       <link role="intfc:0" targetNodeId="7499027618783150613:15" resolveInfo="IFormComponent" />
     </node>
     <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="7499027618783150685">
-      <property name="value:0" value="Используется для разметки полей, только на FormPanel отображаются FieldLabel" />
+      <property name="value:0" value="Разметка полей для формы" />
       <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473914776:0" resolveInfo="shortDescription" />
+    </node>
+    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="6631949233781302778">
+      <property name="value:0" value="Панель формы" />
+      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473891462:0" resolveInfo="alias" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7815177035769424733">
     <property name="name:0" value="TablePanel" />
     <property name="rootable:0" value="false" />
     <property name="package:0" value="widgets" />
+    <property name="iconPath:0" value="${IMAGES_DIR}/table.png" />
     <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
     <node role="propertyDeclaration:0" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration:0" id="4921122046319089424">
       <property name="name:0" value="columns" />
@@ -434,10 +440,14 @@
       <property name="value:0" value="Контейнер с табличной разметкой" />
       <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473914776:0" resolveInfo="shortDescription" />
     </node>
+    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="6631949233781302788">
+      <property name="value:0" value="Таблица" />
+      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473891462:0" resolveInfo="alias" />
+    </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7815177035769736366">
     <property name="name:0" value="TextField" />
-    <property name="iconPath:0" value="${IMAGES_DIR}/pencil.png" />
+    <property name="iconPath:0" value="${IMAGES_DIR}/ui-text-field.png" />
     <property name="package:0" value="widgets" />
     <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
     <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="6744709490419531562">
@@ -492,7 +502,7 @@
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7499027618783150629">
     <property name="name:0" value="DateField" />
-    <property name="iconPath:0" value="${IMAGES_DIR}/date.png" />
+    <property name="iconPath:0" value="${IMAGES_DIR}/ui-combo-box-calendar.png" />
     <property name="package:0" value="widgets" />
     <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
     <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="6744709490419531570">
@@ -508,7 +518,7 @@
       <link role="intfc:0" targetNodeId="7499027618783150613:15" resolveInfo="IFormComponent" />
     </node>
     <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="7499027618783150662">
-      <property name="value:0" value="Предназначен для работы с полями типа &quot;Дата и Время&quot;" />
+      <property name="value:0" value="&quot;Дата&quot; или &quot;Время&quot;" />
       <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473914776:0" resolveInfo="shortDescription" />
     </node>
     <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="2576874478386419018">
@@ -526,6 +536,7 @@
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7499027618783578638">
     <property name="name:0" value="LabelField" />
     <property name="package:0" value="widgets" />
+    <property name="iconPath:0" value="${IMAGES_DIR}/ui-label.png" />
     <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
     <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="7499027618783578640">
       <link role="intfc:0" targetNodeId="7499027618783150613:15" resolveInfo="IFormComponent" />
@@ -540,6 +551,10 @@
       <property name="value:0" value="Статичный текст" />
       <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473914776:0" resolveInfo="shortDescription" />
     </node>
+    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="6631949233781262367">
+      <property name="value:0" value="Метка" />
+      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473891462:0" resolveInfo="alias" />
+    </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration:0" id="7499027618783578642">
     <property name="name:0" value="HasValue" />
@@ -552,6 +567,7 @@
     <property name="name:0" value="MultiField" />
     <property name="rootable:0" value="false" />
     <property name="package:0" value="widgets" />
+    <property name="iconPath:0" value="${IMAGES_DIR}/ui-group-box.png" />
     <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="7499027618783578683">
       <property name="metaClass:0" value="aggregation" />
@@ -569,8 +585,12 @@
       <link role="intfc:0" targetNodeId="7499027618783150613:15" resolveInfo="IFormComponent" />
     </node>
     <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="4921122046319426690">
-      <property name="value:0" value="Используется для объединения нескольких полей" />
+      <property name="value:0" value="Объединение нескольких полей" />
       <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473914776:0" resolveInfo="shortDescription" />
+    </node>
+    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="6631949233781302780">
+      <property name="value:0" value="Группа полей" />
+      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473891462:0" resolveInfo="alias" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.EnumerationDataTypeDeclaration:0" id="7499027618783578672">
@@ -598,6 +618,7 @@
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="4921122046318977169">
     <property name="name:0" value="RadioGroup" />
     <property name="package:0" value="widgets" />
+    <property name="iconPath:0" value="${IMAGES_DIR}/ui-radio-buttons.png" />
     <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
     <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="6744709490419531579">
       <link role="intfc:0" targetNodeId="6744709490419469337:15" resolveInfo="HasBinding" />
@@ -615,14 +636,23 @@
       <property name="value:0" value="Поле выбора одного варианта" />
       <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473914776:0" resolveInfo="shortDescription" />
     </node>
+    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="6631949233781302782">
+      <property name="value:0" value="Выбор" />
+      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473891462:0" resolveInfo="alias" />
+    </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="4921122046319089396">
     <property name="name:0" value="TabItem" />
     <property name="package:0" value="widgets" />
+    <property name="iconPath:0" value="${IMAGES_DIR}/ui-tab.png" />
     <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
     <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="4921122046319089397">
-      <property name="value:0" value="Закладка, всегда должен быть дочерним элементу типа TabPanel" />
+      <property name="value:0" value="Закладка" />
       <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473914776:0" resolveInfo="shortDescription" />
+    </node>
+    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="6631949233781302784">
+      <property name="value:0" value="Закладка" />
+      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473891462:0" resolveInfo="alias" />
     </node>
     <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="35224891275099089">
       <link role="intfc:0" targetNodeId="7815177035770464302:15" resolveInfo="HasChildren" />
@@ -635,6 +665,7 @@
     <property name="name:0" value="TabPanel" />
     <property name="rootable:0" value="false" />
     <property name="package:0" value="widgets" />
+    <property name="iconPath:0" value="${IMAGES_DIR}/ui-tab-content.png" />
     <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="35224891275220209">
       <property name="metaClass:0" value="aggregation" />
@@ -643,8 +674,12 @@
       <link role="target:0" targetNodeId="4921122046319089396:15" resolveInfo="TabItem" />
     </node>
     <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="35224891275220210">
-      <property name="value:0" value="Объединение закладок, дочерними элементами могут быть только TabItem" />
+      <property name="value:0" value="Объединение закладок" />
       <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473914776:0" resolveInfo="shortDescription" />
+    </node>
+    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="6631949233781302786">
+      <property name="value:0" value="Панель закладок" />
+      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473891462:0" resolveInfo="alias" />
     </node>
     <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="1786812136902730005">
       <link role="intfc:0" targetNodeId="7499027618783150613:15" resolveInfo="IFormComponent" />
@@ -653,10 +688,15 @@
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="35224891275428963">
     <property name="name:0" value="TriggerField" />
     <property name="package:0" value="widgets" />
+    <property name="iconPath:0" value="${IMAGES_DIR}/ui-combo-box.png" />
     <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
     <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="35224891275428964">
-      <property name="value:0" value="Поле выбора из списка значений" />
+      <property name="value:0" value="Выбор из списка значений" />
       <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473914776:0" resolveInfo="shortDescription" />
+    </node>
+    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="6631949233781314353">
+      <property name="value:0" value="Список" />
+      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473891462:0" resolveInfo="alias" />
     </node>
     <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="6744709490419531558">
       <link role="intfc:0" targetNodeId="6744709490419469337:15" resolveInfo="HasBinding" />
@@ -677,6 +717,7 @@
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="35224891275429001">
     <property name="name:0" value="CheckBoxGroup" />
     <property name="package:0" value="widgets" />
+    <property name="iconPath:0" value="${IMAGES_DIR}/ui-check-boxes-series.png" />
     <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="35224891275546199">
       <property name="metaClass:0" value="aggregation" />
@@ -694,8 +735,12 @@
       <link role="intfc:0" targetNodeId="7499027618783150613:15" resolveInfo="IFormComponent" />
     </node>
     <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="35224891275546224">
-      <property name="value:0" value="Поле - набор флагов" />
+      <property name="value:0" value="Набор флагов" />
       <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473914776:0" resolveInfo="shortDescription" />
+    </node>
+    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="6631949233781262371">
+      <property name="value:0" value="Множственный выбор" />
+      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473891462:0" resolveInfo="alias" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration:0" id="35224891275429005">
@@ -708,6 +753,7 @@
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="35224891275546181">
     <property name="name:0" value="CheckBoxItem" />
     <property name="package:0" value="widgets" />
+    <property name="iconPath:0" value="${IMAGES_DIR}/ui-check-box.png" />
     <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
     <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="35224891275546185">
       <link role="intfc:0" targetNodeId="7499027618783150624:15" resolveInfo="HasLabel" />
@@ -749,6 +795,7 @@
     <property name="name:0" value="ContentPanel" />
     <property name="rootable:0" value="false" />
     <property name="package:0" value="widgets" />
+    <property name="iconPath:0" value="${IMAGES_DIR}/ui-panel.png" />
     <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
     <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="35224891275546285">
       <link role="intfc:0" targetNodeId="7815177035770464302:15" resolveInfo="HasChildren" />
@@ -762,6 +809,10 @@
     <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="1786812136902729992">
       <property name="value:0" value="Простой контейнер" />
       <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473914776:0" resolveInfo="shortDescription" />
+    </node>
+    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="6631949233781302774">
+      <property name="value:0" value="Простой контейнер" />
+      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473891462:0" resolveInfo="alias" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration:0" id="2925434448366525478">

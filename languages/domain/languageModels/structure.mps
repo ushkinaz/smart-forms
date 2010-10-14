@@ -123,7 +123,7 @@
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="5148616895979972052">
     <property name="name:0" value="Document" />
     <property name="rootable:0" value="true" />
-    <property name="iconPath:0" value="${IMAGES_DIR}/book.png" />
+    <property name="iconPath:0" value="${IMAGES_DIR}/blue-folder-open-table.png" />
     <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
     <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="1955157615230813791">
       <property name="value:0" value="Документ, часть заявки" />

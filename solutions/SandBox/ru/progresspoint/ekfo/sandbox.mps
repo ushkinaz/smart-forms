@@ -68,23 +68,32 @@
       <link role="document:5" targetNodeId="6744709490419531547" resolveInfo="Адрес" />
     </node>
     <node role="container:15" type="org.metaforms.forms.structure.FormPanel:15" id="3825923826251981499">
-      <node role="components:15" type="org.metaforms.forms.structure.TextField:15" id="3825923826251981504">
-        <property name="fieldLabel:15" value="Улица" />
-        <node role="fieldReference:15" type="org.metaforms.domain.structure.FieldReference:5" id="3825923826251981505">
-          <link role="field:5" targetNodeId="6744709490419531550" resolveInfo="Улица" />
-        </node>
-      </node>
-      <node role="components:15" type="org.metaforms.forms.structure.TextField:15" id="3825923826252029836">
-        <property name="fieldLabel:15" value="Город" />
-        <node role="fieldReference:15" type="org.metaforms.domain.structure.FieldReference:5" id="3825923826252029837">
+      <node role="components:15" type="org.metaforms.forms.structure.TextField:15" id="3825923826252030234">
+        <node role="fieldReference:15" type="org.metaforms.domain.structure.FieldReference:5" id="3825923826252030235">
           <link role="field:5" targetNodeId="6744709490419531548" resolveInfo="Город" />
         </node>
       </node>
-      <node role="components:15" type="org.metaforms.forms.structure.TextField:15" id="3825923826252029838">
-        <property name="fieldLabel:15" value="Страна" />
-        <node role="fieldReference:15" type="org.metaforms.domain.structure.FieldReference:5" id="3825923826252029839">
-          <link role="field:5" targetNodeId="6744709490419531549" resolveInfo="Страна" />
+      <node role="components:15" type="org.metaforms.forms.structure.MultiField:15" id="6631949233781302756" />
+      <node role="components:15" type="org.metaforms.forms.structure.CheckBoxGroup:15" id="6631949233781262387">
+        <node role="items:15" type="org.metaforms.forms.structure.CheckBoxItem:15" id="6631949233781262388">
+          <property name="fieldLabel:15" value="1" />
         </node>
+        <node role="items:15" type="org.metaforms.forms.structure.CheckBoxItem:15" id="6631949233781262389">
+          <property name="fieldLabel:15" value="2" />
+        </node>
+      </node>
+      <node role="components:15" type="org.metaforms.forms.structure.RadioGroup:15" id="6631949233781302758" />
+      <node role="components:15" type="org.metaforms.forms.structure.TabPanel:15" id="6631949233781302760" />
+      <node role="components:15" type="org.metaforms.forms.structure.TablePanel:15" id="6631949233781302762">
+        <property name="columns:15" value="2" />
+      </node>
+      <node role="components:15" type="org.metaforms.forms.structure.TriggerField:15" id="6631949233781302764" />
+      <node role="components:15" type="org.metaforms.forms.structure.DateField:15" id="6631949233781302766" />
+      <node role="components:15" type="org.metaforms.forms.structure.CheckBoxGroup:15" id="6631949233781302769" />
+      <node role="components:15" type="org.metaforms.forms.structure.TextField:15" id="6631949233781302771" />
+      <node role="components:15" type="org.metaforms.forms.structure.TablePanel:15" id="6631949233781325873">
+        <property name="columns:15" value="2" />
+        <node role="components:15" type="org.metaforms.forms.structure.MultiField:15" id="6631949233781325875" />
       </node>
     </node>
   </node>

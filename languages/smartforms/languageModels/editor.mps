@@ -95,7 +95,7 @@
     <node role="cellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Collection:32" id="35224891274870032">
       <node role="cellLayout:32" type="jetbrains.mps.lang.editor.structure.CellLayout_Indent:32" id="35224891274870033" />
       <node role="childCellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Constant:32" id="35224891274870041">
-        <property name="text:32" value="FormPanel" />
+        <property name="text:32" value="Панель формы" />
       </node>
       <node role="childCellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Constant:32" id="35224891274870034">
         <property name="text:32" value="рамка" />
@@ -127,14 +127,13 @@
     <node role="cellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Collection:32" id="4921122046319203278">
       <node role="cellLayout:32" type="jetbrains.mps.lang.editor.structure.CellLayout_Indent:32" id="4921122046319203279" />
       <node role="childCellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Constant:32" id="4921122046319203301">
-        <property name="text:32" value="TablePanel" />
+        <property name="text:32" value="Таблица" />
       </node>
       <node role="childCellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Constant:32" id="4921122046319203289">
-        <property name="text:32" value="columns" />
+        <property name="text:32" value="колонок" />
       </node>
       <node role="childCellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Property:32" id="4921122046319203290">
         <property name="emptyNoTargetText:32" value="false" />
-        <property name="noTargetText:32" value="2" />
         <link role="relationDeclaration:32" targetNodeId="1.4921122046319089424:15" resolveInfo="columns" />
         <node role="styleItem:32" type="jetbrains.mps.lang.editor.structure.IndentLayoutNewLineStyleClassItem:32" id="4921122046319203291">
           <property name="flag:32" value="true" />
@@ -166,28 +165,6 @@
       </node>
       <node role="childCellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Component:32" id="6744709490419531564">
         <link role="editorComponent:32" targetNodeId="6744709490419469344" resolveInfo="BindingEditor" />
-        <node role="menuDescriptor:32" type="jetbrains.mps.lang.editor.structure.CellMenuDescriptor:32" id="6744709490420055594">
-          <node role="cellMenuPart:32" type="jetbrains.mps.lang.editor.structure.CellMenuPart_Generic_Item:32" id="6744709490420055612">
-            <property name="matchingText:32" value="add" />
-            <node role="handlerFunction:32" type="jetbrains.mps.lang.editor.structure.CellMenuPart_Generic_Item_Handler:32" id="6744709490420055613">
-              <node role="body:32" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="6744709490420055614">
-                <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="6744709490420055615">
-                  <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.AssignmentExpression:3" id="6744709490420055626">
-                    <node role="rValue:3" type="jetbrains.mps.baseLanguage.structure.StringLiteral:3" id="6744709490420055629">
-                      <property name="value:3" value="100%" />
-                    </node>
-                    <node role="lValue:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="6744709490420055617">
-                      <node role="operand:3" type="jetbrains.mps.lang.editor.structure.CellMenuPart_Abstract_editedNode:32" id="6744709490420055616" />
-                      <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.SPropertyAccess:16" id="6744709490420055625">
-                        <link role="property:16" targetNodeId="1.7499027618783150633:15" resolveInfo="width" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
       </node>
       <node role="cellLayout:32" type="jetbrains.mps.lang.editor.structure.CellLayout_Horizontal:32" id="35224891275428958" />
     </node>
@@ -198,7 +175,7 @@
     <node role="cellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Collection:32" id="7691500841060792025">
       <node role="cellLayout:32" type="jetbrains.mps.lang.editor.structure.CellLayout_Horizontal:32" id="7691500841060792026" />
       <node role="childCellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Constant:32" id="7691500841060792027">
-        <property name="text:32" value="DateField" />
+        <property name="text:32" value="Дата" />
       </node>
       <node role="childCellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Component:32" id="7691500841060792029">
         <link role="editorComponent:32" targetNodeId="7691500841060791957" resolveInfo="FormComponentEditor" />
@@ -219,7 +196,7 @@
     <link role="conceptDeclaration:32" targetNodeId="1.7499027618783578638:15" resolveInfo="LabelField" />
     <node role="cellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Collection:32" id="7499027618783578648">
       <node role="childCellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Constant:32" id="7499027618783578664">
-        <property name="text:32" value="LabelField" />
+        <property name="text:32" value="Метка" />
       </node>
       <node role="childCellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Component:32" id="7691500841060797733">
         <link role="editorComponent:32" targetNodeId="7691500841060791957" resolveInfo="FormComponentEditor" />
@@ -239,7 +216,7 @@
     <node role="cellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Collection:32" id="7499027618783578729">
       <node role="cellLayout:32" type="jetbrains.mps.lang.editor.structure.CellLayout_Indent:32" id="7499027618783578730" />
       <node role="childCellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Constant:32" id="7499027618783578759">
-        <property name="text:32" value="MultiField" />
+        <property name="text:32" value="Группа полей" />
       </node>
       <node role="childCellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Component:32" id="7691500841060797735">
         <link role="editorComponent:32" targetNodeId="7691500841060791957" resolveInfo="FormComponentEditor" />
@@ -278,7 +255,7 @@
     <link role="conceptDeclaration:32" targetNodeId="1.4921122046318977169:15" resolveInfo="RadioGroup" />
     <node role="cellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Collection:32" id="4921122046319089375">
       <node role="childCellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Constant:32" id="4921122046319089394">
-        <property name="text:32" value="RadioGroup" />
+        <property name="text:32" value="Выбор" />
       </node>
       <node role="childCellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Component:32" id="7691500841060797737">
         <link role="editorComponent:32" targetNodeId="7691500841060791957" resolveInfo="FormComponentEditor" />
@@ -301,7 +278,7 @@
     <node role="cellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Collection:32" id="4921122046319089407">
       <node role="cellLayout:32" type="jetbrains.mps.lang.editor.structure.CellLayout_Indent:32" id="4921122046319089408" />
       <node role="childCellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Constant:32" id="4921122046319089420">
-        <property name="text:32" value="TabItem" />
+        <property name="text:32" value="Закладка" />
       </node>
       <node role="childCellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Component:32" id="838905236136930165">
         <link role="editorComponent:32" targetNodeId="838905236136930145" resolveInfo="LabelEditor" />
@@ -332,7 +309,7 @@
     <node role="cellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Collection:32" id="35224891275220213">
       <node role="cellLayout:32" type="jetbrains.mps.lang.editor.structure.CellLayout_Indent:32" id="35224891275220214" />
       <node role="childCellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Constant:32" id="35224891275220215">
-        <property name="text:32" value="TabPanel" />
+        <property name="text:32" value="Панель закладок" />
         <node role="styleItem:32" type="jetbrains.mps.lang.editor.structure.IndentLayoutNewLineStyleClassItem:32" id="35224891275220221">
           <property name="flag:32" value="true" />
         </node>
@@ -359,7 +336,7 @@
     <link role="conceptDeclaration:32" targetNodeId="1.35224891275428963:15" resolveInfo="TriggerField&#10;&#10;" />
     <node role="cellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Collection:32" id="35224891275428975">
       <node role="childCellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Constant:32" id="35224891275429000">
-        <property name="text:32" value="TriggerField" />
+        <property name="text:32" value="Список" />
       </node>
       <node role="childCellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Component:32" id="7691500841060797742">
         <link role="editorComponent:32" targetNodeId="7691500841060791957" resolveInfo="FormComponentEditor" />
@@ -383,9 +360,6 @@
     <property name="package:32" value="widgets" />
     <link role="conceptDeclaration:32" targetNodeId="1.35224891275546181:15" resolveInfo="CheckBoxItem" />
     <node role="cellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Collection:32" id="35224891275546188">
-      <node role="childCellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Constant:32" id="35224891275546198">
-        <property name="text:32" value="item" />
-      </node>
       <node role="childCellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Component:32" id="838905236136942279">
         <link role="editorComponent:32" targetNodeId="838905236136930145" resolveInfo="LabelEditor" />
       </node>
@@ -401,7 +375,7 @@
     <node role="cellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Collection:32" id="35224891275546202">
       <node role="cellLayout:32" type="jetbrains.mps.lang.editor.structure.CellLayout_Indent:32" id="35224891275546203" />
       <node role="childCellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Constant:32" id="35224891275546223">
-        <property name="text:32" value="CheckBoxGroup" />
+        <property name="text:32" value="Множественный Выбор" />
       </node>
       <node role="childCellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Component:32" id="7691500841060791988">
         <link role="editorComponent:32" targetNodeId="7691500841060791957" resolveInfo="FormComponentEditor" />
@@ -412,16 +386,19 @@
       <node role="childCellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Component:32" id="838905236136942277">
         <link role="editorComponent:32" targetNodeId="838905236136930145" resolveInfo="LabelEditor" />
       </node>
-      <node role="childCellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Collection:32" id="6836185784877285913">
-        <node role="childCellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_RefNodeList:32" id="2877776657743595014">
+      <node role="childCellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Collection:32" id="6631949233781262393">
+        <node role="cellLayout:32" type="jetbrains.mps.lang.editor.structure.CellLayout_Vertical:32" id="6631949233781262394" />
+        <node role="childCellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_RefNodeList:32" id="6631949233781262391">
           <link role="relationDeclaration:32" targetNodeId="1.35224891275546199:15" />
-          <node role="cellLayout:32" type="jetbrains.mps.lang.editor.structure.CellLayout_Indent:32" id="2877776657743595015" />
+          <node role="cellLayout:32" type="jetbrains.mps.lang.editor.structure.CellLayout_Vertical:32" id="6631949233781295766" />
+          <node role="styleItem:32" type="jetbrains.mps.lang.editor.structure.IndentLayoutNewLineChildrenStyleClassItem:32" id="6631949233781262395">
+            <property name="flag:32" value="true" />
+          </node>
         </node>
-        <node role="cellLayout:32" type="jetbrains.mps.lang.editor.structure.CellLayout_Vertical:32" id="6836185784877285914" />
-        <node role="styleItem:32" type="jetbrains.mps.lang.editor.structure.IndentLayoutIndentStyleClassItem:32" id="6836185784877285915">
+        <node role="styleItem:32" type="jetbrains.mps.lang.editor.structure.IndentLayoutOnNewLineStyleClassItem:32" id="6631949233781295768">
           <property name="flag:32" value="true" />
         </node>
-        <node role="styleItem:32" type="jetbrains.mps.lang.editor.structure.IndentLayoutOnNewLineStyleClassItem:32" id="7691500841060791989">
+        <node role="styleItem:32" type="jetbrains.mps.lang.editor.structure.IndentLayoutIndentStyleClassItem:32" id="6631949233781295769">
           <property name="flag:32" value="true" />
         </node>
       </node>
@@ -433,7 +410,7 @@
     <node role="cellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Collection:32" id="35224891275546290">
       <node role="cellLayout:32" type="jetbrains.mps.lang.editor.structure.CellLayout_Indent:32" id="35224891275546291" />
       <node role="childCellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Constant:32" id="35224891275546309">
-        <property name="text:32" value="ContentPanel" />
+        <property name="text:32" value="Простой контейнер" />
       </node>
       <node role="childCellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Component:32" id="7691500841060791985">
         <link role="editorComponent:32" targetNodeId="7691500841060791957" resolveInfo="FormComponentEditor" />

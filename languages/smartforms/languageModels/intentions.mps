@@ -316,7 +316,7 @@
   <node type="jetbrains.mps.lang.intentions.structure.SurroundWithIntentionDeclaration:8" id="3825923826251981506">
     <property name="package:8" value="widgets" />
     <property name="name:8" value="SurroundWithmultiField" />
-    <link role="forConcept:8" targetNodeId="2v.5148616895979972054:5" resolveInfo="Field" />
+    <link role="forConcept:8" targetNodeId="3v.7499027618783150613:15" resolveInfo="IFormComponent" />
     <node role="descriptionFunction:8" type="jetbrains.mps.lang.intentions.structure.DescriptionBlock:8" id="3825923826251981507">
       <node role="body:8" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="3825923826251981508">
         <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="3825923826251992005">
@@ -417,6 +417,98 @@
                   </node>
                 </node>
                 <node role="operation:3" type="jetbrains.mps.baseLanguage.collections.structure.GetLastOperation:7" id="3825923826252024360" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.intentions.structure.IntentionDeclaration:8" id="3825923826252029845">
+    <property name="package:8" value="widgets" />
+    <property name="name:8" value="ConvertToDate" />
+    <link role="forConcept:8" targetNodeId="3v.7815177035769736366:15" resolveInfo="TextField" />
+    <node role="descriptionFunction:8" type="jetbrains.mps.lang.intentions.structure.DescriptionBlock:8" id="3825923826252029846">
+      <node role="body:8" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="3825923826252029847">
+        <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="3825923826252029858">
+          <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.StringLiteral:3" id="3825923826252029859">
+            <property name="value:3" value="Конвертировать в дату" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node role="executeFunction:8" type="jetbrains.mps.lang.intentions.structure.ExecuteBlock:8" id="3825923826252029863">
+      <node role="body:8" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="3825923826252029864">
+        <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement:3" id="3825923826252029865">
+          <node role="localVariableDeclaration:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration:3" id="3825923826252029866">
+            <property name="name:3" value="dateField" />
+            <node role="type:3" type="jetbrains.mps.lang.smodel.structure.SNodeType:16" id="3825923826252029867">
+              <link role="concept:16" targetNodeId="3v.7499027618783150629:15" resolveInfo="DateField" />
+            </node>
+            <node role="initializer:3" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression:3" id="3825923826252029868">
+              <node role="creator:3" type="jetbrains.mps.lang.smodel.structure.SNodeCreator:16" id="3825923826252029869">
+                <node role="createdType:16" type="jetbrains.mps.lang.smodel.structure.SNodeType:16" id="3825923826252029870">
+                  <link role="concept:16" targetNodeId="3v.7499027618783150629:15" resolveInfo="DateField" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="3825923826252029908">
+          <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.AssignmentExpression:3" id="3825923826252029915">
+            <node role="rValue:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="3825923826252029919">
+              <node role="operand:3" type="jetbrains.mps.lang.intentions.structure.ConceptFunctionParameter_node:8" id="3825923826252029918" />
+              <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.SLinkAccess:16" id="3825923826252029923">
+                <link role="link:16" targetNodeId="3v.6744709490419469338:15" />
+              </node>
+            </node>
+            <node role="lValue:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="3825923826252029910">
+              <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference:3" id="3825923826252029909">
+                <link role="variableDeclaration:3" targetNodeId="3825923826252029866" resolveInfo="dateField" />
+              </node>
+              <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.SLinkAccess:16" id="3825923826252029914">
+                <link role="link:16" targetNodeId="3v.6744709490419469338:15" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="3825923826252029877">
+          <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="3825923826252029878">
+            <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.Node_InsertNextSiblingOperation:16" id="3825923826252029879">
+              <node role="insertedNode:16" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference:3" id="3825923826252029880">
+                <link role="variableDeclaration:3" targetNodeId="3825923826252029866" resolveInfo="multiField" />
+              </node>
+            </node>
+            <node role="operand:3" type="jetbrains.mps.lang.intentions.structure.ConceptFunctionParameter_node:8" id="3825923826252029881" />
+          </node>
+        </node>
+        <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="3825923826252029937">
+          <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="3825923826252029939">
+            <node role="operand:3" type="jetbrains.mps.lang.intentions.structure.ConceptFunctionParameter_node:8" id="3825923826252029938" />
+            <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.Node_DeleteOperation:16" id="3825923826252029943" />
+          </node>
+        </node>
+        <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="3825923826252029898">
+          <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="3825923826252029899">
+            <node role="operand:3" type="jetbrains.mps.lang.sharedConcepts.structure.ConceptFunctionParameter_editorContext:0" id="3825923826252029900" />
+            <node role="operation:3" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation:3" id="3825923826252029901">
+              <link role="baseMethodDeclaration:3" targetNodeId="2.~EditorContext.select(jetbrains.mps.smodel.SNode):void" resolveInfo="select" />
+              <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference:3" id="3825923826252029944">
+                <link role="variableDeclaration:3" targetNodeId="3825923826252029866" resolveInfo="dateField" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="3825923826252030244">
+          <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="3825923826252030246">
+            <node role="operand:3" type="jetbrains.mps.lang.sharedConcepts.structure.ConceptFunctionParameter_editorContext:0" id="3825923826252030245" />
+            <node role="operation:3" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation:3" id="3825923826252030250">
+              <link role="baseMethodDeclaration:3" targetNodeId="2.~EditorContext.selectAndSetCaret(jetbrains.mps.smodel.SNode,int):void" resolveInfo="selectAndSetCaret" />
+              <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference:3" id="3825923826252030251">
+                <link role="variableDeclaration:3" targetNodeId="3825923826252029866" resolveInfo="dateField" />
+              </node>
+              <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.IntegerConstant:3" id="3825923826252030253">
+                <property name="value:3" value="1" />
               </node>
             </node>
           </node>

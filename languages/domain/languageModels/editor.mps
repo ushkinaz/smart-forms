@@ -221,15 +221,9 @@
       <node role="childCellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Constant:32" id="627290435249133611">
         <property name="text:32" value="id" />
       </node>
-      <node role="childCellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Constant:32" id="3825923826251833799">
-        <property name="text:32" value="&quot;" />
-      </node>
       <node role="childCellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Property:32" id="627290435249133608">
         <property name="allowEmptyText:32" value="true" />
         <link role="relationDeclaration:32" targetNodeId="1.627290435249133494:5" resolveInfo="id" />
-      </node>
-      <node role="childCellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Constant:32" id="3825923826251833801">
-        <property name="text:32" value="&quot;" />
       </node>
     </node>
   </node>

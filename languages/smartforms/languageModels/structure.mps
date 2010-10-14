@@ -596,7 +596,7 @@
   <node type="jetbrains.mps.lang.structure.structure.EnumerationDataTypeDeclaration:0" id="7499027618783578672">
     <property name="name:0" value="OrientationEnum" />
     <property name="hasNoDefaultMember:0" value="false" />
-    <property name="memberIdentifierPolicy:0" value="derive_from_presentation" />
+    <property name="memberIdentifierPolicy:0" value="derive_from_internal_value" />
     <property name="package:0" value="widgets" />
     <link role="memberDataType:0" targetNodeId="2v.1082983041843:0" resolveInfo="string" />
     <node role="member:0" type="jetbrains.mps.lang.structure.structure.EnumerationMemberDeclaration:0" id="7499027618783578676">

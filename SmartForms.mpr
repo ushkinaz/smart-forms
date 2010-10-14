@@ -9,13 +9,16 @@
       <solutionPath path="${project}/solutions/RosBank/RosBank.msd" />
       <solutionPath path="${project}/solutions/BaseSolution/BaseSolution.msd" folder="" />
       <solutionPath path="${project}/solutions/SandBox/SandBox.msd" folder="" />
+      <solutionPath path="${project}/solutions/DevKit.build/DevKit.build.msd" />
     </projectSolutions>
     <projectLanguages>
       <languagePath path="${project}/languages/smartforms/smartforms.mpl" />
       <languagePath path="${project}/languages/scripts/scripts.mpl" />
       <languagePath path="${project}/languages/domain/domain.mpl" />
     </projectLanguages>
-    <projectDevkits />
+    <projectDevkits>
+      <devkitPath path="${project}/devkits/RosBankDevKit/RosBankDevKit.devkit" />
+    </projectDevkits>
     <genConfs />
   </component>
   <component name="ProjectDetails">

@@ -38,36 +38,5 @@
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590345(jetbrains.mps.lang.pattern.structure)" version="0" />
   <devkit namespace="2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)" />
   <maxImportIndex value="1" />
-  <import index="1" modelUID="r:9130804a-d65a-4c68-b2c1-a4462321c3a0(org.metaforms.domain.structure)" version="5" />
-  <node type="jetbrains.mps.lang.intentions.structure.IntentionDeclaration:8" id="838905236136833364">
-    <property name="name:8" value="SetReadOnly" />
-    <link role="forConcept:8" targetNodeId="1.5148616895979972054:5" resolveInfo="Field" />
-    <node role="descriptionFunction:8" type="jetbrains.mps.lang.intentions.structure.DescriptionBlock:8" id="838905236136833365">
-      <node role="body:8" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="838905236136833366">
-        <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="838905236136864989">
-          <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.StringLiteral:3" id="838905236136864990">
-            <property name="value:3" value="Только для чтения" />
-          </node>
-        </node>
-      </node>
-    </node>
-    <node role="executeFunction:8" type="jetbrains.mps.lang.intentions.structure.ExecuteBlock:8" id="838905236136833367">
-      <node role="body:8" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="838905236136833368">
-        <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="838905236136843195">
-          <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.AssignmentExpression:3" id="838905236136864985">
-            <node role="rValue:3" type="jetbrains.mps.baseLanguage.structure.BooleanConstant:3" id="838905236136864988">
-              <property name="value:3" value="true" />
-            </node>
-            <node role="lValue:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="838905236136843197">
-              <node role="operand:3" type="jetbrains.mps.lang.intentions.structure.ConceptFunctionParameter_node:8" id="838905236136843196" />
-              <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.SPropertyAccess:16" id="838905236136864984">
-                <link role="property:16" targetNodeId="1.7691500841060578556:5" resolveInfo="alwaysReadonly" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
 </model>
 

@@ -556,7 +556,7 @@
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="7499027618783578683">
       <property name="metaClass:0" value="aggregation" />
       <property name="role:0" value="children" />
-      <property name="sourceCardinality:0" value="1..n" />
+      <property name="sourceCardinality:0" value="0..n" />
       <link role="target:0" targetNodeId="7499027618783150624:15" resolveInfo="IInputField" />
     </node>
     <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="35224891275429008">

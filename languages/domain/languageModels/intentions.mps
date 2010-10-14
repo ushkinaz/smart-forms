@@ -40,7 +40,7 @@
   <maxImportIndex value="1" />
   <import index="1" modelUID="r:9130804a-d65a-4c68-b2c1-a4462321c3a0(org.metaforms.domain.structure)" version="5" />
   <node type="jetbrains.mps.lang.intentions.structure.IntentionDeclaration:8" id="838905236136833364">
-    <property name="name:8" value="ReadOnly" />
+    <property name="name:8" value="SetReadOnly" />
     <link role="forConcept:8" targetNodeId="1.5148616895979972054:5" resolveInfo="Field" />
     <node role="descriptionFunction:8" type="jetbrains.mps.lang.intentions.structure.DescriptionBlock:8" id="838905236136833365">
       <node role="body:8" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="838905236136833366">

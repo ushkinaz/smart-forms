@@ -61,5 +61,32 @@
       <property name="type:5" value="3" />
     </node>
   </node>
+  <node type="org.metaforms.forms.structure.Form:15" id="3825923826251981496">
+    <property name="name:15" value="Адрес" />
+    <property name="id:15" value="AdressForm" />
+    <node role="documentReference:15" type="org.metaforms.domain.structure.DocumentReference:5" id="3825923826251981498">
+      <link role="document:5" targetNodeId="6744709490419531547" resolveInfo="Адрес" />
+    </node>
+    <node role="container:15" type="org.metaforms.forms.structure.FormPanel:15" id="3825923826251981499">
+      <node role="components:15" type="org.metaforms.forms.structure.TextField:15" id="3825923826251981504">
+        <property name="fieldLabel:15" value="Улица" />
+        <node role="fieldReference:15" type="org.metaforms.domain.structure.FieldReference:5" id="3825923826251981505">
+          <link role="field:5" targetNodeId="6744709490419531550" resolveInfo="Улица" />
+        </node>
+      </node>
+      <node role="components:15" type="org.metaforms.forms.structure.TextField:15" id="3825923826252029836">
+        <property name="fieldLabel:15" value="Город" />
+        <node role="fieldReference:15" type="org.metaforms.domain.structure.FieldReference:5" id="3825923826252029837">
+          <link role="field:5" targetNodeId="6744709490419531548" resolveInfo="Город" />
+        </node>
+      </node>
+      <node role="components:15" type="org.metaforms.forms.structure.TextField:15" id="3825923826252029838">
+        <property name="fieldLabel:15" value="Страна" />
+        <node role="fieldReference:15" type="org.metaforms.domain.structure.FieldReference:5" id="3825923826252029839">
+          <link role="field:5" targetNodeId="6744709490419531549" resolveInfo="Страна" />
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

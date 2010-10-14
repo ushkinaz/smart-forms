@@ -81,6 +81,9 @@
         <node role="items:15" type="org.metaforms.forms.structure.CheckBoxItem:15" id="6631949233781262389">
           <property name="fieldLabel:15" value="2" />
         </node>
+        <node role="fieldReference:15" type="org.metaforms.domain.structure.FieldReference:5" id="4659346734373990439">
+          <link role="field:5" targetNodeId="6744709490419531548" resolveInfo="Город" />
+        </node>
       </node>
       <node role="components:15" type="org.metaforms.forms.structure.RadioGroup:15" id="6631949233781302758" />
       <node role="components:15" type="org.metaforms.forms.structure.TabPanel:15" id="6631949233781302760" />

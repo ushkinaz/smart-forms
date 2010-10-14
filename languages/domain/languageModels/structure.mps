@@ -191,8 +191,8 @@
     <link role="memberDataType:0" targetNodeId="2v.1082983657062:0" resolveInfo="integer" />
     <node role="member:0" type="jetbrains.mps.lang.structure.structure.EnumerationMemberDeclaration:0" id="5148616895979972058">
       <property name="externalValue:0" value="Текст" />
-      <property name="internalValue:0" value="1" />
       <property name="javaIdentifier:0" value="TEXT" />
+      <property name="internalValue:0" value="1" />
     </node>
     <node role="member:0" type="jetbrains.mps.lang.structure.structure.EnumerationMemberDeclaration:0" id="5148616895979972059">
       <property name="externalValue:0" value="Список" />
@@ -201,23 +201,23 @@
     </node>
     <node role="member:0" type="jetbrains.mps.lang.structure.structure.EnumerationMemberDeclaration:0" id="5148616895979972060">
       <property name="externalValue:0" value="Дата" />
-      <property name="internalValue:0" value="3" />
       <property name="javaIdentifier:0" value="DATE" />
+      <property name="internalValue:0" value="3" />
     </node>
     <node role="member:0" type="jetbrains.mps.lang.structure.structure.EnumerationMemberDeclaration:0" id="5148616895979972061">
       <property name="externalValue:0" value="Число" />
-      <property name="internalValue:0" value="4" />
       <property name="javaIdentifier:0" value="NUMERIC" />
+      <property name="internalValue:0" value="4" />
     </node>
     <node role="member:0" type="jetbrains.mps.lang.structure.structure.EnumerationMemberDeclaration:0" id="1955157615230993262">
       <property name="javaIdentifier:0" value="RADIO" />
-      <property name="internalValue:0" value="5" />
       <property name="externalValue:0" value="Выбор" />
+      <property name="internalValue:0" value="5" />
     </node>
     <node role="member:0" type="jetbrains.mps.lang.structure.structure.EnumerationMemberDeclaration:0" id="1955157615230993263">
       <property name="javaIdentifier:0" value="CHECKBOX" />
-      <property name="internalValue:0" value="6" />
       <property name="externalValue:0" value="Множественный выбор" />
+      <property name="internalValue:0" value="6" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7691500841060791949">

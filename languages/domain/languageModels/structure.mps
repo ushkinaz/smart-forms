@@ -149,6 +149,7 @@
   <visible index="3" modelUID="r:7c7d38bb-f8c2-4f6d-8b0f-734a72486381(org.metaforms.validation.structure)" />
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="5148616895979972054">
     <property name="name:0" value="Field" />
+    <property name="iconPath:0" value="${IMAGES_DIR}/document-attribute-f.png" />
     <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
     <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="1955157615230813795">
       <property name="value:0" value="Поле документа" />

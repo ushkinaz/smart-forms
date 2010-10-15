@@ -34,7 +34,7 @@
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590328(jetbrains.mps.baseLanguage.collections.constraints)" version="6" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959036e(jetbrains.mps.baseLanguage.classifiers.constraints)" version="7" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590373(jetbrains.mps.baseLanguage.classifiers.structure)" version="0" />
-  <languageAspect modelUID="r:9130804a-d65a-4c68-b2c1-a4462321c3a0(org.metaforms.domain.structure)" version="5" />
+  <languageAspect modelUID="r:9130804a-d65a-4c68-b2c1-a4462321c3a0(org.metaforms.domain.structure)" version="7" />
   <devkit namespace="2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)" />
   <maxImportIndex value="1" />
   <import index="1" modelUID="r:92b29e2f-687a-493a-8fda-d17d20c1c1bb(org.metaforms.forms.structure)" version="15" />
@@ -65,10 +65,10 @@
         </node>
       </node>
       <node role="childCellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_RefCell:32" id="1276781321238783744">
-        <link role="relationDeclaration:32" targetNodeId="4v.1276781321238821448:5" />
+        <link role="relationDeclaration:32" targetNodeId="4v.1276781321238821448:7" />
         <node role="editorComponent:32" type="jetbrains.mps.lang.editor.structure.InlineEditorComponent:32" id="1276781321238783745">
           <node role="cellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_RefCell:32" id="1276781321238783747">
-            <link role="relationDeclaration:32" targetNodeId="4v.1276781321238645457:5" />
+            <link role="relationDeclaration:32" targetNodeId="4v.1276781321238645457:7" />
             <node role="editorComponent:32" type="jetbrains.mps.lang.editor.structure.InlineEditorComponent:32" id="1276781321238783748">
               <node role="cellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Property:32" id="1276781321238783750">
                 <property name="readOnly:32" value="true" />
@@ -524,7 +524,7 @@
         <link role="relationDeclaration:32" targetNodeId="1.6744709490419469338:15" />
         <node role="editorComponent:32" type="jetbrains.mps.lang.editor.structure.InlineEditorComponent:32" id="6744709490419469351">
           <node role="cellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_RefCell:32" id="6744709490419469353">
-            <link role="relationDeclaration:32" targetNodeId="4v.7691500841060791950:5" />
+            <link role="relationDeclaration:32" targetNodeId="4v.7691500841060791950:7" />
             <node role="editorComponent:32" type="jetbrains.mps.lang.editor.structure.InlineEditorComponent:32" id="6744709490419469354">
               <node role="cellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Property:32" id="6744709490419469356">
                 <property name="readOnly:32" value="true" />

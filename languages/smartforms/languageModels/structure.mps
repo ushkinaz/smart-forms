@@ -352,7 +352,7 @@
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" version="7" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590328(jetbrains.mps.baseLanguage.collections.constraints)" version="6" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902c1(jetbrains.mps.baseLanguage.constraints)" version="83" />
-  <languageAspect modelUID="r:9130804a-d65a-4c68-b2c1-a4462321c3a0(org.metaforms.domain.structure)" version="5" />
+  <languageAspect modelUID="r:9130804a-d65a-4c68-b2c1-a4462321c3a0(org.metaforms.domain.structure)" version="7" />
   <devkit namespace="2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)" />
   <maxImportIndex value="1" />
   <visible index="2" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
@@ -380,10 +380,10 @@
       <link role="intfc:0" targetNodeId="2v.1169194658468:0" resolveInfo="INamedConcept" />
     </node>
     <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="6545153482932825366">
-      <link role="intfc:0" targetNodeId="3v.1276781321238821447:5" resolveInfo="HasDocument" />
+      <link role="intfc:0" targetNodeId="3v.1276781321238821447:7" resolveInfo="HasDocument" />
     </node>
     <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="838905236136908363">
-      <link role="intfc:0" targetNodeId="3v.627290435249133493:5" resolveInfo="HasId" />
+      <link role="intfc:0" targetNodeId="3v.627290435249133493:7" resolveInfo="HasId" />
     </node>
     <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="1597384487797338847">
       <link role="intfc:0" targetNodeId="2v.1233160296597:0" resolveInfo="IContainer" />
@@ -490,7 +490,7 @@
       <link role="dataType:0" targetNodeId="2v.1082983041843:0" resolveInfo="string" />
     </node>
     <node role="extends:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="6744709490419469341">
-      <link role="intfc:0" targetNodeId="3v.627290435249133493:5" resolveInfo="HasId" />
+      <link role="intfc:0" targetNodeId="3v.627290435249133493:7" resolveInfo="HasId" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration:0" id="7499027618783150624">
@@ -823,7 +823,7 @@
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="6744709490419469338">
       <property name="metaClass:0" value="aggregation" />
       <property name="role:0" value="fieldReference" />
-      <link role="target:0" targetNodeId="3v.7691500841060791949:5" resolveInfo="FieldReference" />
+      <link role="target:0" targetNodeId="3v.7691500841060791949:7" resolveInfo="FieldReference" />
     </node>
   </node>
 </model>

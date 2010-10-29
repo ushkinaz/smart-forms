@@ -147,6 +147,7 @@
             <link role="relationDeclaration:32" targetNodeId="1.5121386542706737364:7" resolveInfo="comment" />
           </node>
         </node>
+        <node role="childCellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Empty:32" id="3582867533737723226" />
       </node>
     </node>
   </node>

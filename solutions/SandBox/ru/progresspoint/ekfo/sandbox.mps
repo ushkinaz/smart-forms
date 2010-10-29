@@ -17,24 +17,22 @@
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590283(jetbrains.mps.lang.core.constraints)" version="2" />
   <languageAspect modelUID="r:92b29e2f-687a-493a-8fda-d17d20c1c1bb(org.metaforms.forms.structure)" version="15" />
   <language-engaged-on-generation namespace="a92871fa-5f1a-445a-984b-c1a961bd4e82(org.metaforms.forms)" />
-  <maxImportIndex value="1" />
+  <maxImportIndex value="2" />
+  <import index="2" modelUID="r:13e76dfe-6970-4569-b286-57acd233ecf9(ru.progresspoint.ekfo.verifications)" version="-1" />
   <node type="org.metaforms.domain.structure.Document:7" id="6744709490419531547">
     <property name="name:7" value="Адрес" />
     <property name="id:7" value="Adress" />
     <node role="field:7" type="org.metaforms.domain.structure.Field:7" id="6744709490419531548">
       <property name="name:7" value="Город" />
       <property name="id:7" value="City" />
-      <property name="tabName:7" />
     </node>
     <node role="field:7" type="org.metaforms.domain.structure.Field:7" id="6744709490419531549">
       <property name="name:7" value="Страна" />
       <property name="id:7" value="Country" />
-      <property name="tabName:7" />
     </node>
     <node role="field:7" type="org.metaforms.domain.structure.Field:7" id="6744709490419531550">
       <property name="name:7" value="Улица" />
       <property name="id:7" value="Street" />
-      <property name="tabName:7" />
     </node>
   </node>
   <node type="org.metaforms.domain.structure.Document:7" id="3825923826251948941">
@@ -43,30 +41,25 @@
     <node role="field:7" type="org.metaforms.domain.structure.Field:7" id="3825923826251948944">
       <property name="name:7" value="Фамилия" />
       <property name="id:7" value="surname" />
-      <property name="tabName:7" />
     </node>
     <node role="field:7" type="org.metaforms.domain.structure.Field:7" id="3825923826251948942">
       <property name="name:7" value="Имя" />
       <property name="id:7" value="name" />
       <property name="type:7" value="1" />
-      <property name="tabName:7" />
     </node>
     <node role="field:7" type="org.metaforms.domain.structure.Field:7" id="3825923826251948945">
       <property name="name:7" value="Отчество" />
       <property name="id:7" value="secondname" />
-      <property name="tabName:7" />
     </node>
     <node role="field:7" type="org.metaforms.domain.structure.Field:7" id="3825923826251948946">
       <property name="name:7" value="Пол" />
       <property name="id:7" value="sex" />
       <property name="type:7" value="2" />
-      <property name="tabName:7" />
     </node>
     <node role="field:7" type="org.metaforms.domain.structure.Field:7" id="3825923826251948962">
       <property name="name:7" value="Дата рождения" />
       <property name="id:7" value="date" />
       <property name="type:7" value="3" />
-      <property name="tabName:7" />
     </node>
   </node>
   <node type="org.metaforms.forms.structure.Form:15" id="3825923826251981496">
@@ -124,5 +117,6 @@
       <property name="name:7" value="Разработчик" />
     </node>
   </node>
+  <node type="org.metaforms.forms.structure.Rule:15" id="3582867533737650368" />
 </model>
 

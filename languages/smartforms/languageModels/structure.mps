@@ -826,5 +826,16 @@
       <link role="target:0" targetNodeId="3v.7691500841060791949:7" resolveInfo="FieldReference" />
     </node>
   </node>
+  <visible index="4" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="3582867533737650359">
+    <property name="name:0" value="Rule" />
+    <property name="rootable:0" value="true" />
+    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
+    <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="3582867533737650360">
+      <property name="metaClass:0" value="aggregation" />
+      <property name="role:0" value="exp" />
+      <link role="target:0" targetNodeId="4v.1068431790191:3" resolveInfo="Expression" />
+    </node>
+  </node>
 </model>
 

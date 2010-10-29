@@ -536,5 +536,20 @@
       </node>
     </node>
   </node>
+  <node type="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration:32" id="3582867533737650361">
+    <link role="conceptDeclaration:32" targetNodeId="1.3582867533737650359:15" resolveInfo="Rule" />
+    <node role="cellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Collection:32" id="3582867533737650363">
+      <node role="cellLayout:32" type="jetbrains.mps.lang.editor.structure.CellLayout_Indent:32" id="3582867533737650364" />
+      <node role="childCellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Constant:32" id="3582867533737650365">
+        <property name="text:32" value="exp" />
+      </node>
+      <node role="childCellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_RefNode:32" id="3582867533737650366">
+        <link role="relationDeclaration:32" targetNodeId="1.3582867533737650360:15" />
+        <node role="styleItem:32" type="jetbrains.mps.lang.editor.structure.IndentLayoutNewLineStyleClassItem:32" id="3582867533737650367">
+          <property name="flag:32" value="true" />
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

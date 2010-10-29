@@ -213,15 +213,15 @@
       <link role="dataType:0" targetNodeId="2v.1082983041843:0" resolveInfo="string" />
     </node>
     <node role="propertyDeclaration:0" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration:0" id="5121386542706737359">
-      <property name="name:0" value="visibilityRule" />
+      <property name="name:0" value="visibilityRuleComment" />
       <link role="dataType:0" targetNodeId="2v.1082983041843:0" resolveInfo="string" />
     </node>
     <node role="propertyDeclaration:0" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration:0" id="5121386542706737360">
-      <property name="name:0" value="valuesList" />
+      <property name="name:0" value="valuesListComment" />
       <link role="dataType:0" targetNodeId="2v.1082983041843:0" resolveInfo="string" />
     </node>
     <node role="propertyDeclaration:0" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration:0" id="5121386542706737361">
-      <property name="name:0" value="valueType" />
+      <property name="name:0" value="valueTypeComment" />
       <link role="dataType:0" targetNodeId="2v.1082983041843:0" resolveInfo="string" />
     </node>
     <node role="propertyDeclaration:0" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration:0" id="5121386542706737362">
@@ -315,6 +315,7 @@
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="5121386542706737366">
     <property name="name:0" value="ACLRequest" />
+    <property name="package:0" value="security" />
     <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="5121386542706737383">
       <property name="metaClass:0" value="aggregation" />
@@ -335,6 +336,7 @@
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="5121386542706737368">
     <property name="name:0" value="ACLFieldAction" />
+    <property name="package:0" value="security" />
     <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
     <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="5121386542706737372">
       <property name="value:0" value="Описание права работы с объектом" />
@@ -352,6 +354,7 @@
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="5121386542706737384">
     <property name="name:0" value="UserRole" />
     <property name="iconPath:0" value="${IMAGES_DIR}/user-business.png" />
+    <property name="package:0" value="security" />
     <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
     <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="5121386542706749593">
       <property name="value:0" value="Роль" />
@@ -386,6 +389,7 @@
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="5121386542706796061">
     <property name="name:0" value="UserRoleReference" />
+    <property name="package:0" value="security" />
     <link role="extends:0" targetNodeId="2.1068431790191:3" />
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="5121386542706796062">
       <property name="metaClass:0" value="reference" />

@@ -221,6 +221,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration:32" id="5121386542706737373">
+    <property name="package:32" value="security" />
     <link role="conceptDeclaration:32" targetNodeId="1.5121386542706737368:7" resolveInfo="ACLElementAction" />
     <node role="cellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Collection:32" id="5121386542706737375">
       <node role="cellLayout:32" type="jetbrains.mps.lang.editor.structure.CellLayout_Indent:32" id="5121386542706737376" />
@@ -245,6 +246,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration:32" id="5121386542706737387">
+    <property name="package:32" value="security" />
     <link role="conceptDeclaration:32" targetNodeId="1.5121386542706737384:7" resolveInfo="UserRole" />
     <node role="cellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Collection:32" id="5121386542706737389">
       <node role="cellLayout:32" type="jetbrains.mps.lang.editor.structure.CellLayout_Indent:32" id="5121386542706737390" />
@@ -300,6 +302,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration:32" id="5121386542706796063">
+    <property name="package:32" value="security" />
     <link role="conceptDeclaration:32" targetNodeId="1.5121386542706796061:7" resolveInfo="UserRoleReference" />
     <node role="cellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_RefCell:32" id="5121386542706796064">
       <link role="relationDeclaration:32" targetNodeId="1.5121386542706796062:7" />
@@ -312,6 +315,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration:32" id="5121386542706818325">
+    <property name="package:32" value="security" />
     <link role="conceptDeclaration:32" targetNodeId="1.5121386542706737366:7" resolveInfo="ACLRequest" />
     <node role="cellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Collection:32" id="5121386542706818327">
       <node role="cellLayout:32" type="jetbrains.mps.lang.editor.structure.CellLayout_Indent:32" id="5121386542706818328" />

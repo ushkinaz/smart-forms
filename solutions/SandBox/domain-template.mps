@@ -28,37 +28,31 @@
       <property name="name:7" value="11" />
       <property name="id:7" value="text" />
       <property name="comment:7" value="comment" />
-      <property name="tabName:7" />
     </node>
     <node role="field:7" type="org.metaforms.domain.structure.Field:7" id="4659346734374069119">
       <property name="name:7" value="22" />
       <property name="type:7" value="3" />
       <property name="id:7" value="date" />
-      <property name="tabName:7" />
     </node>
     <node role="field:7" type="org.metaforms.domain.structure.Field:7" id="4659346734374069120">
       <property name="name:7" value="33" />
       <property name="type:7" value="6" />
       <property name="id:7" value="chech" />
-      <property name="tabName:7" />
     </node>
     <node role="field:7" type="org.metaforms.domain.structure.Field:7" id="4659346734374069121">
       <property name="name:7" value="44" />
       <property name="type:7" value="2" />
       <property name="id:7" value="combo" />
-      <property name="tabName:7" />
     </node>
     <node role="field:7" type="org.metaforms.domain.structure.Field:7" id="4659346734374069122">
       <property name="name:7" value="55" />
       <property name="type:7" value="4" />
       <property name="id:7" value="number" />
-      <property name="tabName:7" />
     </node>
     <node role="field:7" type="org.metaforms.domain.structure.Field:7" id="4659346734374069123">
       <property name="type:7" value="5" />
       <property name="id:7" value="radio" />
       <property name="name:7" value="66" />
-      <property name="tabName:7" />
     </node>
   </node>
 </model>

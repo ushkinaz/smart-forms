@@ -13,6 +13,9 @@
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590283(jetbrains.mps.lang.core.constraints)" version="2" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" />
   <languageAspect modelUID="r:92b29e2f-687a-493a-8fda-d17d20c1c1bb(org.metaforms.forms.structure)" version="15" />
+  <languageAspect modelUID="r:01ffca47-1c75-4a74-a03c-b49b2455f9d3(org.metaforms.domain.editor)" version="0" />
+  <languageAspect modelUID="r:2362edb2-aad2-40b0-8f6a-16ff64481378(org.metaforms.domain.constraints)" version="0" />
+  <languageAspect modelUID="r:57272e6b-f899-4747-a95d-df01ed1f664b(org.metaforms.domain.intentions)" version="0" />
   <maxImportIndex value="1" />
   <node type="org.metaforms.domain.structure.CreditClass:7" id="4659346734374069115">
     <property name="name:7" value="Просто деньги" />

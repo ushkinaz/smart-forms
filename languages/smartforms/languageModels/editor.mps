@@ -35,6 +35,8 @@
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959036e(jetbrains.mps.baseLanguage.classifiers.constraints)" version="7" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590373(jetbrains.mps.baseLanguage.classifiers.structure)" version="0" />
   <languageAspect modelUID="r:9130804a-d65a-4c68-b2c1-a4462321c3a0(org.metaforms.domain.structure)" version="7" />
+  <languageAspect modelUID="r:01ffca47-1c75-4a74-a03c-b49b2455f9d3(org.metaforms.domain.editor)" version="0" />
+  <languageAspect modelUID="r:2362edb2-aad2-40b0-8f6a-16ff64481378(org.metaforms.domain.constraints)" version="0" />
   <devkit namespace="2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)" />
   <maxImportIndex value="1" />
   <import index="1" modelUID="r:92b29e2f-687a-493a-8fda-d17d20c1c1bb(org.metaforms.forms.structure)" version="15" />
@@ -49,7 +51,7 @@
         <property name="text:32" value="Форма" />
       </node>
       <node role="childCellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Component:32" id="838905236136908365">
-        <link role="editorComponent:32" targetNodeId="2v.627290435249133604" resolveInfo="IDEditor" />
+        <link role="editorComponent:32" targetNodeId="2v.627290435249133604:0" resolveInfo="IDEditor" />
       </node>
       <node role="childCellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Property:32" id="1276781321238783738">
         <property name="emptyNoTargetText:32" value="true" />
@@ -441,7 +443,7 @@
     <node role="cellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Collection:32" id="7691500841060791965">
       <node role="cellLayout:32" type="jetbrains.mps.lang.editor.structure.CellLayout_Horizontal:32" id="7691500841060791966" />
       <node role="childCellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Component:32" id="6744709490419469343">
-        <link role="editorComponent:32" targetNodeId="2v.627290435249133604" resolveInfo="IDEditor" />
+        <link role="editorComponent:32" targetNodeId="2v.627290435249133604:0" resolveInfo="IDEditor" />
       </node>
       <node role="childCellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Constant:32" id="838905236136894005">
         <property name="text:32" value="группа" />

@@ -9,7 +9,6 @@
       <modulePath path="${project}/solutions/RosBank/RosBank.msd" />
       <modulePath path="${project}/solutions/BaseSolution/BaseSolution.msd" folder="" />
       <modulePath path="${project}/solutions/SandBox/SandBox.msd" folder="" />
-      <modulePath path="${project}/solutions/DevKit.build/DevKit.build.msd" />
       <modulePath path="${project}/languages/smartforms/smartforms.mpl" />
       <modulePath path="${project}/languages/scripts/scripts.mpl" />
       <modulePath path="${project}/languages/domain/domain.mpl" />

@@ -26,7 +26,6 @@
       <property name="name" nameId="tpck.1169194664001" value="ЕКФО-3" />
       <property name="domainModelVersion" nameId="vu84.5121386542706751489" value="1" />
     </node>
-    <node type="aytv.Rule" typeId="aytv.3582867533737650359" id="3582867533737650368" />
   </roots>
   <root id="6744709490419531547">
     <node role="field" roleId="vu84.1955157615230993293" type="vu84.Field" typeId="vu84.5148616895979972054" id="6744709490419531548">
@@ -118,6 +117,5 @@
       <property name="name" nameId="tpck.1169194664001" value="Разработчик" />
     </node>
   </root>
-  <root id="3582867533737650368" />
 </model>
 

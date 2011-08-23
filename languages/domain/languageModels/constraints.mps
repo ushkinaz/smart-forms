@@ -115,7 +115,9 @@
                       <link role="link" roleId="tp25.1138056516764" targetNodeId="vu84.1276781321238645457" />
                     </node>
                   </node>
-                  <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_GetChildrenOperation" typeId="tp25.1171500988903" id="3143510747828454349" />
+                  <node role="operation" roleId="tpee.1197027833540" type="tp25.SLinkListAccess" typeId="tp25.1138056282393" id="2401993893085638238">
+                    <link role="link" roleId="tp25.1138056546658" targetNodeId="vu84.1955157615230993293" />
+                  </node>
                 </node>
               </node>
             </node>

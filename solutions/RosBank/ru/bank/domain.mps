@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model modelUID="r:27e82224-19ef-45e1-8fc2-9258287ec886(ru.progress.ekfo.domain)">
+<model modelUID="r:27e82224-19ef-45e1-8fc2-9258287ec886(ru.bank.domain)">
   <persistence version="7" />
   <language namespace="f9e8c623-2d16-4d6b-883c-0995df7b3bc3(org.metaforms.domain)" />
   <language namespace="48a33425-09d8-44e7-a033-40f4b94a2085(org.metaforms.validation)" />
   <language-engaged-on-generation namespace="a92871fa-5f1a-445a-984b-c1a961bd4e82(org.metaforms.forms)" />
-  <import index="20g2" modelUID="r:13e76dfe-6970-4569-b286-57acd233ecf9(ru.progresspoint.ekfo.verifications)" version="-1" />
+  <import index="20g2" modelUID="r:13e76dfe-6970-4569-b286-57acd233ecf9(org.metaforms.base.validations)" version="-1" />
   <import index="vu84" modelUID="r:9130804a-d65a-4c68-b2c1-a4462321c3a0(org.metaforms.domain.structure)" version="7" implicit="yes" />
   <import index="a61p" modelUID="r:7c7d38bb-f8c2-4f6d-8b0f-734a72486381(org.metaforms.validation.structure)" version="5" implicit="yes" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />

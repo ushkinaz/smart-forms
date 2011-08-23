@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model modelUID="r:501c2957-2d3c-41bd-a673-5000b1e5f92d(ru.progresspoint.ekfo.sandbox)">
+<model modelUID="r:501c2957-2d3c-41bd-a673-5000b1e5f92d(org.metaforms.sandbox)">
   <persistence version="7" />
   <language namespace="f9e8c623-2d16-4d6b-883c-0995df7b3bc3(org.metaforms.domain)" />
   <language namespace="a92871fa-5f1a-445a-984b-c1a961bd4e82(org.metaforms.forms)" />

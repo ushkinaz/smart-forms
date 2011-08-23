@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<solution name="DevKit.build" uuid="3d058348-5856-4c50-8cc2-427a0705616b" extenallyVisible="true" compileInMPS="true" java-stubs-enabled="false">
+<solution name="DevKit.build" uuid="3d058348-5856-4c50-8cc2-427a0705616b" compileInMPS="true">
   <models>
     <modelRoot path="${solution_descriptor}/" namespacePrefix="" />
   </models>

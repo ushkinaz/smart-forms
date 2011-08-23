@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<solution name="BaseSolution" uuid="b43b7225-0ef4-4962-bcf2-b36e86858f8f" extenallyVisible="true" compileInMPS="true" java-stubs-enabled="false">
+<solution name="BaseSolution" uuid="b43b7225-0ef4-4962-bcf2-b36e86858f8f" compileInMPS="true">
   <models>
     <modelRoot path="${solution_descriptor}/" namespacePrefix="" />
   </models>

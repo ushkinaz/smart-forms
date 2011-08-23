@@ -1,165 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model modelUID="r:7c7d38bb-f8c2-4f6d-8b0f-734a72486381(org.metaforms.validation.structure)">
-  <persistence version="4" />
-  <refactoringHistory>
-    <refactoringContext modelVersion="0">
-      <refactoring refactoringClass="jetbrains.mps.refactoring.renameLanguage.LanguageRenamer$MyRefactoring" />
-      <moveMap />
-      <sourceMap />
-      <conceptFeatureMap>
-        <entry>
-          <key featureName="ValidationScript" conceptFQName="progress.scripts.structure.ValidationScript" featureKind="CONCEPT" />
-          <value featureName="ValidationScript" conceptFQName="org.metaforms.scripts.structure.ValidationScript" featureKind="CONCEPT" />
-        </entry>
-        <entry>
-          <key featureName="ValidationScriptReference" conceptFQName="progress.scripts.structure.ValidationScriptReference" featureKind="CONCEPT" />
-          <value featureName="ValidationScriptReference" conceptFQName="org.metaforms.scripts.structure.ValidationScriptReference" featureKind="CONCEPT" />
-        </entry>
-        <entry>
-          <key featureName="Validator" conceptFQName="progress.scripts.structure.Validator" featureKind="CONCEPT" />
-          <value featureName="Validator" conceptFQName="org.metaforms.scripts.structure.Validator" featureKind="CONCEPT" />
-        </entry>
-      </conceptFeatureMap>
-    </refactoringContext>
-    <refactoringContext modelVersion="1">
-      <refactoring refactoringClass="jetbrains.mps.refactoring.renameLanguage.LanguageRenamer$MyRefactoring" />
-      <moveMap />
-      <sourceMap />
-      <conceptFeatureMap>
-        <entry>
-          <key featureName="Library" conceptFQName="org.metaforms.scripts.structure.Library" featureKind="CONCEPT" />
-          <value featureName="Library" conceptFQName="org.metaforms.validation.structure.Library" featureKind="CONCEPT" />
-        </entry>
-        <entry>
-          <key featureName="ValidationScript" conceptFQName="org.metaforms.scripts.structure.ValidationScript" featureKind="CONCEPT" />
-          <value featureName="ValidationScript" conceptFQName="org.metaforms.validation.structure.ValidationScript" featureKind="CONCEPT" />
-        </entry>
-        <entry>
-          <key featureName="ValidationScriptReference" conceptFQName="org.metaforms.scripts.structure.ValidationScriptReference" featureKind="CONCEPT" />
-          <value featureName="ValidationScriptReference" conceptFQName="org.metaforms.validation.structure.ValidationScriptReference" featureKind="CONCEPT" />
-        </entry>
-      </conceptFeatureMap>
-    </refactoringContext>
-    <refactoringContext modelVersion="2">
-      <refactoring refactoringClass="jetbrains.mps.lang.structure.refactorings.RenameConcept" />
-      <moveMap />
-      <sourceMap />
-      <conceptFeatureMap>
-        <entry>
-          <key featureName="ValidationScript" conceptFQName="org.metaforms.validation.structure.ValidationScript" featureKind="CONCEPT" />
-          <value featureName="ValidationRule" conceptFQName="org.metaforms.validation.structure.ValidationRule" featureKind="CONCEPT" />
-        </entry>
-      </conceptFeatureMap>
-    </refactoringContext>
-    <refactoringContext modelVersion="3">
-      <refactoring refactoringClass="jetbrains.mps.lang.structure.refactorings.RenameConcept" />
-      <moveMap />
-      <sourceMap />
-      <conceptFeatureMap>
-        <entry>
-          <key featureName="ValidationScriptReference" conceptFQName="org.metaforms.validation.structure.ValidationScriptReference" featureKind="CONCEPT" />
-          <value featureName="ValidationRuleReference" conceptFQName="org.metaforms.validation.structure.ValidationRuleReference" featureKind="CONCEPT" />
-        </entry>
-      </conceptFeatureMap>
-    </refactoringContext>
-    <refactoringContext modelVersion="4">
-      <refactoring refactoringClass="jetbrains.mps.lang.structure.refactorings.RenameLink" />
-      <moveMap />
-      <sourceMap />
-      <conceptFeatureMap>
-        <entry>
-          <key featureName="regexp" conceptFQName="org.metaforms.validation.structure.ValidationRule" featureKind="CHILD" />
-          <value featureName="pattern" conceptFQName="org.metaforms.validation.structure.ValidationRule" featureKind="CHILD" />
-        </entry>
-      </conceptFeatureMap>
-    </refactoringContext>
-    <refactoringContext modelVersion="5">
-      <refactoring refactoringClass="jetbrains.mps.lang.structure.refactorings.RenameConcept" />
-      <moveMap />
-      <sourceMap />
-      <conceptFeatureMap>
-        <entry>
-          <key featureName="Library" conceptFQName="org.metaforms.validation.structure.Library" featureKind="CONCEPT" />
-          <value featureName="ValidationLibrary" conceptFQName="org.metaforms.validation.structure.ValidationLibrary" featureKind="CONCEPT" />
-        </entry>
-      </conceptFeatureMap>
-    </refactoringContext>
-  </refactoringHistory>
+<model modelUID="r:7c7d38bb-f8c2-4f6d-8b0f-734a72486381(org.metaforms.validation.structure)" version="5">
+  <persistence version="7" />
   <language namespace="c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.lang.structure)" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" version="0" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590283(jetbrains.mps.lang.core.constraints)" version="2" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959028c(jetbrains.mps.lang.structure.constraints)" version="11" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590340(jetbrains.mps.lang.pattern.constraints)" version="2" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902db(jetbrains.mps.baseLanguage.blTypes.constraints)" version="0" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590345(jetbrains.mps.lang.pattern.structure)" version="0" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959034b(jetbrains.mps.lang.quotation.structure)" version="0" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" version="7" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902b4(jetbrains.mps.lang.typesystem.structure)" version="3" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590328(jetbrains.mps.baseLanguage.collections.constraints)" version="6" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902c1(jetbrains.mps.baseLanguage.constraints)" version="83" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902fb(jetbrains.mps.lang.smodel.constraints)" version="21" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" version="16" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590334(jetbrains.mps.baseLanguage.closures.constraints)" version="2" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590338(jetbrains.mps.baseLanguage.closures.structure)" version="3" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959033d(jetbrains.mps.lang.annotations.structure)" version="0" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="3" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902ae(jetbrains.mps.lang.typesystem.constraints)" version="17" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590518(jetbrains.mps.baseLanguage.regexp.structure)" version="0" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590515(jetbrains.mps.baseLanguage.regexp.constraints)" version="3" />
-  <languageAspect modelUID="r:7c7d38bb-f8c2-4f6d-8b0f-734a72486381(org.metaforms.validation.structure)" version="5" />
-  <devkit namespace="2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)" />
-  <maxImportIndex value="1" />
-  <visible index="2" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
-  <visible index="3" modelUID="r:00000000-0000-4000-0000-011c89590518(jetbrains.mps.baseLanguage.regexp.structure)" />
-  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="2893579543933458625">
-    <property name="name:0" value="ValidationRule" />
-    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
-    <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="5641913358296675453">
-      <property name="metaClass:0" value="aggregation" />
-      <property name="role:0" value="pattern" />
-      <property name="sourceCardinality:0" value="1" />
-      <link role="target:0" targetNodeId="3v.1174482743037:0" resolveInfo="Regexp" />
+  <devkit namespace="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
+  <import index="tpce" modelUID="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" version="0" implicit="yes" />
+  <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
+  <import index="tpfo" modelUID="r:00000000-0000-4000-0000-011c89590518(jetbrains.mps.baseLanguage.regexp.structure)" version="0" implicit="yes" />
+  <import index="a61p" modelUID="r:7c7d38bb-f8c2-4f6d-8b0f-734a72486381(org.metaforms.validation.structure)" version="5" implicit="yes" />
+  <roots>
+    <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="2893579543933458625">
+      <property name="name" nameId="tpck.1169194664001" value="ValidationRule" />
+      <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
     </node>
-    <node role="propertyDeclaration:0" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration:0" id="2893579543933458639">
-      <property name="name:0" value="message" />
-      <link role="dataType:0" targetNodeId="2v.1082983041843:0" resolveInfo="string" />
+    <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="2893579543933458640">
+      <property name="name" nameId="tpck.1169194664001" value="ValidationRuleReference" />
+      <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
     </node>
-    <node role="propertyDeclaration:0" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration:0" id="1955157615230985776">
-      <property name="name:0" value="minLength" />
-      <link role="dataType:0" targetNodeId="2v.1082983657062:0" resolveInfo="integer" />
+    <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="5641913358296698992">
+      <property name="name" nameId="tpck.1169194664001" value="ValidationLibrary" />
+      <property name="rootable" nameId="tpce.1096454100552" value="true" />
+      <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
     </node>
-    <node role="propertyDeclaration:0" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration:0" id="1955157615230985777">
-      <property name="name:0" value="maxLength" />
-      <link role="dataType:0" targetNodeId="2v.1082983657062:0" resolveInfo="integer" />
+  </roots>
+  <root id="2893579543933458625">
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="5641913358296675453">
+      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
+      <property name="role" nameId="tpce.1071599776563" value="pattern" />
+      <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="tpfo.1174482743037" resolveInfo="Regexp" />
     </node>
-    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="2877776657743594365">
-      <link role="intfc:0" targetNodeId="2v.1169194658468:0" resolveInfo="INamedConcept" />
+    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="2893579543933458639">
+      <property name="name" nameId="tpck.1169194664001" value="message" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983041843" resolveInfo="string" />
     </node>
-  </node>
-  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="2893579543933458640">
-    <property name="name:0" value="ValidationRuleReference" />
-    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
-    <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="2893579543933458641">
-      <property name="metaClass:0" value="reference" />
-      <property name="sourceCardinality:0" value="1" />
-      <property name="role:0" value="validationScript" />
-      <link role="target:0" targetNodeId="2893579543933458625:5" resolveInfo="ValidationScript" />
+    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="1955157615230985776">
+      <property name="name" nameId="tpck.1169194664001" value="minLength" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983657062" resolveInfo="integer" />
     </node>
-  </node>
-  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="5641913358296698992">
-    <property name="name:0" value="ValidationLibrary" />
-    <property name="rootable:0" value="true" />
-    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
-    <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="5641913358296698993">
-      <property name="metaClass:0" value="aggregation" />
-      <property name="role:0" value="scripts" />
-      <property name="sourceCardinality:0" value="1..n" />
-      <link role="target:0" targetNodeId="2893579543933458625:5" resolveInfo="ValidationScript" />
+    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="1955157615230985777">
+      <property name="name" nameId="tpck.1169194664001" value="maxLength" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983657062" resolveInfo="integer" />
     </node>
-    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="5641913358296698994">
-      <link role="intfc:0" targetNodeId="2v.1169194658468:0" resolveInfo="INamedConcept" />
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="2877776657743594365">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="tpck.1169194658468" resolveInfo="INamedConcept" />
     </node>
-  </node>
+  </root>
+  <root id="2893579543933458640">
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="2893579543933458641">
+      <property name="metaClass" nameId="tpce.1071599937831" value="reference" />
+      <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
+      <property name="role" nameId="tpce.1071599776563" value="validationScript" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="2893579543933458625" resolveInfo="ValidationRule" />
+    </node>
+  </root>
+  <root id="5641913358296698992">
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="5641913358296698993">
+      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
+      <property name="role" nameId="tpce.1071599776563" value="scripts" />
+      <property name="sourceCardinality" nameId="tpce.1071599893252" value="1..n" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="2893579543933458625" resolveInfo="ValidationRule" />
+    </node>
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="5641913358296698994">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="tpck.1169194658468" resolveInfo="INamedConcept" />
+    </node>
+  </root>
 </model>
 

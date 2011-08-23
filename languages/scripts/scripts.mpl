@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language namespace="org.metaforms.validation" uuid="48a33425-09d8-44e7-a033-40f4b94a2085" java-stubs-enabled="false" compileInMPS="true" doNotGenerateAdapters="false">
+<language namespace="org.metaforms.validation" uuid="48a33425-09d8-44e7-a033-40f4b94a2085" compileInMPS="true" doNotGenerateAdapters="false">
   <models>
     <modelRoot path="${language_descriptor}/languageModels" namespacePrefix="org.metaforms.validation" />
   </models>

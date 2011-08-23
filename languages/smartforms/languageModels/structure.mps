@@ -1,842 +1,546 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model modelUID="r:92b29e2f-687a-493a-8fda-d17d20c1c1bb(org.metaforms.forms.structure)">
-  <persistence version="4" />
-  <refactoringHistory>
-    <refactoringContext modelVersion="0">
-      <refactoring refactoringClass="jetbrains.mps.lang.structure.refactorings.RenameConcept" />
-      <moveMap />
-      <sourceMap />
-      <conceptFeatureMap>
-        <entry>
-          <key featureName="Container" conceptFQName="progress.smartforms.structure.Container" featureKind="CONCEPT" />
-          <value featureName="Panel" conceptFQName="progress.smartforms.structure.Panel" featureKind="CONCEPT" />
-        </entry>
-      </conceptFeatureMap>
-    </refactoringContext>
-    <refactoringContext modelVersion="1">
-      <refactoring refactoringClass="jetbrains.mps.lang.structure.refactorings.RenameConcept" />
-      <moveMap />
-      <sourceMap />
-      <conceptFeatureMap>
-        <entry>
-          <key featureName="DateField " conceptFQName="progress.smartforms.structure.DateField " featureKind="CONCEPT" />
-          <value featureName="DateField" conceptFQName="progress.smartforms.structure.DateField" featureKind="CONCEPT" />
-        </entry>
-      </conceptFeatureMap>
-    </refactoringContext>
-    <refactoringContext modelVersion="2">
-      <refactoring refactoringClass="jetbrains.mps.lang.structure.refactorings.RenameConcept" />
-      <moveMap />
-      <sourceMap />
-      <conceptFeatureMap>
-        <entry>
-          <key featureName="FillLayout " conceptFQName="progress.smartforms.structure.FillLayout " featureKind="CONCEPT" />
-          <value featureName="FillLayout" conceptFQName="progress.smartforms.structure.FillLayout" featureKind="CONCEPT" />
-        </entry>
-      </conceptFeatureMap>
-    </refactoringContext>
-    <refactoringContext modelVersion="3">
-      <refactoring refactoringClass="jetbrains.mps.lang.structure.refactorings.RenameConcept" />
-      <moveMap />
-      <sourceMap />
-      <conceptFeatureMap>
-        <entry>
-          <key featureName="IHasValue" conceptFQName="progress.smartforms.structure.IHasValue" featureKind="CONCEPT" />
-          <value featureName="HasValue" conceptFQName="progress.smartforms.structure.HasValue" featureKind="CONCEPT" />
-        </entry>
-      </conceptFeatureMap>
-    </refactoringContext>
-    <refactoringContext modelVersion="4">
-      <refactoring refactoringClass="jetbrains.mps.lang.structure.refactorings.RenameConcept" />
-      <moveMap />
-      <sourceMap />
-      <conceptFeatureMap>
-        <entry>
-          <key featureName="ISizable" conceptFQName="progress.smartforms.structure.ISizable" featureKind="CONCEPT" />
-          <value featureName="HasWidth" conceptFQName="progress.smartforms.structure.HasWidth" featureKind="CONCEPT" />
-        </entry>
-      </conceptFeatureMap>
-    </refactoringContext>
-    <refactoringContext modelVersion="5">
-      <refactoring refactoringClass="jetbrains.mps.lang.structure.refactorings.RenameConcept" />
-      <moveMap />
-      <sourceMap />
-      <conceptFeatureMap>
-        <entry>
-          <key featureName="IInputField" conceptFQName="progress.smartforms.structure.IInputField" featureKind="CONCEPT" />
-          <value featureName="HasLabel" conceptFQName="progress.smartforms.structure.HasLabel" featureKind="CONCEPT" />
-        </entry>
-      </conceptFeatureMap>
-    </refactoringContext>
-    <refactoringContext modelVersion="6">
-      <refactoring refactoringClass="jetbrains.mps.lang.structure.refactorings.RenameConcept" />
-      <moveMap />
-      <sourceMap />
-      <conceptFeatureMap>
-        <entry>
-          <key featureName="TabPanel" conceptFQName="progress.smartforms.structure.TabPanel" featureKind="CONCEPT" />
-          <value featureName="TablePanel" conceptFQName="progress.smartforms.structure.TablePanel" featureKind="CONCEPT" />
-        </entry>
-      </conceptFeatureMap>
-    </refactoringContext>
-    <refactoringContext modelVersion="7">
-      <refactoring refactoringClass="jetbrains.mps.lang.structure.refactorings.RenameConcept" />
-      <moveMap />
-      <sourceMap />
-      <conceptFeatureMap>
-        <entry>
-          <key featureName="IPanel" conceptFQName="progress.smartforms.structure.IPanel" featureKind="CONCEPT" />
-          <value featureName="HasChildren" conceptFQName="progress.smartforms.structure.HasChildren" featureKind="CONCEPT" />
-        </entry>
-      </conceptFeatureMap>
-    </refactoringContext>
-    <refactoringContext modelVersion="8">
-      <refactoring refactoringClass="jetbrains.mps.lang.structure.refactorings.RenameConcept" />
-      <moveMap />
-      <sourceMap />
-      <conceptFeatureMap>
-        <entry>
-          <key featureName="Id" conceptFQName="progress.smartforms.structure.Id" featureKind="CONCEPT" />
-          <value featureName="IdProperty" conceptFQName="progress.smartforms.structure.IdProperty" featureKind="CONCEPT" />
-        </entry>
-      </conceptFeatureMap>
-    </refactoringContext>
-    <refactoringContext modelVersion="9">
-      <refactoring refactoringClass="jetbrains.mps.lang.structure.refactorings.RenameConcept" />
-      <moveMap />
-      <sourceMap />
-      <conceptFeatureMap>
-        <entry>
-          <key featureName="BindName" conceptFQName="progress.smartforms.structure.BindName" featureKind="CONCEPT" />
-          <value featureName="BindProperty" conceptFQName="progress.smartforms.structure.BindProperty" featureKind="CONCEPT" />
-        </entry>
-      </conceptFeatureMap>
-    </refactoringContext>
-    <refactoringContext modelVersion="10">
-      <refactoring refactoringClass="jetbrains.mps.refactoring.renameLanguage.LanguageRenamer$MyRefactoring" />
-      <moveMap />
-      <sourceMap />
-      <conceptFeatureMap>
-        <entry>
-          <key featureName="BindProperty" conceptFQName="progress.smartforms.structure.BindProperty" featureKind="CONCEPT" />
-          <value featureName="BindProperty" conceptFQName="org.metaforms.forms.structure.BindProperty" featureKind="CONCEPT" />
-        </entry>
-        <entry>
-          <key featureName="BorderLayout" conceptFQName="progress.smartforms.structure.BorderLayout" featureKind="CONCEPT" />
-          <value featureName="BorderLayout" conceptFQName="org.metaforms.forms.structure.BorderLayout" featureKind="CONCEPT" />
-        </entry>
-        <entry>
-          <key featureName="BorderLayoutData" conceptFQName="progress.smartforms.structure.BorderLayoutData" featureKind="CONCEPT" />
-          <value featureName="BorderLayoutData" conceptFQName="org.metaforms.forms.structure.BorderLayoutData" featureKind="CONCEPT" />
-        </entry>
-        <entry>
-          <key featureName="CheckBox" conceptFQName="progress.smartforms.structure.CheckBox" featureKind="CONCEPT" />
-          <value featureName="CheckBox" conceptFQName="org.metaforms.forms.structure.CheckBox" featureKind="CONCEPT" />
-        </entry>
-        <entry>
-          <key featureName="CheckBoxGroup" conceptFQName="progress.smartforms.structure.CheckBoxGroup" featureKind="CONCEPT" />
-          <value featureName="CheckBoxGroup" conceptFQName="org.metaforms.forms.structure.CheckBoxGroup" featureKind="CONCEPT" />
-        </entry>
-        <entry>
-          <key featureName="CheckBoxItem" conceptFQName="progress.smartforms.structure.CheckBoxItem" featureKind="CONCEPT" />
-          <value featureName="CheckBoxItem" conceptFQName="org.metaforms.forms.structure.CheckBoxItem" featureKind="CONCEPT" />
-        </entry>
-        <entry>
-          <key featureName="ContentPanel" conceptFQName="progress.smartforms.structure.ContentPanel" featureKind="CONCEPT" />
-          <value featureName="ContentPanel" conceptFQName="org.metaforms.forms.structure.ContentPanel" featureKind="CONCEPT" />
-        </entry>
-        <entry>
-          <key featureName="DateField" conceptFQName="progress.smartforms.structure.DateField" featureKind="CONCEPT" />
-          <value featureName="DateField" conceptFQName="org.metaforms.forms.structure.DateField" featureKind="CONCEPT" />
-        </entry>
-        <entry>
-          <key featureName="FillLayout" conceptFQName="progress.smartforms.structure.FillLayout" featureKind="CONCEPT" />
-          <value featureName="FillLayout" conceptFQName="org.metaforms.forms.structure.FillLayout" featureKind="CONCEPT" />
-        </entry>
-        <entry>
-          <key featureName="Form" conceptFQName="progress.smartforms.structure.Form" featureKind="CONCEPT" />
-          <value featureName="Form" conceptFQName="org.metaforms.forms.structure.Form" featureKind="CONCEPT" />
-        </entry>
-        <entry>
-          <key featureName="FormPanel" conceptFQName="progress.smartforms.structure.FormPanel" featureKind="CONCEPT" />
-          <value featureName="FormPanel" conceptFQName="org.metaforms.forms.structure.FormPanel" featureKind="CONCEPT" />
-        </entry>
-        <entry>
-          <key featureName="HasChildren" conceptFQName="progress.smartforms.structure.HasChildren" featureKind="CONCEPT" />
-          <value featureName="HasChildren" conceptFQName="org.metaforms.forms.structure.HasChildren" featureKind="CONCEPT" />
-        </entry>
-        <entry>
-          <key featureName="HasLabel" conceptFQName="progress.smartforms.structure.HasLabel" featureKind="CONCEPT" />
-          <value featureName="HasLabel" conceptFQName="org.metaforms.forms.structure.HasLabel" featureKind="CONCEPT" />
-        </entry>
-        <entry>
-          <key featureName="HasLayout" conceptFQName="progress.smartforms.structure.HasLayout" featureKind="CONCEPT" />
-          <value featureName="HasLayout" conceptFQName="org.metaforms.forms.structure.HasLayout" featureKind="CONCEPT" />
-        </entry>
-        <entry>
-          <key featureName="HasOrientation" conceptFQName="progress.smartforms.structure.HasOrientation" featureKind="CONCEPT" />
-          <value featureName="HasOrientation" conceptFQName="org.metaforms.forms.structure.HasOrientation" featureKind="CONCEPT" />
-        </entry>
-        <entry>
-          <key featureName="HasQuery" conceptFQName="progress.smartforms.structure.HasQuery" featureKind="CONCEPT" />
-          <value featureName="HasQuery" conceptFQName="org.metaforms.forms.structure.HasQuery" featureKind="CONCEPT" />
-        </entry>
-        <entry>
-          <key featureName="HasText" conceptFQName="progress.smartforms.structure.HasText" featureKind="CONCEPT" />
-          <value featureName="HasText" conceptFQName="org.metaforms.forms.structure.HasText" featureKind="CONCEPT" />
-        </entry>
-        <entry>
-          <key featureName="HasValue" conceptFQName="progress.smartforms.structure.HasValue" featureKind="CONCEPT" />
-          <value featureName="HasValue" conceptFQName="org.metaforms.forms.structure.HasValue" featureKind="CONCEPT" />
-        </entry>
-        <entry>
-          <key featureName="HasWidth" conceptFQName="progress.smartforms.structure.HasWidth" featureKind="CONCEPT" />
-          <value featureName="HasWidth" conceptFQName="org.metaforms.forms.structure.HasWidth" featureKind="CONCEPT" />
-        </entry>
-        <entry>
-          <key featureName="IContainer" conceptFQName="progress.smartforms.structure.IContainer" featureKind="CONCEPT" />
-          <value featureName="IContainer" conceptFQName="org.metaforms.forms.structure.IContainer" featureKind="CONCEPT" />
-        </entry>
-        <entry>
-          <key featureName="IFormComponent" conceptFQName="progress.smartforms.structure.IFormComponent" featureKind="CONCEPT" />
-          <value featureName="IFormComponent" conceptFQName="org.metaforms.forms.structure.IFormComponent" featureKind="CONCEPT" />
-        </entry>
-        <entry>
-          <key featureName="ILayout" conceptFQName="progress.smartforms.structure.ILayout" featureKind="CONCEPT" />
-          <value featureName="ILayout" conceptFQName="org.metaforms.forms.structure.ILayout" featureKind="CONCEPT" />
-        </entry>
-        <entry>
-          <key featureName="ILayoutData" conceptFQName="progress.smartforms.structure.ILayoutData" featureKind="CONCEPT" />
-          <value featureName="ILayoutData" conceptFQName="org.metaforms.forms.structure.ILayoutData" featureKind="CONCEPT" />
-        </entry>
-        <entry>
-          <key featureName="IdProperty" conceptFQName="progress.smartforms.structure.IdProperty" featureKind="CONCEPT" />
-          <value featureName="IdProperty" conceptFQName="org.metaforms.forms.structure.IdProperty" featureKind="CONCEPT" />
-        </entry>
-        <entry>
-          <key featureName="LabelField" conceptFQName="progress.smartforms.structure.LabelField" featureKind="CONCEPT" />
-          <value featureName="LabelField" conceptFQName="org.metaforms.forms.structure.LabelField" featureKind="CONCEPT" />
-        </entry>
-        <entry>
-          <key featureName="MultiField" conceptFQName="progress.smartforms.structure.MultiField" featureKind="CONCEPT" />
-          <value featureName="MultiField" conceptFQName="org.metaforms.forms.structure.MultiField" featureKind="CONCEPT" />
-        </entry>
-        <entry>
-          <key featureName="RadioGroup" conceptFQName="progress.smartforms.structure.RadioGroup" featureKind="CONCEPT" />
-          <value featureName="RadioGroup" conceptFQName="org.metaforms.forms.structure.RadioGroup" featureKind="CONCEPT" />
-        </entry>
-        <entry>
-          <key featureName="TabItem" conceptFQName="progress.smartforms.structure.TabItem" featureKind="CONCEPT" />
-          <value featureName="TabItem" conceptFQName="org.metaforms.forms.structure.TabItem" featureKind="CONCEPT" />
-        </entry>
-        <entry>
-          <key featureName="TabPanel" conceptFQName="progress.smartforms.structure.TabPanel" featureKind="CONCEPT" />
-          <value featureName="TabPanel" conceptFQName="org.metaforms.forms.structure.TabPanel" featureKind="CONCEPT" />
-        </entry>
-        <entry>
-          <key featureName="TablePanel" conceptFQName="progress.smartforms.structure.TablePanel" featureKind="CONCEPT" />
-          <value featureName="TablePanel" conceptFQName="org.metaforms.forms.structure.TablePanel" featureKind="CONCEPT" />
-        </entry>
-        <entry>
-          <key featureName="TextField" conceptFQName="progress.smartforms.structure.TextField" featureKind="CONCEPT" />
-          <value featureName="TextField" conceptFQName="org.metaforms.forms.structure.TextField" featureKind="CONCEPT" />
-        </entry>
-        <entry>
-          <key featureName="TriggerField" conceptFQName="progress.smartforms.structure.TriggerField" featureKind="CONCEPT" />
-          <value featureName="TriggerField" conceptFQName="org.metaforms.forms.structure.TriggerField" featureKind="CONCEPT" />
-        </entry>
-        <entry>
-          <key featureName="TryConcept" conceptFQName="progress.smartforms.structure.TryConcept" featureKind="CONCEPT" />
-          <value featureName="TryConcept" conceptFQName="org.metaforms.forms.structure.TryConcept" featureKind="CONCEPT" />
-        </entry>
-      </conceptFeatureMap>
-    </refactoringContext>
-    <refactoringContext modelVersion="11">
-      <refactoring refactoringClass="jetbrains.mps.lang.structure.refactorings.RenameLink" />
-      <moveMap />
-      <sourceMap />
-      <conceptFeatureMap>
-        <entry>
-          <key featureName="containers" conceptFQName="org.metaforms.forms.structure.Form" featureKind="CHILD" />
-          <value featureName="container" conceptFQName="org.metaforms.forms.structure.Form" featureKind="CHILD" />
-        </entry>
-      </conceptFeatureMap>
-    </refactoringContext>
-    <refactoringContext modelVersion="12">
-      <refactoring refactoringClass="jetbrains.mps.lang.structure.refactorings.RenameLink" />
-      <moveMap />
-      <sourceMap />
-      <conceptFeatureMap>
-        <entry>
-          <key featureName="components" conceptFQName="org.metaforms.forms.structure.HasChildren" featureKind="CHILD" />
-          <value featureName="component" conceptFQName="org.metaforms.forms.structure.HasChildren" featureKind="CHILD" />
-        </entry>
-      </conceptFeatureMap>
-    </refactoringContext>
-    <refactoringContext modelVersion="13">
-      <refactoring refactoringClass="jetbrains.mps.lang.structure.refactorings.MoveConcepts" />
-      <moveMap>
-        <entry>
-          <key modelUID="r:92b29e2f-687a-493a-8fda-d17d20c1c1bb(org.metaforms.forms.structure)" nodeId="1276781321238815624" />
-          <value modelUID="r:9130804a-d65a-4c68-b2c1-a4462321c3a0(org.metaforms.domain.structure)" nodeId="1276781321238821447" />
-        </entry>
-        <entry>
-          <key modelUID="r:92b29e2f-687a-493a-8fda-d17d20c1c1bb(org.metaforms.forms.structure)" nodeId="1276781321238815627" />
-          <value modelUID="r:9130804a-d65a-4c68-b2c1-a4462321c3a0(org.metaforms.domain.structure)" nodeId="1276781321238821448" />
-        </entry>
-      </moveMap>
-      <sourceMap>
-        <entry>
-          <key modelUID="r:9130804a-d65a-4c68-b2c1-a4462321c3a0(org.metaforms.domain.structure)" nodeId="1276781321238821447" />
-          <value modelUID="r:92b29e2f-687a-493a-8fda-d17d20c1c1bb(org.metaforms.forms.structure)" nodeId="null" />
-        </entry>
-        <entry>
-          <key modelUID="r:9130804a-d65a-4c68-b2c1-a4462321c3a0(org.metaforms.domain.structure)" nodeId="1276781321238821448" />
-          <value modelUID="r:92b29e2f-687a-493a-8fda-d17d20c1c1bb(org.metaforms.forms.structure)" nodeId="null" />
-        </entry>
-      </sourceMap>
-      <conceptFeatureMap>
-        <entry>
-          <key featureName="HasDocument" conceptFQName="org.metaforms.forms.structure.HasDocument" featureKind="CONCEPT" />
-          <value featureName="HasDocument" conceptFQName="org.metaforms.domain.structure.HasDocument" featureKind="CONCEPT" />
-        </entry>
-      </conceptFeatureMap>
-    </refactoringContext>
-    <refactoringContext modelVersion="14">
-      <refactoring refactoringClass="jetbrains.mps.lang.structure.refactorings.RenameConcept" />
-      <moveMap />
-      <sourceMap />
-      <conceptFeatureMap>
-        <entry>
-          <key featureName="IContainer" conceptFQName="org.metaforms.forms.structure.IContainer" featureKind="CONCEPT" />
-          <value featureName="FormContainer" conceptFQName="org.metaforms.forms.structure.FormContainer" featureKind="CONCEPT" />
-        </entry>
-      </conceptFeatureMap>
-    </refactoringContext>
-    <refactoringContext modelVersion="15">
-      <refactoring refactoringClass="jetbrains.mps.lang.structure.refactorings.RenameConcept" />
-      <moveMap />
-      <sourceMap />
-      <conceptFeatureMap>
-        <entry>
-          <key featureName="IFormComponent" conceptFQName="org.metaforms.forms.structure.IFormComponent" featureKind="CONCEPT" />
-          <value featureName="HasBinding" conceptFQName="org.metaforms.forms.structure.HasBinding" featureKind="CONCEPT" />
-        </entry>
-      </conceptFeatureMap>
-    </refactoringContext>
-  </refactoringHistory>
+<model modelUID="r:92b29e2f-687a-493a-8fda-d17d20c1c1bb(org.metaforms.forms.structure)" version="15">
+  <persistence version="7" />
   <language namespace="c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.lang.structure)" />
   <language namespace="daafa647-f1f7-4b0b-b096-69cd7c8408c0(jetbrains.mps.baseLanguage.regexp)" />
   <language namespace="f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959028c(jetbrains.mps.lang.structure.constraints)" version="11" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" version="0" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590283(jetbrains.mps.lang.core.constraints)" version="2" />
-  <languageAspect modelUID="r:92b29e2f-687a-493a-8fda-d17d20c1c1bb(org.metaforms.forms.structure)" version="15" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590515(jetbrains.mps.baseLanguage.regexp.constraints)" version="3" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959034b(jetbrains.mps.lang.quotation.structure)" version="0" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590585(jetbrains.mps.xml.constraints)" version="6" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" version="16" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959033d(jetbrains.mps.lang.annotations.structure)" version="0" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590345(jetbrains.mps.lang.pattern.structure)" version="0" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902b4(jetbrains.mps.lang.typesystem.structure)" version="3" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590340(jetbrains.mps.lang.pattern.constraints)" version="2" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="3" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902fb(jetbrains.mps.lang.smodel.constraints)" version="21" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590334(jetbrains.mps.baseLanguage.closures.constraints)" version="2" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902ae(jetbrains.mps.lang.typesystem.constraints)" version="17" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590588(jetbrains.mps.xml.structure)" version="0" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590338(jetbrains.mps.baseLanguage.closures.structure)" version="3" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590518(jetbrains.mps.baseLanguage.regexp.structure)" version="0" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902db(jetbrains.mps.baseLanguage.blTypes.constraints)" version="0" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" version="7" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590328(jetbrains.mps.baseLanguage.collections.constraints)" version="6" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902c1(jetbrains.mps.baseLanguage.constraints)" version="83" />
-  <languageAspect modelUID="r:9130804a-d65a-4c68-b2c1-a4462321c3a0(org.metaforms.domain.structure)" version="7" />
-  <languageAspect modelUID="r:2362edb2-aad2-40b0-8f6a-16ff64481378(org.metaforms.domain.constraints)" version="0" />
-  <devkit namespace="2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)" />
-  <maxImportIndex value="1" />
-  <visible index="2" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
-  <visible index="3" modelUID="r:9130804a-d65a-4c68-b2c1-a4462321c3a0(org.metaforms.domain.structure)" />
-  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7815177035767537410">
-    <property name="name:0" value="Form" />
-    <property name="rootable:0" value="true" />
-    <property name="iconPath:0" value="${IMAGES_DIR}/application-form.png" />
-    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
-    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="2576874478386449236">
-      <property name="value:0" value="Форма для отображения данных из документа" />
-      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473914776:0" resolveInfo="shortDescription" />
-    </node>
-    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="2576874478386449238">
-      <property name="value:0" value="Форма" />
-      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473891462:0" resolveInfo="alias" />
-    </node>
-    <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="7815177035767655224">
-      <property name="metaClass:0" value="aggregation" />
-      <property name="role:0" value="container" />
-      <property name="sourceCardinality:0" value="1" />
-      <link role="target:0" targetNodeId="2925434448366525478:15" resolveInfo="IContainer" />
-    </node>
-    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="7815177035767537414">
-      <link role="intfc:0" targetNodeId="2v.1169194658468:0" resolveInfo="INamedConcept" />
-    </node>
-    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="6545153482932825366">
-      <link role="intfc:0" targetNodeId="3v.1276781321238821447:7" resolveInfo="HasDocument" />
-    </node>
-    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="838905236136908363">
-      <link role="intfc:0" targetNodeId="3v.627290435249133493:7" resolveInfo="HasId" />
-    </node>
-    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="1597384487797338847">
-      <link role="intfc:0" targetNodeId="2v.1233160296597:0" resolveInfo="IContainer" />
-    </node>
-  </node>
-  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7815177035767655221">
-    <property name="name:0" value="FormPanel" />
-    <property name="rootable:0" value="false" />
-    <property name="package:0" value="widgets" />
-    <property name="iconPath:0" value="${IMAGES_DIR}/application-form.png" />
-    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
-    <node role="propertyDeclaration:0" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration:0" id="7499027618783150677">
-      <property name="name:0" value="frame" />
-      <link role="dataType:0" targetNodeId="2v.1082983657063:0" resolveInfo="boolean" />
-    </node>
-    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="7815177035770464303">
-      <link role="intfc:0" targetNodeId="7815177035770464302:15" resolveInfo="IPanel" />
-    </node>
-    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="2925434448366533376">
-      <link role="intfc:0" targetNodeId="2925434448366525478:15" resolveInfo="IContainer" />
-    </node>
-    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="1786812136902730002">
-      <link role="intfc:0" targetNodeId="7499027618783150613:15" resolveInfo="IFormComponent" />
-    </node>
-    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="7499027618783150685">
-      <property name="value:0" value="Разметка полей для формы" />
-      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473914776:0" resolveInfo="shortDescription" />
-    </node>
-    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="6631949233781302778">
-      <property name="value:0" value="Панель формы" />
-      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473891462:0" resolveInfo="alias" />
-    </node>
-  </node>
-  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7815177035769424733">
-    <property name="name:0" value="TablePanel" />
-    <property name="rootable:0" value="false" />
-    <property name="package:0" value="widgets" />
-    <property name="iconPath:0" value="${IMAGES_DIR}/table.png" />
-    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
-    <node role="propertyDeclaration:0" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration:0" id="4921122046319089424">
-      <property name="name:0" value="columns" />
-      <link role="dataType:0" targetNodeId="2v.1082983657062:0" resolveInfo="integer" />
-    </node>
-    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="4921122046319089427">
-      <link role="intfc:0" targetNodeId="7815177035770464302:15" resolveInfo="IPanel" />
-    </node>
-    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="2925434448366533379">
-      <link role="intfc:0" targetNodeId="2925434448366525478:15" resolveInfo="IContainer" />
-    </node>
-    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="4921122046319089422">
-      <link role="intfc:0" targetNodeId="7499027618783150613:15" resolveInfo="IFormComponent" />
-    </node>
-    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="4921122046319426691">
-      <property name="value:0" value="Контейнер с табличной разметкой" />
-      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473914776:0" resolveInfo="shortDescription" />
-    </node>
-    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="6631949233781302788">
-      <property name="value:0" value="Таблица" />
-      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473891462:0" resolveInfo="alias" />
-    </node>
-  </node>
-  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7815177035769736366">
-    <property name="name:0" value="TextField" />
-    <property name="iconPath:0" value="${IMAGES_DIR}/ui-text-field.png" />
-    <property name="package:0" value="widgets" />
-    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
-    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="6744709490419531562">
-      <link role="intfc:0" targetNodeId="6744709490419469337:15" resolveInfo="HasBinding" />
-    </node>
-    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="35224891275428940">
-      <link role="intfc:0" targetNodeId="7499027618783150631:15" resolveInfo="HasWidth" />
-    </node>
-    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="7499027618783150627">
-      <link role="intfc:0" targetNodeId="7499027618783150624:15" resolveInfo="IInputField" />
-    </node>
-    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="838905236136942297">
-      <link role="intfc:0" targetNodeId="7499027618783578642:15" resolveInfo="HasValue" />
-    </node>
-    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="7499027618783475410">
-      <link role="intfc:0" targetNodeId="7499027618783150613:15" resolveInfo="IFormComponent" />
-    </node>
-    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="35224891275428938">
-      <property name="value:0" value="Текстовое поле" />
-      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473914776:0" resolveInfo="shortDescription" />
-    </node>
-    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="2576874478386414436">
-      <property name="value:0" value="Текст" />
-      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473891462:0" resolveInfo="alias" />
-    </node>
-  </node>
-  <node type="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration:0" id="7815177035770464302">
-    <property name="name:0" value="HasChildren" />
-    <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="4921122046319089426">
-      <property name="metaClass:0" value="aggregation" />
-      <property name="role:0" value="components" />
-      <property name="sourceCardinality:0" value="0..n" />
-      <link role="target:0" targetNodeId="7499027618783150613:15" resolveInfo="IFormComponent" />
-    </node>
-  </node>
-  <node type="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration:0" id="7499027618783150613">
-    <property name="name:0" value="IFormComponent" />
-    <node role="propertyDeclaration:0" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration:0" id="7499027618783150622">
-      <property name="name:0" value="group" />
-      <link role="dataType:0" targetNodeId="2v.1082983041843:0" resolveInfo="string" />
-    </node>
-    <node role="extends:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="6744709490419469341">
-      <link role="intfc:0" targetNodeId="3v.627290435249133493:7" resolveInfo="HasId" />
-    </node>
-  </node>
-  <node type="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration:0" id="7499027618783150624">
-    <property name="name:0" value="HasLabel" />
-    <node role="propertyDeclaration:0" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration:0" id="7499027618783150636">
-      <property name="name:0" value="fieldLabel" />
-      <link role="dataType:0" targetNodeId="2v.1082983041843:0" resolveInfo="string" />
-    </node>
-  </node>
-  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7499027618783150629">
-    <property name="name:0" value="DateField" />
-    <property name="iconPath:0" value="${IMAGES_DIR}/ui-combo-box-calendar.png" />
-    <property name="package:0" value="widgets" />
-    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
-    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="6744709490419531570">
-      <link role="intfc:0" targetNodeId="6744709490419469337:15" resolveInfo="HasBinding" />
-    </node>
-    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="7499027618783150630">
-      <link role="intfc:0" targetNodeId="7499027618783150624:15" resolveInfo="IInputField" />
-    </node>
-    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="7499027618783150639">
-      <link role="intfc:0" targetNodeId="7499027618783150631:15" resolveInfo="ISizable" />
-    </node>
-    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="7499027618783150641">
-      <link role="intfc:0" targetNodeId="7499027618783150613:15" resolveInfo="IFormComponent" />
-    </node>
-    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="7499027618783150662">
-      <property name="value:0" value="&quot;Дата&quot; или &quot;Время&quot;" />
-      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473914776:0" resolveInfo="shortDescription" />
-    </node>
-    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="2576874478386419018">
-      <property name="value:0" value="Дата" />
-      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473891462:0" resolveInfo="alias" />
-    </node>
-  </node>
-  <node type="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration:0" id="7499027618783150631">
-    <property name="name:0" value="HasWidth" />
-    <node role="propertyDeclaration:0" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration:0" id="7499027618783150633">
-      <property name="name:0" value="width" />
-      <link role="dataType:0" targetNodeId="2v.1082983041843:0" resolveInfo="string" />
-    </node>
-  </node>
-  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7499027618783578638">
-    <property name="name:0" value="LabelField" />
-    <property name="package:0" value="widgets" />
-    <property name="iconPath:0" value="${IMAGES_DIR}/ui-label.png" />
-    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
-    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="7499027618783578640">
-      <link role="intfc:0" targetNodeId="7499027618783150613:15" resolveInfo="IFormComponent" />
-    </node>
-    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="6744709490419531574">
-      <link role="intfc:0" targetNodeId="6744709490419469337:15" resolveInfo="HasBinding" />
-    </node>
-    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="838905236136942286">
-      <link role="intfc:0" targetNodeId="7499027618783150624:15" resolveInfo="HasLabel" />
-    </node>
-    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="4921122046319089421">
-      <property name="value:0" value="Статичный текст" />
-      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473914776:0" resolveInfo="shortDescription" />
-    </node>
-    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="6631949233781262367">
-      <property name="value:0" value="Метка" />
-      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473891462:0" resolveInfo="alias" />
-    </node>
-  </node>
-  <node type="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration:0" id="7499027618783578642">
-    <property name="name:0" value="HasValue" />
-    <node role="propertyDeclaration:0" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration:0" id="7499027618783578644">
-      <property name="name:0" value="value" />
-      <link role="dataType:0" targetNodeId="2v.1082983041843:0" resolveInfo="string" />
-    </node>
-  </node>
-  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7499027618783578669">
-    <property name="name:0" value="MultiField" />
-    <property name="rootable:0" value="false" />
-    <property name="package:0" value="widgets" />
-    <property name="iconPath:0" value="${IMAGES_DIR}/ui-group-box.png" />
-    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
-    <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="7499027618783578683">
-      <property name="metaClass:0" value="aggregation" />
-      <property name="role:0" value="children" />
-      <property name="sourceCardinality:0" value="0..n" />
-      <link role="target:0" targetNodeId="7499027618783150624:15" resolveInfo="IInputField" />
-    </node>
-    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="35224891275429008">
-      <link role="intfc:0" targetNodeId="35224891275429005:15" resolveInfo="HasOrientation" />
-    </node>
-    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="7499027618783578682">
-      <link role="intfc:0" targetNodeId="7499027618783150624:15" resolveInfo="IInputField" />
-    </node>
-    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="7499027618783578671">
-      <link role="intfc:0" targetNodeId="7499027618783150613:15" resolveInfo="IFormComponent" />
-    </node>
-    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="4921122046319426690">
-      <property name="value:0" value="Объединение нескольких полей" />
-      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473914776:0" resolveInfo="shortDescription" />
-    </node>
-    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="6631949233781302780">
-      <property name="value:0" value="Группа полей" />
-      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473891462:0" resolveInfo="alias" />
-    </node>
-  </node>
-  <node type="jetbrains.mps.lang.structure.structure.EnumerationDataTypeDeclaration:0" id="7499027618783578672">
-    <property name="name:0" value="OrientationEnum" />
-    <property name="hasNoDefaultMember:0" value="false" />
-    <property name="memberIdentifierPolicy:0" value="derive_from_internal_value" />
-    <property name="package:0" value="widgets" />
-    <link role="memberDataType:0" targetNodeId="2v.1082983041843:0" resolveInfo="string" />
-    <node role="member:0" type="jetbrains.mps.lang.structure.structure.EnumerationMemberDeclaration:0" id="7499027618783578676">
-      <property name="internalValue:0" value="horizontal" />
-      <property name="externalValue:0" value="горизонтальная" />
-    </node>
-    <node role="member:0" type="jetbrains.mps.lang.structure.structure.EnumerationMemberDeclaration:0" id="7499027618783578673">
-      <property name="internalValue:0" value="vertical" />
-      <property name="externalValue:0" value="вертикальная" />
-    </node>
-  </node>
-  <node type="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration:0" id="4921122046318753339">
-    <property name="name:0" value="HasQuery" />
-    <node role="propertyDeclaration:0" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration:0" id="4921122046318753340">
-      <property name="name:0" value="query" />
-      <link role="dataType:0" targetNodeId="2v.1082983041843:0" resolveInfo="string" />
-    </node>
-  </node>
-  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="4921122046318977169">
-    <property name="name:0" value="RadioGroup" />
-    <property name="package:0" value="widgets" />
-    <property name="iconPath:0" value="${IMAGES_DIR}/ui-radio-buttons.png" />
-    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
-    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="6744709490419531579">
-      <link role="intfc:0" targetNodeId="6744709490419469337:15" resolveInfo="HasBinding" />
-    </node>
-    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="4921122046319089335">
-      <link role="intfc:0" targetNodeId="4921122046318753339:15" resolveInfo="HasQuery" />
-    </node>
-    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="4921122046319001078">
-      <link role="intfc:0" targetNodeId="7499027618783150624:15" resolveInfo="IInputField" />
-    </node>
-    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="4921122046318977170">
-      <link role="intfc:0" targetNodeId="7499027618783150613:15" resolveInfo="IFormComponent" />
-    </node>
-    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="4921122046319089395">
-      <property name="value:0" value="Поле выбора одного варианта" />
-      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473914776:0" resolveInfo="shortDescription" />
-    </node>
-    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="6631949233781302782">
-      <property name="value:0" value="Выбор" />
-      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473891462:0" resolveInfo="alias" />
-    </node>
-  </node>
-  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="4921122046319089396">
-    <property name="name:0" value="TabItem" />
-    <property name="package:0" value="widgets" />
-    <property name="iconPath:0" value="${IMAGES_DIR}/ui-tab.png" />
-    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
-    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="4921122046319089397">
-      <property name="value:0" value="Закладка" />
-      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473914776:0" resolveInfo="shortDescription" />
-    </node>
-    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="6631949233781302784">
-      <property name="value:0" value="Закладка" />
-      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473891462:0" resolveInfo="alias" />
-    </node>
-    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="35224891275099089">
-      <link role="intfc:0" targetNodeId="7815177035770464302:15" resolveInfo="HasChildren" />
-    </node>
-    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="838905236136930163">
-      <link role="intfc:0" targetNodeId="7499027618783150624:15" resolveInfo="HasLabel" />
-    </node>
-  </node>
-  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="35224891275220207">
-    <property name="name:0" value="TabPanel" />
-    <property name="rootable:0" value="false" />
-    <property name="package:0" value="widgets" />
-    <property name="iconPath:0" value="${IMAGES_DIR}/ui-tab-content.png" />
-    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
-    <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="35224891275220209">
-      <property name="metaClass:0" value="aggregation" />
-      <property name="role:0" value="items" />
-      <property name="sourceCardinality:0" value="0..n" />
-      <link role="target:0" targetNodeId="4921122046319089396:15" resolveInfo="TabItem" />
-    </node>
-    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="35224891275220210">
-      <property name="value:0" value="Объединение закладок" />
-      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473914776:0" resolveInfo="shortDescription" />
-    </node>
-    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="6631949233781302786">
-      <property name="value:0" value="Панель закладок" />
-      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473891462:0" resolveInfo="alias" />
-    </node>
-    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="1786812136902730005">
-      <link role="intfc:0" targetNodeId="7499027618783150613:15" resolveInfo="IFormComponent" />
-    </node>
-  </node>
-  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="35224891275428963">
-    <property name="name:0" value="TriggerField" />
-    <property name="package:0" value="widgets" />
-    <property name="iconPath:0" value="${IMAGES_DIR}/ui-combo-box.png" />
-    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
-    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="35224891275428964">
-      <property name="value:0" value="Выбор из списка значений" />
-      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473914776:0" resolveInfo="shortDescription" />
-    </node>
-    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="6631949233781314353">
-      <property name="value:0" value="Список" />
-      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473891462:0" resolveInfo="alias" />
-    </node>
-    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="6744709490419531558">
-      <link role="intfc:0" targetNodeId="6744709490419469337:15" resolveInfo="HasBinding" />
-    </node>
-    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="35224891275428965">
-      <link role="intfc:0" targetNodeId="7499027618783150631:15" resolveInfo="HasWidth" />
-    </node>
-    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="35224891275428967">
-      <link role="intfc:0" targetNodeId="4921122046318753339:15" resolveInfo="HasQuery" />
-    </node>
-    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="35224891275428969">
-      <link role="intfc:0" targetNodeId="7499027618783150624:15" resolveInfo="HasLabel" />
-    </node>
-    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="35224891275428971">
-      <link role="intfc:0" targetNodeId="7499027618783150613:15" resolveInfo="IFormComponent" />
-    </node>
-  </node>
-  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="35224891275429001">
-    <property name="name:0" value="CheckBoxGroup" />
-    <property name="package:0" value="widgets" />
-    <property name="iconPath:0" value="${IMAGES_DIR}/ui-check-boxes-series.png" />
-    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
-    <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="35224891275546199">
-      <property name="metaClass:0" value="aggregation" />
-      <property name="role:0" value="items" />
-      <property name="sourceCardinality:0" value="0..n" />
-      <link role="target:0" targetNodeId="35224891275546181:15" resolveInfo="CheckBoxItem" />
-    </node>
-    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="6744709490419531566">
-      <link role="intfc:0" targetNodeId="6744709490419469337:15" resolveInfo="HasBinding" />
-    </node>
-    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="35224891275429004">
-      <link role="intfc:0" targetNodeId="7499027618783150624:15" resolveInfo="HasLabel" />
-    </node>
-    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="35224891275429002">
-      <link role="intfc:0" targetNodeId="7499027618783150613:15" resolveInfo="IFormComponent" />
-    </node>
-    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="35224891275546224">
-      <property name="value:0" value="Набор флагов" />
-      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473914776:0" resolveInfo="shortDescription" />
-    </node>
-    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="6631949233781262371">
-      <property name="value:0" value="Множственный выбор" />
-      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473891462:0" resolveInfo="alias" />
-    </node>
-  </node>
-  <node type="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration:0" id="35224891275429005">
-    <property name="name:0" value="HasOrientation" />
-    <node role="propertyDeclaration:0" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration:0" id="35224891275429006">
-      <property name="name:0" value="orientation" />
-      <link role="dataType:0" targetNodeId="7499027618783578672:15" resolveInfo="OrientationEnum" />
-    </node>
-  </node>
-  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="35224891275546181">
-    <property name="name:0" value="CheckBoxItem" />
-    <property name="package:0" value="widgets" />
-    <property name="iconPath:0" value="${IMAGES_DIR}/ui-check-box.png" />
-    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
-    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="35224891275546185">
-      <link role="intfc:0" targetNodeId="7499027618783150624:15" resolveInfo="HasLabel" />
-    </node>
-    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="35224891275546182">
-      <link role="intfc:0" targetNodeId="7499027618783578642:15" resolveInfo="HasValue" />
-    </node>
-    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="1786812136902729991">
-      <property name="value:0" value="Один из чекбосков" />
-      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473914776:0" resolveInfo="shortDescription" />
-    </node>
-  </node>
-  <node type="jetbrains.mps.lang.structure.structure.EnumerationDataTypeDeclaration:0" id="35224891275546254">
-    <property name="name:0" value="RegionEnum" />
-    <property name="package:0" value="widgets" />
-    <link role="memberDataType:0" targetNodeId="2v.1082983041843:0" resolveInfo="string" />
-    <node role="member:0" type="jetbrains.mps.lang.structure.structure.EnumerationMemberDeclaration:0" id="35224891275546255">
-      <property name="internalValue:0" value="north" />
-      <property name="externalValue:0" value="north" />
-    </node>
-    <node role="member:0" type="jetbrains.mps.lang.structure.structure.EnumerationMemberDeclaration:0" id="35224891275546256">
-      <property name="internalValue:0" value="south" />
-      <property name="externalValue:0" value="south" />
-    </node>
-    <node role="member:0" type="jetbrains.mps.lang.structure.structure.EnumerationMemberDeclaration:0" id="35224891275546257">
-      <property name="internalValue:0" value="west" />
-      <property name="externalValue:0" value="west" />
-    </node>
-    <node role="member:0" type="jetbrains.mps.lang.structure.structure.EnumerationMemberDeclaration:0" id="35224891275546258">
-      <property name="internalValue:0" value="east" />
-      <property name="externalValue:0" value="east" />
-    </node>
-    <node role="member:0" type="jetbrains.mps.lang.structure.structure.EnumerationMemberDeclaration:0" id="35224891275546259">
-      <property name="internalValue:0" value="center" />
-      <property name="externalValue:0" value="center" />
-    </node>
-  </node>
-  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="35224891275546284">
-    <property name="name:0" value="ContentPanel" />
-    <property name="rootable:0" value="false" />
-    <property name="package:0" value="widgets" />
-    <property name="iconPath:0" value="${IMAGES_DIR}/ui-panel.png" />
-    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
-    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="35224891275546285">
-      <link role="intfc:0" targetNodeId="7815177035770464302:15" resolveInfo="HasChildren" />
-    </node>
-    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="2925434448366533374">
-      <link role="intfc:0" targetNodeId="2925434448366525478:15" resolveInfo="IContainer" />
-    </node>
-    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="35224891275546287">
-      <link role="intfc:0" targetNodeId="7499027618783150613:15" resolveInfo="IFormComponent" />
-    </node>
-    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="1786812136902729992">
-      <property name="value:0" value="Простой контейнер" />
-      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473914776:0" resolveInfo="shortDescription" />
-    </node>
-    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="6631949233781302774">
-      <property name="value:0" value="Простой контейнер" />
-      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473891462:0" resolveInfo="alias" />
-    </node>
-  </node>
-  <node type="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration:0" id="2925434448366525478">
-    <property name="name:0" value="FormContainer" />
-  </node>
-  <node type="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration:0" id="6744709490419469337">
-    <property name="name:0" value="HasBinding" />
-    <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="6744709490419469338">
-      <property name="metaClass:0" value="aggregation" />
-      <property name="role:0" value="fieldReference" />
-      <link role="target:0" targetNodeId="3v.7691500841060791949:7" resolveInfo="FieldReference" />
-    </node>
-  </node>
-  <visible index="4" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
-  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="3582867533737650359">
-    <property name="name:0" value="Rule" />
-    <property name="rootable:0" value="true" />
-    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
-    <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="3582867533737650360">
-      <property name="metaClass:0" value="aggregation" />
-      <property name="role:0" value="exp" />
-      <link role="target:0" targetNodeId="4v.1068431790191:3" resolveInfo="Expression" />
-    </node>
-  </node>
+  <devkit namespace="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
+  <import index="tpce" modelUID="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" version="0" implicit="yes" />
+  <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
+  <import index="aytv" modelUID="r:92b29e2f-687a-493a-8fda-d17d20c1c1bb(org.metaforms.forms.structure)" version="15" implicit="yes" />
+  <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="3" implicit="yes" />
+  <import index="vu84" modelUID="r:9130804a-d65a-4c68-b2c1-a4462321c3a0(org.metaforms.domain.structure)" version="7" implicit="yes" />
+  <roots>
+    <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="7815177035767537410">
+      <property name="name" nameId="tpck.1169194664001" value="Form" />
+      <property name="rootable" nameId="tpce.1096454100552" value="true" />
+      <property name="iconPath" nameId="tpce.1160488491229" value="${IMAGES_DIR}/application-form.png" />
+      <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
+    </node>
+    <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="7815177035767655221">
+      <property name="name" nameId="tpck.1169194664001" value="FormPanel" />
+      <property name="rootable" nameId="tpce.1096454100552" value="false" />
+      <property name="iconPath" nameId="tpce.1160488491229" value="${IMAGES_DIR}/application-form.png" />
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="widgets" />
+      <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
+    </node>
+    <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="7815177035769424733">
+      <property name="name" nameId="tpck.1169194664001" value="TablePanel" />
+      <property name="rootable" nameId="tpce.1096454100552" value="false" />
+      <property name="iconPath" nameId="tpce.1160488491229" value="${IMAGES_DIR}/table.png" />
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="widgets" />
+      <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
+    </node>
+    <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="7815177035769736366">
+      <property name="name" nameId="tpck.1169194664001" value="TextField" />
+      <property name="iconPath" nameId="tpce.1160488491229" value="${IMAGES_DIR}/ui-text-field.png" />
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="widgets" />
+      <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
+    </node>
+    <node type="tpce.InterfaceConceptDeclaration" typeId="tpce.1169125989551" id="7815177035770464302">
+      <property name="name" nameId="tpck.1169194664001" value="HasChildren" />
+    </node>
+    <node type="tpce.InterfaceConceptDeclaration" typeId="tpce.1169125989551" id="7499027618783150613">
+      <property name="name" nameId="tpck.1169194664001" value="IFormComponent" />
+    </node>
+    <node type="tpce.InterfaceConceptDeclaration" typeId="tpce.1169125989551" id="7499027618783150624">
+      <property name="name" nameId="tpck.1169194664001" value="HasLabel" />
+    </node>
+    <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="7499027618783150629">
+      <property name="name" nameId="tpck.1169194664001" value="DateField" />
+      <property name="iconPath" nameId="tpce.1160488491229" value="${IMAGES_DIR}/ui-combo-box-calendar.png" />
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="widgets" />
+      <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
+    </node>
+    <node type="tpce.InterfaceConceptDeclaration" typeId="tpce.1169125989551" id="7499027618783150631">
+      <property name="name" nameId="tpck.1169194664001" value="HasWidth" />
+    </node>
+    <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="7499027618783578638">
+      <property name="name" nameId="tpck.1169194664001" value="LabelField" />
+      <property name="iconPath" nameId="tpce.1160488491229" value="${IMAGES_DIR}/ui-label.png" />
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="widgets" />
+      <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
+    </node>
+    <node type="tpce.InterfaceConceptDeclaration" typeId="tpce.1169125989551" id="7499027618783578642">
+      <property name="name" nameId="tpck.1169194664001" value="HasValue" />
+    </node>
+    <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="7499027618783578669">
+      <property name="name" nameId="tpck.1169194664001" value="MultiField" />
+      <property name="rootable" nameId="tpce.1096454100552" value="false" />
+      <property name="iconPath" nameId="tpce.1160488491229" value="${IMAGES_DIR}/ui-group-box.png" />
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="widgets" />
+      <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
+    </node>
+    <node type="tpce.EnumerationDataTypeDeclaration" typeId="tpce.1082978164219" id="7499027618783578672">
+      <property name="name" nameId="tpck.1169194664001" value="OrientationEnum" />
+      <property name="hasNoDefaultMember" nameId="tpce.1212080844762" value="false" />
+      <property name="memberIdentifierPolicy" nameId="tpce.1197591154882" value="derive_from_internal_value" />
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="widgets" />
+      <link role="memberDataType" roleId="tpce.1083171729157" targetNodeId="tpck.1082983041843" resolveInfo="string" />
+    </node>
+    <node type="tpce.InterfaceConceptDeclaration" typeId="tpce.1169125989551" id="4921122046318753339">
+      <property name="name" nameId="tpck.1169194664001" value="HasQuery" />
+    </node>
+    <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="4921122046318977169">
+      <property name="name" nameId="tpck.1169194664001" value="RadioGroup" />
+      <property name="iconPath" nameId="tpce.1160488491229" value="${IMAGES_DIR}/ui-radio-buttons.png" />
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="widgets" />
+      <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
+    </node>
+    <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="4921122046319089396">
+      <property name="name" nameId="tpck.1169194664001" value="TabItem" />
+      <property name="iconPath" nameId="tpce.1160488491229" value="${IMAGES_DIR}/ui-tab.png" />
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="widgets" />
+      <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
+    </node>
+    <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="35224891275220207">
+      <property name="name" nameId="tpck.1169194664001" value="TabPanel" />
+      <property name="rootable" nameId="tpce.1096454100552" value="false" />
+      <property name="iconPath" nameId="tpce.1160488491229" value="${IMAGES_DIR}/ui-tab-content.png" />
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="widgets" />
+      <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
+    </node>
+    <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="35224891275428963">
+      <property name="name" nameId="tpck.1169194664001" value="TriggerField" />
+      <property name="iconPath" nameId="tpce.1160488491229" value="${IMAGES_DIR}/ui-combo-box.png" />
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="widgets" />
+      <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
+    </node>
+    <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="35224891275429001">
+      <property name="name" nameId="tpck.1169194664001" value="CheckBoxGroup" />
+      <property name="iconPath" nameId="tpce.1160488491229" value="${IMAGES_DIR}/ui-check-boxes-series.png" />
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="widgets" />
+      <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
+    </node>
+    <node type="tpce.InterfaceConceptDeclaration" typeId="tpce.1169125989551" id="35224891275429005">
+      <property name="name" nameId="tpck.1169194664001" value="HasOrientation" />
+    </node>
+    <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="35224891275546181">
+      <property name="name" nameId="tpck.1169194664001" value="CheckBoxItem" />
+      <property name="iconPath" nameId="tpce.1160488491229" value="${IMAGES_DIR}/ui-check-box.png" />
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="widgets" />
+      <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
+    </node>
+    <node type="tpce.EnumerationDataTypeDeclaration" typeId="tpce.1082978164219" id="35224891275546254">
+      <property name="name" nameId="tpck.1169194664001" value="RegionEnum" />
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="widgets" />
+      <link role="memberDataType" roleId="tpce.1083171729157" targetNodeId="tpck.1082983041843" resolveInfo="string" />
+    </node>
+    <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="35224891275546284">
+      <property name="name" nameId="tpck.1169194664001" value="ContentPanel" />
+      <property name="rootable" nameId="tpce.1096454100552" value="false" />
+      <property name="iconPath" nameId="tpce.1160488491229" value="${IMAGES_DIR}/ui-panel.png" />
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="widgets" />
+      <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
+    </node>
+    <node type="tpce.InterfaceConceptDeclaration" typeId="tpce.1169125989551" id="2925434448366525478">
+      <property name="name" nameId="tpck.1169194664001" value="FormContainer" />
+    </node>
+    <node type="tpce.InterfaceConceptDeclaration" typeId="tpce.1169125989551" id="6744709490419469337">
+      <property name="name" nameId="tpck.1169194664001" value="HasBinding" />
+    </node>
+    <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="3582867533737650359">
+      <property name="name" nameId="tpck.1169194664001" value="Rule" />
+      <property name="rootable" nameId="tpce.1096454100552" value="true" />
+      <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
+    </node>
+  </roots>
+  <root id="7815177035767537410">
+    <node role="conceptProperty" roleId="tpce.1105725339613" type="tpce.StringConceptProperty" typeId="tpce.1105725638761" id="2576874478386449236">
+      <property name="value" nameId="tpce.1105725733873" value="Форма для отображения данных из документа" />
+      <link role="conceptPropertyDeclaration" roleId="tpce.1105725439818" targetNodeId="tpck.1137473914776" resolveInfo="shortDescription" />
+    </node>
+    <node role="conceptProperty" roleId="tpce.1105725339613" type="tpce.StringConceptProperty" typeId="tpce.1105725638761" id="2576874478386449238">
+      <property name="value" nameId="tpce.1105725733873" value="Форма" />
+      <link role="conceptPropertyDeclaration" roleId="tpce.1105725439818" targetNodeId="tpck.1137473891462" resolveInfo="alias" />
+    </node>
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="7815177035767655224">
+      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
+      <property name="role" nameId="tpce.1071599776563" value="container" />
+      <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="2925434448366525478" resolveInfo="FormContainer" />
+    </node>
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="7815177035767537414">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="tpck.1169194658468" resolveInfo="INamedConcept" />
+    </node>
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="6545153482932825366">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="vu84.1276781321238821447" resolveInfo="HasDocumentReference" />
+    </node>
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="838905236136908363">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="vu84.627290435249133493" resolveInfo="HasId" />
+    </node>
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="1597384487797338847">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="tpck.1233160296597" resolveInfo="IContainer" />
+    </node>
+  </root>
+  <root id="7815177035767655221">
+    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="7499027618783150677">
+      <property name="name" nameId="tpck.1169194664001" value="frame" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983657063" resolveInfo="boolean" />
+    </node>
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="7815177035770464303">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="7815177035770464302" resolveInfo="HasChildren" />
+    </node>
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="2925434448366533376">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="2925434448366525478" resolveInfo="FormContainer" />
+    </node>
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="1786812136902730002">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="7499027618783150613" resolveInfo="IFormComponent" />
+    </node>
+    <node role="conceptProperty" roleId="tpce.1105725339613" type="tpce.StringConceptProperty" typeId="tpce.1105725638761" id="7499027618783150685">
+      <property name="value" nameId="tpce.1105725733873" value="Разметка полей для формы" />
+      <link role="conceptPropertyDeclaration" roleId="tpce.1105725439818" targetNodeId="tpck.1137473914776" resolveInfo="shortDescription" />
+    </node>
+    <node role="conceptProperty" roleId="tpce.1105725339613" type="tpce.StringConceptProperty" typeId="tpce.1105725638761" id="6631949233781302778">
+      <property name="value" nameId="tpce.1105725733873" value="Панель формы" />
+      <link role="conceptPropertyDeclaration" roleId="tpce.1105725439818" targetNodeId="tpck.1137473891462" resolveInfo="alias" />
+    </node>
+  </root>
+  <root id="7815177035769424733">
+    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="4921122046319089424">
+      <property name="name" nameId="tpck.1169194664001" value="columns" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983657062" resolveInfo="integer" />
+    </node>
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="4921122046319089427">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="7815177035770464302" resolveInfo="HasChildren" />
+    </node>
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="2925434448366533379">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="2925434448366525478" resolveInfo="FormContainer" />
+    </node>
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="4921122046319089422">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="7499027618783150613" resolveInfo="IFormComponent" />
+    </node>
+    <node role="conceptProperty" roleId="tpce.1105725339613" type="tpce.StringConceptProperty" typeId="tpce.1105725638761" id="4921122046319426691">
+      <property name="value" nameId="tpce.1105725733873" value="Контейнер с табличной разметкой" />
+      <link role="conceptPropertyDeclaration" roleId="tpce.1105725439818" targetNodeId="tpck.1137473914776" resolveInfo="shortDescription" />
+    </node>
+    <node role="conceptProperty" roleId="tpce.1105725339613" type="tpce.StringConceptProperty" typeId="tpce.1105725638761" id="6631949233781302788">
+      <property name="value" nameId="tpce.1105725733873" value="Таблица" />
+      <link role="conceptPropertyDeclaration" roleId="tpce.1105725439818" targetNodeId="tpck.1137473891462" resolveInfo="alias" />
+    </node>
+  </root>
+  <root id="7815177035769736366">
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="6744709490419531562">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="6744709490419469337" resolveInfo="HasBinding" />
+    </node>
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="35224891275428940">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="7499027618783150631" resolveInfo="HasWidth" />
+    </node>
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="7499027618783150627">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="7499027618783150624" resolveInfo="HasLabel" />
+    </node>
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="838905236136942297">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="7499027618783578642" resolveInfo="HasValue" />
+    </node>
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="7499027618783475410">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="7499027618783150613" resolveInfo="IFormComponent" />
+    </node>
+    <node role="conceptProperty" roleId="tpce.1105725339613" type="tpce.StringConceptProperty" typeId="tpce.1105725638761" id="35224891275428938">
+      <property name="value" nameId="tpce.1105725733873" value="Текстовое поле" />
+      <link role="conceptPropertyDeclaration" roleId="tpce.1105725439818" targetNodeId="tpck.1137473914776" resolveInfo="shortDescription" />
+    </node>
+    <node role="conceptProperty" roleId="tpce.1105725339613" type="tpce.StringConceptProperty" typeId="tpce.1105725638761" id="2576874478386414436">
+      <property name="value" nameId="tpce.1105725733873" value="Текст" />
+      <link role="conceptPropertyDeclaration" roleId="tpce.1105725439818" targetNodeId="tpck.1137473891462" resolveInfo="alias" />
+    </node>
+  </root>
+  <root id="7815177035770464302">
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="4921122046319089426">
+      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
+      <property name="role" nameId="tpce.1071599776563" value="components" />
+      <property name="sourceCardinality" nameId="tpce.1071599893252" value="0..n" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="7499027618783150613" resolveInfo="IFormComponent" />
+    </node>
+  </root>
+  <root id="7499027618783150613">
+    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="7499027618783150622">
+      <property name="name" nameId="tpck.1169194664001" value="group" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983041843" resolveInfo="string" />
+    </node>
+    <node role="extends" roleId="tpce.1169127546356" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="6744709490419469341">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="vu84.627290435249133493" resolveInfo="HasId" />
+    </node>
+  </root>
+  <root id="7499027618783150624">
+    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="7499027618783150636">
+      <property name="name" nameId="tpck.1169194664001" value="fieldLabel" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983041843" resolveInfo="string" />
+    </node>
+  </root>
+  <root id="7499027618783150629">
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="6744709490419531570">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="6744709490419469337" resolveInfo="HasBinding" />
+    </node>
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="7499027618783150630">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="7499027618783150624" resolveInfo="HasLabel" />
+    </node>
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="7499027618783150639">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="7499027618783150631" resolveInfo="HasWidth" />
+    </node>
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="7499027618783150641">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="7499027618783150613" resolveInfo="IFormComponent" />
+    </node>
+    <node role="conceptProperty" roleId="tpce.1105725339613" type="tpce.StringConceptProperty" typeId="tpce.1105725638761" id="7499027618783150662">
+      <property name="value" nameId="tpce.1105725733873" value="&quot;Дата&quot; или &quot;Время&quot;" />
+      <link role="conceptPropertyDeclaration" roleId="tpce.1105725439818" targetNodeId="tpck.1137473914776" resolveInfo="shortDescription" />
+    </node>
+    <node role="conceptProperty" roleId="tpce.1105725339613" type="tpce.StringConceptProperty" typeId="tpce.1105725638761" id="2576874478386419018">
+      <property name="value" nameId="tpce.1105725733873" value="Дата" />
+      <link role="conceptPropertyDeclaration" roleId="tpce.1105725439818" targetNodeId="tpck.1137473891462" resolveInfo="alias" />
+    </node>
+  </root>
+  <root id="7499027618783150631">
+    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="7499027618783150633">
+      <property name="name" nameId="tpck.1169194664001" value="width" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983041843" resolveInfo="string" />
+    </node>
+  </root>
+  <root id="7499027618783578638">
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="7499027618783578640">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="7499027618783150613" resolveInfo="IFormComponent" />
+    </node>
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="6744709490419531574">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="6744709490419469337" resolveInfo="HasBinding" />
+    </node>
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="838905236136942286">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="7499027618783150624" resolveInfo="HasLabel" />
+    </node>
+    <node role="conceptProperty" roleId="tpce.1105725339613" type="tpce.StringConceptProperty" typeId="tpce.1105725638761" id="4921122046319089421">
+      <property name="value" nameId="tpce.1105725733873" value="Статичный текст" />
+      <link role="conceptPropertyDeclaration" roleId="tpce.1105725439818" targetNodeId="tpck.1137473914776" resolveInfo="shortDescription" />
+    </node>
+    <node role="conceptProperty" roleId="tpce.1105725339613" type="tpce.StringConceptProperty" typeId="tpce.1105725638761" id="6631949233781262367">
+      <property name="value" nameId="tpce.1105725733873" value="Метка" />
+      <link role="conceptPropertyDeclaration" roleId="tpce.1105725439818" targetNodeId="tpck.1137473891462" resolveInfo="alias" />
+    </node>
+  </root>
+  <root id="7499027618783578642">
+    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="7499027618783578644">
+      <property name="name" nameId="tpck.1169194664001" value="value" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983041843" resolveInfo="string" />
+    </node>
+  </root>
+  <root id="7499027618783578669">
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="7499027618783578683">
+      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
+      <property name="role" nameId="tpce.1071599776563" value="children" />
+      <property name="sourceCardinality" nameId="tpce.1071599893252" value="0..n" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="7499027618783150624" resolveInfo="HasLabel" />
+    </node>
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="35224891275429008">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="35224891275429005" resolveInfo="HasOrientation" />
+    </node>
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="7499027618783578682">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="7499027618783150624" resolveInfo="HasLabel" />
+    </node>
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="7499027618783578671">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="7499027618783150613" resolveInfo="IFormComponent" />
+    </node>
+    <node role="conceptProperty" roleId="tpce.1105725339613" type="tpce.StringConceptProperty" typeId="tpce.1105725638761" id="4921122046319426690">
+      <property name="value" nameId="tpce.1105725733873" value="Объединение нескольких полей" />
+      <link role="conceptPropertyDeclaration" roleId="tpce.1105725439818" targetNodeId="tpck.1137473914776" resolveInfo="shortDescription" />
+    </node>
+    <node role="conceptProperty" roleId="tpce.1105725339613" type="tpce.StringConceptProperty" typeId="tpce.1105725638761" id="6631949233781302780">
+      <property name="value" nameId="tpce.1105725733873" value="Группа полей" />
+      <link role="conceptPropertyDeclaration" roleId="tpce.1105725439818" targetNodeId="tpck.1137473891462" resolveInfo="alias" />
+    </node>
+  </root>
+  <root id="7499027618783578672">
+    <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="7499027618783578676">
+      <property name="internalValue" nameId="tpce.1083923523171" value="horizontal" />
+      <property name="externalValue" nameId="tpce.1083923523172" value="горизонтальная" />
+    </node>
+    <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="7499027618783578673">
+      <property name="internalValue" nameId="tpce.1083923523171" value="vertical" />
+      <property name="externalValue" nameId="tpce.1083923523172" value="вертикальная" />
+    </node>
+  </root>
+  <root id="4921122046318753339">
+    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="4921122046318753340">
+      <property name="name" nameId="tpck.1169194664001" value="query" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983041843" resolveInfo="string" />
+    </node>
+  </root>
+  <root id="4921122046318977169">
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="6744709490419531579">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="6744709490419469337" resolveInfo="HasBinding" />
+    </node>
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="4921122046319089335">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="4921122046318753339" resolveInfo="HasQuery" />
+    </node>
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="4921122046319001078">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="7499027618783150624" resolveInfo="HasLabel" />
+    </node>
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="4921122046318977170">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="7499027618783150613" resolveInfo="IFormComponent" />
+    </node>
+    <node role="conceptProperty" roleId="tpce.1105725339613" type="tpce.StringConceptProperty" typeId="tpce.1105725638761" id="4921122046319089395">
+      <property name="value" nameId="tpce.1105725733873" value="Поле выбора одного варианта" />
+      <link role="conceptPropertyDeclaration" roleId="tpce.1105725439818" targetNodeId="tpck.1137473914776" resolveInfo="shortDescription" />
+    </node>
+    <node role="conceptProperty" roleId="tpce.1105725339613" type="tpce.StringConceptProperty" typeId="tpce.1105725638761" id="6631949233781302782">
+      <property name="value" nameId="tpce.1105725733873" value="Выбор" />
+      <link role="conceptPropertyDeclaration" roleId="tpce.1105725439818" targetNodeId="tpck.1137473891462" resolveInfo="alias" />
+    </node>
+  </root>
+  <root id="4921122046319089396">
+    <node role="conceptProperty" roleId="tpce.1105725339613" type="tpce.StringConceptProperty" typeId="tpce.1105725638761" id="4921122046319089397">
+      <property name="value" nameId="tpce.1105725733873" value="Закладка" />
+      <link role="conceptPropertyDeclaration" roleId="tpce.1105725439818" targetNodeId="tpck.1137473914776" resolveInfo="shortDescription" />
+    </node>
+    <node role="conceptProperty" roleId="tpce.1105725339613" type="tpce.StringConceptProperty" typeId="tpce.1105725638761" id="6631949233781302784">
+      <property name="value" nameId="tpce.1105725733873" value="Закладка" />
+      <link role="conceptPropertyDeclaration" roleId="tpce.1105725439818" targetNodeId="tpck.1137473891462" resolveInfo="alias" />
+    </node>
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="35224891275099089">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="7815177035770464302" resolveInfo="HasChildren" />
+    </node>
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="838905236136930163">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="7499027618783150624" resolveInfo="HasLabel" />
+    </node>
+  </root>
+  <root id="35224891275220207">
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="35224891275220209">
+      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
+      <property name="role" nameId="tpce.1071599776563" value="items" />
+      <property name="sourceCardinality" nameId="tpce.1071599893252" value="0..n" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="4921122046319089396" resolveInfo="TabItem" />
+    </node>
+    <node role="conceptProperty" roleId="tpce.1105725339613" type="tpce.StringConceptProperty" typeId="tpce.1105725638761" id="35224891275220210">
+      <property name="value" nameId="tpce.1105725733873" value="Объединение закладок" />
+      <link role="conceptPropertyDeclaration" roleId="tpce.1105725439818" targetNodeId="tpck.1137473914776" resolveInfo="shortDescription" />
+    </node>
+    <node role="conceptProperty" roleId="tpce.1105725339613" type="tpce.StringConceptProperty" typeId="tpce.1105725638761" id="6631949233781302786">
+      <property name="value" nameId="tpce.1105725733873" value="Панель закладок" />
+      <link role="conceptPropertyDeclaration" roleId="tpce.1105725439818" targetNodeId="tpck.1137473891462" resolveInfo="alias" />
+    </node>
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="1786812136902730005">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="7499027618783150613" resolveInfo="IFormComponent" />
+    </node>
+  </root>
+  <root id="35224891275428963">
+    <node role="conceptProperty" roleId="tpce.1105725339613" type="tpce.StringConceptProperty" typeId="tpce.1105725638761" id="35224891275428964">
+      <property name="value" nameId="tpce.1105725733873" value="Выбор из списка значений" />
+      <link role="conceptPropertyDeclaration" roleId="tpce.1105725439818" targetNodeId="tpck.1137473914776" resolveInfo="shortDescription" />
+    </node>
+    <node role="conceptProperty" roleId="tpce.1105725339613" type="tpce.StringConceptProperty" typeId="tpce.1105725638761" id="6631949233781314353">
+      <property name="value" nameId="tpce.1105725733873" value="Список" />
+      <link role="conceptPropertyDeclaration" roleId="tpce.1105725439818" targetNodeId="tpck.1137473891462" resolveInfo="alias" />
+    </node>
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="6744709490419531558">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="6744709490419469337" resolveInfo="HasBinding" />
+    </node>
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="35224891275428965">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="7499027618783150631" resolveInfo="HasWidth" />
+    </node>
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="35224891275428967">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="4921122046318753339" resolveInfo="HasQuery" />
+    </node>
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="35224891275428969">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="7499027618783150624" resolveInfo="HasLabel" />
+    </node>
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="35224891275428971">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="7499027618783150613" resolveInfo="IFormComponent" />
+    </node>
+  </root>
+  <root id="35224891275429001">
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="35224891275546199">
+      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
+      <property name="role" nameId="tpce.1071599776563" value="items" />
+      <property name="sourceCardinality" nameId="tpce.1071599893252" value="0..n" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="35224891275546181" resolveInfo="CheckBoxItem" />
+    </node>
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="6744709490419531566">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="6744709490419469337" resolveInfo="HasBinding" />
+    </node>
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="35224891275429004">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="7499027618783150624" resolveInfo="HasLabel" />
+    </node>
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="35224891275429002">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="7499027618783150613" resolveInfo="IFormComponent" />
+    </node>
+    <node role="conceptProperty" roleId="tpce.1105725339613" type="tpce.StringConceptProperty" typeId="tpce.1105725638761" id="35224891275546224">
+      <property name="value" nameId="tpce.1105725733873" value="Набор флагов" />
+      <link role="conceptPropertyDeclaration" roleId="tpce.1105725439818" targetNodeId="tpck.1137473914776" resolveInfo="shortDescription" />
+    </node>
+    <node role="conceptProperty" roleId="tpce.1105725339613" type="tpce.StringConceptProperty" typeId="tpce.1105725638761" id="6631949233781262371">
+      <property name="value" nameId="tpce.1105725733873" value="Множственный выбор" />
+      <link role="conceptPropertyDeclaration" roleId="tpce.1105725439818" targetNodeId="tpck.1137473891462" resolveInfo="alias" />
+    </node>
+  </root>
+  <root id="35224891275429005">
+    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="35224891275429006">
+      <property name="name" nameId="tpck.1169194664001" value="orientation" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="7499027618783578672" resolveInfo="OrientationEnum" />
+    </node>
+  </root>
+  <root id="35224891275546181">
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="35224891275546185">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="7499027618783150624" resolveInfo="HasLabel" />
+    </node>
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="35224891275546182">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="7499027618783578642" resolveInfo="HasValue" />
+    </node>
+    <node role="conceptProperty" roleId="tpce.1105725339613" type="tpce.StringConceptProperty" typeId="tpce.1105725638761" id="1786812136902729991">
+      <property name="value" nameId="tpce.1105725733873" value="Один из чекбосков" />
+      <link role="conceptPropertyDeclaration" roleId="tpce.1105725439818" targetNodeId="tpck.1137473914776" resolveInfo="shortDescription" />
+    </node>
+  </root>
+  <root id="35224891275546254">
+    <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="35224891275546255">
+      <property name="internalValue" nameId="tpce.1083923523171" value="north" />
+      <property name="externalValue" nameId="tpce.1083923523172" value="north" />
+    </node>
+    <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="35224891275546256">
+      <property name="internalValue" nameId="tpce.1083923523171" value="south" />
+      <property name="externalValue" nameId="tpce.1083923523172" value="south" />
+    </node>
+    <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="35224891275546257">
+      <property name="internalValue" nameId="tpce.1083923523171" value="west" />
+      <property name="externalValue" nameId="tpce.1083923523172" value="west" />
+    </node>
+    <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="35224891275546258">
+      <property name="internalValue" nameId="tpce.1083923523171" value="east" />
+      <property name="externalValue" nameId="tpce.1083923523172" value="east" />
+    </node>
+    <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="35224891275546259">
+      <property name="internalValue" nameId="tpce.1083923523171" value="center" />
+      <property name="externalValue" nameId="tpce.1083923523172" value="center" />
+    </node>
+  </root>
+  <root id="35224891275546284">
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="35224891275546285">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="7815177035770464302" resolveInfo="HasChildren" />
+    </node>
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="2925434448366533374">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="2925434448366525478" resolveInfo="FormContainer" />
+    </node>
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="35224891275546287">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="7499027618783150613" resolveInfo="IFormComponent" />
+    </node>
+    <node role="conceptProperty" roleId="tpce.1105725339613" type="tpce.StringConceptProperty" typeId="tpce.1105725638761" id="1786812136902729992">
+      <property name="value" nameId="tpce.1105725733873" value="Простой контейнер" />
+      <link role="conceptPropertyDeclaration" roleId="tpce.1105725439818" targetNodeId="tpck.1137473914776" resolveInfo="shortDescription" />
+    </node>
+    <node role="conceptProperty" roleId="tpce.1105725339613" type="tpce.StringConceptProperty" typeId="tpce.1105725638761" id="6631949233781302774">
+      <property name="value" nameId="tpce.1105725733873" value="Простой контейнер" />
+      <link role="conceptPropertyDeclaration" roleId="tpce.1105725439818" targetNodeId="tpck.1137473891462" resolveInfo="alias" />
+    </node>
+  </root>
+  <root id="2925434448366525478" />
+  <root id="6744709490419469337">
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="6744709490419469338">
+      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
+      <property name="role" nameId="tpce.1071599776563" value="fieldReference" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="vu84.7691500841060791949" resolveInfo="FieldReference" />
+    </node>
+  </root>
+  <root id="3582867533737650359">
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="3582867533737650360">
+      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
+      <property name="role" nameId="tpce.1071599776563" value="exp" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="tpee.1068431790191" resolveInfo="Expression" />
+    </node>
+  </root>
 </model>
 

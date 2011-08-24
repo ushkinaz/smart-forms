@@ -26,6 +26,10 @@
       <property name="name" nameId="tpck.1169194664001" value="ЕКФО-3" />
       <property name="domainModelVersion" nameId="vu84.5121386542706751489" value="1" />
     </node>
+    <node type="aytv.Form" typeId="aytv.7815177035767537410" id="3381329298280505622">
+      <property name="name" nameId="tpck.1169194664001" value="Клиент" />
+      <property name="id" nameId="vu84.627290435249133494" value="clientForm" />
+    </node>
   </roots>
   <root id="6744709490419531547">
     <node role="field" roleId="vu84.1955157615230993293" type="vu84.Field" typeId="vu84.5148616895979972054" id="6744709490419531548">
@@ -115,6 +119,43 @@
     </node>
     <node role="userRole" roleId="vu84.5121386542706751488" type="vu84.UserRole" typeId="vu84.5121386542706737384" id="5121386542706905323">
       <property name="name" nameId="tpck.1169194664001" value="Разработчик" />
+    </node>
+  </root>
+  <root id="3381329298280505622">
+    <node role="documentReference" roleId="vu84.1276781321238821448" type="vu84.DocumentReference" typeId="vu84.1276781321238645456" id="3381329298280505624">
+      <link role="document" roleId="vu84.1276781321238645457" targetNodeId="3825923826251948941" resolveInfo="Клиент" />
+    </node>
+    <node role="container" roleId="aytv.7815177035767655224" type="aytv.FormPanel" typeId="aytv.7815177035767655221" id="3381329298280505625">
+      <node role="components" roleId="aytv.4921122046319089426" type="aytv.TextField" typeId="aytv.7815177035769736366" id="3381329298280505626">
+        <property name="fieldLabel" nameId="aytv.7499027618783150636" value="Фамилия" />
+        <node role="fieldReference" roleId="aytv.6744709490419469338" type="vu84.FieldReference" typeId="vu84.7691500841060791949" id="3381329298280505627">
+          <link role="field" roleId="vu84.7691500841060791950" targetNodeId="3825923826251948944" resolveInfo="Фамилия" />
+        </node>
+      </node>
+      <node role="components" roleId="aytv.4921122046319089426" type="aytv.TextField" typeId="aytv.7815177035769736366" id="3381329298280505628">
+        <property name="fieldLabel" nameId="aytv.7499027618783150636" value="Имя" />
+        <node role="fieldReference" roleId="aytv.6744709490419469338" type="vu84.FieldReference" typeId="vu84.7691500841060791949" id="3381329298280505629">
+          <link role="field" roleId="vu84.7691500841060791950" targetNodeId="3825923826251948942" resolveInfo="Имя" />
+        </node>
+      </node>
+      <node role="components" roleId="aytv.4921122046319089426" type="aytv.TextField" typeId="aytv.7815177035769736366" id="3381329298280505630">
+        <property name="fieldLabel" nameId="aytv.7499027618783150636" value="Отчество" />
+        <node role="fieldReference" roleId="aytv.6744709490419469338" type="vu84.FieldReference" typeId="vu84.7691500841060791949" id="3381329298280505631">
+          <link role="field" roleId="vu84.7691500841060791950" targetNodeId="3825923826251948945" resolveInfo="Отчество" />
+        </node>
+      </node>
+      <node role="components" roleId="aytv.4921122046319089426" type="aytv.TextField" typeId="aytv.7815177035769736366" id="3381329298280505632">
+        <property name="fieldLabel" nameId="aytv.7499027618783150636" value="Пол" />
+        <node role="fieldReference" roleId="aytv.6744709490419469338" type="vu84.FieldReference" typeId="vu84.7691500841060791949" id="3381329298280505633">
+          <link role="field" roleId="vu84.7691500841060791950" targetNodeId="3825923826251948946" resolveInfo="Пол" />
+        </node>
+      </node>
+      <node role="components" roleId="aytv.4921122046319089426" type="aytv.TextField" typeId="aytv.7815177035769736366" id="3381329298280505634">
+        <property name="fieldLabel" nameId="aytv.7499027618783150636" value="Дата рождения" />
+        <node role="fieldReference" roleId="aytv.6744709490419469338" type="vu84.FieldReference" typeId="vu84.7691500841060791949" id="3381329298280505635">
+          <link role="field" roleId="vu84.7691500841060791950" targetNodeId="3825923826251948962" resolveInfo="Дата рождения" />
+        </node>
+      </node>
     </node>
   </root>
 </model>

@@ -6,13 +6,13 @@
   <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false" />
   <component name="MPSProject">
     <projectModules>
-      <modulePath path="${project}/solutions/RosBank/RosBank.msd" />
+      <modulePath path="${project}/solutions/Bank/Bank.msd" />
       <modulePath path="${project}/solutions/BaseSolution/BaseSolution.msd" folder="" />
       <modulePath path="${project}/solutions/SandBox/SandBox.msd" folder="" />
-      <modulePath path="${project}/languages/smartforms/smartforms.mpl" />
-      <modulePath path="${project}/languages/scripts/scripts.mpl" />
+      <modulePath path="${project}/languages/forms/forms.mpl" />
+      <modulePath path="${project}/languages/validation/validation.mpl" />
       <modulePath path="${project}/languages/domain/domain.mpl" />
-      <modulePath path="${project}/devkits/RosBankDevKit/RosBankDevKit.devkit" />
+      <modulePath path="${project}/devkits/MetaFormsDevKit/MetaFormsDevKit.devkit" />
     </projectModules>
     <genConfs />
   </component>

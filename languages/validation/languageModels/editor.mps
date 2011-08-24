@@ -48,13 +48,22 @@
             <property name="flag" nameId="tpc2.1186414551515" value="true" />
           </node>
         </node>
-        <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Property" typeId="tpc2.1073389658414" id="1955157615230992122">
-          <property name="noTargetText" nameId="tpc2.1139852716018" value="Минимальная длинна" />
-          <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="a61p.1955157615230985776" resolveInfo="minLength" />
-        </node>
-        <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Property" typeId="tpc2.1073389658414" id="1955157615230992126">
-          <property name="noTargetText" nameId="tpc2.1139852716018" value="Максимальная длинна" />
-          <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="a61p.1955157615230985777" resolveInfo="maxLength" />
+        <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="3381329298280359952">
+          <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Indent" typeId="tpc2.1237303669825" id="3381329298280359953" />
+          <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Property" typeId="tpc2.1073389658414" id="1955157615230992122">
+            <property name="noTargetText" nameId="tpc2.1139852716018" value="Минимальная длинна" />
+            <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="a61p.1955157615230985776" resolveInfo="minLength" />
+          </node>
+          <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="3381329298280359956">
+            <property name="text" nameId="tpc2.1073389577007" value=".." />
+          </node>
+          <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Property" typeId="tpc2.1073389658414" id="1955157615230992126">
+            <property name="noTargetText" nameId="tpc2.1139852716018" value="Максимальная длинна" />
+            <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="a61p.1955157615230985777" resolveInfo="maxLength" />
+          </node>
+          <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.HorizontalGapStyleClassItem" typeId="tpc2.1233823429331" id="3381329298280504837">
+            <property name="value" nameId="tpc2.1215007802031" value="1" />
+          </node>
         </node>
         <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.IndentLayoutIndentStyleClassItem" typeId="tpc2.1237307900041" id="7691500841060626715">
           <property name="flag" nameId="tpc2.1186414551515" value="true" />

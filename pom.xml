@@ -1,0 +1,155 @@
+<!--
+  ~ Copyright (c) 2010-2011, Dmitry Sidorenko. All Rights Reserved.
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~ http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>ru.sid0renk0.smart-forms</groupId>
+    <artifactId>smart-forms</artifactId>
+    <packaging>jar</packaging>
+    <version>0.6-SNAPSHOT</version>
+
+    <name>SmartForms</name>
+    <description>As for now only used for downloading artifacts</description>
+
+    <url>http://ushkinaz.github.com/smart-forms/</url>
+    <inceptionYear>2009</inceptionYear>
+
+    <licenses>
+        <license>
+            <name>Apache License Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+        </license>
+    </licenses>
+
+    <organization>
+        <name>Dmitry Sidorenko</name>
+        <url>https://github.com/ushkinaz/</url>
+    </organization>
+
+    <developers>
+        <developer>
+            <id>dmitry.sidorenko</id>
+            <name>Dmitry Sidorenko</name>
+            <email>rustydragon@gmail.com</email>
+            <timezone>3</timezone>
+        </developer>
+    </developers>
+
+    <scm>
+        <url>https://github.com/ushkinaz/smart-forms</url>
+        <connection>scm:git:git://github.com/ushkinaz/smart-forms.git</connection>
+        <developerConnection>scm:git:git@github.com:ushkinaz/smart-forms.git</developerConnection>
+    </scm>
+
+    <issueManagement>
+        <system>GitHub issues</system>
+        <url>https://github.com/ushkinaz/smart-forms/issues</url>
+    </issueManagement>
+
+    <ciManagement>
+        <url>https://ushkinaz.ci.cloudbees.com/</url>
+        <system>Jenkins</system>
+    </ciManagement>
+
+    <distributionManagement>
+        <repository>
+            <id>cloudbee-release</id>
+            <url>https://repository-ushkinaz.forge.cloudbees.com/release/</url>
+        </repository>
+        <snapshotRepository>
+            <id>cloudbee-snapshot</id>
+            <url>https://repository-ushkinaz.forge.cloudbees.com/snapshot/</url>
+        </snapshotRepository>
+    </distributionManagement>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+
+        <!--Compiler flags-->
+        <build.debug>true</build.debug>
+        <build.optimize>false</build.optimize>
+
+        <!--Libraries versions -->
+        <slf4j.version>1.6.1</slf4j.version>
+
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-annotations</artifactId>
+            <version>3.4.0.GA</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.google.gwt</groupId>
+            <artifactId>gwt-user</artifactId>
+            <version>2.1.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.extjs</groupId>
+            <artifactId>gxt</artifactId>
+            <version>2.2.0</version>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <defaultGoal>generate-resources</defaultGoal>
+
+        <testResources>
+            <testResource>
+                <directory>src/test/resources</directory>
+            </testResource>
+        </testResources>
+
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-dependency-plugin</artifactId>
+                <version>2.3</version>
+                <executions>
+                    <execution>
+                        <id>copy-lib</id>
+                        <phase>generate-resources</phase>
+                        <goals>
+                            <goal>copy-dependencies</goal>
+                        </goals>
+                        <configuration>
+                            <excludeTransitive>true</excludeTransitive>
+                            <stripVersion>true</stripVersion>
+                            <outputDirectory>${project.basedir}/lib</outputDirectory>
+
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+
+    <profiles>
+        <profile>
+            <!--Activated for release-->
+            <id>release</id>
+            <properties>
+                <build.debug>false</build.debug>
+                <build.optimize>true</build.optimize>
+            </properties>
+        </profile>
+    </profiles>
+</project>

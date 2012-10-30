@@ -1,0 +1,1153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debugInfo>
+  <root nodeId="1284901400154948311" modelId="r:501c2957-2d3c-41bd-a673-5000b1e5f92d(org.metaforms.sandbox)">
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="8" startPosition="42" endLine="9" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myBranchCode" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="9" startPosition="30" endLine="10" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myBranch" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="10" startPosition="26" endLine="11" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myOfficeCode" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="11" startPosition="30" endLine="12" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myOfficeName" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="12" startPosition="30" endLine="13" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myPointCode" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="13" startPosition="29" endLine="14" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myPoint" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="14" startPosition="25" endLine="15" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myCEPersonCode" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="15" startPosition="32" endLine="16" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myCEPersonName" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="16" startPosition="32" endLine="17" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myReqTypeCode" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="17" startPosition="31" endLine="18" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myReqType" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="18" startPosition="27" endLine="19" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myCreditName" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="19" startPosition="30" endLine="20" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myCreditCurrency" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="20" startPosition="34" endLine="21" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myClientType" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="21" startPosition="30" endLine="22" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myPositionType" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="22" startPosition="32" endLine="23" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myCurWorkExpDoc" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="23" startPosition="33" endLine="24" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myFullExpY" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="24" startPosition="28" endLine="25" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myFullExpM" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="25" startPosition="28" endLine="26" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myCurWorkExpY" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="26" startPosition="31" endLine="27" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myCurWorkExpM" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="32" startPosition="33" endLine="33" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="36" startPosition="44" endLine="37" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="40" startPosition="29" endLine="41" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="44" startPosition="40" endLine="45" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="48" startPosition="33" endLine="49" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="52" startPosition="44" endLine="53" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="56" startPosition="33" endLine="57" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="60" startPosition="44" endLine="61" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="64" startPosition="32" endLine="65" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="68" startPosition="43" endLine="69" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="72" startPosition="28" endLine="73" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="76" startPosition="39" endLine="77" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="80" startPosition="35" endLine="81" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="84" startPosition="46" endLine="85" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="88" startPosition="35" endLine="89" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="92" startPosition="46" endLine="93" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="96" startPosition="34" endLine="97" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="100" startPosition="45" endLine="101" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="104" startPosition="30" endLine="105" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="108" startPosition="41" endLine="109" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="112" startPosition="33" endLine="113" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="116" startPosition="44" endLine="117" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="120" startPosition="37" endLine="121" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="124" startPosition="48" endLine="125" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="128" startPosition="33" endLine="129" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="132" startPosition="44" endLine="133" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="136" startPosition="35" endLine="137" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="140" startPosition="46" endLine="141" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="144" startPosition="36" endLine="145" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="148" startPosition="47" endLine="149" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="152" startPosition="31" endLine="153" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="156" startPosition="42" endLine="157" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="160" startPosition="31" endLine="161" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="164" startPosition="42" endLine="165" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="168" startPosition="34" endLine="169" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="172" startPosition="45" endLine="173" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="176" startPosition="34" endLine="177" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="180" startPosition="45" endLine="181" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="28" startPosition="0" endLine="30" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="DocumentCreditCalcDao#()V" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="31" startPosition="0" endLine="35" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getBranchCode#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="35" startPosition="0" endLine="39" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setBranchCode#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="39" startPosition="0" endLine="43" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getBranch#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="43" startPosition="0" endLine="47" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setBranch#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="47" startPosition="0" endLine="51" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getOfficeCode#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="51" startPosition="0" endLine="55" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setOfficeCode#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="55" startPosition="0" endLine="59" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getOfficeName#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="59" startPosition="0" endLine="63" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setOfficeName#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="63" startPosition="0" endLine="67" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getPointCode#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="67" startPosition="0" endLine="71" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setPointCode#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="71" startPosition="0" endLine="75" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getPoint#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="75" startPosition="0" endLine="79" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setPoint#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="79" startPosition="0" endLine="83" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getCEPersonCode#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="83" startPosition="0" endLine="87" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setCEPersonCode#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="87" startPosition="0" endLine="91" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getCEPersonName#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="91" startPosition="0" endLine="95" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setCEPersonName#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="95" startPosition="0" endLine="99" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getReqTypeCode#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="99" startPosition="0" endLine="103" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setReqTypeCode#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="103" startPosition="0" endLine="107" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getReqType#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="107" startPosition="0" endLine="111" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setReqType#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="111" startPosition="0" endLine="115" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getCreditName#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="115" startPosition="0" endLine="119" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setCreditName#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="119" startPosition="0" endLine="123" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getCreditCurrency#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="123" startPosition="0" endLine="127" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setCreditCurrency#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="127" startPosition="0" endLine="131" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getClientType#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="131" startPosition="0" endLine="135" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setClientType#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="135" startPosition="0" endLine="139" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getPositionType#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="139" startPosition="0" endLine="143" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setPositionType#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="143" startPosition="0" endLine="147" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getCurWorkExpDoc#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="147" startPosition="0" endLine="151" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setCurWorkExpDoc#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="151" startPosition="0" endLine="155" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getFullExpY#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="155" startPosition="0" endLine="159" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setFullExpY#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="159" startPosition="0" endLine="163" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getFullExpM#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="163" startPosition="0" endLine="167" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setFullExpM#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="167" startPosition="0" endLine="171" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getCurWorkExpY#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="171" startPosition="0" endLine="175" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setCurWorkExpY#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="175" startPosition="0" endLine="179" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getCurWorkExpM#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="179" startPosition="0" endLine="183" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setCurWorkExpM#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="8" startPosition="36" endLine="9" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="9" startPosition="26" endLine="10" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="10" startPosition="22" endLine="11" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="11" startPosition="26" endLine="12" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="12" startPosition="26" endLine="13" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="13" startPosition="25" endLine="14" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="14" startPosition="21" endLine="15" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="15" startPosition="28" endLine="16" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="16" startPosition="28" endLine="17" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="17" startPosition="27" endLine="18" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="18" startPosition="23" endLine="19" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="19" startPosition="26" endLine="20" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="20" startPosition="30" endLine="21" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="21" startPosition="26" endLine="22" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="22" startPosition="28" endLine="23" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="23" startPosition="29" endLine="24" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="24" startPosition="24" endLine="25" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="25" startPosition="24" endLine="26" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="26" startPosition="27" endLine="27" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="30" startPosition="43" endLine="31" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="34" startPosition="39" endLine="35" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="38" startPosition="43" endLine="39" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="42" startPosition="43" endLine="43" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="46" startPosition="42" endLine="47" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="50" startPosition="38" endLine="51" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="54" startPosition="45" endLine="55" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="58" startPosition="45" endLine="59" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="62" startPosition="44" endLine="63" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="66" startPosition="40" endLine="67" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="70" startPosition="43" endLine="71" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="74" startPosition="47" endLine="75" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="78" startPosition="43" endLine="79" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="82" startPosition="45" endLine="83" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="86" startPosition="46" endLine="87" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="90" startPosition="41" endLine="91" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="94" startPosition="41" endLine="95" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="98" startPosition="44" endLine="99" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="102" startPosition="44" endLine="103" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="106" startPosition="33" endLine="107" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="110" startPosition="29" endLine="111" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="114" startPosition="33" endLine="115" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="118" startPosition="33" endLine="119" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="122" startPosition="32" endLine="123" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="126" startPosition="28" endLine="127" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="130" startPosition="35" endLine="131" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="134" startPosition="35" endLine="135" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="138" startPosition="34" endLine="139" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="142" startPosition="30" endLine="143" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="146" startPosition="33" endLine="147" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="150" startPosition="37" endLine="151" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="154" startPosition="33" endLine="155" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="158" startPosition="35" endLine="159" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="162" startPosition="36" endLine="163" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="166" startPosition="31" endLine="167" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="170" startPosition="31" endLine="171" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="174" startPosition="34" endLine="175" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="178" startPosition="34" endLine="179" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="182" startPosition="79" endLine="183" endPosition="67" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="183" startPosition="67" endLine="184" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="184" startPosition="26" endLine="185" endPosition="53" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="185" startPosition="53" endLine="186" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="186" startPosition="45" endLine="187" endPosition="53" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="187" startPosition="53" endLine="188" endPosition="53" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="188" startPosition="53" endLine="189" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="189" startPosition="51" endLine="190" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="190" startPosition="43" endLine="191" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="191" startPosition="57" endLine="192" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="192" startPosition="57" endLine="193" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="193" startPosition="55" endLine="194" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="194" startPosition="47" endLine="195" endPosition="53" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="195" startPosition="53" endLine="196" endPosition="61" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="196" startPosition="61" endLine="197" endPosition="53" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="197" startPosition="53" endLine="198" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="198" startPosition="57" endLine="199" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="199" startPosition="59" endLine="200" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="200" startPosition="49" endLine="201" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="201" startPosition="49" endLine="202" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="202" startPosition="55" endLine="203" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="203" startPosition="55" endLine="204" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="29" startPosition="0" endLine="33" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setBranchCode#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="33" startPosition="0" endLine="37" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setBranch#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="37" startPosition="0" endLine="41" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setOfficeCode#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="41" startPosition="0" endLine="45" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setOfficeName#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="45" startPosition="0" endLine="49" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setPointCode#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="49" startPosition="0" endLine="53" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setPoint#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="53" startPosition="0" endLine="57" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setCEPersonCode#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="57" startPosition="0" endLine="61" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setCEPersonName#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="61" startPosition="0" endLine="65" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setReqTypeCode#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="65" startPosition="0" endLine="69" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setReqType#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="69" startPosition="0" endLine="73" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setCreditName#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="73" startPosition="0" endLine="77" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setCreditCurrency#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="77" startPosition="0" endLine="81" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setClientType#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="81" startPosition="0" endLine="85" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setPositionType#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="85" startPosition="0" endLine="89" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setCurWorkExpDoc#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="89" startPosition="0" endLine="93" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setFullExpY#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="93" startPosition="0" endLine="97" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setFullExpM#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="97" startPosition="0" endLine="101" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setCurWorkExpY#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="101" startPosition="0" endLine="105" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setCurWorkExpM#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="105" startPosition="0" endLine="109" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getBranchCode#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="109" startPosition="0" endLine="113" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getBranch#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="113" startPosition="0" endLine="117" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getOfficeCode#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="117" startPosition="0" endLine="121" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getOfficeName#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="121" startPosition="0" endLine="125" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getPointCode#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="125" startPosition="0" endLine="129" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getPoint#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="129" startPosition="0" endLine="133" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getCEPersonCode#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="133" startPosition="0" endLine="137" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getCEPersonName#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="137" startPosition="0" endLine="141" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getReqTypeCode#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="141" startPosition="0" endLine="145" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getReqType#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="145" startPosition="0" endLine="149" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getCreditName#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="149" startPosition="0" endLine="153" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getCreditCurrency#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="153" startPosition="0" endLine="157" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getClientType#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="157" startPosition="0" endLine="161" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getPositionType#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="161" startPosition="0" endLine="165" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getCurWorkExpDoc#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="165" startPosition="0" endLine="169" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getFullExpY#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="169" startPosition="0" endLine="173" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getFullExpM#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="173" startPosition="0" endLine="177" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getCurWorkExpY#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="177" startPosition="0" endLine="181" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getCurWorkExpM#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="7" startPosition="56" endLine="28" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="DocumentCreditCalcModel#()V" />
+    <nodeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="181" startPosition="0" endLine="206" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="toModel#(Lorg/metaforms/sandbox/DocumentCreditCalcDao;)Lorg/metaforms/sandbox/DocumentCreditCalcModel;" />
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="29" startPosition="34" endLine="29" endPosition="34" />
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="32" startPosition="33" endLine="33" endPosition="29" />
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="36" startPosition="44" endLine="37" endPosition="30" />
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="40" startPosition="29" endLine="41" endPosition="25" />
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="44" startPosition="40" endLine="45" endPosition="26" />
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="48" startPosition="33" endLine="49" endPosition="29" />
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="52" startPosition="44" endLine="53" endPosition="30" />
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="56" startPosition="33" endLine="57" endPosition="29" />
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="60" startPosition="44" endLine="61" endPosition="30" />
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="64" startPosition="32" endLine="65" endPosition="28" />
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="68" startPosition="43" endLine="69" endPosition="29" />
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="72" startPosition="28" endLine="73" endPosition="24" />
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="76" startPosition="39" endLine="77" endPosition="25" />
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="80" startPosition="35" endLine="81" endPosition="31" />
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="84" startPosition="46" endLine="85" endPosition="32" />
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="88" startPosition="35" endLine="89" endPosition="31" />
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="92" startPosition="46" endLine="93" endPosition="32" />
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="96" startPosition="34" endLine="97" endPosition="30" />
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="100" startPosition="45" endLine="101" endPosition="31" />
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="104" startPosition="30" endLine="105" endPosition="26" />
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="108" startPosition="41" endLine="109" endPosition="27" />
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="112" startPosition="33" endLine="113" endPosition="29" />
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="116" startPosition="44" endLine="117" endPosition="30" />
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="120" startPosition="37" endLine="121" endPosition="33" />
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="124" startPosition="48" endLine="125" endPosition="34" />
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="128" startPosition="33" endLine="129" endPosition="29" />
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="132" startPosition="44" endLine="133" endPosition="30" />
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="136" startPosition="35" endLine="137" endPosition="31" />
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="140" startPosition="46" endLine="141" endPosition="32" />
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="144" startPosition="36" endLine="145" endPosition="32" />
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="148" startPosition="47" endLine="149" endPosition="33" />
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="152" startPosition="31" endLine="153" endPosition="27" />
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="156" startPosition="42" endLine="157" endPosition="28" />
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="160" startPosition="31" endLine="161" endPosition="27" />
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="164" startPosition="42" endLine="165" endPosition="28" />
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="168" startPosition="34" endLine="169" endPosition="30" />
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="172" startPosition="45" endLine="173" endPosition="31" />
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="176" startPosition="34" endLine="177" endPosition="30" />
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="180" startPosition="45" endLine="181" endPosition="31" />
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="28" startPosition="0" endLine="30" endPosition="3" />
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="31" startPosition="0" endLine="35" endPosition="0" />
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="35" startPosition="0" endLine="39" endPosition="0">
+      <varInfo nodeId="1284901400154948311" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="39" startPosition="0" endLine="43" endPosition="0" />
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="43" startPosition="0" endLine="47" endPosition="0">
+      <varInfo nodeId="1284901400154948311" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="47" startPosition="0" endLine="51" endPosition="0" />
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="51" startPosition="0" endLine="55" endPosition="0">
+      <varInfo nodeId="1284901400154948311" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="55" startPosition="0" endLine="59" endPosition="0" />
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="59" startPosition="0" endLine="63" endPosition="0">
+      <varInfo nodeId="1284901400154948311" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="63" startPosition="0" endLine="67" endPosition="0" />
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="67" startPosition="0" endLine="71" endPosition="0">
+      <varInfo nodeId="1284901400154948311" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="71" startPosition="0" endLine="75" endPosition="0" />
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="75" startPosition="0" endLine="79" endPosition="0">
+      <varInfo nodeId="1284901400154948311" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="79" startPosition="0" endLine="83" endPosition="0" />
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="83" startPosition="0" endLine="87" endPosition="0">
+      <varInfo nodeId="1284901400154948311" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="87" startPosition="0" endLine="91" endPosition="0" />
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="91" startPosition="0" endLine="95" endPosition="0">
+      <varInfo nodeId="1284901400154948311" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="95" startPosition="0" endLine="99" endPosition="0" />
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="99" startPosition="0" endLine="103" endPosition="0">
+      <varInfo nodeId="1284901400154948311" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="103" startPosition="0" endLine="107" endPosition="0" />
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="107" startPosition="0" endLine="111" endPosition="0">
+      <varInfo nodeId="1284901400154948311" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="111" startPosition="0" endLine="115" endPosition="0" />
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="115" startPosition="0" endLine="119" endPosition="0">
+      <varInfo nodeId="1284901400154948311" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="119" startPosition="0" endLine="123" endPosition="0" />
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="123" startPosition="0" endLine="127" endPosition="0">
+      <varInfo nodeId="1284901400154948311" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="127" startPosition="0" endLine="131" endPosition="0" />
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="131" startPosition="0" endLine="135" endPosition="0">
+      <varInfo nodeId="1284901400154948311" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="135" startPosition="0" endLine="139" endPosition="0" />
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="139" startPosition="0" endLine="143" endPosition="0">
+      <varInfo nodeId="1284901400154948311" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="143" startPosition="0" endLine="147" endPosition="0" />
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="147" startPosition="0" endLine="151" endPosition="0">
+      <varInfo nodeId="1284901400154948311" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="151" startPosition="0" endLine="155" endPosition="0" />
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="155" startPosition="0" endLine="159" endPosition="0">
+      <varInfo nodeId="1284901400154948311" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="159" startPosition="0" endLine="163" endPosition="0" />
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="163" startPosition="0" endLine="167" endPosition="0">
+      <varInfo nodeId="1284901400154948311" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="167" startPosition="0" endLine="171" endPosition="0" />
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="171" startPosition="0" endLine="175" endPosition="0">
+      <varInfo nodeId="1284901400154948311" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="175" startPosition="0" endLine="179" endPosition="0" />
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="179" startPosition="0" endLine="183" endPosition="0">
+      <varInfo nodeId="1284901400154948311" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="30" startPosition="43" endLine="31" endPosition="29" />
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="34" startPosition="39" endLine="35" endPosition="25" />
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="38" startPosition="43" endLine="39" endPosition="29" />
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="42" startPosition="43" endLine="43" endPosition="29" />
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="46" startPosition="42" endLine="47" endPosition="28" />
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="50" startPosition="38" endLine="51" endPosition="24" />
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="54" startPosition="45" endLine="55" endPosition="31" />
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="58" startPosition="45" endLine="59" endPosition="31" />
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="62" startPosition="44" endLine="63" endPosition="30" />
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="66" startPosition="40" endLine="67" endPosition="26" />
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="70" startPosition="43" endLine="71" endPosition="29" />
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="74" startPosition="47" endLine="75" endPosition="33" />
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="78" startPosition="43" endLine="79" endPosition="29" />
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="82" startPosition="45" endLine="83" endPosition="31" />
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="86" startPosition="46" endLine="87" endPosition="32" />
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="90" startPosition="41" endLine="91" endPosition="27" />
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="94" startPosition="41" endLine="95" endPosition="27" />
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="98" startPosition="44" endLine="99" endPosition="30" />
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="102" startPosition="44" endLine="103" endPosition="30" />
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="106" startPosition="33" endLine="107" endPosition="29" />
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="110" startPosition="29" endLine="111" endPosition="25" />
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="114" startPosition="33" endLine="115" endPosition="29" />
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="118" startPosition="33" endLine="119" endPosition="29" />
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="122" startPosition="32" endLine="123" endPosition="28" />
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="126" startPosition="28" endLine="127" endPosition="24" />
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="130" startPosition="35" endLine="131" endPosition="31" />
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="134" startPosition="35" endLine="135" endPosition="31" />
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="138" startPosition="34" endLine="139" endPosition="30" />
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="142" startPosition="30" endLine="143" endPosition="26" />
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="146" startPosition="33" endLine="147" endPosition="29" />
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="150" startPosition="37" endLine="151" endPosition="33" />
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="154" startPosition="33" endLine="155" endPosition="29" />
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="158" startPosition="35" endLine="159" endPosition="31" />
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="162" startPosition="36" endLine="163" endPosition="32" />
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="166" startPosition="31" endLine="167" endPosition="27" />
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="170" startPosition="31" endLine="171" endPosition="27" />
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="174" startPosition="34" endLine="175" endPosition="30" />
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="178" startPosition="34" endLine="179" endPosition="30" />
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="29" startPosition="0" endLine="33" endPosition="0">
+      <varInfo nodeId="1284901400154948311" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="33" startPosition="0" endLine="37" endPosition="0">
+      <varInfo nodeId="1284901400154948311" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="37" startPosition="0" endLine="41" endPosition="0">
+      <varInfo nodeId="1284901400154948311" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="41" startPosition="0" endLine="45" endPosition="0">
+      <varInfo nodeId="1284901400154948311" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="45" startPosition="0" endLine="49" endPosition="0">
+      <varInfo nodeId="1284901400154948311" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="49" startPosition="0" endLine="53" endPosition="0">
+      <varInfo nodeId="1284901400154948311" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="53" startPosition="0" endLine="57" endPosition="0">
+      <varInfo nodeId="1284901400154948311" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="57" startPosition="0" endLine="61" endPosition="0">
+      <varInfo nodeId="1284901400154948311" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="61" startPosition="0" endLine="65" endPosition="0">
+      <varInfo nodeId="1284901400154948311" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="65" startPosition="0" endLine="69" endPosition="0">
+      <varInfo nodeId="1284901400154948311" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="69" startPosition="0" endLine="73" endPosition="0">
+      <varInfo nodeId="1284901400154948311" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="73" startPosition="0" endLine="77" endPosition="0">
+      <varInfo nodeId="1284901400154948311" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="77" startPosition="0" endLine="81" endPosition="0">
+      <varInfo nodeId="1284901400154948311" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="81" startPosition="0" endLine="85" endPosition="0">
+      <varInfo nodeId="1284901400154948311" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="85" startPosition="0" endLine="89" endPosition="0">
+      <varInfo nodeId="1284901400154948311" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="89" startPosition="0" endLine="93" endPosition="0">
+      <varInfo nodeId="1284901400154948311" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="93" startPosition="0" endLine="97" endPosition="0">
+      <varInfo nodeId="1284901400154948311" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="97" startPosition="0" endLine="101" endPosition="0">
+      <varInfo nodeId="1284901400154948311" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="101" startPosition="0" endLine="105" endPosition="0">
+      <varInfo nodeId="1284901400154948311" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="105" startPosition="0" endLine="109" endPosition="0" />
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="109" startPosition="0" endLine="113" endPosition="0" />
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="113" startPosition="0" endLine="117" endPosition="0" />
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="117" startPosition="0" endLine="121" endPosition="0" />
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="121" startPosition="0" endLine="125" endPosition="0" />
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="125" startPosition="0" endLine="129" endPosition="0" />
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="129" startPosition="0" endLine="133" endPosition="0" />
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="133" startPosition="0" endLine="137" endPosition="0" />
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="137" startPosition="0" endLine="141" endPosition="0" />
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="141" startPosition="0" endLine="145" endPosition="0" />
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="145" startPosition="0" endLine="149" endPosition="0" />
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="149" startPosition="0" endLine="153" endPosition="0" />
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="153" startPosition="0" endLine="157" endPosition="0" />
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="157" startPosition="0" endLine="161" endPosition="0" />
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="161" startPosition="0" endLine="165" endPosition="0" />
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="165" startPosition="0" endLine="169" endPosition="0" />
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="169" startPosition="0" endLine="173" endPosition="0" />
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="173" startPosition="0" endLine="177" endPosition="0" />
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="177" startPosition="0" endLine="181" endPosition="0" />
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="8" startPosition="36" endLine="27" endPosition="27" />
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="7" startPosition="56" endLine="28" endPosition="3" />
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="182" startPosition="79" endLine="204" endPosition="18">
+      <varInfo nodeId="1284901400154948311" varName="result" />
+    </scopeInfo>
+    <scopeInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="181" startPosition="0" endLine="206" endPosition="0">
+      <varInfo nodeId="1284901400154948311" varName="source" />
+    </scopeInfo>
+    <unitInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcDao.java" startLine="7" startPosition="0" endLine="184" endPosition="0" unitName="org.metaforms.sandbox.DocumentCreditCalcDao" />
+    <unitInfo nodeId="1284901400154948311" fileName="DocumentCreditCalcModel.java" startLine="7" startPosition="0" endLine="207" endPosition="0" unitName="org.metaforms.sandbox.DocumentCreditCalcModel" />
+  </root>
+  <root nodeId="1284901400154948316" modelId="r:501c2957-2d3c-41bd-a673-5000b1e5f92d(org.metaforms.sandbox)">
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="8" startPosition="38" endLine="9" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myName" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="9" startPosition="24" endLine="10" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myBranchCode" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="10" startPosition="30" endLine="11" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myBRANCH" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="11" startPosition="26" endLine="12" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myOfficeCode" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="12" startPosition="30" endLine="13" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myOfficeName" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="13" startPosition="30" endLine="14" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myPointCode" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="14" startPosition="29" endLine="15" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myPOINT" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="15" startPosition="25" endLine="16" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myCEPERSONCODE" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="16" startPosition="32" endLine="17" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myCEPERSONNAME" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="17" startPosition="32" endLine="18" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myREQTYPECODE" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="18" startPosition="31" endLine="19" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myREQTYPE" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="19" startPosition="27" endLine="20" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myCREDITNAME" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="20" startPosition="30" endLine="21" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myCREDITCURRENCY" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="21" startPosition="34" endLine="22" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myCLIENTTYPE" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="22" startPosition="30" endLine="23" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myPOSITIONTYPE" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="23" startPosition="32" endLine="24" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myPOSITIONDOC" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="24" startPosition="31" endLine="25" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myCURWORKEXPDOC" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="25" startPosition="33" endLine="26" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myFULLEXPY" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="26" startPosition="28" endLine="27" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myFULLEXPM" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="27" startPosition="28" endLine="28" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myCURWORKEXPY" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="28" startPosition="31" endLine="29" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myCURWORKEXPM" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="34" startPosition="27" endLine="35" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="38" startPosition="38" endLine="39" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="42" startPosition="33" endLine="43" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="46" startPosition="44" endLine="47" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="50" startPosition="29" endLine="51" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="54" startPosition="40" endLine="55" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="58" startPosition="33" endLine="59" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="62" startPosition="44" endLine="63" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="66" startPosition="33" endLine="67" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="70" startPosition="44" endLine="71" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="74" startPosition="32" endLine="75" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="78" startPosition="43" endLine="79" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="82" startPosition="28" endLine="83" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="86" startPosition="39" endLine="87" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="90" startPosition="35" endLine="91" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="94" startPosition="46" endLine="95" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="98" startPosition="35" endLine="99" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="102" startPosition="46" endLine="103" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="106" startPosition="34" endLine="107" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="110" startPosition="45" endLine="111" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="114" startPosition="30" endLine="115" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="118" startPosition="41" endLine="119" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="122" startPosition="33" endLine="123" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="126" startPosition="44" endLine="127" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="130" startPosition="37" endLine="131" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="134" startPosition="48" endLine="135" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="138" startPosition="33" endLine="139" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="142" startPosition="44" endLine="143" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="146" startPosition="35" endLine="147" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="150" startPosition="46" endLine="151" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="154" startPosition="34" endLine="155" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="158" startPosition="45" endLine="159" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="162" startPosition="36" endLine="163" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="166" startPosition="47" endLine="167" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="170" startPosition="31" endLine="171" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="174" startPosition="42" endLine="175" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="178" startPosition="31" endLine="179" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="182" startPosition="42" endLine="183" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="186" startPosition="34" endLine="187" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="190" startPosition="45" endLine="191" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="194" startPosition="34" endLine="195" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="198" startPosition="45" endLine="199" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="30" startPosition="0" endLine="32" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="DocumentClientDao#()V" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="33" startPosition="0" endLine="37" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getName#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="37" startPosition="0" endLine="41" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setName#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="41" startPosition="0" endLine="45" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getBranchCode#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="45" startPosition="0" endLine="49" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setBranchCode#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="49" startPosition="0" endLine="53" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getBRANCH#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="53" startPosition="0" endLine="57" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setBRANCH#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="57" startPosition="0" endLine="61" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getOfficeCode#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="61" startPosition="0" endLine="65" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setOfficeCode#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="65" startPosition="0" endLine="69" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getOfficeName#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="69" startPosition="0" endLine="73" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setOfficeName#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="73" startPosition="0" endLine="77" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getPointCode#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="77" startPosition="0" endLine="81" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setPointCode#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="81" startPosition="0" endLine="85" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getPOINT#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="85" startPosition="0" endLine="89" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setPOINT#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="89" startPosition="0" endLine="93" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getCEPERSONCODE#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="93" startPosition="0" endLine="97" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setCEPERSONCODE#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="97" startPosition="0" endLine="101" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getCEPERSONNAME#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="101" startPosition="0" endLine="105" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setCEPERSONNAME#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="105" startPosition="0" endLine="109" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getREQTYPECODE#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="109" startPosition="0" endLine="113" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setREQTYPECODE#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="113" startPosition="0" endLine="117" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getREQTYPE#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="117" startPosition="0" endLine="121" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setREQTYPE#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="121" startPosition="0" endLine="125" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getCREDITNAME#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="125" startPosition="0" endLine="129" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setCREDITNAME#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="129" startPosition="0" endLine="133" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getCREDITCURRENCY#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="133" startPosition="0" endLine="137" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setCREDITCURRENCY#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="137" startPosition="0" endLine="141" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getCLIENTTYPE#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="141" startPosition="0" endLine="145" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setCLIENTTYPE#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="145" startPosition="0" endLine="149" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getPOSITIONTYPE#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="149" startPosition="0" endLine="153" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setPOSITIONTYPE#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="153" startPosition="0" endLine="157" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getPOSITIONDOC#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="157" startPosition="0" endLine="161" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setPOSITIONDOC#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="161" startPosition="0" endLine="165" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getCURWORKEXPDOC#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="165" startPosition="0" endLine="169" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setCURWORKEXPDOC#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="169" startPosition="0" endLine="173" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getFULLEXPY#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="173" startPosition="0" endLine="177" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setFULLEXPY#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="177" startPosition="0" endLine="181" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getFULLEXPM#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="181" startPosition="0" endLine="185" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setFULLEXPM#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="185" startPosition="0" endLine="189" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getCURWORKEXPY#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="189" startPosition="0" endLine="193" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setCURWORKEXPY#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="193" startPosition="0" endLine="197" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getCURWORKEXPM#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="197" startPosition="0" endLine="201" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setCURWORKEXPM#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="8" startPosition="32" endLine="9" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="9" startPosition="20" endLine="10" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="10" startPosition="26" endLine="11" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="11" startPosition="22" endLine="12" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="12" startPosition="26" endLine="13" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="13" startPosition="26" endLine="14" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="14" startPosition="25" endLine="15" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="15" startPosition="21" endLine="16" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="16" startPosition="28" endLine="17" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="17" startPosition="28" endLine="18" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="18" startPosition="27" endLine="19" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="19" startPosition="23" endLine="20" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="20" startPosition="26" endLine="21" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="21" startPosition="30" endLine="22" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="22" startPosition="26" endLine="23" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="23" startPosition="28" endLine="24" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="24" startPosition="27" endLine="25" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="25" startPosition="29" endLine="26" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="26" startPosition="24" endLine="27" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="27" startPosition="24" endLine="28" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="28" startPosition="27" endLine="29" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="32" startPosition="37" endLine="33" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="36" startPosition="43" endLine="37" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="40" startPosition="39" endLine="41" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="44" startPosition="43" endLine="45" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="48" startPosition="43" endLine="49" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="52" startPosition="42" endLine="53" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="56" startPosition="38" endLine="57" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="60" startPosition="45" endLine="61" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="64" startPosition="45" endLine="65" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="68" startPosition="44" endLine="69" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="72" startPosition="40" endLine="73" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="76" startPosition="43" endLine="77" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="80" startPosition="47" endLine="81" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="84" startPosition="43" endLine="85" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="88" startPosition="45" endLine="89" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="92" startPosition="44" endLine="93" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="96" startPosition="46" endLine="97" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="100" startPosition="41" endLine="101" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="104" startPosition="41" endLine="105" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="108" startPosition="44" endLine="109" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="112" startPosition="44" endLine="113" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="116" startPosition="27" endLine="117" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="120" startPosition="33" endLine="121" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="124" startPosition="29" endLine="125" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="128" startPosition="33" endLine="129" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="132" startPosition="33" endLine="133" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="136" startPosition="32" endLine="137" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="140" startPosition="28" endLine="141" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="144" startPosition="35" endLine="145" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="148" startPosition="35" endLine="149" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="152" startPosition="34" endLine="153" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="156" startPosition="30" endLine="157" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="160" startPosition="33" endLine="161" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="164" startPosition="37" endLine="165" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="168" startPosition="33" endLine="169" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="172" startPosition="35" endLine="173" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="176" startPosition="34" endLine="177" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="180" startPosition="36" endLine="181" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="184" startPosition="31" endLine="185" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="188" startPosition="31" endLine="189" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="192" startPosition="34" endLine="193" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="196" startPosition="34" endLine="197" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="200" startPosition="71" endLine="201" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="201" startPosition="59" endLine="202" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="202" startPosition="26" endLine="203" endPosition="41" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="203" startPosition="41" endLine="204" endPosition="53" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="204" startPosition="53" endLine="205" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="205" startPosition="45" endLine="206" endPosition="53" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="206" startPosition="53" endLine="207" endPosition="53" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="207" startPosition="53" endLine="208" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="208" startPosition="51" endLine="209" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="209" startPosition="43" endLine="210" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="210" startPosition="57" endLine="211" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="211" startPosition="57" endLine="212" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="212" startPosition="55" endLine="213" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="213" startPosition="47" endLine="214" endPosition="53" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="214" startPosition="53" endLine="215" endPosition="61" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="215" startPosition="61" endLine="216" endPosition="53" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="216" startPosition="53" endLine="217" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="217" startPosition="57" endLine="218" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="218" startPosition="55" endLine="219" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="219" startPosition="59" endLine="220" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="220" startPosition="49" endLine="221" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="221" startPosition="49" endLine="222" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="222" startPosition="55" endLine="223" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="223" startPosition="55" endLine="224" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="31" startPosition="0" endLine="35" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setName#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="35" startPosition="0" endLine="39" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setBranchCode#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="39" startPosition="0" endLine="43" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setBRANCH#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="43" startPosition="0" endLine="47" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setOfficeCode#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="47" startPosition="0" endLine="51" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setOfficeName#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="51" startPosition="0" endLine="55" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setPointCode#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="55" startPosition="0" endLine="59" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setPOINT#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="59" startPosition="0" endLine="63" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setCEPERSONCODE#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="63" startPosition="0" endLine="67" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setCEPERSONNAME#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="67" startPosition="0" endLine="71" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setREQTYPECODE#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="71" startPosition="0" endLine="75" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setREQTYPE#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="75" startPosition="0" endLine="79" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setCREDITNAME#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="79" startPosition="0" endLine="83" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setCREDITCURRENCY#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="83" startPosition="0" endLine="87" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setCLIENTTYPE#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="87" startPosition="0" endLine="91" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setPOSITIONTYPE#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="91" startPosition="0" endLine="95" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setPOSITIONDOC#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="95" startPosition="0" endLine="99" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setCURWORKEXPDOC#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="99" startPosition="0" endLine="103" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setFULLEXPY#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="103" startPosition="0" endLine="107" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setFULLEXPM#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="107" startPosition="0" endLine="111" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setCURWORKEXPY#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="111" startPosition="0" endLine="115" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setCURWORKEXPM#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="115" startPosition="0" endLine="119" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getName#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="119" startPosition="0" endLine="123" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getBranchCode#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="123" startPosition="0" endLine="127" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getBRANCH#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="127" startPosition="0" endLine="131" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getOfficeCode#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="131" startPosition="0" endLine="135" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getOfficeName#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="135" startPosition="0" endLine="139" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getPointCode#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="139" startPosition="0" endLine="143" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getPOINT#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="143" startPosition="0" endLine="147" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getCEPERSONCODE#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="147" startPosition="0" endLine="151" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getCEPERSONNAME#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="151" startPosition="0" endLine="155" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getREQTYPECODE#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="155" startPosition="0" endLine="159" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getREQTYPE#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="159" startPosition="0" endLine="163" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getCREDITNAME#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="163" startPosition="0" endLine="167" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getCREDITCURRENCY#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="167" startPosition="0" endLine="171" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getCLIENTTYPE#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="171" startPosition="0" endLine="175" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getPOSITIONTYPE#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="175" startPosition="0" endLine="179" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getPOSITIONDOC#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="179" startPosition="0" endLine="183" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getCURWORKEXPDOC#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="183" startPosition="0" endLine="187" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getFULLEXPY#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="187" startPosition="0" endLine="191" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getFULLEXPM#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="191" startPosition="0" endLine="195" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getCURWORKEXPY#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="195" startPosition="0" endLine="199" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getCURWORKEXPM#()Ljava/lang/String;" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="7" startPosition="52" endLine="30" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="DocumentClientModel#()V" />
+    <nodeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="199" startPosition="0" endLine="226" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="toModel#(Lorg/metaforms/sandbox/DocumentClientDao;)Lorg/metaforms/sandbox/DocumentClientModel;" />
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="31" startPosition="30" endLine="31" endPosition="30" />
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="34" startPosition="27" endLine="35" endPosition="23" />
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="38" startPosition="38" endLine="39" endPosition="24" />
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="42" startPosition="33" endLine="43" endPosition="29" />
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="46" startPosition="44" endLine="47" endPosition="30" />
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="50" startPosition="29" endLine="51" endPosition="25" />
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="54" startPosition="40" endLine="55" endPosition="26" />
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="58" startPosition="33" endLine="59" endPosition="29" />
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="62" startPosition="44" endLine="63" endPosition="30" />
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="66" startPosition="33" endLine="67" endPosition="29" />
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="70" startPosition="44" endLine="71" endPosition="30" />
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="74" startPosition="32" endLine="75" endPosition="28" />
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="78" startPosition="43" endLine="79" endPosition="29" />
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="82" startPosition="28" endLine="83" endPosition="24" />
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="86" startPosition="39" endLine="87" endPosition="25" />
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="90" startPosition="35" endLine="91" endPosition="31" />
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="94" startPosition="46" endLine="95" endPosition="32" />
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="98" startPosition="35" endLine="99" endPosition="31" />
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="102" startPosition="46" endLine="103" endPosition="32" />
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="106" startPosition="34" endLine="107" endPosition="30" />
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="110" startPosition="45" endLine="111" endPosition="31" />
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="114" startPosition="30" endLine="115" endPosition="26" />
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="118" startPosition="41" endLine="119" endPosition="27" />
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="122" startPosition="33" endLine="123" endPosition="29" />
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="126" startPosition="44" endLine="127" endPosition="30" />
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="130" startPosition="37" endLine="131" endPosition="33" />
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="134" startPosition="48" endLine="135" endPosition="34" />
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="138" startPosition="33" endLine="139" endPosition="29" />
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="142" startPosition="44" endLine="143" endPosition="30" />
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="146" startPosition="35" endLine="147" endPosition="31" />
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="150" startPosition="46" endLine="151" endPosition="32" />
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="154" startPosition="34" endLine="155" endPosition="30" />
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="158" startPosition="45" endLine="159" endPosition="31" />
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="162" startPosition="36" endLine="163" endPosition="32" />
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="166" startPosition="47" endLine="167" endPosition="33" />
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="170" startPosition="31" endLine="171" endPosition="27" />
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="174" startPosition="42" endLine="175" endPosition="28" />
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="178" startPosition="31" endLine="179" endPosition="27" />
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="182" startPosition="42" endLine="183" endPosition="28" />
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="186" startPosition="34" endLine="187" endPosition="30" />
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="190" startPosition="45" endLine="191" endPosition="31" />
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="194" startPosition="34" endLine="195" endPosition="30" />
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="198" startPosition="45" endLine="199" endPosition="31" />
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="30" startPosition="0" endLine="32" endPosition="3" />
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="33" startPosition="0" endLine="37" endPosition="0" />
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="37" startPosition="0" endLine="41" endPosition="0">
+      <varInfo nodeId="1284901400154948316" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="41" startPosition="0" endLine="45" endPosition="0" />
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="45" startPosition="0" endLine="49" endPosition="0">
+      <varInfo nodeId="1284901400154948316" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="49" startPosition="0" endLine="53" endPosition="0" />
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="53" startPosition="0" endLine="57" endPosition="0">
+      <varInfo nodeId="1284901400154948316" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="57" startPosition="0" endLine="61" endPosition="0" />
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="61" startPosition="0" endLine="65" endPosition="0">
+      <varInfo nodeId="1284901400154948316" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="65" startPosition="0" endLine="69" endPosition="0" />
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="69" startPosition="0" endLine="73" endPosition="0">
+      <varInfo nodeId="1284901400154948316" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="73" startPosition="0" endLine="77" endPosition="0" />
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="77" startPosition="0" endLine="81" endPosition="0">
+      <varInfo nodeId="1284901400154948316" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="81" startPosition="0" endLine="85" endPosition="0" />
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="85" startPosition="0" endLine="89" endPosition="0">
+      <varInfo nodeId="1284901400154948316" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="89" startPosition="0" endLine="93" endPosition="0" />
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="93" startPosition="0" endLine="97" endPosition="0">
+      <varInfo nodeId="1284901400154948316" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="97" startPosition="0" endLine="101" endPosition="0" />
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="101" startPosition="0" endLine="105" endPosition="0">
+      <varInfo nodeId="1284901400154948316" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="105" startPosition="0" endLine="109" endPosition="0" />
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="109" startPosition="0" endLine="113" endPosition="0">
+      <varInfo nodeId="1284901400154948316" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="113" startPosition="0" endLine="117" endPosition="0" />
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="117" startPosition="0" endLine="121" endPosition="0">
+      <varInfo nodeId="1284901400154948316" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="121" startPosition="0" endLine="125" endPosition="0" />
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="125" startPosition="0" endLine="129" endPosition="0">
+      <varInfo nodeId="1284901400154948316" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="129" startPosition="0" endLine="133" endPosition="0" />
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="133" startPosition="0" endLine="137" endPosition="0">
+      <varInfo nodeId="1284901400154948316" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="137" startPosition="0" endLine="141" endPosition="0" />
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="141" startPosition="0" endLine="145" endPosition="0">
+      <varInfo nodeId="1284901400154948316" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="145" startPosition="0" endLine="149" endPosition="0" />
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="149" startPosition="0" endLine="153" endPosition="0">
+      <varInfo nodeId="1284901400154948316" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="153" startPosition="0" endLine="157" endPosition="0" />
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="157" startPosition="0" endLine="161" endPosition="0">
+      <varInfo nodeId="1284901400154948316" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="161" startPosition="0" endLine="165" endPosition="0" />
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="165" startPosition="0" endLine="169" endPosition="0">
+      <varInfo nodeId="1284901400154948316" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="169" startPosition="0" endLine="173" endPosition="0" />
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="173" startPosition="0" endLine="177" endPosition="0">
+      <varInfo nodeId="1284901400154948316" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="177" startPosition="0" endLine="181" endPosition="0" />
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="181" startPosition="0" endLine="185" endPosition="0">
+      <varInfo nodeId="1284901400154948316" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="185" startPosition="0" endLine="189" endPosition="0" />
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="189" startPosition="0" endLine="193" endPosition="0">
+      <varInfo nodeId="1284901400154948316" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="193" startPosition="0" endLine="197" endPosition="0" />
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="197" startPosition="0" endLine="201" endPosition="0">
+      <varInfo nodeId="1284901400154948316" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="32" startPosition="37" endLine="33" endPosition="23" />
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="36" startPosition="43" endLine="37" endPosition="29" />
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="40" startPosition="39" endLine="41" endPosition="25" />
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="44" startPosition="43" endLine="45" endPosition="29" />
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="48" startPosition="43" endLine="49" endPosition="29" />
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="52" startPosition="42" endLine="53" endPosition="28" />
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="56" startPosition="38" endLine="57" endPosition="24" />
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="60" startPosition="45" endLine="61" endPosition="31" />
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="64" startPosition="45" endLine="65" endPosition="31" />
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="68" startPosition="44" endLine="69" endPosition="30" />
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="72" startPosition="40" endLine="73" endPosition="26" />
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="76" startPosition="43" endLine="77" endPosition="29" />
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="80" startPosition="47" endLine="81" endPosition="33" />
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="84" startPosition="43" endLine="85" endPosition="29" />
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="88" startPosition="45" endLine="89" endPosition="31" />
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="92" startPosition="44" endLine="93" endPosition="30" />
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="96" startPosition="46" endLine="97" endPosition="32" />
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="100" startPosition="41" endLine="101" endPosition="27" />
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="104" startPosition="41" endLine="105" endPosition="27" />
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="108" startPosition="44" endLine="109" endPosition="30" />
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="112" startPosition="44" endLine="113" endPosition="30" />
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="116" startPosition="27" endLine="117" endPosition="23" />
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="120" startPosition="33" endLine="121" endPosition="29" />
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="124" startPosition="29" endLine="125" endPosition="25" />
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="128" startPosition="33" endLine="129" endPosition="29" />
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="132" startPosition="33" endLine="133" endPosition="29" />
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="136" startPosition="32" endLine="137" endPosition="28" />
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="140" startPosition="28" endLine="141" endPosition="24" />
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="144" startPosition="35" endLine="145" endPosition="31" />
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="148" startPosition="35" endLine="149" endPosition="31" />
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="152" startPosition="34" endLine="153" endPosition="30" />
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="156" startPosition="30" endLine="157" endPosition="26" />
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="160" startPosition="33" endLine="161" endPosition="29" />
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="164" startPosition="37" endLine="165" endPosition="33" />
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="168" startPosition="33" endLine="169" endPosition="29" />
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="172" startPosition="35" endLine="173" endPosition="31" />
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="176" startPosition="34" endLine="177" endPosition="30" />
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="180" startPosition="36" endLine="181" endPosition="32" />
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="184" startPosition="31" endLine="185" endPosition="27" />
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="188" startPosition="31" endLine="189" endPosition="27" />
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="192" startPosition="34" endLine="193" endPosition="30" />
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="196" startPosition="34" endLine="197" endPosition="30" />
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="31" startPosition="0" endLine="35" endPosition="0">
+      <varInfo nodeId="1284901400154948316" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="35" startPosition="0" endLine="39" endPosition="0">
+      <varInfo nodeId="1284901400154948316" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="39" startPosition="0" endLine="43" endPosition="0">
+      <varInfo nodeId="1284901400154948316" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="43" startPosition="0" endLine="47" endPosition="0">
+      <varInfo nodeId="1284901400154948316" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="47" startPosition="0" endLine="51" endPosition="0">
+      <varInfo nodeId="1284901400154948316" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="51" startPosition="0" endLine="55" endPosition="0">
+      <varInfo nodeId="1284901400154948316" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="55" startPosition="0" endLine="59" endPosition="0">
+      <varInfo nodeId="1284901400154948316" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="59" startPosition="0" endLine="63" endPosition="0">
+      <varInfo nodeId="1284901400154948316" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="63" startPosition="0" endLine="67" endPosition="0">
+      <varInfo nodeId="1284901400154948316" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="67" startPosition="0" endLine="71" endPosition="0">
+      <varInfo nodeId="1284901400154948316" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="71" startPosition="0" endLine="75" endPosition="0">
+      <varInfo nodeId="1284901400154948316" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="75" startPosition="0" endLine="79" endPosition="0">
+      <varInfo nodeId="1284901400154948316" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="79" startPosition="0" endLine="83" endPosition="0">
+      <varInfo nodeId="1284901400154948316" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="83" startPosition="0" endLine="87" endPosition="0">
+      <varInfo nodeId="1284901400154948316" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="87" startPosition="0" endLine="91" endPosition="0">
+      <varInfo nodeId="1284901400154948316" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="91" startPosition="0" endLine="95" endPosition="0">
+      <varInfo nodeId="1284901400154948316" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="95" startPosition="0" endLine="99" endPosition="0">
+      <varInfo nodeId="1284901400154948316" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="99" startPosition="0" endLine="103" endPosition="0">
+      <varInfo nodeId="1284901400154948316" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="103" startPosition="0" endLine="107" endPosition="0">
+      <varInfo nodeId="1284901400154948316" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="107" startPosition="0" endLine="111" endPosition="0">
+      <varInfo nodeId="1284901400154948316" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="111" startPosition="0" endLine="115" endPosition="0">
+      <varInfo nodeId="1284901400154948316" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="115" startPosition="0" endLine="119" endPosition="0" />
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="119" startPosition="0" endLine="123" endPosition="0" />
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="123" startPosition="0" endLine="127" endPosition="0" />
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="127" startPosition="0" endLine="131" endPosition="0" />
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="131" startPosition="0" endLine="135" endPosition="0" />
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="135" startPosition="0" endLine="139" endPosition="0" />
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="139" startPosition="0" endLine="143" endPosition="0" />
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="143" startPosition="0" endLine="147" endPosition="0" />
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="147" startPosition="0" endLine="151" endPosition="0" />
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="151" startPosition="0" endLine="155" endPosition="0" />
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="155" startPosition="0" endLine="159" endPosition="0" />
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="159" startPosition="0" endLine="163" endPosition="0" />
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="163" startPosition="0" endLine="167" endPosition="0" />
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="167" startPosition="0" endLine="171" endPosition="0" />
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="171" startPosition="0" endLine="175" endPosition="0" />
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="175" startPosition="0" endLine="179" endPosition="0" />
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="179" startPosition="0" endLine="183" endPosition="0" />
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="183" startPosition="0" endLine="187" endPosition="0" />
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="187" startPosition="0" endLine="191" endPosition="0" />
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="191" startPosition="0" endLine="195" endPosition="0" />
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="195" startPosition="0" endLine="199" endPosition="0" />
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="8" startPosition="32" endLine="29" endPosition="27" />
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="7" startPosition="52" endLine="30" endPosition="3" />
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="200" startPosition="71" endLine="224" endPosition="18">
+      <varInfo nodeId="1284901400154948316" varName="result" />
+    </scopeInfo>
+    <scopeInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="199" startPosition="0" endLine="226" endPosition="0">
+      <varInfo nodeId="1284901400154948316" varName="source" />
+    </scopeInfo>
+    <unitInfo nodeId="1284901400154948316" fileName="DocumentClientDao.java" startLine="7" startPosition="0" endLine="202" endPosition="0" unitName="org.metaforms.sandbox.DocumentClientDao" />
+    <unitInfo nodeId="1284901400154948316" fileName="DocumentClientModel.java" startLine="7" startPosition="0" endLine="227" endPosition="0" unitName="org.metaforms.sandbox.DocumentClientModel" />
+  </root>
+  <root nodeId="377984542589581059" modelId="r:501c2957-2d3c-41bd-a673-5000b1e5f92d(org.metaforms.sandbox)">
+    <nodeInfo nodeId="377984542589581059" fileName="ClientFormPanel.java" startLine="12" startPosition="54" endLine="13" endPosition="70" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="name" />
+    <nodeInfo nodeId="377984542589581059" fileName="ClientFormPanel.java" startLine="14" startPosition="0" endLine="15" endPosition="41" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myDocument" />
+    <nodeInfo nodeId="377984542589581059" fileName="ClientFormPanel.java" startLine="21" startPosition="55" endLine="22" endPosition="35" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="377984542589581059" fileName="ClientFormPanel.java" startLine="22" startPosition="35" endLine="23" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="377984542589581059" fileName="ClientFormPanel.java" startLine="23" startPosition="47" endLine="24" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="377984542589581059" fileName="ClientFormPanel.java" startLine="24" startPosition="22" endLine="25" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="377984542589581059" fileName="ClientFormPanel.java" startLine="25" startPosition="0" endLine="26" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="377984542589581059" fileName="ClientFormPanel.java" startLine="26" startPosition="20" endLine="27" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="377984542589581059" fileName="ClientFormPanel.java" startLine="27" startPosition="40" endLine="28" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="377984542589581059" fileName="ClientFormPanel.java" startLine="28" startPosition="0" endLine="29" endPosition="39" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+    <nodeInfo nodeId="377984542589581059" fileName="ClientFormPanel.java" startLine="29" startPosition="39" endLine="30" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="377984542589581059" fileName="ClientFormPanel.java" startLine="30" startPosition="27" endLine="31" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="377984542589581059" fileName="ClientFormPanel.java" startLine="31" startPosition="0" endLine="32" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="377984542589581059" fileName="ClientFormPanel.java" startLine="32" startPosition="49" endLine="33" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="377984542589581059" fileName="ClientFormPanel.java" startLine="33" startPosition="23" endLine="34" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="377984542589581059" fileName="ClientFormPanel.java" startLine="34" startPosition="0" endLine="35" endPosition="12" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="377984542589581062" fileName="ClientFormPanel.java" startLine="38" startPosition="46" endLine="39" endPosition="38" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="377984542589581062" fileName="ClientFormPanel.java" startLine="39" startPosition="38" endLine="40" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="377984542589581062" fileName="ClientFormPanel.java" startLine="40" startPosition="26" endLine="41" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="377984542589581059" fileName="ClientFormPanel.java" startLine="44" startPosition="44" endLine="45" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="377984542589581059" fileName="ClientFormPanel.java" startLine="48" startPosition="55" endLine="49" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="377984542589581059" fileName="ClientFormPanel.java" startLine="16" startPosition="0" endLine="18" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="ClientFormPanel#()V" />
+    <nodeInfo nodeId="377984542589581059" fileName="ClientFormPanel.java" startLine="43" startPosition="0" endLine="47" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getDocument#()Lorg/metaforms/sandbox/DocumentClientModel;" />
+    <nodeInfo nodeId="377984542589581059" fileName="ClientFormPanel.java" startLine="47" startPosition="0" endLine="51" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setDocument#(Lorg/metaforms/sandbox/DocumentClientModel;)V" />
+    <nodeInfo nodeId="377984542589581062" fileName="ClientFormPanel.java" startLine="37" startPosition="0" endLine="43" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createPanel_8ie90h_a#()Lcom/extjs/gxt/ui/client/widget/form/FormPanel;" />
+    <nodeInfo nodeId="377984542589581059" fileName="ClientFormPanel.java" startLine="19" startPosition="0" endLine="37" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="onRender#(Lcom/google/gwt/user/client/Element;I)V" />
+    <scopeInfo nodeId="377984542589581059" fileName="ClientFormPanel.java" startLine="17" startPosition="28" endLine="17" endPosition="28" />
+    <scopeInfo nodeId="377984542589581059" fileName="ClientFormPanel.java" startLine="44" startPosition="44" endLine="45" endPosition="27" />
+    <scopeInfo nodeId="377984542589581059" fileName="ClientFormPanel.java" startLine="48" startPosition="55" endLine="49" endPosition="28" />
+    <scopeInfo nodeId="377984542589581059" fileName="ClientFormPanel.java" startLine="16" startPosition="0" endLine="18" endPosition="3" />
+    <scopeInfo nodeId="377984542589581062" fileName="ClientFormPanel.java" startLine="38" startPosition="46" endLine="41" endPosition="17">
+      <varInfo nodeId="377984542589581062" varName="panel" />
+    </scopeInfo>
+    <scopeInfo nodeId="377984542589581059" fileName="ClientFormPanel.java" startLine="43" startPosition="0" endLine="47" endPosition="0" />
+    <scopeInfo nodeId="377984542589581059" fileName="ClientFormPanel.java" startLine="47" startPosition="0" endLine="51" endPosition="0">
+      <varInfo nodeId="377984542589581059" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="377984542589581062" fileName="ClientFormPanel.java" startLine="37" startPosition="0" endLine="43" endPosition="0" />
+    <scopeInfo nodeId="377984542589581059" fileName="ClientFormPanel.java" startLine="21" startPosition="55" endLine="35" endPosition="12">
+      <varInfo nodeId="377984542589581059" varName="binding" />
+      <varInfo nodeId="377984542589581059" varName="hp" />
+      <varInfo nodeId="377984542589581059" varName="panel" />
+    </scopeInfo>
+    <scopeInfo nodeId="377984542589581059" fileName="ClientFormPanel.java" startLine="19" startPosition="0" endLine="37" endPosition="0">
+      <varInfo nodeId="377984542589581059" varName="element" />
+      <varInfo nodeId="377984542589581059" varName="index" />
+    </scopeInfo>
+    <unitInfo nodeId="377984542589581059" fileName="ClientFormPanel.java" startLine="12" startPosition="0" endLine="52" endPosition="0" unitName="org.metaforms.sandbox.ClientFormPanel" />
+  </root>
+  <root nodeId="3825923826251981496" modelId="r:501c2957-2d3c-41bd-a673-5000b1e5f92d(org.metaforms.sandbox)">
+    <nodeInfo nodeId="3825923826251981496" fileName="AdressFormPanel.java" startLine="12" startPosition="54" endLine="13" endPosition="64" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="name" />
+    <nodeInfo nodeId="3825923826251981496" fileName="AdressFormPanel.java" startLine="14" startPosition="0" endLine="15" endPosition="41" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myDocument" />
+    <nodeInfo nodeId="3825923826251981496" fileName="AdressFormPanel.java" startLine="21" startPosition="55" endLine="22" endPosition="35" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3825923826251981496" fileName="AdressFormPanel.java" startLine="22" startPosition="35" endLine="23" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3825923826251981496" fileName="AdressFormPanel.java" startLine="23" startPosition="47" endLine="24" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3825923826251981496" fileName="AdressFormPanel.java" startLine="24" startPosition="22" endLine="25" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="3825923826251981496" fileName="AdressFormPanel.java" startLine="25" startPosition="0" endLine="26" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3825923826251981496" fileName="AdressFormPanel.java" startLine="26" startPosition="20" endLine="27" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3825923826251981496" fileName="AdressFormPanel.java" startLine="27" startPosition="40" endLine="28" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="3825923826251981496" fileName="AdressFormPanel.java" startLine="28" startPosition="0" endLine="29" endPosition="39" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+    <nodeInfo nodeId="3825923826251981496" fileName="AdressFormPanel.java" startLine="29" startPosition="39" endLine="30" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3825923826251981496" fileName="AdressFormPanel.java" startLine="30" startPosition="27" endLine="31" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="3825923826251981496" fileName="AdressFormPanel.java" startLine="31" startPosition="0" endLine="32" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3825923826251981496" fileName="AdressFormPanel.java" startLine="32" startPosition="49" endLine="33" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3825923826251981496" fileName="AdressFormPanel.java" startLine="33" startPosition="23" endLine="34" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="3825923826251981496" fileName="AdressFormPanel.java" startLine="34" startPosition="0" endLine="35" endPosition="12" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3825923826251981499" fileName="AdressFormPanel.java" startLine="38" startPosition="46" endLine="39" endPosition="38" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3825923826251981499" fileName="AdressFormPanel.java" startLine="39" startPosition="38" endLine="40" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3825923826251981499" fileName="AdressFormPanel.java" startLine="40" startPosition="26" endLine="41" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3825923826251981496" fileName="AdressFormPanel.java" startLine="44" startPosition="44" endLine="45" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3825923826251981496" fileName="AdressFormPanel.java" startLine="48" startPosition="55" endLine="49" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3825923826251981496" fileName="AdressFormPanel.java" startLine="16" startPosition="0" endLine="18" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="AdressFormPanel#()V" />
+    <nodeInfo nodeId="3825923826251981496" fileName="AdressFormPanel.java" startLine="43" startPosition="0" endLine="47" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getDocument#()Lorg/metaforms/sandbox/DocumentAdressModel;" />
+    <nodeInfo nodeId="3825923826251981496" fileName="AdressFormPanel.java" startLine="47" startPosition="0" endLine="51" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setDocument#(Lorg/metaforms/sandbox/DocumentAdressModel;)V" />
+    <nodeInfo nodeId="3825923826251981499" fileName="AdressFormPanel.java" startLine="37" startPosition="0" endLine="43" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createPanel_87s46c_a#()Lcom/extjs/gxt/ui/client/widget/form/FormPanel;" />
+    <nodeInfo nodeId="3825923826251981496" fileName="AdressFormPanel.java" startLine="19" startPosition="0" endLine="37" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="onRender#(Lcom/google/gwt/user/client/Element;I)V" />
+    <scopeInfo nodeId="3825923826251981496" fileName="AdressFormPanel.java" startLine="17" startPosition="28" endLine="17" endPosition="28" />
+    <scopeInfo nodeId="3825923826251981496" fileName="AdressFormPanel.java" startLine="44" startPosition="44" endLine="45" endPosition="27" />
+    <scopeInfo nodeId="3825923826251981496" fileName="AdressFormPanel.java" startLine="48" startPosition="55" endLine="49" endPosition="28" />
+    <scopeInfo nodeId="3825923826251981496" fileName="AdressFormPanel.java" startLine="16" startPosition="0" endLine="18" endPosition="3" />
+    <scopeInfo nodeId="3825923826251981499" fileName="AdressFormPanel.java" startLine="38" startPosition="46" endLine="41" endPosition="17">
+      <varInfo nodeId="3825923826251981499" varName="panel" />
+    </scopeInfo>
+    <scopeInfo nodeId="3825923826251981496" fileName="AdressFormPanel.java" startLine="43" startPosition="0" endLine="47" endPosition="0" />
+    <scopeInfo nodeId="3825923826251981496" fileName="AdressFormPanel.java" startLine="47" startPosition="0" endLine="51" endPosition="0">
+      <varInfo nodeId="3825923826251981496" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="3825923826251981499" fileName="AdressFormPanel.java" startLine="37" startPosition="0" endLine="43" endPosition="0" />
+    <scopeInfo nodeId="3825923826251981496" fileName="AdressFormPanel.java" startLine="21" startPosition="55" endLine="35" endPosition="12">
+      <varInfo nodeId="3825923826251981496" varName="binding" />
+      <varInfo nodeId="3825923826251981496" varName="hp" />
+      <varInfo nodeId="3825923826251981496" varName="panel" />
+    </scopeInfo>
+    <scopeInfo nodeId="3825923826251981496" fileName="AdressFormPanel.java" startLine="19" startPosition="0" endLine="37" endPosition="0">
+      <varInfo nodeId="3825923826251981496" varName="element" />
+      <varInfo nodeId="3825923826251981496" varName="index" />
+    </scopeInfo>
+    <unitInfo nodeId="3825923826251981496" fileName="AdressFormPanel.java" startLine="12" startPosition="0" endLine="52" endPosition="0" unitName="org.metaforms.sandbox.AdressFormPanel" />
+  </root>
+  <root nodeId="6744709490419531547" modelId="r:501c2957-2d3c-41bd-a673-5000b1e5f92d(org.metaforms.sandbox)">
+    <nodeInfo nodeId="6744709490419531547" fileName="DocumentAdressDao.java" startLine="8" startPosition="38" endLine="9" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myCity" />
+    <nodeInfo nodeId="6744709490419531547" fileName="DocumentAdressDao.java" startLine="9" startPosition="24" endLine="10" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myCountry" />
+    <nodeInfo nodeId="6744709490419531547" fileName="DocumentAdressDao.java" startLine="10" startPosition="27" endLine="11" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myStreet" />
+    <nodeInfo nodeId="6744709490419531547" fileName="DocumentAdressDao.java" startLine="16" startPosition="27" endLine="17" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6744709490419531547" fileName="DocumentAdressDao.java" startLine="20" startPosition="38" endLine="21" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6744709490419531547" fileName="DocumentAdressDao.java" startLine="24" startPosition="30" endLine="25" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6744709490419531547" fileName="DocumentAdressDao.java" startLine="28" startPosition="41" endLine="29" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6744709490419531547" fileName="DocumentAdressDao.java" startLine="32" startPosition="29" endLine="33" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6744709490419531547" fileName="DocumentAdressDao.java" startLine="36" startPosition="40" endLine="37" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6744709490419531547" fileName="DocumentAdressDao.java" startLine="12" startPosition="0" endLine="14" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="DocumentAdressDao#()V" />
+    <nodeInfo nodeId="6744709490419531547" fileName="DocumentAdressDao.java" startLine="15" startPosition="0" endLine="19" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getCity#()Ljava/lang/String;" />
+    <nodeInfo nodeId="6744709490419531547" fileName="DocumentAdressDao.java" startLine="19" startPosition="0" endLine="23" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setCity#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="6744709490419531547" fileName="DocumentAdressDao.java" startLine="23" startPosition="0" endLine="27" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getCountry#()Ljava/lang/String;" />
+    <nodeInfo nodeId="6744709490419531547" fileName="DocumentAdressDao.java" startLine="27" startPosition="0" endLine="31" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setCountry#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="6744709490419531547" fileName="DocumentAdressDao.java" startLine="31" startPosition="0" endLine="35" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getStreet#()Ljava/lang/String;" />
+    <nodeInfo nodeId="6744709490419531547" fileName="DocumentAdressDao.java" startLine="35" startPosition="0" endLine="39" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setStreet#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="6744709490419531547" fileName="DocumentAdressModel.java" startLine="8" startPosition="32" endLine="9" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6744709490419531547" fileName="DocumentAdressModel.java" startLine="9" startPosition="20" endLine="10" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6744709490419531547" fileName="DocumentAdressModel.java" startLine="10" startPosition="23" endLine="11" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6744709490419531547" fileName="DocumentAdressModel.java" startLine="14" startPosition="37" endLine="15" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6744709490419531547" fileName="DocumentAdressModel.java" startLine="18" startPosition="40" endLine="19" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6744709490419531547" fileName="DocumentAdressModel.java" startLine="22" startPosition="39" endLine="23" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6744709490419531547" fileName="DocumentAdressModel.java" startLine="26" startPosition="27" endLine="27" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6744709490419531547" fileName="DocumentAdressModel.java" startLine="30" startPosition="30" endLine="31" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6744709490419531547" fileName="DocumentAdressModel.java" startLine="34" startPosition="29" endLine="35" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6744709490419531547" fileName="DocumentAdressModel.java" startLine="38" startPosition="71" endLine="39" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6744709490419531547" fileName="DocumentAdressModel.java" startLine="39" startPosition="59" endLine="40" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+    <nodeInfo nodeId="6744709490419531547" fileName="DocumentAdressModel.java" startLine="40" startPosition="26" endLine="41" endPosition="41" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6744709490419531547" fileName="DocumentAdressModel.java" startLine="41" startPosition="41" endLine="42" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6744709490419531547" fileName="DocumentAdressModel.java" startLine="42" startPosition="47" endLine="43" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6744709490419531547" fileName="DocumentAdressModel.java" startLine="43" startPosition="45" endLine="44" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6744709490419531547" fileName="DocumentAdressModel.java" startLine="13" startPosition="0" endLine="17" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setCity#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="6744709490419531547" fileName="DocumentAdressModel.java" startLine="17" startPosition="0" endLine="21" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setCountry#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="6744709490419531547" fileName="DocumentAdressModel.java" startLine="21" startPosition="0" endLine="25" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setStreet#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="6744709490419531547" fileName="DocumentAdressModel.java" startLine="25" startPosition="0" endLine="29" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getCity#()Ljava/lang/String;" />
+    <nodeInfo nodeId="6744709490419531547" fileName="DocumentAdressModel.java" startLine="29" startPosition="0" endLine="33" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getCountry#()Ljava/lang/String;" />
+    <nodeInfo nodeId="6744709490419531547" fileName="DocumentAdressModel.java" startLine="33" startPosition="0" endLine="37" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getStreet#()Ljava/lang/String;" />
+    <nodeInfo nodeId="6744709490419531547" fileName="DocumentAdressModel.java" startLine="7" startPosition="52" endLine="12" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="DocumentAdressModel#()V" />
+    <nodeInfo nodeId="6744709490419531547" fileName="DocumentAdressModel.java" startLine="37" startPosition="0" endLine="46" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="toModel#(Lorg/metaforms/sandbox/DocumentAdressDao;)Lorg/metaforms/sandbox/DocumentAdressModel;" />
+    <scopeInfo nodeId="6744709490419531547" fileName="DocumentAdressDao.java" startLine="13" startPosition="30" endLine="13" endPosition="30" />
+    <scopeInfo nodeId="6744709490419531547" fileName="DocumentAdressDao.java" startLine="16" startPosition="27" endLine="17" endPosition="23" />
+    <scopeInfo nodeId="6744709490419531547" fileName="DocumentAdressDao.java" startLine="20" startPosition="38" endLine="21" endPosition="24" />
+    <scopeInfo nodeId="6744709490419531547" fileName="DocumentAdressDao.java" startLine="24" startPosition="30" endLine="25" endPosition="26" />
+    <scopeInfo nodeId="6744709490419531547" fileName="DocumentAdressDao.java" startLine="28" startPosition="41" endLine="29" endPosition="27" />
+    <scopeInfo nodeId="6744709490419531547" fileName="DocumentAdressDao.java" startLine="32" startPosition="29" endLine="33" endPosition="25" />
+    <scopeInfo nodeId="6744709490419531547" fileName="DocumentAdressDao.java" startLine="36" startPosition="40" endLine="37" endPosition="26" />
+    <scopeInfo nodeId="6744709490419531547" fileName="DocumentAdressDao.java" startLine="12" startPosition="0" endLine="14" endPosition="3" />
+    <scopeInfo nodeId="6744709490419531547" fileName="DocumentAdressDao.java" startLine="15" startPosition="0" endLine="19" endPosition="0" />
+    <scopeInfo nodeId="6744709490419531547" fileName="DocumentAdressDao.java" startLine="19" startPosition="0" endLine="23" endPosition="0">
+      <varInfo nodeId="6744709490419531547" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="6744709490419531547" fileName="DocumentAdressDao.java" startLine="23" startPosition="0" endLine="27" endPosition="0" />
+    <scopeInfo nodeId="6744709490419531547" fileName="DocumentAdressDao.java" startLine="27" startPosition="0" endLine="31" endPosition="0">
+      <varInfo nodeId="6744709490419531547" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="6744709490419531547" fileName="DocumentAdressDao.java" startLine="31" startPosition="0" endLine="35" endPosition="0" />
+    <scopeInfo nodeId="6744709490419531547" fileName="DocumentAdressDao.java" startLine="35" startPosition="0" endLine="39" endPosition="0">
+      <varInfo nodeId="6744709490419531547" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="6744709490419531547" fileName="DocumentAdressModel.java" startLine="14" startPosition="37" endLine="15" endPosition="23" />
+    <scopeInfo nodeId="6744709490419531547" fileName="DocumentAdressModel.java" startLine="18" startPosition="40" endLine="19" endPosition="26" />
+    <scopeInfo nodeId="6744709490419531547" fileName="DocumentAdressModel.java" startLine="22" startPosition="39" endLine="23" endPosition="25" />
+    <scopeInfo nodeId="6744709490419531547" fileName="DocumentAdressModel.java" startLine="26" startPosition="27" endLine="27" endPosition="23" />
+    <scopeInfo nodeId="6744709490419531547" fileName="DocumentAdressModel.java" startLine="30" startPosition="30" endLine="31" endPosition="26" />
+    <scopeInfo nodeId="6744709490419531547" fileName="DocumentAdressModel.java" startLine="34" startPosition="29" endLine="35" endPosition="25" />
+    <scopeInfo nodeId="6744709490419531547" fileName="DocumentAdressModel.java" startLine="8" startPosition="32" endLine="11" endPosition="22" />
+    <scopeInfo nodeId="6744709490419531547" fileName="DocumentAdressModel.java" startLine="13" startPosition="0" endLine="17" endPosition="0">
+      <varInfo nodeId="6744709490419531547" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="6744709490419531547" fileName="DocumentAdressModel.java" startLine="17" startPosition="0" endLine="21" endPosition="0">
+      <varInfo nodeId="6744709490419531547" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="6744709490419531547" fileName="DocumentAdressModel.java" startLine="21" startPosition="0" endLine="25" endPosition="0">
+      <varInfo nodeId="6744709490419531547" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="6744709490419531547" fileName="DocumentAdressModel.java" startLine="25" startPosition="0" endLine="29" endPosition="0" />
+    <scopeInfo nodeId="6744709490419531547" fileName="DocumentAdressModel.java" startLine="29" startPosition="0" endLine="33" endPosition="0" />
+    <scopeInfo nodeId="6744709490419531547" fileName="DocumentAdressModel.java" startLine="33" startPosition="0" endLine="37" endPosition="0" />
+    <scopeInfo nodeId="6744709490419531547" fileName="DocumentAdressModel.java" startLine="7" startPosition="52" endLine="12" endPosition="3" />
+    <scopeInfo nodeId="6744709490419531547" fileName="DocumentAdressModel.java" startLine="38" startPosition="71" endLine="44" endPosition="18">
+      <varInfo nodeId="6744709490419531547" varName="result" />
+    </scopeInfo>
+    <scopeInfo nodeId="6744709490419531547" fileName="DocumentAdressModel.java" startLine="37" startPosition="0" endLine="46" endPosition="0">
+      <varInfo nodeId="6744709490419531547" varName="source" />
+    </scopeInfo>
+    <unitInfo nodeId="6744709490419531547" fileName="DocumentAdressDao.java" startLine="7" startPosition="0" endLine="40" endPosition="0" unitName="org.metaforms.sandbox.DocumentAdressDao" />
+    <unitInfo nodeId="6744709490419531547" fileName="DocumentAdressModel.java" startLine="7" startPosition="0" endLine="47" endPosition="0" unitName="org.metaforms.sandbox.DocumentAdressModel" />
+  </root>
+</debugInfo>
+

@@ -4,12 +4,10 @@
   <language namespace="b401a680-8325-4110-8fd3-84331ff25bef(jetbrains.mps.lang.generator)" />
   <language namespace="d7706f63-9be2-479c-a3da-ae92af1e64d5(jetbrains.mps.lang.generator.generationContext)" />
   <language namespace="f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)" />
-  <language namespace="13744753-c81f-424a-9c1b-cf8943bf4e86(jetbrains.mps.lang.sharedConcepts)" />
-  <language namespace="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" />
-  <language namespace="7a5dda62-9140-4668-ab76-d5ed1746f2b2(jetbrains.mps.lang.typesystem)" />
   <language namespace="7866978e-a0f0-4cc7-81bc-4d213d9375e1(jetbrains.mps.lang.smodel)" />
   <language-engaged-on-generation namespace="f9e8c623-2d16-4d6b-883c-0995df7b3bc3(org.metaforms.domain)" />
   <devkit namespace="2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)" />
+  <devkit namespace="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   <import index="dqc5" modelUID="f:java_stub#a92871fa-5f1a-445a-984b-c1a961bd4e82#com.extjs.gxt.ui.client.widget(org.metaforms.forms/com.extjs.gxt.ui.client.widget@java_stub)" version="-1" />
   <import index="3ay0" modelUID="f:java_stub#a92871fa-5f1a-445a-984b-c1a961bd4e82#com.google.gwt.user.client(org.metaforms.forms/com.google.gwt.user.client@java_stub)" version="-1" />
   <import index="c67x" modelUID="f:java_stub#a92871fa-5f1a-445a-984b-c1a961bd4e82#com.extjs.gxt.ui.client.widget.form(org.metaforms.forms/com.extjs.gxt.ui.client.widget.form@java_stub)" version="-1" />

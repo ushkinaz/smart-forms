@@ -13,9 +13,6 @@
         <modelRoot path="${language_descriptor}/generator/template" />
       </models>
       <external-templates />
-      <dependencies>
-        <dependency reexport="false">a92871fa-5f1a-445a-984b-c1a961bd4e82(org.metaforms.forms)</dependency>
-      </dependencies>
       <usedLanguages>
         <usedLanguage>b401a680-8325-4110-8fd3-84331ff25bef(jetbrains.mps.lang.generator)</usedLanguage>
         <usedLanguage>d7706f63-9be2-479c-a3da-ae92af1e64d5(jetbrains.mps.lang.generator.generationContext)</usedLanguage>

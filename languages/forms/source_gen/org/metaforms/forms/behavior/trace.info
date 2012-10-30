@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debugInfo>
+  <unitInfo fileName="BehaviorAspectDescriptor.java" startLine="9" startPosition="0" endLine="52" endPosition="0" unitName="org.metaforms.forms.behavior.BehaviorAspectDescriptor" />
+  <unitInfo fileName="CheckBoxGroup_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="org.metaforms.forms.behavior.CheckBoxGroup_BehaviorDescriptor" />
+  <unitInfo fileName="CheckBoxItem_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="org.metaforms.forms.behavior.CheckBoxItem_BehaviorDescriptor" />
+  <unitInfo fileName="ContentPanel_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="org.metaforms.forms.behavior.ContentPanel_BehaviorDescriptor" />
+  <unitInfo fileName="DateField_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="org.metaforms.forms.behavior.DateField_BehaviorDescriptor" />
+  <unitInfo fileName="FormContainer_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="8" endPosition="0" unitName="org.metaforms.forms.behavior.FormContainer_BehaviorDescriptor" />
+  <unitInfo fileName="FormPanel_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="org.metaforms.forms.behavior.FormPanel_BehaviorDescriptor" />
+  <unitInfo fileName="Form_BehaviorDescriptor.java" startLine="13" startPosition="0" endLine="26" endPosition="0" unitName="org.metaforms.forms.behavior.Form_BehaviorDescriptor" />
+  <unitInfo fileName="HasBinding_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="8" endPosition="0" unitName="org.metaforms.forms.behavior.HasBinding_BehaviorDescriptor" />
+  <unitInfo fileName="HasChildren_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="8" endPosition="0" unitName="org.metaforms.forms.behavior.HasChildren_BehaviorDescriptor" />
+  <unitInfo fileName="HasLabel_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="8" endPosition="0" unitName="org.metaforms.forms.behavior.HasLabel_BehaviorDescriptor" />
+  <unitInfo fileName="HasOrientation_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="8" endPosition="0" unitName="org.metaforms.forms.behavior.HasOrientation_BehaviorDescriptor" />
+  <unitInfo fileName="HasQuery_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="8" endPosition="0" unitName="org.metaforms.forms.behavior.HasQuery_BehaviorDescriptor" />
+  <unitInfo fileName="HasValue_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="8" endPosition="0" unitName="org.metaforms.forms.behavior.HasValue_BehaviorDescriptor" />
+  <unitInfo fileName="HasWidth_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="8" endPosition="0" unitName="org.metaforms.forms.behavior.HasWidth_BehaviorDescriptor" />
+  <unitInfo fileName="IFormComponent_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="9" endPosition="0" unitName="org.metaforms.forms.behavior.IFormComponent_BehaviorDescriptor" />
+  <unitInfo fileName="LabelField_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="org.metaforms.forms.behavior.LabelField_BehaviorDescriptor" />
+  <unitInfo fileName="MultiField_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="org.metaforms.forms.behavior.MultiField_BehaviorDescriptor" />
+  <unitInfo fileName="RadioGroup_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="org.metaforms.forms.behavior.RadioGroup_BehaviorDescriptor" />
+  <unitInfo fileName="Rule_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="org.metaforms.forms.behavior.Rule_BehaviorDescriptor" />
+  <unitInfo fileName="TabItem_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="org.metaforms.forms.behavior.TabItem_BehaviorDescriptor" />
+  <unitInfo fileName="TabPanel_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="org.metaforms.forms.behavior.TabPanel_BehaviorDescriptor" />
+  <unitInfo fileName="TablePanel_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="org.metaforms.forms.behavior.TablePanel_BehaviorDescriptor" />
+  <unitInfo fileName="TextField_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="org.metaforms.forms.behavior.TextField_BehaviorDescriptor" />
+  <unitInfo fileName="TriggerField_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="org.metaforms.forms.behavior.TriggerField_BehaviorDescriptor" />
+</debugInfo>
+

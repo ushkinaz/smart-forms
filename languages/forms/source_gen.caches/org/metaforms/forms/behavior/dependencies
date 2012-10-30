@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependenciesRoot>
+  <dependency className="org.metaforms.forms.behavior.BehaviorAspectDescriptor" file="BehaviorAspectDescriptor.java">
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.Arrays" />
+    <classNode dependClassName="jetbrains.mps.smodel.runtime.BehaviorDescriptor" />
+    <classNode dependClassName="jetbrains.mps.smodel.runtime.interpreted.BehaviorAspectInterpreted" />
+    <classNode dependClassName="org.metaforms.forms.behavior.CheckBoxGroup_BehaviorDescriptor" />
+    <classNode dependClassName="org.metaforms.forms.behavior.CheckBoxItem_BehaviorDescriptor" />
+    <classNode dependClassName="org.metaforms.forms.behavior.ContentPanel_BehaviorDescriptor" />
+    <classNode dependClassName="org.metaforms.forms.behavior.DateField_BehaviorDescriptor" />
+    <classNode dependClassName="org.metaforms.forms.behavior.FormPanel_BehaviorDescriptor" />
+    <classNode dependClassName="org.metaforms.forms.behavior.Form_BehaviorDescriptor" />
+    <classNode dependClassName="org.metaforms.forms.behavior.LabelField_BehaviorDescriptor" />
+    <classNode dependClassName="org.metaforms.forms.behavior.MultiField_BehaviorDescriptor" />
+    <classNode dependClassName="org.metaforms.forms.behavior.RadioGroup_BehaviorDescriptor" />
+    <classNode dependClassName="org.metaforms.forms.behavior.Rule_BehaviorDescriptor" />
+    <classNode dependClassName="org.metaforms.forms.behavior.TabItem_BehaviorDescriptor" />
+    <classNode dependClassName="org.metaforms.forms.behavior.TabPanel_BehaviorDescriptor" />
+    <classNode dependClassName="org.metaforms.forms.behavior.TablePanel_BehaviorDescriptor" />
+    <classNode dependClassName="org.metaforms.forms.behavior.TextField_BehaviorDescriptor" />
+    <classNode dependClassName="org.metaforms.forms.behavior.TriggerField_BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.BehaviorAspectDescriptor" />
+  </dependency>
+  <dependency className="org.metaforms.forms.behavior.CheckBoxGroup_BehaviorDescriptor" file="CheckBoxGroup_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
+    <classNode dependClassName="org.metaforms.forms.behavior.HasBinding_BehaviorDescriptor" />
+    <classNode dependClassName="org.metaforms.forms.behavior.HasLabel_BehaviorDescriptor" />
+    <classNode dependClassName="org.metaforms.forms.behavior.IFormComponent_BehaviorDescriptor" />
+    <classNode extendsClassName="java.lang.Cloneable" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="org.metaforms.forms.behavior.CheckBoxItem_BehaviorDescriptor" file="CheckBoxItem_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
+    <classNode dependClassName="org.metaforms.forms.behavior.HasLabel_BehaviorDescriptor" />
+    <classNode dependClassName="org.metaforms.forms.behavior.HasValue_BehaviorDescriptor" />
+    <classNode extendsClassName="java.lang.Cloneable" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="org.metaforms.forms.behavior.ContentPanel_BehaviorDescriptor" file="ContentPanel_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
+    <classNode dependClassName="org.metaforms.forms.behavior.FormContainer_BehaviorDescriptor" />
+    <classNode dependClassName="org.metaforms.forms.behavior.HasChildren_BehaviorDescriptor" />
+    <classNode dependClassName="org.metaforms.forms.behavior.IFormComponent_BehaviorDescriptor" />
+    <classNode extendsClassName="java.lang.Cloneable" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="org.metaforms.forms.behavior.DateField_BehaviorDescriptor" file="DateField_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
+    <classNode dependClassName="org.metaforms.forms.behavior.HasBinding_BehaviorDescriptor" />
+    <classNode dependClassName="org.metaforms.forms.behavior.HasLabel_BehaviorDescriptor" />
+    <classNode dependClassName="org.metaforms.forms.behavior.HasWidth_BehaviorDescriptor" />
+    <classNode dependClassName="org.metaforms.forms.behavior.IFormComponent_BehaviorDescriptor" />
+    <classNode extendsClassName="java.lang.Cloneable" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="org.metaforms.forms.behavior.FormContainer_BehaviorDescriptor" file="FormContainer_BehaviorDescriptor.java" />
+  <dependency className="org.metaforms.forms.behavior.FormPanel_BehaviorDescriptor" file="FormPanel_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
+    <classNode dependClassName="org.metaforms.forms.behavior.FormContainer_BehaviorDescriptor" />
+    <classNode dependClassName="org.metaforms.forms.behavior.HasChildren_BehaviorDescriptor" />
+    <classNode dependClassName="org.metaforms.forms.behavior.IFormComponent_BehaviorDescriptor" />
+    <classNode extendsClassName="java.lang.Cloneable" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="org.metaforms.forms.behavior.Form_BehaviorDescriptor" file="Form_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.IContainer_BehaviorDescriptor" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.INamedConcept_Behavior" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.INamedConcept_BehaviorDescriptor" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode dependClassName="org.metaforms.domain.behavior.HasDocumentReference_BehaviorDescriptor" />
+    <classNode dependClassName="org.metaforms.domain.behavior.HasId_BehaviorDescriptor" />
+    <classNode extendsClassName="java.lang.Cloneable" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="org.metaforms.forms.behavior.HasBinding_BehaviorDescriptor" file="HasBinding_BehaviorDescriptor.java" />
+  <dependency className="org.metaforms.forms.behavior.HasChildren_BehaviorDescriptor" file="HasChildren_BehaviorDescriptor.java" />
+  <dependency className="org.metaforms.forms.behavior.HasLabel_BehaviorDescriptor" file="HasLabel_BehaviorDescriptor.java" />
+  <dependency className="org.metaforms.forms.behavior.HasOrientation_BehaviorDescriptor" file="HasOrientation_BehaviorDescriptor.java" />
+  <dependency className="org.metaforms.forms.behavior.HasQuery_BehaviorDescriptor" file="HasQuery_BehaviorDescriptor.java" />
+  <dependency className="org.metaforms.forms.behavior.HasValue_BehaviorDescriptor" file="HasValue_BehaviorDescriptor.java" />
+  <dependency className="org.metaforms.forms.behavior.HasWidth_BehaviorDescriptor" file="HasWidth_BehaviorDescriptor.java" />
+  <dependency className="org.metaforms.forms.behavior.IFormComponent_BehaviorDescriptor" file="IFormComponent_BehaviorDescriptor.java">
+    <classNode dependClassName="org.metaforms.domain.behavior.HasId_BehaviorDescriptor" />
+    <classNode extendsClassName="java.lang.Cloneable" />
+  </dependency>
+  <dependency className="org.metaforms.forms.behavior.LabelField_BehaviorDescriptor" file="LabelField_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
+    <classNode dependClassName="org.metaforms.forms.behavior.HasBinding_BehaviorDescriptor" />
+    <classNode dependClassName="org.metaforms.forms.behavior.HasLabel_BehaviorDescriptor" />
+    <classNode dependClassName="org.metaforms.forms.behavior.IFormComponent_BehaviorDescriptor" />
+    <classNode extendsClassName="java.lang.Cloneable" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="org.metaforms.forms.behavior.MultiField_BehaviorDescriptor" file="MultiField_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
+    <classNode dependClassName="org.metaforms.forms.behavior.HasLabel_BehaviorDescriptor" />
+    <classNode dependClassName="org.metaforms.forms.behavior.HasOrientation_BehaviorDescriptor" />
+    <classNode dependClassName="org.metaforms.forms.behavior.IFormComponent_BehaviorDescriptor" />
+    <classNode extendsClassName="java.lang.Cloneable" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="org.metaforms.forms.behavior.RadioGroup_BehaviorDescriptor" file="RadioGroup_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
+    <classNode dependClassName="org.metaforms.forms.behavior.HasBinding_BehaviorDescriptor" />
+    <classNode dependClassName="org.metaforms.forms.behavior.HasLabel_BehaviorDescriptor" />
+    <classNode dependClassName="org.metaforms.forms.behavior.HasQuery_BehaviorDescriptor" />
+    <classNode dependClassName="org.metaforms.forms.behavior.IFormComponent_BehaviorDescriptor" />
+    <classNode extendsClassName="java.lang.Cloneable" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="org.metaforms.forms.behavior.Rule_BehaviorDescriptor" file="Rule_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="org.metaforms.forms.behavior.TabItem_BehaviorDescriptor" file="TabItem_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
+    <classNode dependClassName="org.metaforms.forms.behavior.HasChildren_BehaviorDescriptor" />
+    <classNode dependClassName="org.metaforms.forms.behavior.HasLabel_BehaviorDescriptor" />
+    <classNode extendsClassName="java.lang.Cloneable" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="org.metaforms.forms.behavior.TabPanel_BehaviorDescriptor" file="TabPanel_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
+    <classNode dependClassName="org.metaforms.forms.behavior.IFormComponent_BehaviorDescriptor" />
+    <classNode extendsClassName="java.lang.Cloneable" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="org.metaforms.forms.behavior.TablePanel_BehaviorDescriptor" file="TablePanel_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
+    <classNode dependClassName="org.metaforms.forms.behavior.FormContainer_BehaviorDescriptor" />
+    <classNode dependClassName="org.metaforms.forms.behavior.HasChildren_BehaviorDescriptor" />
+    <classNode dependClassName="org.metaforms.forms.behavior.IFormComponent_BehaviorDescriptor" />
+    <classNode extendsClassName="java.lang.Cloneable" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="org.metaforms.forms.behavior.TextField_BehaviorDescriptor" file="TextField_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
+    <classNode dependClassName="org.metaforms.forms.behavior.HasBinding_BehaviorDescriptor" />
+    <classNode dependClassName="org.metaforms.forms.behavior.HasLabel_BehaviorDescriptor" />
+    <classNode dependClassName="org.metaforms.forms.behavior.HasValue_BehaviorDescriptor" />
+    <classNode dependClassName="org.metaforms.forms.behavior.HasWidth_BehaviorDescriptor" />
+    <classNode dependClassName="org.metaforms.forms.behavior.IFormComponent_BehaviorDescriptor" />
+    <classNode extendsClassName="java.lang.Cloneable" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="org.metaforms.forms.behavior.TriggerField_BehaviorDescriptor" file="TriggerField_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
+    <classNode dependClassName="org.metaforms.forms.behavior.HasBinding_BehaviorDescriptor" />
+    <classNode dependClassName="org.metaforms.forms.behavior.HasLabel_BehaviorDescriptor" />
+    <classNode dependClassName="org.metaforms.forms.behavior.HasQuery_BehaviorDescriptor" />
+    <classNode dependClassName="org.metaforms.forms.behavior.HasWidth_BehaviorDescriptor" />
+    <classNode dependClassName="org.metaforms.forms.behavior.IFormComponent_BehaviorDescriptor" />
+    <classNode extendsClassName="java.lang.Cloneable" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+</dependenciesRoot>
+

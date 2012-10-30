@@ -1,23 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model modelUID="r:1d8cc890-4e8b-4612-921a-04055ffb5498(org.metaforms.forms.generator.template.main@generator)">
+<model modelUID="r:5c985d75-6d7b-4ec4-8696-751739754238(org.metaforms.domain.generator.template.main@generator)">
   <persistence version="7" />
   <language namespace="b401a680-8325-4110-8fd3-84331ff25bef(jetbrains.mps.lang.generator)" />
-  <language namespace="f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)" />
-  <language namespace="7866978e-a0f0-4cc7-81bc-4d213d9375e1(jetbrains.mps.lang.smodel)" />
-  <language-engaged-on-generation namespace="f9e8c623-2d16-4d6b-883c-0995df7b3bc3(org.metaforms.domain)" />
-  <devkit namespace="2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)" />
+  <language namespace="d7706f63-9be2-479c-a3da-ae92af1e64d5(jetbrains.mps.lang.generator.generationContext)" />
   <devkit namespace="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
+  <import index="vu84" modelUID="r:9130804a-d65a-4c68-b2c1-a4462321c3a0(org.metaforms.domain.structure)" version="7" />
   <import index="yf82" modelUID="f:java_stub#a92871fa-5f1a-445a-984b-c1a961bd4e82#org.hibernate.annotations(org.metaforms.forms/org.hibernate.annotations@java_stub)" version="-1" />
-  <import index="vu84" modelUID="r:9130804a-d65a-4c68-b2c1-a4462321c3a0(org.metaforms.domain.structure)" version="7" implicit="yes" />
-  <import index="tp25" modelUID="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" version="16" implicit="yes" />
-  <import index="aytv" modelUID="r:92b29e2f-687a-493a-8fda-d17d20c1c1bb(org.metaforms.forms.structure)" version="15" implicit="yes" />
-  <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="3" implicit="yes" />
-  <import index="tpf8" modelUID="r:00000000-0000-4000-0000-011c895902e8(jetbrains.mps.lang.generator.structure)" version="2" implicit="yes" />
+  <import index="aytv" modelUID="r:92b29e2f-687a-493a-8fda-d17d20c1c1bb(org.metaforms.forms.structure)" version="15" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
+  <import index="tpf8" modelUID="r:00000000-0000-4000-0000-011c895902e8(jetbrains.mps.lang.generator.structure)" version="2" implicit="yes" />
+  <import index="tp25" modelUID="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" version="16" implicit="yes" />
+  <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="4" implicit="yes" />
   <roots>
-    <node type="tpf8.MappingConfiguration" typeId="tpf8.1095416546421" id="1284901400155045976">
-      <property name="name" nameId="tpck.1169194664001" value="main" />
-    </node>
     <node type="tpee.ClassConcept" typeId="tpee.1068390468198" id="1597384487797083679">
       <property name="name" nameId="tpck.1169194664001" value="CreditClassDAO" />
     </node>
@@ -25,29 +19,10 @@
       <property name="name" nameId="tpck.1169194664001" value="DocumentDAO" />
       <property name="isFinal" nameId="tpee.1221565133444" value="true" />
     </node>
+    <node type="tpf8.MappingConfiguration" typeId="tpf8.1095416546421" id="1284901400155045976">
+      <property name="name" nameId="tpck.1169194664001" value="main" />
+    </node>
   </roots>
-  <root id="1284901400155045976">
-    <node role="rootMappingRule" roleId="tpf8.1167514678247" type="tpf8.Root_MappingRule" typeId="tpf8.1167514355419" id="287760391610477581">
-      <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="vu84.5148616895979972052" resolveInfo="Document" />
-      <link role="template" roleId="tpf8.1167514355421" targetNodeId="1597384487797083706" resolveInfo="DocumentDAO" />
-      <link role="labelDeclaration" roleId="tpf8.1200917515464" targetNodeId="1597384487797135102" resolveInfo="documentDAOLabel" />
-    </node>
-    <node role="mappingLabel" roleId="tpf8.1200911492601" type="tpf8.MappingLabelDeclaration" typeId="tpf8.1200911316486" id="1597384487797135102">
-      <property name="name" nameId="tpck.1169194664001" value="documentDAOLabel" />
-      <link role="sourceConcept" roleId="tpf8.1200911342686" targetNodeId="vu84.5148616895979972052" resolveInfo="Document" />
-      <link role="targetConcept" roleId="tpf8.1200913004646" targetNodeId="tpee.1068390468198" resolveInfo="ClassConcept" />
-    </node>
-    <node role="mappingLabel" roleId="tpf8.1200911492601" type="tpf8.MappingLabelDeclaration" typeId="tpf8.1200911316486" id="1597384487797204869">
-      <property name="name" nameId="tpck.1169194664001" value="formLabel" />
-      <link role="sourceConcept" roleId="tpf8.1200911342686" targetNodeId="aytv.7815177035767537410" resolveInfo="Form" />
-      <link role="targetConcept" roleId="tpf8.1200913004646" targetNodeId="tpee.1068390468198" resolveInfo="ClassConcept" />
-    </node>
-    <node role="mappingLabel" roleId="tpf8.1200911492601" type="tpf8.MappingLabelDeclaration" typeId="tpf8.1200911316486" id="1597384487797342588">
-      <property name="name" nameId="tpck.1169194664001" value="createContainerLabel" />
-      <link role="sourceConcept" roleId="tpf8.1200911342686" targetNodeId="aytv.2925434448366525478" resolveInfo="FormContainer" />
-      <link role="targetConcept" roleId="tpf8.1200913004646" targetNodeId="tpee.1068580123165" resolveInfo="InstanceMethodDeclaration" />
-    </node>
-  </root>
   <root id="1597384487797083679">
     <node role="constructor" roleId="tpee.1068390468201" type="tpee.ConstructorDeclaration" typeId="tpee.1068580123140" id="1597384487797083680">
       <node role="returnType" roleId="tpee.1068580123133" type="tpee.VoidType" typeId="tpee.1068581517677" id="1597384487797083681" />
@@ -179,6 +154,34 @@
           </node>
         </node>
       </node>
+    </node>
+  </root>
+  <root id="1284901400155045976">
+    <node role="dropRootRule" roleId="tpf8.1219952894531" type="tpf8.DropRootRule" typeId="tpf8.1219952072943" id="287760391610537095">
+      <link role="applicableConcept" roleId="tpf8.1219952338328" targetNodeId="aytv.7815177035767537410" resolveInfo="Form" />
+    </node>
+    <node role="dropRootRule" roleId="tpf8.1219952894531" type="tpf8.DropRootRule" typeId="tpf8.1219952072943" id="287760391610537097">
+      <link role="applicableConcept" roleId="tpf8.1219952338328" targetNodeId="vu84.5121386542706751486" resolveInfo="Application" />
+    </node>
+    <node role="rootMappingRule" roleId="tpf8.1167514678247" type="tpf8.Root_MappingRule" typeId="tpf8.1167514355419" id="287760391610477581">
+      <link role="template" roleId="tpf8.1167514355421" targetNodeId="1597384487797083706" resolveInfo="DocumentDAO" />
+      <link role="labelDeclaration" roleId="tpf8.1200917515464" targetNodeId="1597384487797135102" resolveInfo="documentDAOLabel" />
+      <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="vu84.5148616895979972052" resolveInfo="Document" />
+    </node>
+    <node role="mappingLabel" roleId="tpf8.1200911492601" type="tpf8.MappingLabelDeclaration" typeId="tpf8.1200911316486" id="1597384487797135102">
+      <property name="name" nameId="tpck.1169194664001" value="documentDAOLabel" />
+      <link role="targetConcept" roleId="tpf8.1200913004646" targetNodeId="tpee.1068390468198" resolveInfo="ClassConcept" />
+      <link role="sourceConcept" roleId="tpf8.1200911342686" targetNodeId="vu84.5148616895979972052" resolveInfo="Document" />
+    </node>
+    <node role="mappingLabel" roleId="tpf8.1200911492601" type="tpf8.MappingLabelDeclaration" typeId="tpf8.1200911316486" id="1597384487797204869">
+      <property name="name" nameId="tpck.1169194664001" value="formLabel" />
+      <link role="targetConcept" roleId="tpf8.1200913004646" targetNodeId="tpee.1068390468198" resolveInfo="ClassConcept" />
+      <link role="sourceConcept" roleId="tpf8.1200911342686" targetNodeId="aytv.7815177035767537410" resolveInfo="Form" />
+    </node>
+    <node role="mappingLabel" roleId="tpf8.1200911492601" type="tpf8.MappingLabelDeclaration" typeId="tpf8.1200911316486" id="1597384487797342588">
+      <property name="name" nameId="tpck.1169194664001" value="createContainerLabel" />
+      <link role="sourceConcept" roleId="tpf8.1200911342686" targetNodeId="aytv.2925434448366525478" resolveInfo="FormContainer" />
+      <link role="targetConcept" roleId="tpf8.1200913004646" targetNodeId="tpee.1068580123165" resolveInfo="InstanceMethodDeclaration" />
     </node>
   </root>
 </model>

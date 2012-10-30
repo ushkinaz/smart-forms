@@ -1,53 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dependenciesRoot>
-  <dependency className="org.metaforms.sandbox.AdressFormPanel" file="AdressFormPanel.java">
-    <classNode dependClassName="com.extjs.gxt.ui.client.binding.FormBinding" />
-    <classNode dependClassName="com.extjs.gxt.ui.client.widget.HorizontalPanel" />
-    <classNode dependClassName="com.extjs.gxt.ui.client.widget.form.FormPanel" />
-    <classNode dependClassName="com.google.gwt.user.client.Element" />
-    <classNode dependClassName="com.google.gwt.user.client.ui.Widget" />
-    <classNode dependClassName="java.lang.Override" />
-    <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="org.metaforms.sandbox.DocumentAdressModel" />
-    <classNode extendsClassName="com.extjs.gxt.ui.client.widget.LayoutContainer" />
-  </dependency>
-  <dependency className="org.metaforms.sandbox.ClientFormPanel" file="ClientFormPanel.java">
-    <classNode dependClassName="com.extjs.gxt.ui.client.binding.FormBinding" />
-    <classNode dependClassName="com.extjs.gxt.ui.client.widget.HorizontalPanel" />
-    <classNode dependClassName="com.extjs.gxt.ui.client.widget.form.FormPanel" />
-    <classNode dependClassName="com.google.gwt.user.client.Element" />
-    <classNode dependClassName="com.google.gwt.user.client.ui.Widget" />
-    <classNode dependClassName="java.lang.Override" />
-    <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="org.metaforms.sandbox.DocumentClientModel" />
-    <classNode extendsClassName="com.extjs.gxt.ui.client.widget.LayoutContainer" />
-  </dependency>
   <dependency className="org.metaforms.sandbox.DocumentAdressDao" file="DocumentAdressDao.java">
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="org.hibernate.annotations.Entity" />
-  </dependency>
-  <dependency className="org.metaforms.sandbox.DocumentAdressModel" file="DocumentAdressModel.java">
-    <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="org.metaforms.sandbox.DocumentAdressDao" />
-    <classNode extendsClassName="com.extjs.gxt.ui.client.data.BaseModel" />
   </dependency>
   <dependency className="org.metaforms.sandbox.DocumentClientDao" file="DocumentClientDao.java">
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="org.hibernate.annotations.Entity" />
   </dependency>
-  <dependency className="org.metaforms.sandbox.DocumentClientModel" file="DocumentClientModel.java">
-    <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="org.metaforms.sandbox.DocumentClientDao" />
-    <classNode extendsClassName="com.extjs.gxt.ui.client.data.BaseModel" />
-  </dependency>
   <dependency className="org.metaforms.sandbox.DocumentCreditCalcDao" file="DocumentCreditCalcDao.java">
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="org.hibernate.annotations.Entity" />
-  </dependency>
-  <dependency className="org.metaforms.sandbox.DocumentCreditCalcModel" file="DocumentCreditCalcModel.java">
-    <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="org.metaforms.sandbox.DocumentCreditCalcDao" />
-    <classNode extendsClassName="com.extjs.gxt.ui.client.data.BaseModel" />
   </dependency>
 </dependenciesRoot>
 

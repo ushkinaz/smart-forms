@@ -6,7 +6,6 @@
   <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false" />
   <component name="MPSProject">
     <projectModules>
-      <modulePath path="${project}/devkits/MetaFormsDevKit/MetaFormsDevKit.devkit" />
       <modulePath path="${project}/languages/domain/domain.mpl" />
       <modulePath path="${project}/languages/forms/forms.mpl" />
       <modulePath path="${project}/languages/validation/validation.mpl" />

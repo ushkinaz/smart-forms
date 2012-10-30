@@ -1,16 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <solution name="SandBox" uuid="6e5ad918-f691-4abe-867f-25322ee63cde" compileInMPS="true">
   <models>
-    <modelRoot path="/home/dsidorenko/Workspace/private/smart-forms/lib/hibernate-annotations.jar">
-      <manager moduleId="f3061a53-9226-4cc5-a443-f952ceaf5816" className="jetbrains.mps.baseLanguage.stubs.JavaStubs" />
-    </modelRoot>
     <modelRoot path="${solution_descriptor}/" />
   </models>
-  <stubModelEntries>
-    <stubModelEntry path="/home/dsidorenko/Workspace/private/smart-forms/lib/hibernate-annotations.jar">
-      <manager moduleId="f3061a53-9226-4cc5-a443-f952ceaf5816" className="jetbrains.mps.baseLanguage.stubs.JavaStubs" />
-    </stubModelEntry>
-  </stubModelEntries>
   <sourcePath />
   <dependencies>
     <dependency reexport="false">b43b7225-0ef4-4962-bcf2-b36e86858f8f(BaseSolution)</dependency>

@@ -11,6 +11,7 @@
       <modulePath path="${project}/languages/validation/validation.mpl" />
       <modulePath path="${project}/solutions/BaseSolution/BaseSolution.msd" folder="" />
       <modulePath path="${project}/solutions/SandBox/SandBox.msd" folder="" />
+      <modulePath path="${project}/solutions/SmartForms.build/build.msd" />
     </projectModules>
     <genConfs />
   </component>
